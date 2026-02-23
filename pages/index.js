@@ -54,6 +54,9 @@ export default function Home() {
         body { font-family: 'Inter', sans-serif; background: var(--black); color: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; }
         nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; border-bottom: 1px solid var(--gray-800); position: sticky; top: 0; background: rgba(10,10,10,0.95); backdrop-filter: blur(10px); z-index: 100; }
         .nav-logo { font-size: 20px; font-weight: 800; color: var(--gold); }
+        .nav-links { display: flex; gap: 24px; align-items: center; }
+        .nav-link { color: #aaa; text-decoration: none; font-size: 14px; font-weight: 500; }
+        .nav-link:hover { color: #fff; }
         .nav-cta { background: var(--gold); color: var(--black); padding: 10px 24px; border-radius: 8px; font-weight: 700; font-size: 14px; text-decoration: none; }
         .hero { max-width: 820px; margin: 0 auto; padding: 100px 40px 80px; text-align: center; }
         .badge { display: inline-block; background: rgba(245,200,66,0.12); border: 1px solid rgba(245,200,66,0.3); color: var(--gold); padding: 6px 16px; border-radius: 100px; font-size: 13px; font-weight: 600; margin-bottom: 32px; }
@@ -103,7 +106,10 @@ export default function Home() {
 
       <nav>
         <div className="nav-logo">👑 Midas Tools</div>
-        <a href="#buy" className="nav-cta">Get the Kit — $29</a>
+        <div className="nav-links">
+          <a href="/blog" className="nav-link">Blog</a>
+          <a href="#buy" className="nav-cta">Get the Kit — $29</a>
+        </div>
       </nav>
 
       <div className="hero">
