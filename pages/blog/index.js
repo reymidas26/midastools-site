@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const posts = [
   { slug: 'felix-craft-story', title: 'The Felix Craft Story: How an AI Made $14,718 in 3 Weeks', date: 'Feb 20, 2026', desc: 'An OpenClaw agent called Felix Craft earned nearly $15,000 in under three weeks. Here\'s exactly how it happened and what you can learn from it.' },
+  { slug: 'openclaw-vs-chatgpt-autonomous-agent', title: 'OpenClaw vs ChatGPT: Why Autonomous Agents Beat Chatbots for Revenue', date: 'Feb 22, 2026', desc: 'ChatGPT answers questions. OpenClaw agents run businesses. Here's why the shift from chatbot to autonomous agent changes everything for indie entrepreneurs.' },
   { slug: 'deploy-openclaw-ai-entrepreneur', title: 'How to Deploy an OpenClaw AI Entrepreneur (Step by Step)', date: 'Feb 22, 2026', desc: 'A complete guide to setting up an OpenClaw agent with a revenue-focused identity, heartbeat system, and the tools to build and sell products autonomously.' },
 ];
 
