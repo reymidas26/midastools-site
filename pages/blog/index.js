@@ -4,8 +4,8 @@ import Link from 'next/link';
 const posts = [
   { slug: 'validate-startup-idea-24-hours', title: 'How to Validate a Startup Idea in 24 Hours Using AI', date: 'Feb 23, 2026', desc: 'Most founders build for 6 months before talking to customers. The 24-hour framework tests your idea before you build a single line of code.' },
   { slug: 'ai-entrepreneur-stack', title: 'The Solo Founder AI Stack: Tools That Actually Help You Make Money', date: 'Feb 23, 2026', desc: 'Not 50 tools. Five. The exact stack a solo founder needs to go from idea to revenue — and why everything else is noise.' },
-  { slug: 'felix-craft-story', title: 'The Felix Craft Story: How an AI Made $14,718 in 3 Weeks', date: 'Feb 20, 2026', desc: 'An OpenClaw agent called Felix Craft earned nearly $15,000 in under three weeks. Here\'s exactly how it happened and what you can learn from it.' },
-  { slug: 'openclaw-vs-chatgpt-autonomous-agent', title: 'OpenClaw vs ChatGPT: Why Autonomous Agents Beat Chatbots for Revenue', date: 'Feb 22, 2026', desc: 'ChatGPT answers questions. OpenClaw agents run businesses. Here's why the shift from chatbot to autonomous agent changes everything for indie entrepreneurs.' },
+  { slug: 'felix-craft-story', title: 'The Felix Craft Story: How an AI Made $14,718 in 3 Weeks', date: 'Feb 20, 2026', desc: "An OpenClaw agent called Felix Craft earned nearly $15,000 in under three weeks. Here's exactly how it happened and what you can learn from it." },
+  { slug: 'openclaw-vs-chatgpt-autonomous-agent', title: 'OpenClaw vs ChatGPT: Why Autonomous Agents Beat Chatbots for Revenue', date: 'Feb 22, 2026', desc: "ChatGPT answers questions. OpenClaw agents run businesses. Here's why the shift from chatbot to autonomous agent changes everything for indie entrepreneurs." },
   { slug: 'deploy-openclaw-ai-entrepreneur', title: 'How to Deploy an OpenClaw AI Entrepreneur (Step by Step)', date: 'Feb 22, 2026', desc: 'A complete guide to setting up an OpenClaw agent with a revenue-focused identity, heartbeat system, and the tools to build and sell products autonomously.' },
 ];
 
@@ -20,7 +20,7 @@ export default function Blog() {
         <meta name="description" content="Guides, stories, and playbooks for OpenClaw AI entrepreneurs." />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
-      <style>{`
+      <style>{\`
         *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
         body{font-family:Inter,sans-serif;background:#0A0A0A;color:#fff;-webkit-font-smoothing:antialiased}
         nav{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;border-bottom:1px solid #1A1A1A;background:rgba(10,10,10,0.95)}
@@ -39,7 +39,7 @@ export default function Blog() {
         .read-more{font-size:14px;color:#F5C842;text-decoration:none;font-weight:600}
         footer{border-top:1px solid #1A1A1A;padding:32px 40px;text-align:center;color:#555;font-size:13px}
         footer a{color:#888}
-      `}</style>
+      \`}</style>
       <nav>
         <Link href="/" className="nav-logo">👑 Midas Tools</Link>
         <a href="https://buy.stripe.com/4gM00i6Sbaz71qka02cMM00" className="nav-cta">Get the Kit — $29</a>
@@ -50,9 +50,9 @@ export default function Blog() {
         {posts.map(p => (
           <div className="post" key={p.slug}>
             <div className="post-date">{p.date}</div>
-            <div className="post-title"><Link href={`/blog/${p.slug}`}>{p.title}</Link></div>
+            <div className="post-title"><Link href={\`/blog/\${p.slug}\`}>{p.title}</Link></div>
             <p className="post-desc">{p.desc}</p>
-            <Link href={`/blog/${p.slug}`} className="read-more">Read more →</Link>
+            <Link href={\`/blog/\${p.slug}\`} className="read-more">Read more →</Link>
           </div>
         ))}
       </div>
