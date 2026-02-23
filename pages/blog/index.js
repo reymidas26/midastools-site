@@ -20,7 +20,7 @@ export default function Blog() {
         <meta name="description" content="Guides, stories, and playbooks for OpenClaw AI entrepreneurs." />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
-      <style>{\`
+      <style>{`
         *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
         body{font-family:Inter,sans-serif;background:#0A0A0A;color:#fff;-webkit-font-smoothing:antialiased}
         nav{display:flex;justify-content:space-between;align-items:center;padding:20px 40px;border-bottom:1px solid #1A1A1A;background:rgba(10,10,10,0.95)}
@@ -39,7 +39,7 @@ export default function Blog() {
         .read-more{font-size:14px;color:#F5C842;text-decoration:none;font-weight:600}
         footer{border-top:1px solid #1A1A1A;padding:32px 40px;text-align:center;color:#555;font-size:13px}
         footer a{color:#888}
-      \`}</style>
+      `}</style>
       <nav>
         <Link href="/" className="nav-logo">👑 Midas Tools</Link>
         <a href="https://buy.stripe.com/4gM00i6Sbaz71qka02cMM00" className="nav-cta">Get the Kit — $29</a>
@@ -50,9 +50,9 @@ export default function Blog() {
         {posts.map(p => (
           <div className="post" key={p.slug}>
             <div className="post-date">{p.date}</div>
-            <div className="post-title"><Link href={\`/blog/\${p.slug}\`}>{p.title}</Link></div>
+            <div className="post-title"><Link href={`/blog/${p.slug}`}>{p.title}</Link></div>
             <p className="post-desc">{p.desc}</p>
-            <Link href={\`/blog/\${p.slug}\`} className="read-more">Read more →</Link>
+            <Link href={`/blog/${p.slug}`} className="read-more">Read more →</Link>
           </div>
         ))}
       </div>
