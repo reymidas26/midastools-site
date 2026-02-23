@@ -64,6 +64,194 @@ We built the exact templates, workflows, and prompts Felix uses into the **OpenC
 **$29 → [Get the Starter Kit](https://www.midastools.co)**
     `
   },
+  'validate-startup-idea-24-hours': {
+    title: 'How to Validate a Startup Idea in 24 Hours Using AI',
+    date: 'Feb 23, 2026',
+    meta: 'Most founders spend months building before they talk to customers. The 24-hour validation framework tests your idea before you build — using AI to compress everything except the conversations.',
+    content: `
+## The 24-Hour Validation Framework
+
+Most founders spend 6 months building before they talk to a customer. Then they discover: nobody wants it. The 24-hour framework flips this. You test the idea *before* you build.
+
+Here's how.
+
+## Hour 0-2: Define the Bet
+
+Write one sentence:
+
+> "I believe [person] will pay [price] for [product] because [problem]."
+
+Be specific. Not "people will pay for productivity software." Try: "Freelance designers will pay $49/month for a tool that auto-generates client proposals because writing proposals wastes 3 hours per project."
+
+If you can't write the sentence, you don't have an idea yet. You have a direction.
+
+## Hour 2-6: Find 10 People in the Target
+
+You need to talk to 10 people who fit the description in your bet. Not friends. Not family. Actual people who have the problem.
+
+Where to find them fast:
+- Twitter/X: search the problem, DM people who tweet about it
+- Reddit: r/[niche], find posts complaining about exactly your problem
+- LinkedIn: filter by job title, message directly
+- Facebook Groups: join relevant groups, post asking if anyone deals with the problem
+
+Your goal is not to pitch. Your goal is to book 10 short conversations.
+
+## Hour 6-12: Run the Conversations
+
+Keep it under 15 minutes. Ask three questions:
+
+**1. "How do you currently deal with [problem]?"**
+Listen for workarounds. Workarounds = confirmed pain. If they have no workaround, the problem isn't painful enough.
+
+**2. "How much time / money does this cost you?"**
+Quantify the pain. Pain without a number is not a business.
+
+**3. "If something solved this completely, what would that be worth to you?"**
+Let them name a price. Don't lead.
+
+If you hear the same problem described the same way across 5+ conversations, you have something. If every conversation is a different problem, keep looking.
+
+## Hour 12-18: Build the Minimum Viable Proof
+
+You're not building the product yet. You're building *proof* that the product would sell.
+
+Options (pick one):
+- **Landing page** with a pre-order button ($29-$99 range). Count clicks.
+- **Google Doc** describing the product in detail. Send to 10 people from the conversations. Ask who would buy.
+- **Manual first version**: do the thing manually for 2-3 people and charge them. Then automate.
+
+The goal is to get someone to give you money — or at minimum, a specific, strong "yes, I would buy this."
+
+## Hour 18-24: Count the Signal
+
+After 24 hours:
+- How many people expressed genuine pain?
+- How many would pay? At what price?
+- Did anyone already try to pay?
+
+**Kill signals:** Polite interest. "I'd use it if it were free." Vague enthusiasm without specific pain.
+
+**Build signals:** Unsolicited "when is this available?" People asking to be on a waitlist unprompted. Anyone who tried to give you money.
+
+## What AI Changes About This Process
+
+AI doesn't replace customer conversations. But it compresses everything else.
+
+With an OpenClaw agent, you can:
+- Generate a landing page and deploy it in under an hour
+- Draft outreach messages for 10 different niches and A/B test them
+- Analyze conversation notes and extract patterns
+- Set up Stripe and start accepting pre-orders in minutes
+
+The bottleneck becomes conversations — which is exactly where it should be.
+
+## The Killer Question
+
+After 24 hours, ask yourself: **"Did anyone try to give me money?"**
+
+If yes: build it.
+If not yet but signal is strong: do 10 more conversations tomorrow.
+If no signal: kill it, pick a new bet, repeat.
+
+Most founders skip this. That's why most startups fail. Don't skip it.
+
+**The Starter Kit includes a complete validation template and AI prompts for every step → [Get it for $29](https://www.midastools.co)**
+`
+  },
+  'ai-entrepreneur-stack': {
+    title: 'The Solo Founder AI Stack: Tools That Actually Help You Make Money',
+    date: 'Feb 23, 2026',
+    meta: 'Not 50 tools. Five. The exact stack a solo founder needs to go from idea to revenue — and why everything else is noise.',
+    content: `
+## Why Most "AI Productivity" Advice is Wrong
+
+Every week there's a new list of "50 AI tools you should be using." Most of it is noise. The tools that matter for a solo founder building to revenue are different from tools that make you feel productive.
+
+This is the stack I actually use. Not the one that looks good in a blog post.
+
+## The Foundation: Autonomous Agent (OpenClaw)
+
+Everything else is downstream of this. OpenClaw is the operating system for the rest of the stack.
+
+Why it's different: it runs when you're not there. It monitors Stripe, answers customer emails, publishes content, and manages deployments — with you in the loop but not in the way.
+
+Without an autonomous agent, you're still trading time for output. With one, you're building leverage.
+
+**Best for:** Solo founders who want to run multiple revenue streams without hiring.
+
+## Revenue Collection: Stripe
+
+Not Gumroad. Not Lemon Squeezy. Stripe.
+
+Stripe is more complex to set up but it's the only platform that scales from $29 digital products to $1M/year SaaS without forcing you to migrate. Start here, stay here.
+
+**The setup that matters:**
+- Stripe payment links for fast launches (no code needed)
+- Webhooks to automate delivery and trigger agent actions on purchase
+- Stripe Radar for fraud protection (you'll need it eventually)
+
+## Deployment: Vercel + GitHub
+
+This is the fastest way to go from "I have code" to "it's live on a real domain."
+
+Vercel's GitHub integration means every push to main auto-deploys. Your agent pushes code, Vercel deploys it. You don't touch it.
+
+Free tier handles most early-stage traffic. The $20/mo Pro plan is worth it the moment you have paying customers.
+
+## Communication Channel: Telegram
+
+Your agent needs a way to reach you. Telegram is the best option because:
+- Near-instant delivery even on mobile
+- Easy to set up as an OpenClaw channel
+- Supports inline buttons for quick approvals
+- Free, no rate limits for personal use
+
+You will check your Telegram more than your email. That's fine — that's the point.
+
+## Content Publishing: GitHub API
+
+Every blog post, landing page update, or documentation change goes through the GitHub API. No CMS, no dashboard login, no Webflow.
+
+Your agent drafts content, pushes to GitHub, Vercel deploys it. You never open a browser to publish anything.
+
+## Customer Intelligence: Gmail IMAP
+
+Connect your business email to your agent via IMAP app password. The agent monitors for:
+- New customer purchase confirmations
+- Support requests
+- Churn signals (cancellation requests)
+- Partnership or press inquiries
+
+You get a morning digest of anything that needs human attention. Everything routine gets triaged automatically.
+
+## Research: Brave Search API + Web Fetch
+
+Your agent needs to understand the market — what people are searching for, what competitors are doing, what content is ranking.
+
+Brave Search API (free tier available) + web fetching gives your agent the ability to research on demand, without human prompts.
+
+## The Anti-Stack: What to Avoid
+
+**Notion:** Good for humans, terrible for agents. Use plain Markdown files.
+
+**Figma:** You don't need custom design at pre-revenue stage. Use CSS.
+
+**Slack/Discord for internal comms:** Adds complexity. Telegram DM handles 90% of what you need.
+
+**Zapier/Make:** Unnecessary overhead when your agent can write its own integrations.
+
+**Any tool that requires a browser to operate:** If your agent can't use it via API, deprioritize it.
+
+## The Real Stack Is Simple
+
+Stripe + Vercel + GitHub + Telegram + OpenClaw.
+
+That's it. Everything else is optional. The founders who hit revenue fastest are the ones who stop adding tools and start making sales.
+
+**Get the setup guide and configuration templates for this entire stack → [OpenClaw Starter Kit, $29](https://www.midastools.co)**
+`
+  },
   'deploy-openclaw-ai-entrepreneur': {
     title: 'How to Deploy an OpenClaw AI Entrepreneur (Step by Step)',
     date: 'Feb 22, 2026',
