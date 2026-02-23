@@ -155,6 +155,32 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* PRODUCT LADDER */}
+      <section style={{ paddingTop: 0 }}>
+        <div className="section-label">Choose Your Path</div>
+        <h2>One goal. Three ways to get there.</h2>
+        <p className="section-sub">Start with the kit. Upgrade when you're ready.</p>
+        <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))',gap:20}}>
+          {[
+            { badge:'Most Popular', price:'$29', label:'one-time', name:'Starter Kit', desc:'Templates, workflows, and prompts to deploy your agent yourself.', href:'https://buy.stripe.com/4gM00i6Sbaz71qka02cMM00', cta:'Get the Kit →' },
+            { badge:'Best Value', price:'$49', label:'/month', name:'Midas Pro', desc:'Weekly new templates, prompts, and workflows. Cancel anytime.', href:'https://buy.stripe.com/cNi9AS90j9v37OI3BEcMM02', cta:'Join Pro →' },
+            { badge:'Hands-Off', price:'$299', label:'one-time', name:'Done For You', desc:'We configure your entire agent and launch your first product.', href:'/done-for-you', cta:'Get Setup →' },
+          ].map(p => (
+            <div key={p.name} style={{background:'var(--gray-900)',border:'1px solid var(--gray-800)',borderRadius:14,padding:28,display:'flex',flexDirection:'column',gap:12}}>
+              <span style={{background:'rgba(245,200,66,0.12)',border:'1px solid rgba(245,200,66,0.3)',color:'var(--gold)',padding:'4px 10px',borderRadius:100,fontSize:11,fontWeight:700,letterSpacing:1,textTransform:'uppercase',width:'fit-content'}}>{p.badge}</span>
+              <div>
+                <span style={{fontSize:32,fontWeight:900,letterSpacing:-1}}>{p.price}</span>
+                <span style={{color:'var(--gray-400)',fontSize:15}}>{p.label}</span>
+              </div>
+              <div style={{fontWeight:800,fontSize:17}}>{p.name}</div>
+              <div style={{color:'var(--gray-400)',fontSize:14,lineHeight:1.5,flex:1}}>{p.desc}</div>
+              <a href={p.href} style={{display:'block',textAlign:'center',background:'var(--gold)',color:'var(--black)',padding:'12px 20px',borderRadius:8,fontWeight:700,fontSize:14,textDecoration:'none'}}>{p.cta}</a>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* EMAIL CAPTURE */}
       <section style={{ paddingTop: 0 }}>
         <div className="email-box">
