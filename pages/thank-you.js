@@ -3,7 +3,10 @@ import Head from 'next/head';
 export default function ThankYou() {
   return (
     <>
-      <Head><title>Thank You — Midas Tools</title></Head>
+      <Head><title>Thank You — Midas Tools</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" /></Head>
       <style>{`
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: Inter, sans-serif; background: #0A0A0A; color: #fff; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px 20px; -webkit-font-smoothing: antialiased; }

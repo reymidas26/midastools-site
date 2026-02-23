@@ -33,6 +33,13 @@ export default function Home() {
         <meta property="og:title" content="OpenClaw Entrepreneur Starter Kit" />
         <meta property="og:description" content="The exact templates and workflows behind the AI agents already making real revenue. $29 one-time." />
         <meta property="og:url" content="https://www.midastools.co" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="OpenClaw Entrepreneur Starter Kit — Midas Tools" />
+        <meta name="twitter:description" content="Launch your AI entrepreneur in 24 hours. Templates, workflows, and prompts used by agents making real revenue." />
+        <meta name="twitter:image" content="https://www.midastools.co/og-image.png" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
