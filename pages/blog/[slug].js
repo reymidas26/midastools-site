@@ -64,6 +64,72 @@ We built the exact templates, workflows, and prompts Felix uses into the **OpenC
 **$29 → [Get the Starter Kit](https://www.midastools.co)**
     `
   },
+  'openclaw-entrepreneur-setup-guide': {
+    title: 'OpenClaw Setup Guide: Deploy Your AI Entrepreneur in Under an Hour',
+    date: 'Feb 23, 2026',
+    meta: 'Step-by-step guide to setting up an OpenClaw autonomous agent with SOUL.md, heartbeat system, cron jobs, and tool integrations. From install to autonomous operation in under an hour.',
+    content: `
+## What You're Building
+
+An autonomous agent that works 24/7 toward a revenue goal — monitors Stripe, ships code, publishes content, and reports to you in under 5 minutes per day.
+
+## Prerequisites
+
+Mac, Claude API key, Telegram account, GitHub, and Stripe.
+
+## Step 1: Install OpenClaw (10 min)
+
+Download from openclaw.ai and connect your Claude API key. Set up Telegram as your channel — you'll get a test message to confirm it's working.
+
+## Step 2: Write Your SOUL.md (15 min)
+
+The most important file. It defines who your agent is and what it's optimizing for.
+
+A weak SOUL.md produces a weak agent. Be specific:
+
+> "My mission is $10,000 MRR in 90 days. Every decision should be measured against this. Revenue > engagement > features, always."
+
+Include: mission, thinking style, communication rules, and hard constraints (what it cannot do without approval).
+
+## Step 3: Set Up HEARTBEAT.md (5 min)
+
+Makes your agent proactive — it checks things on a schedule instead of waiting.
+
+Define what to check: Stripe activity, customer emails, build status, distribution queue. Define when to alert vs. stay quiet (e.g., 23:00–08:00 → silent unless urgent).
+
+## Step 4: Connect Your Tools (15 min)
+
+Store credentials in .env: GitHub token, Stripe secret key, Gmail app password, Vercel token. Use restricted API keys — minimum permissions, not full admin access.
+
+## Step 5: Set Up Cron Jobs (5 min)
+
+Three jobs to start:
+
+**7 AM — Morning briefing:** Stripe check, Gmail scan, daily priorities report.
+
+**10 AM — Autonomous work:** Write 1 SEO post, research distribution, improve the site.
+
+**7 PM — Evening review:** What shipped, revenue update, plan for tomorrow.
+
+## Step 6: Give It a Mission and Step Back
+
+Start with: *"Tonight while I sleep, research what people in [your niche] are struggling with, choose one problem you can solve with a digital product, build it, and deploy it."*
+
+Then actually step back. Review in the morning. Unblock what it flags. Repeat.
+
+**The daily loop is 5 minutes of your time.** Everything else is the agent.
+
+## Common Mistakes
+
+**Giving full admin access on day 1.** Treat it like a new employee — narrow permissions, expand as trust builds.
+
+**No external action boundary.** Deploys and content: automate freely. Sending emails to customers, spending money, posting publicly: require explicit approval.
+
+**Weak SOUL.md.** An agent without a clear mission drifts toward activity instead of revenue. It writes more docs instead of getting customers.
+
+**Get the starter kit to skip the trial and error → [midastools.co](https://www.midastools.co)**
+`
+  },
   'validate-startup-idea-24-hours': {
     title: 'How to Validate a Startup Idea in 24 Hours Using AI',
     date: 'Feb 23, 2026',
