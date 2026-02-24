@@ -113,7 +113,7 @@ export default function Home() {
       </nav>
 
       <div className="hero">
-        <div className="badge">🔥 Riding the OpenClaw wave — limited time pricing</div>
+        <div className="badge">🔥 Nat Eliason viral post: 230K+ readers on X</div>
         <h1>Launch Your<br /><span>AI Entrepreneur</span><br />in 24 Hours</h1>
         <p className="hero-sub">The exact templates, workflows, and prompts to build an OpenClaw agent that works while you sleep — just like Felix Craft, the AI earning $14,000+ in its first 3 weeks.</p>
         <a href={STRIPE_URL} className="btn-primary">Get the Starter Kit →</a>
