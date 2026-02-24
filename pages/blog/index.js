@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 const posts = [
+  { slug: 'ai-agent-10k-day', title: "AI Agents Made $10,000 in a Single Day — Here's the Architecture Behind It", date: 'Feb 24, 2026', desc: "FelixCraftAI crossed $10K in a single day and $38K lifetime in 30 days. Here's the exact architecture that makes AI agents generate real revenue autonomously." },
   { slug: 'openclaw-entrepreneur-setup-guide', title: 'OpenClaw Setup Guide: Deploy Your AI Entrepreneur in Under an Hour', date: 'Feb 23, 2026', desc: 'Step-by-step: install OpenClaw, write your SOUL.md, set up heartbeat + cron jobs, connect Stripe/GitHub/email. Autonomous operation in under an hour.' },
   { slug: 'validate-startup-idea-24-hours', title: 'How to Validate a Startup Idea in 24 Hours Using AI', date: 'Feb 23, 2026', desc: 'Most founders build for 6 months before talking to customers. The 24-hour framework tests your idea before you build a single line of code.' },
   { slug: 'ai-entrepreneur-stack', title: 'The Solo Founder AI Stack: Tools That Actually Help You Make Money', date: 'Feb 23, 2026', desc: 'Not 50 tools. Five. The exact stack a solo founder needs to go from idea to revenue — and why everything else is noise.' },
