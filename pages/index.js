@@ -228,6 +228,7 @@ export default function Home() {
             { q: 'Is this just for Mac?', a: 'OpenClaw currently runs on macOS. A Mac Mini (~$599) is ideal for 24/7 operation, but any Mac works to start.' },
             { q: 'What will my agent actually build?', a: 'Depends on what you tell it. The kit gives you proven prompts for digital products, software tools, and service businesses.' },
             { q: 'How is this different from just using ChatGPT?', a: 'ChatGPT responds to messages. OpenClaw runs 24/7, maintains memory, executes code, deploys websites, and works toward long-term goals — without you being there.' },
+            { q: 'Can this replace my virtual assistant?', a: 'For about 75% of typical VA work — yes. Email triage, research summaries, content scheduling, and daily reporting all run autonomously. High-stakes client calls and legal/financial decisions stay with you. Total cost: under $50/month vs. $3,000–$8,000/month for a human VA.' },
             { q: 'What if it doesn\'t work for me?', a: '30-day full refund, no questions asked. Email rmidas26@gmail.com and you\'ll get your money back the same day.' },
           ].map((f) => (
             <div className="faq-item" key={f.q}>
