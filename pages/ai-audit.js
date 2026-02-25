@@ -134,8 +134,27 @@ export default function AIAudit() {
         <div className="price-big">$997</div>
         <p style={{marginTop:16,marginBottom:40,fontSize:18,color:'var(--gray-400)'}}>One-time. 48 hours. A working AI agent deployed in your business.<br />Full refund if we don't find $5,000+/year in savings.</p>
         <a href={AUDIT_URL} className="btn">Book Your AI Audit →</a>
-        <p style={{marginTop:16,fontSize:13,color:'var(--gray-400)'}}>Secure checkout via Stripe · 30-day money-back guarantee · Slots limited</p>
+        <p style={{marginTop:16,fontSize:13,color:'var(--gray-400)'}}>Secure checkout via Stripe · After payment, you'll receive an intake form via email within 1 hour · 30-day money-back guarantee · Slots limited</p>
       </div>
+
+      <section style={{paddingTop:0}}>
+        <div className="label">FAQ</div>
+        <h2>Common questions</h2>
+        <div style={{display:'flex',flexDirection:'column',gap:24}}>
+          {[
+            { q: 'Do I need to be technical?', a: 'No. We handle all the setup and configuration. You tell us your business problems — we build the solution. You just need to show us your current tools and workflows.' },
+            { q: 'How do you access my systems?', a: 'Only with your explicit permission, during a live session. We never store credentials. If you prefer, we can guide you step-by-step and you do the connecting yourself.' },
+            { q: 'What if the AI agent stops working after you leave?', a: '30-day email support is included. If anything breaks, email us and we fix it. We also document everything in your Automation Playbook so you can maintain it yourself.' },
+            { q: 'What kinds of businesses do you work with?', a: 'Service businesses, agencies, SaaS founders, solo operators with 1–10 people. Ideal fit: you have repeatable processes but no engineering team to automate them.' },
+            { q: 'What if you can\'t find $5,000 in savings?', a: 'Full refund. No questions. We only take the engagement if we genuinely see the savings opportunity upfront.' },
+          ].map(f => (
+            <div key={f.q} style={{borderBottom:'1px solid var(--gray-800)',paddingBottom:24}}>
+              <div style={{fontSize:17,fontWeight:700,marginBottom:8}}>{f.q}</div>
+              <div style={{fontSize:15,color:'var(--gray-400)',lineHeight:1.6}}>{f.a}</div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <footer>
         <p>© 2026 Midas Tools · <Link href="/" style={{color:'var(--gray-400)'}}>Home</Link> · <a href="mailto:rmidas26@gmail.com">rmidas26@gmail.com</a></p>
