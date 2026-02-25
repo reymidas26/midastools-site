@@ -104,9 +104,14 @@ export default function Home() {
         @media(max-width:600px){ nav{padding:16px 20px} .hero{padding:60px 20px 60px} section{padding:60px 20px} .cta-bottom{padding:60px 24px;margin:0 20px 60px} }
       `}</style>
 
+      <div style={{background:'linear-gradient(90deg, rgba(245,200,66,0.15) 0%, rgba(245,200,66,0.05) 100%)',borderBottom:'1px solid rgba(245,200,66,0.3)',padding:'12px 40px',textAlign:'center',fontSize:14,fontWeight:600}}>
+        <a href="/services" style={{color:'var(--gold)',textDecoration:'none'}}>⚡ NEW: AI Automation Services for Businesses — We build custom AI agents in 48 hours → <span style={{textDecoration:'underline'}}>Learn More</span></a>
+      </div>
+
       <nav>
         <div className="nav-logo">👑 Midas Tools</div>
         <div className="nav-links">
+          <a href="/services" className="nav-link">AI Services</a>
           <a href="/blog" className="nav-link">Blog</a>
           <a href="/ai-audit" className="nav-link">AI Setup — $997</a>
           <a href="#buy" className="nav-cta">Get the Kit — $29</a>
