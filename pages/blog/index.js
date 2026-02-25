@@ -9,6 +9,8 @@ const posts = [
   { slug: 'felix-craft-story', title: 'The Felix Craft Story: How an AI Made $14,718 in 3 Weeks', date: 'Feb 20, 2026', desc: "An OpenClaw agent called Felix Craft earned nearly $15,000 in under three weeks. Here's exactly how it happened and what you can learn from it." },
   { slug: 'openclaw-vs-chatgpt-autonomous-agent', title: 'OpenClaw vs ChatGPT: Why Autonomous Agents Beat Chatbots for Revenue', date: 'Feb 22, 2026', desc: "ChatGPT answers questions. OpenClaw agents run businesses. Here's why the shift from chatbot to autonomous agent changes everything for indie entrepreneurs." },
   { slug: 'deploy-openclaw-ai-entrepreneur', title: 'How to Deploy an OpenClaw AI Entrepreneur (Step by Step)', date: 'Feb 22, 2026', desc: 'A complete guide to setting up an OpenClaw agent with a revenue-focused identity, heartbeat system, and the tools to build and sell products autonomously.' },
+  { slug: 'ai-agents-break-unsupervised', title: '5 Things That Break When You Run AI Agents Unsupervised (and How to Fix Them)', date: 'Feb 25, 2026', desc: 'Scope creep on credentials, missing action gates, mission drift, hallucination loops — the failure modes that actually bite you when running agents without supervision.', external: 'https://dev.to/midastools/5-things-that-break-when-you-run-ai-agents-unsupervised-and-how-to-fix-them-32ip' },
+  { slug: 'replace-va-with-ai-agent', title: 'How to Replace a $5,000/Month VA with an AI Agent (Step-by-Step)', date: 'Feb 25, 2026', desc: '75% of typical VA work can be automated today. Email triage, research, content scheduling, daily reporting — all autonomous. Real cost breakdown: $44–89/month vs $5,000/month.', external: 'https://dev.to/midastools/how-to-replace-a-5000month-va-with-an-ai-agent-step-by-step-4pk9' },
 ];
 
 export default function Blog() {
@@ -19,7 +21,7 @@ export default function Blog() {
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
-        <meta name="description" content="Guides, stories, and playbooks for OpenClaw AI entrepreneurs." />
+        <meta name="description" content="How-to guides, case studies, and playbooks for solopreneurs building AI agents that automate their business. Free resources from Midas Tools." />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
       <style>{`
