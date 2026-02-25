@@ -108,6 +108,7 @@ export default function Home() {
         <div className="nav-logo">👑 Midas Tools</div>
         <div className="nav-links">
           <a href="/blog" className="nav-link">Blog</a>
+          <a href="/ai-audit" className="nav-link">AI Setup — $997</a>
           <a href="#buy" className="nav-cta">Get the Kit — $29</a>
         </div>
       </nav>
