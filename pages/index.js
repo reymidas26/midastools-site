@@ -115,7 +115,7 @@ export default function Home() {
       <div className="hero">
         <div className="badge">🔥 Nat Eliason viral post: 230K+ readers on X</div>
         <h1>Launch Your<br /><span>AI Entrepreneur</span><br />in 24 Hours</h1>
-        <p className="hero-sub">The exact templates, workflows, and prompts to build an OpenClaw agent that works while you sleep — just like Felix Craft, the AI earning $14,000+ in its first 3 weeks.</p>
+        <p className="hero-sub">The exact templates, workflows, and prompts to deploy an AI agent that manages your email, monitors revenue, publishes content, and runs your business 24/7 — for under $50/month total.</p>
         <a href={STRIPE_URL} className="btn-primary">Get the Starter Kit →</a>
         <p className="price-tag"><strong>$29 one-time</strong> · Instant download · 30-day money-back guarantee</p>
       </div>
