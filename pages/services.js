@@ -97,7 +97,7 @@ export default function Services() {
         <div className="badge">⚡ New — AI Automation Services</div>
         <h1>We Build <span>Custom AI Agents</span> for Your Business in 48 Hours</h1>
         <p className="hero-sub">Stop losing leads, wasting time on repetitive tasks, and missing calls. We set up AI that works 24/7 — so you don't have to.</p>
-        <a href="https://cal.com/midastools" className="btn-primary" target="_blank" rel="noopener">Book a Free 15-Min Call →</a>
+        <a href="https://cal.com/manduks/midastools" className="btn-primary" target="_blank" rel="noopener">Book a Free 15-Min Call →</a>
         <p style={{ marginTop: 16, fontSize: 14, color: 'var(--gray-400)' }}>No commitment · We'll assess your needs · Get a custom plan</p>
       </div>
 
@@ -129,7 +129,7 @@ export default function Services() {
               <li>Transfers to human when needed</li>
               <li>30 days of tuning included</li>
             </ul>
-            <a href="https://cal.com/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
+            <a href="https://cal.com/manduks/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
             <p style={{textAlign:'center',fontSize:12,color:'var(--gray-400)',marginTop:8}}>or <a href="mailto:iam@armando.mx" style={{color:'var(--gray-400)'}}>email us directly</a></p>
           </div>
 
@@ -150,7 +150,7 @@ export default function Services() {
               <li>Lead alerts via email/SMS</li>
               <li>Monthly performance reports</li>
             </ul>
-            <a href="https://cal.com/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
+            <a href="https://cal.com/manduks/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
             <p style={{textAlign:'center',fontSize:12,color:'var(--gray-400)',marginTop:8}}>or <a href="mailto:iam@armando.mx" style={{color:'var(--gray-400)'}}>email us directly</a></p>
           </div>
 
@@ -171,7 +171,7 @@ export default function Services() {
               <li>Weekly strategy calls</li>
               <li>Dedicated Slack channel</li>
             </ul>
-            <a href="https://cal.com/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
+            <a href="https://cal.com/manduks/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
             <p style={{textAlign:'center',fontSize:12,color:'var(--gray-400)',marginTop:8}}>or <a href="mailto:iam@armando.mx" style={{color:'var(--gray-400)'}}>email us directly</a></p>
           </div>
         </div>
@@ -233,7 +233,7 @@ export default function Services() {
         <div className="section-label" style={{ marginBottom: 16 }}>Ready to Automate?</div>
         <h2>Stop missing leads.<br />Start growing on autopilot.</h2>
         <p>Book a free 15-minute call. No commitment, no pressure. We'll tell you exactly what AI can (and can't) do for your business.</p>
-        <a href="https://cal.com/midastools" className="btn-primary" target="_blank" rel="noopener">Book a Free Call →</a>
+        <a href="https://cal.com/manduks/midastools" className="btn-primary" target="_blank" rel="noopener">Book a Free Call →</a>
         <div style={{ marginTop: 24 }}>
           <a href="mailto:iam@armando.mx" className="btn-outline" style={{ fontSize: 14, padding: '12px 28px' }}>Or email us: iam@armando.mx</a>
         </div>
