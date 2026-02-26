@@ -1,7 +1,68 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const CAL_LINK = 'https://cal.com/manduks/midastools';
+
+
+function LeadForm() {
+  const [email, setEmail] = useState('');
+  const [biz, setBiz] = useState('');
+  const [sent, setSent] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!email || !biz) return;
+    setLoading(true);
+    try {
+      await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, source: 'receptionist-free-script', business: biz })
+      });
+      setSent(true);
+    } catch {}
+    setLoading(false);
+  };
+
+  if (sent) return (
+    <div style={{background:'rgba(245,200,66,0.1)',border:'1px solid rgba(245,200,66,0.3)',borderRadius:12,padding:'32px 24px'}}>
+      <div style={{fontSize:32,marginBottom:8}}>✅</div>
+      <div style={{fontSize:18,fontWeight:700,marginBottom:8}}>You're on the list!</div>
+      <div style={{color:'var(--gray-400)',fontSize:15}}>We'll send your custom AI receptionist script within 24 hours. Check your inbox.</div>
+    </div>
+  );
+
+  return (
+    <form onSubmit={handleSubmit} style={{display:'flex',flexDirection:'column',gap:16}}>
+      <input
+        type='text'
+        placeholder='Your business type (e.g. Dental practice, Law firm...)'
+        value={biz}
+        onChange={e => setBiz(e.target.value)}
+        required
+        style={{padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'#fff',fontSize:15,outline:'none'}}
+      />
+      <input
+        type='email'
+        placeholder='Your email address'
+        value={email}
+        onChange={e => setEmail(e.target.value)}
+        required
+        style={{padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'#fff',fontSize:15,outline:'none'}}
+      />
+      <button
+        type='submit'
+        disabled={loading}
+        style={{background:'var(--gold)',color:'var(--black)',padding:'16px',borderRadius:10,border:'none',fontSize:16,fontWeight:800,cursor:'pointer',opacity:loading?0.7:1}}
+      >
+        {loading ? 'Sending...' : 'Send Me My Free Script →'}
+      </button>
+      <p style={{fontSize:12,color:'var(--gray-400)'}}>No spam. Unsubscribe anytime. Script delivered within 24 hours.</p>
+    </form>
+  );
+}
 
 export default function Receptionist() {
   return (
@@ -306,6 +367,17 @@ export default function Receptionist() {
               <div style={{fontSize:15,color:'var(--gray-400)',lineHeight:1.6}}>{f.a}</div>
             </div>
           ))}
+        </div>
+      </section>
+
+
+      {/* Lead Capture — Free Script */}
+      <section style={{background:'var(--gray-900)',borderTop:'1px solid var(--gray-800)',borderBottom:'1px solid var(--gray-800)',padding:'80px 40px'}}>
+        <div style={{maxWidth:580,margin:'0 auto',textAlign:'center'}}>
+          <div className="badge">🎁 Free — No credit card</div>
+          <h2 style={{marginBottom:16}}>Get a Free Custom <span>AI Script</span></h2>
+          <p style={{color:'var(--gray-400)',fontSize:17,marginBottom:40}}>Tell us your business type and we'll send you exactly what your AI receptionist would say — customized for your practice, in 24 hours. Free.</p>
+          <LeadForm />
         </div>
       </section>
 
