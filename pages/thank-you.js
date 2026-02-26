@@ -41,6 +41,10 @@ export default function ThankYou() {
             {['5 SOUL.md identity templates', 'Heartbeat workflow system', 'Daily review template', '5 product launch prompts', 'Revenue ops playbook', 'Complete setup guide'].map(i => <li key={i}>{i}</li>)}
           </ul>
         </div>
+        <div style={{background:'rgba(245,200,66,0.06)',border:'1px solid rgba(245,200,66,0.2)',borderRadius:12,padding:'20px 24px',marginBottom:24,textAlign:'left'}}>
+          <p style={{fontSize:14,fontWeight:700,color:'#F5C842',marginBottom:6}}>Purchased the AI Audit ($997) or Done-For-You ($299)?</p>
+          <p style={{fontSize:14,color:'#888',lineHeight:1.5}}>You'll receive a personal email from <strong style={{color:'#ccc'}}>iam@armando.mx</strong> within 1 hour with your next steps and intake form. Check your spam folder if you don't see it.</p>
+        </div>
         <p className="note">Questions? <a href="mailto:rmidas26@gmail.com">rmidas26@gmail.com</a> — we reply within 24h.</p>
       </div>
     </>
