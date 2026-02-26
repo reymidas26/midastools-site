@@ -323,15 +323,15 @@ export default function Receptionist() {
           <div style={{marginBottom:8,fontSize:12,color:'var(--gray-400)',textTransform:'uppercase',letterSpacing:'1px'}}>Sample call — Dental Practice — 9:47 PM</div>
           {[
             { who: 'AI', text: 'Thank you for calling Sonrisa Dental. This is Maya — how can I help you tonight?' },
-            { who: 'Caller', text: 'Hi, I'm looking to make an appointment. It's my first time.' },
+            { who: 'Caller', text: "Hi, I'm looking to make an appointment. It's my first time." },
             { who: 'AI', text: 'Great, welcome! Can I get your name and what brings you in?' },
-            { who: 'Caller', text: 'Maria Gonzalez. Just a routine cleaning, it's been a while.' },
+            { who: 'Caller', text: "Maria Gonzalez. Just a routine cleaning, it's been a while." },
             { who: 'AI', text: 'Got it, Maria. Do you have dental insurance, or would this be out of pocket?' },
             { who: 'Caller', text: 'I have Metlife.' },
             { who: 'AI', text: 'Perfect, we accept Metlife. I have a Tuesday at 10 AM or Thursday at 3 PM this week — any preference?' },
             { who: 'Caller', text: 'Thursday works.' },
-            { who: 'AI', text: 'Done! I've booked you Thursday the 28th at 3 PM. You'll get a confirmation text in a moment. Anything else I can help with?' },
-            { who: 'Caller', text: 'No, that's great. Thanks!' },
+            { who: 'AI', text: "Done! I've booked you Thursday the 28th at 3 PM. You'll get a confirmation text in a moment. Anything else I can help with?" },
+            { who: 'Caller', text: "No, that's great. Thanks!" },
             { who: 'AI', text: 'See you Thursday, Maria. Have a great evening!' },
           ].map((line, i) => (
             <div key={i} style={{display:'flex',gap:16,marginBottom:16,alignItems:'flex-start'}}>
