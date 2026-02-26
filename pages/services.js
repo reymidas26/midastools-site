@@ -130,6 +130,7 @@ export default function Services() {
               <li>30 days of tuning included</li>
             </ul>
             <a href="https://cal.com/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
+            <p style={{textAlign:'center',fontSize:12,color:'var(--gray-400)',marginTop:8}}>or <a href="mailto:iam@armando.mx" style={{color:'var(--gray-400)'}}>email us directly</a></p>
           </div>
 
           <div className="tier featured">
@@ -150,6 +151,7 @@ export default function Services() {
               <li>Monthly performance reports</li>
             </ul>
             <a href="https://cal.com/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
+            <p style={{textAlign:'center',fontSize:12,color:'var(--gray-400)',marginTop:8}}>or <a href="mailto:iam@armando.mx" style={{color:'var(--gray-400)'}}>email us directly</a></p>
           </div>
 
           <div className="tier">
@@ -170,6 +172,7 @@ export default function Services() {
               <li>Dedicated Slack channel</li>
             </ul>
             <a href="https://cal.com/midastools" className="tier-cta" target="_blank" rel="noopener">Book a Call →</a>
+            <p style={{textAlign:'center',fontSize:12,color:'var(--gray-400)',marginTop:8}}>or <a href="mailto:iam@armando.mx" style={{color:'var(--gray-400)'}}>email us directly</a></p>
           </div>
         </div>
       </section>
