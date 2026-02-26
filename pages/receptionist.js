@@ -253,6 +253,42 @@ export default function Receptionist() {
         </div>
       </section>
 
+
+      {/* Sample Conversation */}
+      <section>
+        <h2 style={{textAlign:'center'}}>What It <span>Sounds Like</span></h2>
+        <p className="section-sub" style={{textAlign:'center',margin:'0 auto 48px'}}>A real conversation your AI receptionist handles automatically. Every call. Every time.</p>
+        <div style={{background:'var(--gray-900)',border:'1px solid var(--gray-800)',borderRadius:20,padding:'40px 48px',maxWidth:680,margin:'0 auto',fontFamily:'monospace'}}>
+          <div style={{marginBottom:8,fontSize:12,color:'var(--gray-400)',textTransform:'uppercase',letterSpacing:'1px'}}>Sample call — Dental Practice — 9:47 PM</div>
+          {[
+            { who: 'AI', text: 'Thank you for calling Sonrisa Dental. This is Maya — how can I help you tonight?' },
+            { who: 'Caller', text: 'Hi, I'm looking to make an appointment. It's my first time.' },
+            { who: 'AI', text: 'Great, welcome! Can I get your name and what brings you in?' },
+            { who: 'Caller', text: 'Maria Gonzalez. Just a routine cleaning, it's been a while.' },
+            { who: 'AI', text: 'Got it, Maria. Do you have dental insurance, or would this be out of pocket?' },
+            { who: 'Caller', text: 'I have Metlife.' },
+            { who: 'AI', text: 'Perfect, we accept Metlife. I have a Tuesday at 10 AM or Thursday at 3 PM this week — any preference?' },
+            { who: 'Caller', text: 'Thursday works.' },
+            { who: 'AI', text: 'Done! I've booked you Thursday the 28th at 3 PM. You'll get a confirmation text in a moment. Anything else I can help with?' },
+            { who: 'Caller', text: 'No, that's great. Thanks!' },
+            { who: 'AI', text: 'See you Thursday, Maria. Have a great evening!' },
+          ].map((line, i) => (
+            <div key={i} style={{display:'flex',gap:16,marginBottom:16,alignItems:'flex-start'}}>
+              <span style={{
+                minWidth:60,fontSize:11,fontWeight:700,padding:'3px 8px',borderRadius:4,textAlign:'center',
+                background: line.who === 'AI' ? 'rgba(245,200,66,0.15)' : 'rgba(255,255,255,0.08)',
+                color: line.who === 'AI' ? 'var(--gold)' : '#ccc',
+                fontFamily:'Inter,sans-serif'
+              }}>{line.who === 'AI' ? '🤖 AI' : '👤 You'}</span>
+              <span style={{fontSize:14,lineHeight:1.6,color: line.who === 'AI' ? '#fff' : '#aaa'}}>{line.text}</span>
+            </div>
+          ))}
+          <div style={{marginTop:24,paddingTop:16,borderTop:'1px solid var(--gray-800)',fontSize:13,color:'var(--gray-400)',textAlign:'center'}}>
+            ✅ Appointment booked · 📱 Confirmation SMS sent · ⏱ Call duration: 1:47 min
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section>
         <h2>Questions</h2>
