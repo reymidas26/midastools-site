@@ -118,9 +118,9 @@ export default function Services() {
             <div className="tier-icon">📞</div>
             <div className="tier-name">AI Receptionist</div>
             <div className="tier-price">
-              <span className="setup">$2,500</span> <span className="monthly">setup + $299/mo</span>
+              <span className="setup">$499</span> <span className="monthly">setup + $299/mo</span>
             </div>
-            <div className="tier-desc">AI answers your phone 24/7. Never miss a call, a lead, or an appointment again.</div>
+            <div className="tier-desc">AI answers your phone 24/7. Never miss a call, a lead, or an appointment again. <a href="/receptionist" style={{color:'var(--gold)'}}>Full details →</a></div>
             <ul className="tier-features">
               <li>24/7 phone answering</li>
               <li>Appointment booking</li>
