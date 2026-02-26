@@ -77,6 +77,37 @@ export default function Receptionist() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+              <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Service",
+              "name": "AI Phone Receptionist for Small Business",
+              "provider": {"@type": "Organization", "name": "Midas Tools", "url": "https://www.midastools.co"},
+              "description": "24/7 AI phone receptionist that answers calls, books appointments, qualifies leads, and escalates emergencies for small businesses.",
+              "url": "https://www.midastools.co/receptionist",
+              "offers": {
+                "@type": "Offer",
+                "price": "299",
+                "priceCurrency": "USD",
+                "priceSpecification": {"@type": "RecurringChargeSpecification", "billingPeriod": "P1M"},
+                "description": "$499 one-time setup + $299/month"
+              },
+              "areaServed": ["Mexico", "United States"],
+              "serviceType": "AI Receptionist"
+            },
+            {
+              "@type": "FAQPage",
+              "mainEntity": [
+                {"@type": "Question", "name": "Will callers know they are talking to an AI?", "acceptedAnswer": {"@type": "Answer", "text": "Only if they directly ask. The AI will honestly acknowledge it is an AI assistant for your practice if asked, but most callers do not ask — they just want their question answered and appointment booked."}},
+                {"@type": "Question", "name": "What calendar systems does the AI receptionist work with?", "acceptedAnswer": {"@type": "Answer", "text": "Google Calendar, Cal.com, and Calendly natively. Other systems available via custom integration."}},
+                {"@type": "Question", "name": "How much does an AI phone receptionist cost?", "acceptedAnswer": {"@type": "Answer", "text": "Midas Tools charges $499 one-time setup plus $299 per month. Month-to-month, no contracts."}},
+                {"@type": "Question", "name": "How long does it take to set up an AI receptionist?", "acceptedAnswer": {"@type": "Answer", "text": "Setup takes 48 hours after an initial 20-minute onboarding call where we learn your business details, services, and booking flow."}},
+                {"@type": "Question", "name": "What happens if the AI cannot answer a question?", "acceptedAnswer": {"@type": "Answer", "text": "It takes a message and flags it for you. For critical issues, it can escalate to your cell phone in real-time based on criteria you define during setup."}}
+              ]
+            }
+          ]
+        })}</script>
       </Head>
       <style>{`
         *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
