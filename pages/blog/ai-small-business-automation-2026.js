@@ -180,7 +180,7 @@ Each email: subject line, body under 100 words. Tone escalates gradually from fr
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Want all 9 automations pre-built and ready to use?</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every automation in this article plus 40+ additional prompts, workflows, and templates built specifically for small business owners. Stop building from scratch. $39 one-time.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every automation in this article plus 40+ additional prompts, workflows, and templates built specifically for small business owners. Stop building from scratch. $39 one-time.</p>
           <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Small Business AI Kit &mdash; $39
           </a>
@@ -415,7 +415,7 @@ Format as a configuration I can plug into [ZAPIER/MAKE/NOTION].`}
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get all 9 automations pre-built + 40 more</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every prompt and workflow from this article, plus templates for hiring, operations, marketing, and finance &mdash; all customized for small business owners. Stop copying prompts from blog posts. Get the whole system. $39 one-time.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every prompt and workflow from this article, plus templates for hiring, operations, marketing, and finance &mdash; all customized for small business owners. Stop copying prompts from blog posts. Get the whole system. $39 one-time.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
             <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the Small Business AI Kit &mdash; $39

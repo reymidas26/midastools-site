@@ -184,7 +184,7 @@ Also create 5 proactive messages:
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Want all of these prompts (and 50+ more) ready to use?</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every prompt in this article plus complete workflows for marketing, operations, hiring, and customer service &mdash; all customized for small business owners. $39 one-time.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every prompt in this article plus complete workflows for marketing, operations, hiring, and customer service &mdash; all customized for small business owners. $39 one-time.</p>
           <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Small Business AI Kit &mdash; $39
           </a>
@@ -321,7 +321,7 @@ Then create a master checklist: "Daily Operations Checklist" that combines the k
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get every tool in this article &mdash; ready to use today</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes 75+ tested prompts and workflows for marketing, operations, hiring, and customer service. Built specifically for small business owners who do not have time to waste. <strong>$39 one-time.</strong></p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes 75+ tested prompts and workflows for marketing, operations, hiring, and customer service. Built specifically for small business owners who do not have time to waste. <strong>$39 one-time.</strong></p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
             <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the Small Business AI Kit &mdash; $39

@@ -162,7 +162,7 @@ For each step: what tool handles it, what the email says (summary), and what con
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Stop building templates from scratch</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Freelancer Automation Kit</strong> includes 100+ pre-built AI prompts for client follow-up, proposals, invoicing, onboarding, and every repetitive task that eats your day. Works with ChatGPT, Claude, and any LLM. $39 one-time.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>Freelancer Automation Kit</strong> includes 100+ pre-built AI prompts for client follow-up, proposals, invoicing, onboarding, and every repetitive task that eats your day. Works with ChatGPT, Claude, and any LLM. $39 one-time.</p>
           <a href="https://buy.stripe.com/14k4gycmvePreZ26oqcMM0e" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Freelancer Kit &mdash; $39
           </a>
@@ -335,7 +335,7 @@ Rules:
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get all follow-up templates pre-built</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>Stop writing prompts from scratch. The <strong>Freelancer Automation Kit</strong> and <strong>Small Business AI Kit</strong> include every follow-up template in this article plus hundreds more &mdash; proposals, onboarding, invoicing, re-engagement, client management. Ready to customize, works with any AI tool.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Stop writing prompts from scratch. The <strong>Freelancer Automation Kit</strong> and <strong>Small Business AI Kit</strong> include every follow-up template in this article plus hundreds more &mdash; proposals, onboarding, invoicing, re-engagement, client management. Ready to customize, works with any AI tool.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
             <a href="https://buy.stripe.com/14k4gycmvePreZ26oqcMM0e" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Freelancer Kit &mdash; $39

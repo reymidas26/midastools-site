@@ -133,7 +133,7 @@ export default function AIFreelancerAutomation2026() {
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get all 7 automations ready to deploy &rarr;</h3>
-          <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Midas Freelancer Kit</strong> includes every template, sequence, and script mentioned in this article &mdash; proposal generators, payment chasers, onboarding flows, scope creep protectors, rate calculators, communication templates, and lead follow-up sequences. All customizable. All ready to use today.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>Midas Freelancer Kit</strong> includes every template, sequence, and script mentioned in this article &mdash; proposal generators, payment chasers, onboarding flows, scope creep protectors, rate calculators, communication templates, and lead follow-up sequences. All customizable. All ready to use today.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
             <Link href="/freelancer-kit" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the Freelancer Kit &mdash; $39

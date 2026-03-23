@@ -129,7 +129,7 @@ export default function Post() {
           <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07">Get the Starter Kit →</a>
         </div>
 
-        <p style={{color:'#555',fontSize:'14px',marginTop:'48px'}}>
+        <p style={{color:'#6B7280',fontSize:'14px',marginTop:'48px'}}>
           <Link href="/blog" style={{color:'#3B5FFF',textDecoration:'none'}}>← Back to Blog</Link>
         </p>
       </div>
