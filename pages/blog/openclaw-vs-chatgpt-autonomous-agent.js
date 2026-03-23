@@ -18,27 +18,27 @@ export default function Post() {
       </Head>
       <style>{`
         .breadcrumb{padding:16px 24px;display:flex;align-items:center;gap:8px;font-size:13px}
-        .breadcrumb a{color:var(--gold);text-decoration:none;font-weight:600}
-        .breadcrumb span{color:var(--gray-400)}
+        .breadcrumb a{color:#3B5FFF;text-decoration:none;font-weight:600}
+        .breadcrumb span{color:#6B7280}
         .container{max-width:720px;margin:0 auto;padding:60px 24px}
-        .tag{display:inline-block;background:rgba(245,200,66,0.1);border:1px solid rgba(245,200,66,0.25);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:700;color:#F5C842;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:24px}
-        h1{font-size:42px;font-weight:900;line-height:1.1;letter-spacing:-1px;margin-bottom:20px}
-        .meta{color:#555;font-size:14px;margin-bottom:48px;padding-bottom:32px;border-bottom:1px solid #1a1a1a}
-        h2{font-size:24px;font-weight:800;margin:40px 0 16px;letter-spacing:-0.3px}
-        p{color:#aaa;line-height:1.8;margin-bottom:20px;font-size:17px}
-        strong{color:#fff}
-        ul,ol{color:#aaa;padding-left:24px;margin-bottom:20px}
+        .tag{display:inline-block;background:rgba(59,95,255,0.08);border:1px solid rgba(59,95,255,0.2);border-radius:100px;padding:6px 16px;font-size:12px;font-weight:700;color:#3B5FFF;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:24px}
+        h1{font-size:42px;font-weight:900;line-height:1.1;letter-spacing:-1px;margin-bottom:20px;color:#111827}
+        .meta{color:#6B7280;font-size:14px;margin-bottom:48px;padding-bottom:32px;border-bottom:1px solid #E5E7EB}
+        h2{font-size:24px;font-weight:800;margin:40px 0 16px;letter-spacing:-0.3px;color:#111827}
+        p{color:#374151;line-height:1.8;margin-bottom:20px;font-size:17px}
+        strong{color:#111827}
+        ul,ol{color:#374151;padding-left:24px;margin-bottom:20px}
         li{margin-bottom:10px;line-height:1.7;font-size:17px}
-        .callout{background:#111;border:1px solid #222;border-left:3px solid #F5C842;border-radius:8px;padding:24px;margin:32px 0}
-        .callout p{margin:0;color:#ccc}
-        .cta{background:linear-gradient(135deg,rgba(245,200,66,0.08),rgba(245,200,66,0.03));border:1px solid rgba(245,200,66,0.2);border-radius:16px;padding:40px;margin:48px 0;text-align:center}
-        .cta h3{font-size:24px;font-weight:800;margin-bottom:12px}
-        .cta p{color:#888;margin-bottom:24px}
-        .cta a{display:inline-block;background:#F5C842;color:#000;padding:14px 32px;border-radius:10px;font-weight:800;font-size:16px;text-decoration:none}
+        .callout{background:#F9FAFB;border:1px solid #E5E7EB;border-left:3px solid #3B5FFF;border-radius:8px;padding:24px;margin:32px 0}
+        .callout p{margin:0;color:#374151}
+        .cta{background:linear-gradient(135deg,rgba(59,95,255,0.06),rgba(59,95,255,0.02));border:1px solid rgba(59,95,255,0.2);border-radius:16px;padding:40px;margin:48px 0;text-align:center}
+        .cta h3{font-size:24px;font-weight:800;margin-bottom:12px;color:#111827}
+        .cta p{color:#6B7280;margin-bottom:24px}
+        .cta a{display:inline-block;background:#3B5FFF;color:#FFFFFF;padding:14px 32px;border-radius:10px;font-weight:800;font-size:16px;text-decoration:none}
         table{width:100%;border-collapse:collapse;margin:32px 0}
-        th{background:#111;color:#F5C842;padding:12px 16px;text-align:left;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;border:1px solid #222}
-        td{padding:12px 16px;border:1px solid #1a1a1a;color:#aaa;font-size:15px;vertical-align:top}
-        tr:nth-child(even) td{background:#0d0d0d}
+        th{background:#F9FAFB;color:#3B5FFF;padding:12px 16px;text-align:left;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;border:1px solid #E5E7EB}
+        td{padding:12px 16px;border:1px solid #E5E7EB;color:#374151;font-size:15px;vertical-align:top}
+        tr:nth-child(even) td{background:#F9FAFB}
       `}</style>
 
       <div className="breadcrumb">
@@ -130,7 +130,7 @@ export default function Post() {
         </div>
 
         <p style={{color:'#555',fontSize:'14px',marginTop:'48px'}}>
-          <Link href="/blog" style={{color:'#F5C842',textDecoration:'none'}}>← Back to Blog</Link>
+          <Link href="/blog" style={{color:'#3B5FFF',textDecoration:'none'}}>← Back to Blog</Link>
         </p>
       </div>
     </Layout>

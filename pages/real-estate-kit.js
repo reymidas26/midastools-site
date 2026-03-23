@@ -154,19 +154,19 @@ export default function RealEstateKit() {
 
       {/* ROI */}
       <section>
-        <div style={{background:'rgba(245,200,66,0.04)',border:'1px solid rgba(245,200,66,0.15)',borderRadius:20,padding:48,textAlign:'center'}}>
+        <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:20,padding:48,textAlign:'center'}}>
           <h2>The Math Is <span>Obvious</span></h2>
           <p style={{color:'var(--gray-400)',fontSize:16,marginBottom:32}}>One recovered lead pays for this kit 170x over.</p>
           <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:16,maxWidth:560,margin:'0 auto'}}>
-            <div style={{background:'var(--gray-800)',borderRadius:12,padding:24}}>
+            <div style={{background:'var(--gray-900)',border:'1px solid var(--gray-800)',borderRadius:12,padding:24}}>
               <div style={{fontSize:11,color:'var(--gray-400)',textTransform:'uppercase',letterSpacing:1,marginBottom:8}}>Kit cost</div>
               <div style={{fontSize:28,fontWeight:900}}>$49</div>
             </div>
-            <div style={{background:'var(--gray-800)',borderRadius:12,padding:24}}>
+            <div style={{background:'var(--gray-900)',border:'1px solid var(--gray-800)',borderRadius:12,padding:24}}>
               <div style={{fontSize:11,color:'var(--gray-400)',textTransform:'uppercase',letterSpacing:1,marginBottom:8}}>Avg commission</div>
               <div style={{fontSize:28,fontWeight:900,color:'var(--gold)'}}>$8,400</div>
             </div>
-            <div style={{background:'var(--gray-800)',borderRadius:12,padding:24}}>
+            <div style={{background:'var(--gray-900)',border:'1px solid var(--gray-800)',borderRadius:12,padding:24}}>
               <div style={{fontSize:11,color:'var(--gray-400)',textTransform:'uppercase',letterSpacing:1,marginBottom:8}}>ROI</div>
               <div style={{fontSize:28,fontWeight:900,color:'var(--gold)'}}>17,043%</div>
             </div>
@@ -176,7 +176,7 @@ export default function RealEstateKit() {
 
       {/* Buy */}
       <section id="buy">
-        <div style={{background:'var(--gray-900)',border:'2px solid rgba(245,200,66,0.4)',borderRadius:20,padding:48,textAlign:'center',maxWidth:500,margin:'0 auto'}}>
+        <div style={{background:'var(--gray-900)',border:'2px solid rgba(59,95,255,0.4)',borderRadius:20,padding:48,textAlign:'center',maxWidth:500,margin:'0 auto'}}>
           <div className="badge" style={{marginBottom:20}}>Real Estate Edition</div>
           <h2 style={{marginBottom:8}}>Real Estate AI Kit</h2>
           <div style={{fontSize:48,fontWeight:900,color:'var(--gold)',margin:'16px 0 4px'}}>$49</div>
@@ -206,7 +206,7 @@ export default function RealEstateKit() {
 
       {/* Bundle Upsell */}
       <section style={{paddingTop:0}}>
-        <div style={{background:'rgba(245,200,66,0.04)',border:'1px solid rgba(245,200,66,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
+        <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
           <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Save 68%</div>
           <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Get all 8 AI kits for $97</p>
           <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + 7 more niche AI kits &mdash; plus every future kit free.</p>
@@ -234,7 +234,7 @@ export default function RealEstateKit() {
           <h2 style={{fontSize:26,marginBottom:16}}>Get a Free <span>Lead Response Template</span></h2>
           <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:32,lineHeight:1.6}}>See what your AI lead response would look like &mdash; customized for real estate.</p>
           {sent ? (
-            <div style={{background:'rgba(245,200,66,0.08)',border:'1px solid rgba(245,200,66,0.2)',borderRadius:12,padding:'24px'}}>
+            <div style={{background:'rgba(59,95,255,0.08)',border:'1px solid rgba(59,95,255,0.2)',borderRadius:12,padding:'24px'}}>
               <div style={{fontSize:18,fontWeight:700,marginBottom:8}}>Check your inbox!</div>
               <div style={{color:'var(--gray-400)',fontSize:15}}>We'll send your free template within 24 hours.</div>
             </div>
@@ -246,7 +246,7 @@ export default function RealEstateKit() {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 required
-                style={{flex:1,padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'#fff',fontSize:15,outline:'none',fontFamily:'inherit'}}
+                style={{flex:1,padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-900)',color:'var(--text)',fontSize:15,outline:'none',fontFamily:'inherit'}}
               />
               <button
                 type="submit"

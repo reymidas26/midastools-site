@@ -8,16 +8,16 @@ function FAQItem({ q, a }) {
   const [open, setOpen] = useState(false);
   return (
     <div
-      style={{ borderBottom: '1px solid var(--gray-800)', cursor: 'pointer' }}
+      style={{ borderBottom: '1px solid var(--border)', cursor: 'pointer' }}
       onClick={() => setOpen(!open)}
     >
       <div style={{
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
         padding: '20px 0', gap: 16,
       }}>
-        <div style={{ fontSize: 16, fontWeight: 700 }}>{q}</div>
+        <div style={{ fontSize: 16, fontWeight: 700, color: 'var(--text)' }}>{q}</div>
         <div style={{
-          fontSize: 20, color: 'var(--gold)', flexShrink: 0,
+          fontSize: 20, color: 'var(--accent)', flexShrink: 0,
           transition: 'transform 0.2s ease',
           transform: open ? 'rotate(45deg)' : 'rotate(0)',
         }}>+</div>
@@ -27,7 +27,7 @@ function FAQItem({ q, a }) {
         transition: 'max-height 0.3s ease, opacity 0.2s ease',
         opacity: open ? 1 : 0,
       }}>
-        <div style={{ fontSize: 15, color: 'var(--gray-400)', lineHeight: 1.7, paddingBottom: 20 }}>{a}</div>
+        <div style={{ fontSize: 15, color: 'var(--text-secondary)', lineHeight: 1.7, paddingBottom: 20 }}>{a}</div>
       </div>
     </div>
   );
@@ -76,91 +76,97 @@ export default function Home() {
 
       <style>{`
         .home-hero { max-width: 860px; margin: 0 auto; padding: 80px 40px 64px; text-align: center; }
-        .home-hero h1 { font-size: clamp(36px, 6vw, 64px); font-weight: 900; line-height: 1.05; letter-spacing: -2px; margin-bottom: 24px; }
-        .home-hero h1 span { color: var(--gold); }
-        .hero-sub { font-size: 18px; color: var(--gray-400); max-width: 560px; margin: 0 auto 40px; line-height: 1.7; }
+        .home-hero h1 { font-size: clamp(36px, 6vw, 64px); font-weight: 900; line-height: 1.05; letter-spacing: -2px; margin-bottom: 24px; color: var(--text); }
+        .home-hero h1 span { color: var(--accent); }
+        .hero-sub { font-size: 18px; color: var(--text-secondary); max-width: 560px; margin: 0 auto 40px; line-height: 1.7; }
         .hero-ctas { display: flex; gap: 16px; justify-content: center; align-items: center; flex-wrap: wrap; }
-        .price-tag { font-size: 14px; color: var(--gray-400); margin-top: 20px; }
-        .price-tag strong { color: var(--white); }
-
-        /* Credibility bar */
-        .cred-bar { display: flex; justify-content: center; align-items: center; gap: 40px; padding: 28px 40px; margin: 0 auto; max-width: 820px; flex-wrap: wrap; }
-        .cred-item { display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--gray-400); font-weight: 500; }
-        .cred-num { font-size: 16px; font-weight: 800; color: var(--white); }
+        .price-tag { font-size: 14px; color: var(--text-secondary); margin-top: 20px; }
+        .price-tag strong { color: var(--text); }
 
         /* Stats */
-        .stats-bar { display: flex; justify-content: center; gap: 48px; margin-top: 48px; padding-top: 48px; border-top: 1px solid var(--gray-800); }
+        .stats-bar { display: flex; justify-content: center; gap: 48px; margin-top: 48px; padding-top: 48px; border-top: 1px solid var(--border); }
         .stat-item { text-align: center; }
-        .stat-num { font-size: 28px; font-weight: 900; color: var(--gold); letter-spacing: -1px; }
-        .stat-label { font-size: 12px; color: var(--gray-400); font-weight: 500; margin-top: 4px; }
+        .stat-num { font-size: 28px; font-weight: 900; color: var(--accent); letter-spacing: -1px; }
+        .stat-label { font-size: 12px; color: var(--text-secondary); font-weight: 500; margin-top: 4px; }
 
         /* Technology bar */
-        .tech-bar { border-top: 1px solid var(--gray-800); border-bottom: 1px solid var(--gray-800); padding: 20px 40px; text-align: center; }
-        .tech-label { font-size: 11px; color: var(--gray-400); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; margin-bottom: 12px; }
+        .tech-bar { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 20px 40px; text-align: center; }
+        .tech-label { font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 2px; font-weight: 600; margin-bottom: 12px; }
         .tech-logos { display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap; }
-        .tech-logo { font-size: 14px; font-weight: 600; color: var(--gray-700); letter-spacing: -0.3px; }
+        .tech-logo { font-size: 14px; font-weight: 600; color: var(--text-tertiary); letter-spacing: -0.3px; }
 
-        .proof-card { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 16px; padding: 40px; max-width: 680px; margin: 0 auto 0; text-align: left; position: relative; }
-        .proof-quote { font-size: 16px; line-height: 1.7; color: var(--gray-200); margin-bottom: 20px; font-style: italic; }
-        .proof-author { font-size: 14px; color: var(--gray-400); font-weight: 600; }
-        .proof-author span { color: var(--gold); }
+        .proof-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 40px; max-width: 680px; margin: 0 auto 0; text-align: left; position: relative; }
+        .proof-quote { font-size: 16px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 20px; font-style: italic; }
+        .proof-author { font-size: 14px; color: var(--text-secondary); font-weight: 600; }
+        .proof-author span { color: var(--accent); }
 
         /* Results cards */
         .results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 40px; }
-        .result-card { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 14px; padding: 24px; text-align: center; }
-        .result-num { font-size: 32px; font-weight: 900; color: var(--gold); letter-spacing: -1px; }
-        .result-label { font-size: 13px; color: var(--gray-400); margin-top: 4px; font-weight: 500; }
-        .result-note { font-size: 12px; color: var(--gray-700); margin-top: 8px; }
+        .result-card { border-radius: 16px; padding: 28px; text-align: center; }
+        .result-card:nth-child(1) { background: var(--card-green); }
+        .result-card:nth-child(2) { background: var(--card-blue); }
+        .result-card:nth-child(3) { background: var(--card-purple); }
+        .result-num { font-size: 32px; font-weight: 900; color: var(--text); letter-spacing: -1px; }
+        .result-label { font-size: 13px; color: var(--text-secondary); margin-top: 4px; font-weight: 500; }
+        .result-note { font-size: 12px; color: var(--text-tertiary); margin-top: 8px; }
 
         section { max-width: 860px; margin: 0 auto; padding: 80px 40px; }
-        h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; line-height: 1.15; letter-spacing: -1px; margin-bottom: 16px; }
-        .section-sub { font-size: 17px; color: var(--gray-400); margin-bottom: 48px; line-height: 1.6; }
+        h2 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; line-height: 1.15; letter-spacing: -1px; margin-bottom: 16px; color: var(--text); }
+        .section-sub { font-size: 17px; color: var(--text-secondary); margin-bottom: 48px; line-height: 1.6; }
 
         .kit-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 48px; }
-        .kit-card { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 14px; padding: 28px; transition: border-color 0.2s ease; }
-        .kit-card:hover { border-color: var(--gray-700); }
-        .kit-icon { width: 44px; height: 44px; background: rgba(245,200,66,0.08); border: 1px solid rgba(245,200,66,0.12); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
+        .kit-card { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 28px; transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+        .kit-card:hover { border-color: var(--text-tertiary); box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+        .kit-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 14px; font-size: 13px; font-weight: 800; color: var(--text); letter-spacing: -0.5px; }
         .kit-icon svg { width: 20px; height: 20px; }
-        .kit-title { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
-        .kit-desc { font-size: 14px; color: var(--gray-400); line-height: 1.6; }
+        .kit-title { font-size: 16px; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+        .kit-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
 
         .steps { display: flex; flex-direction: column; }
-        .step { display: flex; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--gray-800); }
+        .step { display: flex; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--border); }
         .step:last-child { border-bottom: none; }
-        .step-num { flex-shrink: 0; width: 40px; height: 40px; background: rgba(245,200,66,0.08); border: 1px solid rgba(245,200,66,0.15); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 800; color: var(--gold); }
-        .step-body h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; }
-        .step-body p { font-size: 15px; color: var(--gray-400); line-height: 1.6; }
+        .step-num { flex-shrink: 0; width: 40px; height: 40px; background: rgba(59,95,255,0.08); border: 1px solid rgba(59,95,255,0.15); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 15px; font-weight: 800; color: var(--accent); }
+        .step-body h3 { font-size: 17px; font-weight: 700; margin-bottom: 6px; color: var(--text); }
+        .step-body p { font-size: 15px; color: var(--text-secondary); line-height: 1.6; }
 
         .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
-        .pricing-card { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 14px; padding: 28px; display: flex; flex-direction: column; gap: 12px; transition: border-color 0.2s ease, transform 0.2s ease; }
-        .pricing-card:hover { border-color: var(--gray-700); transform: translateY(-2px); }
-        .pricing-card.featured { border-color: rgba(245,200,66,0.4); box-shadow: 0 0 40px rgba(245,200,66,0.06); }
+        .pricing-card { background: var(--bg); border: 1px solid var(--border); border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px; transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease; }
+        .pricing-card:hover { border-color: var(--text-tertiary); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+        .pricing-card.featured { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent), 0 8px 32px rgba(59,95,255,0.1); }
 
         /* Founder section */
         .founder-section { display: flex; gap: 40px; align-items: center; }
         .founder-info { flex: 1; }
-        .founder-avatar { width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--gold), #E8A900); display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: 900; color: var(--black); flex-shrink: 0; }
+        .founder-avatar { width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), #1E3AE0); display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: 900; color: #FFFFFF; flex-shrink: 0; }
 
-        .email-box { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 16px; padding: 40px; text-align: center; max-width: 860px; margin: 0 auto; }
-        .email-box h3 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
-        .email-box p { color: var(--gray-400); margin-bottom: 24px; font-size: 15px; }
+        .email-box { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 40px; text-align: center; max-width: 860px; margin: 0 auto; }
+        .email-box h3 { font-size: 22px; font-weight: 800; margin-bottom: 8px; color: var(--text); }
+        .email-box p { color: var(--text-secondary); margin-bottom: 24px; font-size: 15px; }
         .email-form { display: flex; gap: 12px; max-width: 480px; margin: 0 auto; flex-wrap: wrap; justify-content: center; }
-        .email-form input { flex: 1; min-width: 180px; padding: 14px 16px; background: var(--gray-800); border: 1px solid var(--gray-700); border-radius: 8px; color: var(--white); font-size: 15px; font-family: inherit; outline: none; transition: border-color 0.15s; }
-        .email-form input:focus { border-color: var(--gold); }
-        .email-form button { background: var(--gold); color: var(--black); padding: 14px 24px; border-radius: 8px; font-weight: 700; font-size: 15px; border: none; cursor: pointer; font-family: inherit; white-space: nowrap; }
+        .email-form input { flex: 1; min-width: 180px; padding: 14px 16px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; color: var(--text); font-size: 15px; font-family: inherit; outline: none; transition: border-color 0.15s; }
+        .email-form input:focus { border-color: var(--accent); }
+        .email-form button { background: var(--accent); color: #FFFFFF; padding: 14px 24px; border-radius: 10px; font-weight: 700; font-size: 15px; border: none; cursor: pointer; font-family: inherit; white-space: nowrap; }
 
-        .cta-bottom { border: 1px solid var(--gray-800); border-radius: 20px; padding: 80px 40px; text-align: center; max-width: 860px; margin: 0 auto 80px; background: linear-gradient(180deg, var(--gray-900) 0%, var(--black) 100%); }
-        .cta-bottom h2 { margin-bottom: 16px; }
-        .cta-bottom p { color: var(--gray-400); font-size: 17px; margin-bottom: 40px; }
+        .cta-bottom { border: 1px solid var(--border); border-radius: 20px; padding: 80px 40px; text-align: center; max-width: 860px; margin: 0 auto 80px; background: var(--text); color: #FFFFFF; }
+        .cta-bottom h2 { margin-bottom: 16px; color: #FFFFFF; }
+        .cta-bottom p { color: rgba(255,255,255,0.7); font-size: 17px; margin-bottom: 40px; }
+        .cta-bottom .section-label { color: rgba(255,255,255,0.5); }
+        .cta-bottom .btn-primary { background: #FFFFFF; color: var(--text); }
+        .cta-bottom .btn-primary:hover { box-shadow: 0 4px 24px rgba(255,255,255,0.2); }
+        .cta-bottom .btn-outline { border-color: rgba(255,255,255,0.3); color: #FFFFFF; }
+        .cta-bottom .btn-outline:hover { background: rgba(255,255,255,0.08); }
 
         .trust-signals { display: flex; justify-content: center; gap: 32px; margin-top: 24px; flex-wrap: wrap; }
-        .trust-signal { font-size: 13px; color: var(--gray-400); font-weight: 500; display: flex; align-items: center; gap: 6px; }
+        .trust-signal { font-size: 13px; color: rgba(255,255,255,0.6); font-weight: 500; display: flex; align-items: center; gap: 6px; }
 
         /* Guarantee box */
-        .guarantee { display: flex; gap: 20px; align-items: flex-start; background: rgba(245,200,66,0.03); border: 1px solid rgba(245,200,66,0.1); border-radius: 14px; padding: 28px; margin-top: 48px; }
-        .guarantee-icon { flex-shrink: 0; width: 44px; height: 44px; border-radius: 10px; background: rgba(245,200,66,0.08); border: 1px solid rgba(245,200,66,0.15); display: flex; align-items: center; justify-content: center; }
-        .guarantee h4 { font-size: 16px; font-weight: 800; margin-bottom: 6px; }
-        .guarantee p { font-size: 14px; color: var(--gray-400); line-height: 1.6; }
+        .guarantee { display: flex; gap: 20px; align-items: flex-start; background: rgba(59,95,255,0.04); border: 1px solid rgba(59,95,255,0.12); border-radius: 14px; padding: 28px; margin-top: 48px; }
+        .guarantee-icon { flex-shrink: 0; width: 44px; height: 44px; border-radius: 10px; background: rgba(59,95,255,0.08); border: 1px solid rgba(59,95,255,0.15); display: flex; align-items: center; justify-content: center; }
+        .guarantee h4 { font-size: 16px; font-weight: 800; margin-bottom: 6px; color: var(--text); }
+        .guarantee p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+        /* Decorative elements */
+        .deco { position: absolute; pointer-events: none; }
 
         @media(max-width:700px) {
           .home-hero { padding: 48px 20px 48px; }
@@ -168,7 +174,6 @@ export default function Home() {
           .cta-bottom { padding: 60px 24px; margin: 0 20px 60px; }
           .stats-bar { gap: 24px; }
           .stat-num { font-size: 22px; }
-          .cred-bar { gap: 20px; }
           .results-grid { grid-template-columns: 1fr; }
           .tech-logos { gap: 24px; }
           .founder-section { flex-direction: column; text-align: center; }
@@ -176,17 +181,17 @@ export default function Home() {
       `}</style>
 
       {/* Announcement bar */}
-      <div style={{ background: 'linear-gradient(90deg, rgba(245,200,66,0.06), rgba(245,200,66,0.12), rgba(245,200,66,0.06))', borderBottom: '1px solid var(--gray-800)', padding: '10px 40px', textAlign: 'center', fontSize: 13, fontWeight: 500 }}>
-        <a href="/bundle" style={{ color: 'var(--gray-200)', textDecoration: 'none' }}>
-          New: All Kits Bundle — 6 AI kits for $97
-          <span style={{ color: 'var(--gold)', fontWeight: 700, marginLeft: 8 }}>View bundle &rarr;</span>
+      <div style={{ background: 'var(--surface)', borderBottom: '1px solid var(--border)', padding: '10px 40px', textAlign: 'center', fontSize: 13, fontWeight: 500 }}>
+        <a href="/bundle" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>
+          New: All Kits Bundle — 8 AI kits for $97
+          <span style={{ color: 'var(--accent)', fontWeight: 700, marginLeft: 8 }}>View bundle &rarr;</span>
         </a>
       </div>
 
       {/* Hero */}
       <div className="home-hero">
         <div className="badge" style={{ marginBottom: 32 }}>AI Automation Kits for Entrepreneurs</div>
-        <h1>Deploy AI That<br /><span>Runs Your Business</span><br />While You Sleep</h1>
+        <h1>Deploy AI That<br /><span>Runs Your Business</span><br />While You Sleep.</h1>
         <p className="hero-sub">
           Battle-tested templates, workflows, and prompts to launch AI agents that manage email, generate revenue, publish content, and operate your business 24/7.
         </p>
@@ -201,7 +206,7 @@ export default function Home() {
         <div className="stats-bar">
           {[
             { num: '$14,718', label: 'Agent Revenue in 3 Weeks' },
-            { num: '5', label: 'Niche AI Kits Available' },
+            { num: '8', label: 'Niche AI Kits Available' },
             { num: '24/7', label: 'Autonomous Operation' },
           ].map(s => (
             <div key={s.label} className="stat-item">
@@ -212,7 +217,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Technology bar — honest credibility */}
+      {/* Technology bar */}
       <div className="tech-bar">
         <div className="tech-label">Works with</div>
         <div className="tech-logos">
@@ -224,7 +229,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Social Proof — Case Study */}
+      {/* Social Proof */}
       <section>
         <div className="section-label">Real Results</div>
         <h2>This isn't theory — it's already working</h2>
@@ -261,16 +266,16 @@ export default function Home() {
         <p className="section-sub">Skip the weeks of trial and error. Get the exact files that make an AI entrepreneur actually work.</p>
         <div className="kit-grid">
           {[
-            { abbr: 'SM', title: '5 SOUL.md Templates', desc: 'Pre-built identity files for entrepreneur, content creator, SaaS builder, community manager, and service business.' },
-            { abbr: 'HB', title: 'Heartbeat Workflow System', desc: 'Makes your agent proactively check emails, monitor revenue, track tasks — and alert you when something needs attention.' },
-            { abbr: 'DR', title: 'Daily Review Template', desc: 'The exact morning report structure: revenue stats, open blockers, and the top 5 priorities — ready every morning.' },
-            { abbr: 'PL', title: 'Product Launch Prompts', desc: 'Word-for-word prompts to tell your agent to create and launch a digital product overnight — the same approach Felix used.' },
-            { abbr: 'RO', title: 'Revenue Ops Playbook', desc: 'How to give your agent access to Stripe, email, and hosting safely. The minimal permission set for running a real business.' },
-            { abbr: 'SG', title: 'Complete Setup Guide', desc: 'Step-by-step: zero to a deployed, revenue-focused OpenClaw agent with exact tools, accounts, and configurations.' },
+            { abbr: 'SM', title: '5 SOUL.md Templates', desc: 'Pre-built identity files for entrepreneur, content creator, SaaS builder, community manager, and service business.', bg: 'var(--card-blue)' },
+            { abbr: 'HB', title: 'Heartbeat Workflow System', desc: 'Makes your agent proactively check emails, monitor revenue, track tasks — and alert you when something needs attention.', bg: 'var(--card-green)' },
+            { abbr: 'DR', title: 'Daily Review Template', desc: 'The exact morning report structure: revenue stats, open blockers, and the top 5 priorities — ready every morning.', bg: 'var(--card-purple)' },
+            { abbr: 'PL', title: 'Product Launch Prompts', desc: 'Word-for-word prompts to tell your agent to create and launch a digital product overnight — the same approach Felix used.', bg: 'var(--card-amber)' },
+            { abbr: 'RO', title: 'Revenue Ops Playbook', desc: 'How to give your agent access to Stripe, email, and hosting safely. The minimal permission set for running a real business.', bg: 'var(--card-pink)' },
+            { abbr: 'SG', title: 'Complete Setup Guide', desc: 'Step-by-step: zero to a deployed, revenue-focused OpenClaw agent with exact tools, accounts, and configurations.', bg: 'var(--card-cyan)' },
           ].map((item) => (
             <div className="kit-card" key={item.title}>
-              <div className="kit-icon">
-                <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--gold)', letterSpacing: -0.5 }}>{item.abbr}</span>
+              <div className="kit-icon" style={{ background: item.bg }}>
+                <span>{item.abbr}</span>
               </div>
               <div className="kit-title">{item.title}</div>
               <div className="kit-desc">{item.desc}</div>
@@ -301,7 +306,7 @@ export default function Home() {
         {/* Guarantee */}
         <div className="guarantee">
           <div className="guarantee-icon">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1L12.5 4H17V8.5L20 11L17 13.5V18H12.5L10 21L7.5 18H3V13.5L0 11L3 8.5V4H7.5L10 1Z" fill="rgba(245,200,66,0.15)" stroke="#F5C842" strokeWidth="1.2"/><path d="M7 11l2 2 4-4" stroke="#F5C842" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 1L12.5 4H17V8.5L20 11L17 13.5V18H12.5L10 21L7.5 18H3V13.5L0 11L3 8.5V4H7.5L10 1Z" fill="rgba(59,95,255,0.12)" stroke="#3B5FFF" strokeWidth="1.2"/><path d="M7 11l2 2 4-4" stroke="#3B5FFF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
           </div>
           <div>
             <h4>30-Day Money-Back Guarantee</h4>
@@ -323,12 +328,12 @@ export default function Home() {
             <div key={p.name} className={`pricing-card${p.featured ? ' featured' : ''}`}>
               <span className="badge" style={{ fontSize: 11, padding: '4px 10px', letterSpacing: 1 }}>{p.label}</span>
               <div>
-                <span style={{ fontSize: 32, fontWeight: 900, letterSpacing: -1 }}>{p.price}</span>
-                <span style={{ color: 'var(--gray-400)', fontSize: 14, marginLeft: 8 }}>{p.term}</span>
+                <span style={{ fontSize: 32, fontWeight: 900, letterSpacing: -1, color: 'var(--text)' }}>{p.price}</span>
+                <span style={{ color: 'var(--text-secondary)', fontSize: 14, marginLeft: 8 }}>{p.term}</span>
               </div>
-              <div style={{ fontWeight: 800, fontSize: 17 }}>{p.name}</div>
-              <div style={{ color: 'var(--gray-400)', fontSize: 14, lineHeight: 1.6, flex: 1 }}>{p.desc}</div>
-              <a href={p.href} style={{ display: 'block', textAlign: 'center', background: p.featured ? 'var(--gold)' : 'transparent', color: p.featured ? 'var(--black)' : 'var(--gold)', border: p.featured ? 'none' : '1.5px solid var(--gold)', padding: '12px 20px', borderRadius: 8, fontWeight: 700, fontSize: 14, textDecoration: 'none' }}>{p.cta}</a>
+              <div style={{ fontWeight: 800, fontSize: 17, color: 'var(--text)' }}>{p.name}</div>
+              <div style={{ color: 'var(--text-secondary)', fontSize: 14, lineHeight: 1.6, flex: 1 }}>{p.desc}</div>
+              <a href={p.href} style={{ display: 'block', textAlign: 'center', background: p.featured ? 'var(--accent)' : 'transparent', color: p.featured ? '#FFFFFF' : 'var(--text)', border: p.featured ? 'none' : '1.5px solid var(--border)', padding: '12px 20px', borderRadius: 100, fontWeight: 700, fontSize: 14, textDecoration: 'none' }}>{p.cta}</a>
             </div>
           ))}
         </div>
@@ -341,15 +346,15 @@ export default function Home() {
           <div className="founder-avatar">A</div>
           <div className="founder-info">
             <h2 style={{ fontSize: 24, marginBottom: 12 }}>Built by Armando</h2>
-            <p style={{ color: 'var(--gray-400)', fontSize: 15, lineHeight: 1.7, marginBottom: 16 }}>
+            <p style={{ color: 'var(--text-secondary)', fontSize: 15, lineHeight: 1.7, marginBottom: 16 }}>
               I'm an engineer and entrepreneur who's been building AI automation tools since before it was cool. Midas Tools exists because I needed these exact workflows for my own businesses — and realized thousands of other entrepreneurs need them too.
             </p>
-            <p style={{ color: 'var(--gray-400)', fontSize: 15, lineHeight: 1.7 }}>
+            <p style={{ color: 'var(--text-secondary)', fontSize: 15, lineHeight: 1.7 }}>
               Every template in these kits comes from real usage — not theory. They've been tested, refined, and proven to work with actual AI agents generating real revenue.
             </p>
             <div style={{ display: 'flex', gap: 16, marginTop: 20, flexWrap: 'wrap' }}>
-              <a href="mailto:iam@armando.mx" style={{ color: 'var(--gold)', fontSize: 14, fontWeight: 600, textDecoration: 'none' }}>iam@armando.mx</a>
-              <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener" style={{ color: 'var(--gold)', fontSize: 14, fontWeight: 600, textDecoration: 'none' }}>Book a call &rarr;</a>
+              <a href="mailto:iam@armando.mx" style={{ color: 'var(--accent)', fontSize: 14, fontWeight: 600, textDecoration: 'none' }}>iam@armando.mx</a>
+              <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener" style={{ color: 'var(--accent)', fontSize: 14, fontWeight: 600, textDecoration: 'none' }}>Book a call &rarr;</a>
             </div>
           </div>
         </div>
@@ -361,7 +366,7 @@ export default function Home() {
           <h3>Get free templates + weekly AI insights</h3>
           <p>Join entrepreneurs getting weekly workflows, prompts, and revenue strategies. No spam — unsubscribe anytime.</p>
           {subStatus === 'done' ? (
-            <p style={{ color: 'var(--gold)', fontWeight: 700, fontSize: 16 }}>You're in — check your inbox!</p>
+            <p style={{ color: 'var(--accent)', fontWeight: 700, fontSize: 16 }}>You're in — check your inbox!</p>
           ) : (
             <form className="email-form" onSubmit={handleSubscribe}>
               <input type="text" placeholder="Your name" value={name} onChange={e => setName(e.target.value)} />
@@ -372,7 +377,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ — Interactive */}
+      {/* FAQ */}
       <section style={{ paddingTop: 0 }}>
         <div className="section-label">FAQ</div>
         <h2>Common questions</h2>
@@ -390,10 +395,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* Final CTA — Dark section for contrast */}
       <div className="cta-bottom" id="buy">
         <div className="section-label" style={{ marginBottom: 16 }}>Get Started Today</div>
-        <h2>Your AI entrepreneur is<br />one download away</h2>
+        <h2>Your AI entrepreneur is<br />one download away.</h2>
         <p>Join entrepreneurs using AI to generate real revenue — starting at $29.</p>
         <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
           <a href={STRIPE_URL} className="btn-primary">Get the Starter Kit — $29 &rarr;</a>
@@ -402,7 +407,7 @@ export default function Home() {
         <div className="trust-signals">
           {['Secure Stripe Checkout', 'Instant Download', '30-Day Refund', 'No Subscription'].map(t => (
             <span key={t} className="trust-signal">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="7" fill="rgba(245,200,66,0.15)" /><path d="M4 7l2 2 4-4" stroke="#F5C842" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="7" fill="rgba(255,255,255,0.15)" /><path d="M4 7l2 2 4-4" stroke="#FFFFFF" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
               {t}
             </span>
           ))}

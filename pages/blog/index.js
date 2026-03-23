@@ -48,10 +48,10 @@ export default function Blog() {
         .post:last-child{border-bottom:none}
         .post-date{font-size:12px;color:var(--gray-400);margin-bottom:8px;font-weight:500}
         .post-title{font-size:20px;font-weight:800;margin-bottom:8px;letter-spacing:-0.3px}
-        .post-title a{color:#fff;text-decoration:none;transition:color 0.15s}
-        .post-title a:hover{color:var(--gold)}
+        .post-title a{color:var(--text);text-decoration:none;transition:color 0.15s}
+        .post-title a:hover{color:var(--accent)}
         .post-desc{font-size:15px;color:var(--gray-400);line-height:1.7;margin-bottom:16px}
-        .read-more{font-size:14px;color:var(--gold);text-decoration:none;font-weight:600}
+        .read-more{font-size:14px;color:var(--accent);text-decoration:none;font-weight:600}
         @media(max-width:600px){.container{padding:48px 20px}h1{font-size:32px}}
       `}</style>
       <div className="container">

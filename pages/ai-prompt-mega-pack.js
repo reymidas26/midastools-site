@@ -72,13 +72,13 @@ export default function AIPromptMegaPack() {
         .kit-card:hover { border-color: var(--gray-700); }
         .category-icon { font-size: 28px; margin-bottom: 12px; }
         .prompt-count {
-          display: inline-block; background: rgba(245,200,66,0.1); color: var(--gold);
+          display: inline-block; background: rgba(59,95,255,0.1); color: var(--gold);
           padding: 2px 10px; border-radius: 100px; font-size: 12px; font-weight: 700; margin-bottom: 8px;
         }
         .before-after { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 32px; }
         .before-col, .after-col { padding: 28px; border-radius: 14px; }
         .before-col { background: rgba(255,50,50,0.04); border: 1px solid rgba(255,50,50,0.15); }
-        .after-col { background: rgba(245,200,66,0.04); border: 1px solid rgba(245,200,66,0.15); }
+        .after-col { background: rgba(59,95,255,0.04); border: 1px solid rgba(59,95,255,0.15); }
         .faq-item { border-bottom: 1px solid var(--gray-800); padding: 20px 0; }
         .faq-q { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
         .faq-a { font-size: 15px; color: var(--gray-400); line-height: 1.7; }
@@ -231,7 +231,7 @@ export default function AIPromptMegaPack() {
 
       {/* PRICING */}
       <section id="buy" style={{paddingTop:0}}>
-        <div style={{background:'var(--gray-900)', border:'2px solid rgba(245,200,66,0.4)', borderRadius:20, padding:48, textAlign:'center', maxWidth:500, margin:'0 auto'}}>
+        <div style={{background:'var(--gray-900)', border:'2px solid rgba(59,95,255,0.4)', borderRadius:20, padding:48, textAlign:'center', maxWidth:500, margin:'0 auto'}}>
           <div className="badge" style={{marginBottom:16}}>Most Popular</div>
           <h2 style={{fontSize:24, fontWeight:900, marginBottom:4}}>AI Prompt Mega Pack</h2>
           <p style={{color:'var(--gray-400)', fontSize:15, marginBottom:16}}>200+ prompts across 6 categories</p>
@@ -246,7 +246,7 @@ export default function AIPromptMegaPack() {
               'Pro tips and best practices for each category',
               'Free updates as we add new prompts',
             ].map(f => (
-              <li key={f} style={{fontSize:15, padding:'6px 0', color:'#ccc'}}>
+              <li key={f} style={{fontSize:15, padding:'6px 0', color:'var(--text-secondary)'}}>
                 <span style={{color:'var(--gold)', fontWeight:700, marginRight:10}}>✓</span>{f}
               </li>
             ))}
@@ -262,7 +262,7 @@ export default function AIPromptMegaPack() {
 
       {/* BUNDLE UPSELL */}
       <section style={{paddingTop:0}}>
-        <div style={{background:'rgba(245,200,66,0.04)', border:'1px solid rgba(245,200,66,0.15)', borderRadius:16, padding:32, textAlign:'center'}}>
+        <div style={{background:'rgba(59,95,255,0.04)', border:'1px solid rgba(59,95,255,0.15)', borderRadius:16, padding:32, textAlign:'center'}}>
           <div style={{fontSize:12, fontWeight:700, color:'var(--gold)', textTransform:'uppercase', letterSpacing:1}}>Want Industry-Specific Prompts Too?</div>
           <p style={{fontSize:20, fontWeight:800, marginBottom:4, marginTop:8}}>Get all 8 AI kits + Mega Pack for $97</p>
           <p style={{fontSize:14, color:'var(--gray-400)', marginBottom:16}}>Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder + Starter Kit. Save 68%.</p>
@@ -282,7 +282,7 @@ export default function AIPromptMegaPack() {
             Get 10 of our best prompts free — see the quality before you buy.
           </p>
           {sent ? (
-            <div style={{background:'rgba(245,200,66,0.08)', border:'1px solid rgba(245,200,66,0.2)', borderRadius:12, padding:20}}>
+            <div style={{background:'rgba(59,95,255,0.08)', border:'1px solid rgba(59,95,255,0.2)', borderRadius:12, padding:20}}>
               <p style={{color:'var(--gold)', fontWeight:700, fontSize:16}}>Check your inbox!</p>
               <p style={{color:'var(--gray-400)', fontSize:14, marginTop:6}}>Your free sample is on its way.</p>
             </div>
@@ -292,7 +292,7 @@ export default function AIPromptMegaPack() {
                 type="email" placeholder="your@email.com" value={email}
                 onChange={e => setEmail(e.target.value)} required
                 style={{flex:1, padding:'14px 18px', borderRadius:10, border:'1px solid var(--gray-700)',
-                  background:'var(--gray-800)', color:'white', fontSize:15, outline:'none'}}
+                  background:'var(--gray-900)', color:'var(--text)', fontSize:15, outline:'none'}}
               />
               <button type="submit" disabled={loading} className="btn-primary" style={{padding:'14px 24px', border:'none', cursor:'pointer', fontSize:15}}>
                 {loading ? '...' : 'Send Free Sample'}

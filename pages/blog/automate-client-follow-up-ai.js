@@ -38,7 +38,7 @@ export default function AutomateClientFollowUpAI() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>
 
-      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#1a1a1a', lineHeight: '1.7' }}>
+      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#111827', lineHeight: '1.7' }}>
         <Link href="/blog" style={{ color: '#888', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
 
         <h1 style={{ fontSize: '2rem', fontWeight: '700', marginTop: '24px', marginBottom: '8px', lineHeight: '1.2' }}>
@@ -160,10 +160,10 @@ For each step: what tool handles it, what the email says (summary), and what con
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Stop building templates from scratch</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Freelancer Automation Kit</strong> includes 100+ pre-built AI prompts for client follow-up, proposals, invoicing, onboarding, and every repetitive task that eats your day. Works with ChatGPT, Claude, and any LLM. $39 one-time.</p>
-          <a href="https://buy.stripe.com/14k4gycmvePreZ26oqcMM0e" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+          <a href="https://buy.stripe.com/14k4gycmvePreZ26oqcMM0e" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Freelancer Kit &mdash; $39
           </a>
         </div>
@@ -257,7 +257,7 @@ Rules:
         <div style={{ overflowX: 'auto', marginBottom: '24px' }}>
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '15px' }}>
             <thead>
-              <tr style={{ borderBottom: '2px solid #1a1a1a' }}>
+              <tr style={{ borderBottom: '2px solid #111827' }}>
                 <th style={{ textAlign: 'left', padding: '12px 16px' }}>Metric</th>
                 <th style={{ textAlign: 'center', padding: '12px 16px' }}>Manual Follow-Up</th>
                 <th style={{ textAlign: 'center', padding: '12px 16px' }}>AI-Automated</th>
@@ -333,17 +333,17 @@ Rules:
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get all follow-up templates pre-built</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>Stop writing prompts from scratch. The <strong>Freelancer Automation Kit</strong> and <strong>Small Business AI Kit</strong> include every follow-up template in this article plus hundreds more &mdash; proposals, onboarding, invoicing, re-engagement, client management. Ready to customize, works with any AI tool.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
-            <a href="https://buy.stripe.com/14k4gycmvePreZ26oqcMM0e" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/14k4gycmvePreZ26oqcMM0e" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Freelancer Kit &mdash; $39
             </a>
-            <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Small Business Kit &mdash; $39
             </a>
-            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#1a1a1a', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               All Kits Bundle &mdash; $97
             </a>
           </div>
@@ -353,7 +353,7 @@ Rules:
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <p style={{ color: '#888', fontSize: '14px' }}>
-          <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#b8860b' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#b8860b' }}>iam@armando.mx</a>.</em>
+          <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#3B5FFF' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#3B5FFF' }}>iam@armando.mx</a>.</em>
         </p>
       </div>
     </Layout>

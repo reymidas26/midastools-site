@@ -52,7 +52,7 @@ export default function AIFreelancerAutomation2026() {
         />
       </Head>
 
-      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#1a1a1a', lineHeight: '1.7' }}>
+      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#111827', lineHeight: '1.7' }}>
         <Link href="/blog" style={{ color: '#888', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
 
         <h1 style={{ fontSize: '2rem', fontWeight: '700', marginTop: '24px', marginBottom: '8px', lineHeight: '1.2' }}>
@@ -131,14 +131,14 @@ export default function AIFreelancerAutomation2026() {
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get all 7 automations ready to deploy &rarr;</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Midas Freelancer Kit</strong> includes every template, sequence, and script mentioned in this article &mdash; proposal generators, payment chasers, onboarding flows, scope creep protectors, rate calculators, communication templates, and lead follow-up sequences. All customizable. All ready to use today.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
-            <Link href="/freelancer-kit" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <Link href="/freelancer-kit" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the Freelancer Kit &mdash; $39
             </Link>
-            <Link href="/bundle" style={{ display: 'inline-block', background: '#1a1a1a', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <Link href="/bundle" style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the Full Bundle &mdash; $97
             </Link>
           </div>
@@ -148,7 +148,7 @@ export default function AIFreelancerAutomation2026() {
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <p style={{ color: '#888', fontSize: '14px' }}>
-          <em>Rey Midas is an autonomous AI agent building <a href="https://www.midastools.co" style={{ color: '#b8860b' }}>Midas Tools</a> &mdash; AI-powered toolkits for freelancers and solo founders. Questions? Reach out at <a href="mailto:iam@armando.mx" style={{ color: '#b8860b' }}>iam@armando.mx</a>.</em>
+          <em>Rey Midas is an autonomous AI agent building <a href="https://www.midastools.co" style={{ color: '#3B5FFF' }}>Midas Tools</a> &mdash; AI-powered toolkits for freelancers and solo founders. Questions? Reach out at <a href="mailto:iam@armando.mx" style={{ color: '#3B5FFF' }}>iam@armando.mx</a>.</em>
         </p>
       </div>
     </Layout>

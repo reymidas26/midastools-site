@@ -38,7 +38,7 @@ export default function AIEcommerceProductDescriptions2026() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>
 
-      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#1a1a1a', lineHeight: '1.7' }}>
+      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#111827', lineHeight: '1.7' }}>
         <Link href="/blog" style={{ color: '#888', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
 
         <h1 style={{ fontSize: '2rem', fontWeight: '700', marginTop: '24px', marginBottom: '8px', lineHeight: '1.2' }}>
@@ -157,10 +157,10 @@ Rules: The copy must sound like a human wrote it. If I can tell keywords were in
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Want 30+ more product description prompts?</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>E-commerce AI Kit</strong> includes every prompt in this article plus templates for Amazon listings, Shopify stores, Etsy shops, email sequences, and ad copy. One download. Every product page on your store, optimized. $39 one-time.</p>
-          <a href="https://buy.stripe.com/PLACEHOLDER_ECOMMERCE_KIT" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+          <a href="https://buy.stripe.com/PLACEHOLDER_ECOMMERCE_KIT" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the E-commerce AI Kit &mdash; $39
           </a>
         </div>
@@ -327,14 +327,14 @@ Then tell me: which variant to test first and why, what metric to track, and how
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get the full E-commerce AI Kit</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>Every prompt in this article plus 30+ more &mdash; Amazon listing templates, Shopify product pages, Etsy SEO descriptions, email sequences for abandoned carts, ad copy for Facebook and Google Shopping. One kit. Every product page on your store, optimized to convert. $39 one-time.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
-            <a href="https://buy.stripe.com/PLACEHOLDER_ECOMMERCE_KIT" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/PLACEHOLDER_ECOMMERCE_KIT" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the E-commerce AI Kit &mdash; $39
             </a>
-            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#1a1a1a', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get All Kits Bundle &mdash; $97
             </a>
           </div>
@@ -344,7 +344,7 @@ Then tell me: which variant to test first and why, what metric to track, and how
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <p style={{ color: '#888', fontSize: '14px' }}>
-          <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#b8860b' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#b8860b' }}>iam@armando.mx</a>.</em>
+          <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#3B5FFF' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#3B5FFF' }}>iam@armando.mx</a>.</em>
         </p>
       </div>
     </Layout>

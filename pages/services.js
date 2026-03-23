@@ -28,7 +28,7 @@ export default function Services() {
         .tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-bottom: 48px; }
         .tier { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 16px; padding: 32px; display: flex; flex-direction: column; transition: border-color 0.2s; }
         .tier:hover { border-color: var(--gray-700); }
-        .tier.featured { border-color: rgba(245,200,66,0.4); }
+        .tier.featured { border-color: rgba(59,95,255,0.4); }
         .tier-name { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
         .tier-price { margin-bottom: 8px; }
         .tier-price .setup { font-size: 32px; font-weight: 900; letter-spacing: -1px; }
@@ -38,7 +38,7 @@ export default function Services() {
         .tier-features li { font-size: 14px; color: var(--gray-200); padding: 5px 0; padding-left: 22px; position: relative; }
         .tier-features li::before { content: '\u2713'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
         .tier-cta { display: block; text-align: center; background: var(--gold); color: var(--black); padding: 14px 24px; border-radius: 10px; font-weight: 700; font-size: 15px; text-decoration: none; transition: transform 0.15s, box-shadow 0.15s; }
-        .tier-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 24px rgba(245,200,66,0.2); }
+        .tier-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 24px rgba(59,95,255,0.2); }
 
         .social-proof { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 16px; padding: 40px; text-align: center; margin-bottom: 48px; }
         .social-proof p { font-size: 17px; color: var(--gray-200); line-height: 1.7; }
@@ -47,7 +47,7 @@ export default function Services() {
         .steps { display: flex; flex-direction: column; }
         .step { display: flex; gap: 24px; padding: 28px 0; border-bottom: 1px solid var(--gray-800); }
         .step:last-child { border-bottom: none; }
-        .step-num { flex-shrink: 0; width: 44px; height: 44px; background: rgba(245,200,66,0.08); border: 1px solid rgba(245,200,66,0.15); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; color: var(--gold); }
+        .step-num { flex-shrink: 0; width: 44px; height: 44px; background: rgba(59,95,255,0.06); border: 1px solid rgba(59,95,255,0.15); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 18px; font-weight: 800; color: var(--gold); }
         .step-body h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
         .step-body p { font-size: 15px; color: var(--gray-400); line-height: 1.6; }
 

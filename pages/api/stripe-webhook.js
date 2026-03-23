@@ -206,7 +206,7 @@ function detectKit(session) {
 
 function buildBundleDownloadLinks(kit) {
   return kit.files.map(f =>
-    `<a href="https://www.midastools.co/${f.file}" style="display:block;background:#1a1a1a;border:1px solid #333;border-radius:8px;padding:14px 20px;margin-bottom:8px;color:#F5C842;font-weight:700;font-size:15px;text-decoration:none;">
+    `<a href="https://www.midastools.co/${f.file}" style="display:block;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:8px;padding:14px 20px;margin-bottom:8px;color:#3B5FFF;font-weight:700;font-size:15px;text-decoration:none;">
       ⬇ ${f.name}
     </a>`
   ).join('');
@@ -218,7 +218,7 @@ async function sendDownloadEmail(customerEmail, customerName, kit) {
 
   const downloadSection = isBundle
     ? `<p style="color:#ccc;font-size:15px;margin-bottom:16px;">Download each kit below:</p>${buildBundleDownloadLinks(kit)}`
-    : `<a href="${baseUrl}/${kit.file}" style="display:inline-block;background:#F5C842;color:#000;padding:16px 32px;border-radius:10px;font-weight:800;font-size:16px;text-decoration:none;margin-bottom:32px;">
+    : `<a href="${baseUrl}/${kit.file}" style="display:inline-block;background:#3B5FFF;color:#FFFFFF;padding:16px 32px;border-radius:10px;font-weight:800;font-size:16px;text-decoration:none;margin-bottom:32px;">
         ⬇ Download Your Kit
       </a>`;
 
@@ -227,20 +227,20 @@ async function sendDownloadEmail(customerEmail, customerName, kit) {
     to: customerEmail,
     subject: `👑 ${kit.subject}`,
     html: `
-      <div style="font-family: Inter, sans-serif; max-width: 560px; margin: 0 auto; background: #0A0A0A; color: #fff; padding: 40px; border-radius: 16px;">
-        <h1 style="font-size: 28px; font-weight: 900; color: #F5C842; margin-bottom: 8px;">You're in. 👑</h1>
-        <p style="color: #888; font-size: 16px; margin-bottom: 32px;">Thanks${customerName ? `, ${customerName}` : ''} — your ${kit.name} is ready to download.</p>
+      <div style="font-family: Inter, sans-serif; max-width: 560px; margin: 0 auto; background: #FFFFFF; color: #111827; padding: 40px; border-radius: 16px; border: 1px solid #E5E7EB;">
+        <h1 style="font-size: 28px; font-weight: 900; color: #3B5FFF; margin-bottom: 8px;">You're in!</h1>
+        <p style="color: #6B7280; font-size: 16px; margin-bottom: 32px;">Thanks${customerName ? `, ${customerName}` : ''} — your ${kit.name} is ready to download.</p>
 
         ${downloadSection}
 
-        <div style="background: #111; border: 1px solid #222; border-radius: 12px; padding: 24px; margin: 24px 0;">
-          <p style="color: #888; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">What's inside:</p>
-          <ul style="color: #ccc; font-size: 15px; padding-left: 20px; line-height: 1.8;">
+        <div style="background: #F9FAFB; border: 1px solid #E5E7EB; border-radius: 12px; padding: 24px; margin: 24px 0;">
+          <p style="color: #6B7280; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">What's inside:</p>
+          <ul style="color: #374151; font-size: 15px; padding-left: 20px; line-height: 1.8;">
             ${kit.items.map(item => `<li>${item}</li>`).join('')}
           </ul>
         </div>
 
-        <p style="color: #555; font-size: 13px;">
+        <p style="color: #9CA3AF; font-size: 13px;">
           Questions? Just reply to this email — we respond within 24 hours.<br/>
           30-day money-back guarantee, no questions asked.
         </p>

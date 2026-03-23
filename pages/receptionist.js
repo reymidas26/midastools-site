@@ -28,7 +28,7 @@ function LeadForm() {
   };
 
   if (sent) return (
-    <div style={{background:'rgba(245,200,66,0.1)',border:'1px solid rgba(245,200,66,0.3)',borderRadius:12,padding:'32px 24px'}}>
+    <div style={{background:'rgba(59,95,255,0.08)',border:'1px solid rgba(59,95,255,0.25)',borderRadius:12,padding:'32px 24px'}}>
       <div style={{fontSize:32,marginBottom:8}}>✅</div>
       <div style={{fontSize:18,fontWeight:700,marginBottom:8}}>You're on the list!</div>
       <div style={{color:'var(--gray-400)',fontSize:15}}>We'll send your custom AI receptionist script within 24 hours. Check your inbox.</div>
@@ -43,7 +43,7 @@ function LeadForm() {
         value={biz}
         onChange={e => setBiz(e.target.value)}
         required
-        style={{padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'#fff',fontSize:15,outline:'none'}}
+        style={{padding:'14px 16px',borderRadius:10,border:'1px solid var(--border)',background:'var(--surface)',color:'var(--text)',fontSize:15,outline:'none'}}
       />
       <input
         type='email'
@@ -51,7 +51,7 @@ function LeadForm() {
         value={email}
         onChange={e => setEmail(e.target.value)}
         required
-        style={{padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'#fff',fontSize:15,outline:'none'}}
+        style={{padding:'14px 16px',borderRadius:10,border:'1px solid var(--border)',background:'var(--surface)',color:'var(--text)',fontSize:15,outline:'none'}}
       />
       <button
         type='submit'
@@ -112,7 +112,7 @@ export default function Receptionist() {
       </Head>
       <style>{`
         .hero{max-width:820px;margin:0 auto;padding:80px 40px 64px;text-align:center}
-        .badge-rec{display:inline-block;background:rgba(245,200,66,0.08);border:1px solid rgba(245,200,66,0.2);color:var(--gold);padding:6px 16px;border-radius:100px;font-size:12px;font-weight:600;margin-bottom:32px}
+        .badge-rec{display:inline-block;background:rgba(59,95,255,0.06);border:1px solid rgba(59,95,255,0.2);color:var(--gold);padding:6px 16px;border-radius:100px;font-size:12px;font-weight:600;margin-bottom:32px}
         h1{font-size:clamp(34px,5.5vw,62px);font-weight:900;line-height:1.05;letter-spacing:-2px;margin-bottom:24px}
         h1 span{color:var(--gold)}
         .hero-sub{font-size:20px;color:var(--gray-400);max-width:600px;margin:0 auto 48px;line-height:1.6}
@@ -149,10 +149,10 @@ export default function Receptionist() {
         .price-list li:before{content:"✓";color:var(--gold);font-weight:700;flex-shrink:0}
         .how-it-works{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-bottom:80px}
         .step{text-align:center}
-        .step-num{width:48px;height:48px;background:rgba(245,200,66,0.12);border:1px solid rgba(245,200,66,0.3);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:18px;font-weight:900;color:var(--gold)}
+        .step-num{width:48px;height:48px;background:rgba(59,95,255,0.1);border:1px solid rgba(59,95,255,0.25);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:18px;font-weight:900;color:var(--gold)}
         .step h3{font-size:16px;font-weight:700;margin-bottom:8px}
         .step p{color:var(--gray-400);font-size:14px;line-height:1.5}
-        .roi-box{background:linear-gradient(135deg,rgba(245,200,66,0.08),rgba(245,200,66,0.02));border:1px solid rgba(245,200,66,0.2);border-radius:20px;padding:48px;margin-bottom:80px}
+        .roi-box{background:linear-gradient(135deg,rgba(59,95,255,0.06),rgba(59,95,255,0.02));border:1px solid rgba(59,95,255,0.2);border-radius:20px;padding:48px;margin-bottom:80px}
         .roi-box h2{margin-bottom:8px}
         .roi-box p{color:var(--gray-400);margin-bottom:32px}
         .roi-math{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
@@ -323,7 +323,7 @@ export default function Receptionist() {
             Book a Setup Call →
           </a>
           <p style={{marginTop:16,fontSize:13,color:'var(--gray-400)'}}>Up to 300 min/month included. Overages billed at $0.05/min.</p>
-          <div style={{marginTop:24,padding:'16px 20px',background:'rgba(245,200,66,0.08)',borderRadius:10,fontSize:14,color:'var(--gold)',fontWeight:600}}>
+          <div style={{marginTop:24,padding:'16px 20px',background:'rgba(59,95,255,0.06)',borderRadius:10,fontSize:14,color:'var(--gold)',fontWeight:600}}>
             💡 Most clients recover the full cost with just 1 extra appointment per month
           </div>
         </div>
@@ -352,11 +352,11 @@ export default function Receptionist() {
             <div key={i} style={{display:'flex',gap:16,marginBottom:16,alignItems:'flex-start'}}>
               <span style={{
                 minWidth:60,fontSize:11,fontWeight:700,padding:'3px 8px',borderRadius:4,textAlign:'center',
-                background: line.who === 'AI' ? 'rgba(245,200,66,0.15)' : 'rgba(255,255,255,0.08)',
-                color: line.who === 'AI' ? 'var(--gold)' : '#ccc',
+                background: line.who === 'AI' ? 'rgba(59,95,255,0.15)' : 'rgba(0,0,0,0.05)',
+                color: line.who === 'AI' ? 'var(--accent)' : 'var(--text-secondary)',
                 fontFamily:'Inter,sans-serif'
               }}>{line.who === 'AI' ? '🤖 AI' : '👤 You'}</span>
-              <span style={{fontSize:14,lineHeight:1.6,color: line.who === 'AI' ? '#fff' : '#aaa'}}>{line.text}</span>
+              <span style={{fontSize:14,lineHeight:1.6,color: line.who === 'AI' ? 'var(--text)' : 'var(--text-secondary)'}}>{line.text}</span>
             </div>
           ))}
           <div style={{marginTop:24,paddingTop:16,borderTop:'1px solid var(--gray-800)',fontSize:13,color:'var(--gray-400)',textAlign:'center'}}>
@@ -402,11 +402,11 @@ export default function Receptionist() {
             <div key={row.feature} style={{display:'contents'}}>
               <div style={{padding:'16px 24px',borderBottom: i < 5 ? '1px solid var(--gray-800)' : 'none',borderRight:'1px solid var(--gray-800)',background:'var(--gray-900)'}}>
                 <div style={{fontSize:11,fontWeight:700,color:'var(--gray-400)',textTransform:'uppercase',letterSpacing:1,marginBottom:4}}>{row.feature}</div>
-                <div style={{fontSize:14,color:'#999'}}>{row.them}</div>
+                <div style={{fontSize:14,color:'var(--text-secondary)'}}>{row.them}</div>
               </div>
-              <div style={{padding:'16px 24px',borderBottom: i < 5 ? '1px solid var(--gray-800)' : 'none',background:'rgba(245,200,66,0.03)'}}>
-                <div style={{fontSize:11,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1,marginBottom:4}}>Midas</div>
-                <div style={{fontSize:14,color:'#fff',fontWeight:600}}>{row.us}</div>
+              <div style={{padding:'16px 24px',borderBottom: i < 5 ? '1px solid var(--gray-800)' : 'none',background:'rgba(59,95,255,0.04)'}}>
+                <div style={{fontSize:11,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',letterSpacing:1,marginBottom:4}}>Midas</div>
+                <div style={{fontSize:14,color:'var(--text)',fontWeight:600}}>{row.us}</div>
               </div>
             </div>
           ))}

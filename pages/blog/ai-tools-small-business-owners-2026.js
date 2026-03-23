@@ -38,7 +38,7 @@ export default function AIToolsSmallBusinessOwners2026() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </Head>
 
-      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#1a1a1a', lineHeight: '1.7' }}>
+      <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#111827', lineHeight: '1.7' }}>
         <Link href="/blog" style={{ color: '#888', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
 
         <h1 style={{ fontSize: '2rem', fontWeight: '700', marginTop: '24px', marginBottom: '8px', lineHeight: '1.2' }}>
@@ -182,10 +182,10 @@ Also create 5 proactive messages:
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Want all of these prompts (and 50+ more) ready to use?</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes every prompt in this article plus complete workflows for marketing, operations, hiring, and customer service &mdash; all customized for small business owners. $39 one-time.</p>
-          <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+          <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Small Business AI Kit &mdash; $39
           </a>
         </div>
@@ -319,14 +319,14 @@ Then create a master checklist: "Daily Operations Checklist" that combines the k
         <p>All five of the capabilities in this article &mdash; social media, email marketing, customer service, hiring, and operations &mdash; come pre-loaded in the <strong>Small Business AI Kit</strong>. Every prompt tested. Every workflow documented. Every template ready to customize with your business details and run immediately.</p>
         <p>You could spend the next month building all of this yourself. Or you could have it running by tonight.</p>
 
-        <div style={{ marginTop: '48px', padding: '32px', background: '#fffbf0', border: '1px solid #f0d060', borderRadius: '8px' }}>
+        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Get every tool in this article &mdash; ready to use today</h3>
           <p style={{ margin: '0 0 16px', color: '#555', fontSize: '15px' }}>The <strong>Small Business AI Kit</strong> includes 75+ tested prompts and workflows for marketing, operations, hiring, and customer service. Built specifically for small business owners who do not have time to waste. <strong>$39 one-time.</strong></p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>
-            <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#b8860b', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/3cIaEW6SbcHfed6egicMM0c" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get the Small Business AI Kit &mdash; $39
             </a>
-            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#1a1a1a', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
+            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
               Get All 8 Kits &mdash; $97
             </a>
           </div>
@@ -336,7 +336,7 @@ Then create a master checklist: "Daily Operations Checklist" that combines the k
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <p style={{ color: '#888', fontSize: '14px' }}>
-          <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#b8860b' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#b8860b' }}>iam@armando.mx</a>.</em>
+          <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#3B5FFF' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#3B5FFF' }}>iam@armando.mx</a>.</em>
         </p>
       </div>
     </Layout>

@@ -192,7 +192,7 @@ export default function EcommerceKit() {
 
       {/* ROI / Stats */}
       <section>
-        <div style={{background:'rgba(245,200,66,0.04)',border:'1px solid rgba(245,200,66,0.15)',borderRadius:20,padding:48,textAlign:'center'}}>
+        <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:20,padding:48,textAlign:'center'}}>
           <h2>The Math <span>Speaks for Itself</span></h2>
           <p style={{color:'var(--gray-400)',fontSize:16,marginBottom:32}}>One kit. Endless content. No monthly fees.</p>
           <div style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:16,maxWidth:560,margin:'0 auto'}}>
@@ -214,7 +214,7 @@ export default function EcommerceKit() {
 
       {/* Pricing */}
       <section>
-        <div style={{background:'var(--gray-900)',border:'2px solid rgba(245,200,66,0.4)',borderRadius:20,padding:48,textAlign:'center',maxWidth:500,margin:'0 auto'}}>
+        <div style={{background:'var(--gray-900)',border:'2px solid rgba(59,95,255,0.4)',borderRadius:20,padding:48,textAlign:'center',maxWidth:500,margin:'0 auto'}}>
           <div className="badge" style={{marginBottom:20}}>E-commerce Edition</div>
           <h2 style={{marginBottom:8}}>E-commerce AI Kit</h2>
           <div style={{fontSize:48,fontWeight:900,color:'var(--gold)',margin:'16px 0 4px'}}>$39</div>
@@ -261,7 +261,7 @@ export default function EcommerceKit() {
 
       {/* Bundle Upsell */}
       <section style={{paddingTop:0}}>
-        <div style={{background:'rgba(245,200,66,0.04)',border:'1px solid rgba(245,200,66,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
+        <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
           <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Best Value</div>
           <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Get all AI kits for $97</p>
           <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + Starter Kit + Small Business Kit + Real Estate Kit + Content Creator Kit + Freelancer Kit &mdash; plus every future kit free.</p>
@@ -278,7 +278,7 @@ export default function EcommerceKit() {
           <h2 style={{fontSize:26,marginBottom:16}}>Get a Free <span>Product Description Template</span></h2>
           <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:32,lineHeight:1.6}}>See how the kit works. We'll send you an AI product description generator &mdash; free.</p>
           {sent ? (
-            <div style={{background:'rgba(245,200,66,0.08)',border:'1px solid rgba(245,200,66,0.2)',borderRadius:12,padding:'24px'}}>
+            <div style={{background:'rgba(59,95,255,0.08)',border:'1px solid rgba(59,95,255,0.2)',borderRadius:12,padding:'24px'}}>
               <div style={{fontSize:18,fontWeight:700,marginBottom:8}}>Check your inbox!</div>
               <div style={{color:'var(--gray-400)',fontSize:15}}>Your free product description template is on its way.</div>
             </div>
@@ -290,12 +290,12 @@ export default function EcommerceKit() {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 required
-                style={{flex:1,padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'#fff',fontSize:15,outline:'none',fontFamily:'inherit'}}
+                style={{flex:1,padding:'14px 16px',borderRadius:10,border:'1px solid var(--gray-700)',background:'var(--gray-800)',color:'var(--text)',fontSize:15,outline:'none',fontFamily:'inherit'}}
               />
               <button
                 type="submit"
                 disabled={loading}
-                style={{background:'var(--gold)',color:'var(--black)',padding:'14px 24px',borderRadius:10,border:'none',fontSize:15,fontWeight:800,cursor:'pointer',whiteSpace:'nowrap',fontFamily:'inherit'}}
+                style={{background:'var(--gold)',color:'#FFFFFF',padding:'14px 24px',borderRadius:10,border:'none',fontSize:15,fontWeight:800,cursor:'pointer',whiteSpace:'nowrap',fontFamily:'inherit'}}
               >
                 {loading ? '...' : 'Send It \u2192'}
               </button>

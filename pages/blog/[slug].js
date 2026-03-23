@@ -633,14 +633,14 @@ export default function BlogPost({ post }) {
         .container{max-width:680px;margin:0 auto;padding:80px 40px}
         .post-date{font-size:13px;color:#888;margin-bottom:16px}
         h1{font-size:clamp(28px,4vw,44px);font-weight:900;letter-spacing:-1px;margin-bottom:40px;line-height:1.1}
-        .prose p{font-size:17px;line-height:1.75;color:#ccc;margin-bottom:20px}
-        .prose h2{font-size:24px;font-weight:800;margin:40px 0 16px;color:#fff}
-        .prose strong{color:#fff}
-        .prose a{color:#F5C842}
-        .prose blockquote{border-left:3px solid #F5C842;padding-left:20px;color:#888;font-style:italic;margin:24px 0}
-        .cta-inline{background:rgba(245,200,66,0.08);border:1px solid rgba(245,200,66,0.2);border-radius:12px;padding:32px;text-align:center;margin:48px 0}
-        .cta-inline p{color:#888;margin-bottom:16px}
-        .cta-inline a{display:inline-block;background:#F5C842;color:#000;padding:14px 32px;border-radius:8px;font-weight:800;text-decoration:none;font-size:16px}
+        .prose p{font-size:17px;line-height:1.75;color:var(--text-secondary);margin-bottom:20px}
+        .prose h2{font-size:24px;font-weight:800;margin:40px 0 16px;color:var(--text)}
+        .prose strong{color:var(--text)}
+        .prose a{color:var(--accent)}
+        .prose blockquote{border-left:3px solid var(--accent);padding-left:20px;color:var(--text-secondary);font-style:italic;margin:24px 0}
+        .cta-inline{background:rgba(59,95,255,0.06);border:1px solid rgba(59,95,255,0.2);border-radius:12px;padding:32px;text-align:center;margin:48px 0}
+        .cta-inline p{color:var(--text-secondary);margin-bottom:16px}
+        .cta-inline a{display:inline-block;background:var(--accent);color:#FFFFFF;padding:14px 32px;border-radius:8px;font-weight:800;text-decoration:none;font-size:16px}
       `}</style>
       <div className="container">
         <div className="post-date">{post.date}</div>
@@ -656,7 +656,7 @@ export default function BlogPost({ post }) {
         <div className="cta-inline">
           <p>Get every AI template, workflow, and prompt we make — in one bundle.</p>
           <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g">Get All 8 Kits — $97 (Save 68%) →</a>
-          <p style={{marginTop:12,fontSize:13,color:'#666'}}>Or start with the <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{color:'#F5C842'}}>Starter Kit — $29</a></p>
+          <p style={{marginTop:12,fontSize:13,color:'var(--text-tertiary)'}}>Or start with the <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{color:'var(--accent)'}}>Starter Kit — $29</a></p>
         </div>
       </div>
     </Layout>

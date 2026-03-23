@@ -81,14 +81,14 @@ export default function ThankYou() {
         .dl-box { background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 16px; padding: 32px; margin-bottom: 32px; }
         .dl-box h2 { font-size: 18px; font-weight: 700; margin-bottom: 8px; }
         .dl-box p { font-size: 14px; color: var(--gray-400); margin-bottom: 24px; }
-        .dl-btn { display: inline-block; background: var(--gold); color: #000; padding: 16px 36px; border-radius: 10px; font-size: 16px; font-weight: 800; text-decoration: none; }
+        .dl-btn { display: inline-block; background: var(--gold); color: #FFFFFF; padding: 16px 36px; border-radius: 10px; font-size: 16px; font-weight: 800; text-decoration: none; }
         .dl-btn:hover { opacity: 0.9; }
         .bundle-link { display: block; background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 10px; padding: 14px 20px; margin-bottom: 8px; color: var(--gold); font-weight: 700; font-size: 15px; text-decoration: none; text-align: left; transition: border-color 0.2s; }
         .bundle-link:hover { border-color: var(--gold); }
         .checklist { text-align: left; background: var(--gray-900); border: 1px solid var(--gray-800); border-radius: 16px; padding: 28px; margin-bottom: 32px; }
         .checklist h3 { font-size: 15px; font-weight: 700; color: var(--gray-400); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px; }
         .checklist ul { list-style: none; }
-        .checklist li { font-size: 15px; padding: 6px 0; color: #ccc; }
+        .checklist li { font-size: 15px; padding: 6px 0; color: var(--text-secondary); }
         .checklist li::before { content: "\\2713  "; color: var(--gold); font-weight: 700; }
         .ty-note { font-size: 13px; color: var(--gray-500); }
         .ty-note a { color: var(--gray-400); }
@@ -123,7 +123,7 @@ export default function ThankYou() {
         </div>
 
         {!isBundle && (
-          <div style={{background:'rgba(245,200,66,0.06)',border:'1px solid rgba(245,200,66,0.2)',borderRadius:12,padding:'20px 24px',marginBottom:24,textAlign:'left'}}>
+          <div style={{background:'rgba(59,95,255,0.06)',border:'1px solid rgba(59,95,255,0.2)',borderRadius:12,padding:'20px 24px',marginBottom:24,textAlign:'left'}}>
             <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 8 kits? Save 68%</p>
             <p style={{fontSize:14,color:'var(--gray-400)',lineHeight:1.5}}>Get the <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style={{color:'var(--gold)',fontWeight:700}}>Complete Bundle for $97</a> — includes every kit plus all future releases free.</p>
           </div>
