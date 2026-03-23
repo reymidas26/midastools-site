@@ -44,7 +44,7 @@ export default function Bundle() {
         </p>
 
         <div style={{display:'inline-flex',alignItems:'baseline',gap:16,marginBottom:40}}>
-          <span style={{fontSize:22,color:'var(--gray-400)',textDecoration:'line-through',fontWeight:700}}>$156</span>
+          <span style={{fontSize:22,color:'var(--gray-400)',textDecoration:'line-through',fontWeight:700}}>$195</span>
           <span style={{fontSize:48,fontWeight:900,color:'var(--gold)',letterSpacing:-2}}>$97</span>
         </div>
 
@@ -57,7 +57,7 @@ export default function Bundle() {
       {/* What's Included */}
       <section style={{paddingTop:0}}>
         <div className="section-label">What's Included</div>
-        <h2>4 complete kits + lifetime updates</h2>
+        <h2>5 complete kits + lifetime updates</h2>
         <p style={{color:'var(--gray-400)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Everything you need to automate your business, your content, and your client pipeline.</p>
 
         <div className="kits-grid">
@@ -85,6 +85,12 @@ export default function Bundle() {
               desc: 'Win more clients, automate invoices, and protect your margins. Built for service-based freelancers.',
               link: '/freelancer-kit',
               items: ['Client proposal generator', 'Invoice & payment chaser', 'Client onboarding system', 'Scope creep protector', 'Rate calculator & scripts'],
+            },
+            {
+              abbr: 'SB', name: 'Small Business AI Kit', price: '$39',
+              desc: 'Automate social media, email marketing, customer service, hiring, and daily operations for any small business.',
+              link: '/small-business-kit',
+              items: ['Social media content engine', 'Email marketing templates', 'Customer service scripts', 'Hiring & HR templates', 'Sales follow-up sequences'],
             },
           ].map(kit => (
             <div key={kit.name} className="kit-card">
@@ -127,13 +133,14 @@ export default function Bundle() {
               { label: 'Real Estate Kit', ind: '$49', bun: '\u2713' },
               { label: 'Content Creator Kit', ind: '$39', bun: '\u2713' },
               { label: 'Freelancer Kit', ind: '$39', bun: '\u2713' },
+              { label: 'Small Business Kit', ind: '$39', bun: '\u2713' },
               { label: 'Future kits', ind: 'Extra cost', bun: 'Included' },
-              { label: 'Total', ind: '$156+', bun: '$97' },
+              { label: 'Total', ind: '$195+', bun: '$97' },
             ].map((row, i) => (
               <div key={row.label} style={{display:'contents'}}>
-                <div style={{padding:'12px 20px',borderBottom: i < 5 ? '1px solid var(--gray-800)' : 'none',borderRight:'1px solid var(--gray-800)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400}}>{row.label}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 5 ? '1px solid var(--gray-800)' : 'none',borderRight:'1px solid var(--gray-800)',fontSize:14,textAlign:'center',color:'var(--gray-400)'}}>{row.ind}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 5 ? '1px solid var(--gray-800)' : 'none',background:'rgba(245,200,66,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--gold)' : '#fff',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 6 ? '1px solid var(--gray-800)' : 'none',borderRight:'1px solid var(--gray-800)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400}}>{row.label}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 6 ? '1px solid var(--gray-800)' : 'none',borderRight:'1px solid var(--gray-800)',fontSize:14,textAlign:'center',color:'var(--gray-400)'}}>{row.ind}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 6 ? '1px solid var(--gray-800)' : 'none',background:'rgba(245,200,66,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--gold)' : '#fff',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
               </div>
             ))}
           </div>
@@ -146,16 +153,17 @@ export default function Bundle() {
           <div className="badge" style={{marginBottom:20}}>Best Value</div>
           <h2 style={{marginBottom:8}}>The Complete AI Toolkit</h2>
           <div style={{display:'flex',alignItems:'baseline',justifyContent:'center',gap:16,margin:'16px 0 4px'}}>
-            <span style={{fontSize:24,color:'var(--gray-400)',textDecoration:'line-through',fontWeight:700}}>$156</span>
+            <span style={{fontSize:24,color:'var(--gray-400)',textDecoration:'line-through',fontWeight:700}}>$195</span>
             <span style={{fontSize:48,fontWeight:900,color:'var(--gold)'}}>$97</span>
           </div>
-          <div style={{color:'var(--gray-400)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 4 kits + future kits free</div>
+          <div style={{color:'var(--gray-400)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 5 kits + future kits free</div>
           <ul style={{listStyle:'none',textAlign:'left',marginBottom:32}}>
             {[
               'OpenClaw Entrepreneur Starter Kit ($29 value)',
               'Real Estate AI Agent Kit ($49 value)',
               'Content Creator AI Kit ($39 value)',
               'Freelancer Automation Kit ($39 value)',
+              'Small Business AI Kit ($39 value)',
               'All future niche kits — included free',
               'Lifetime updates on all products',
               '30-day money-back guarantee',
@@ -177,9 +185,9 @@ export default function Bundle() {
         <h2>Questions</h2>
         <div style={{display:'flex',flexDirection:'column',gap:24}}>
           {[
-            { q: 'What exactly do I get?', a: 'Four complete AI kits (Starter, Real Estate, Content Creator, Freelancer) delivered as a ZIP file. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, or any AI tool. No software to install.' },
-            { q: 'What are "future kits"?', a: 'We release new niche AI kits regularly (E-commerce Kit, Small Business Kit, etc.). Bundle buyers get every new kit automatically at no extra cost, delivered to the same email.' },
-            { q: 'Do I need all four kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want the Starter Kit plus at least one niche kit — or if you want access to every future kit we release.' },
+            { q: 'What exactly do I get?', a: 'Five complete AI kits (Starter, Real Estate, Content Creator, Freelancer, Small Business) delivered as a ZIP file. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, or any AI tool. No software to install.' },
+            { q: 'What are "future kits"?', a: 'We release new niche AI kits regularly. Bundle buyers get every new kit automatically at no extra cost, delivered to the same email.' },
+            { q: 'Do I need all five kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want the Starter Kit plus at least one niche kit — or if you want access to every future kit we release.' },
             { q: 'Can I share this with my team?', a: 'The license is for one person. For team licenses, email iam@armando.mx and we will set up a custom plan.' },
             { q: 'What if it doesn\'t work for me?', a: '30-day full refund, no questions asked. Email iam@armando.mx.' },
           ].map(f => (

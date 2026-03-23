@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'ai-small-business-automation-2026', title: '9 AI Automations That Save Small Businesses 20+ Hours Per Week', date: 'Mar 22, 2026', desc: 'The specific AI templates and workflows small business owners are using in 2026 to automate social media, email, hiring, customer service, and daily operations.' },
   { slug: 'ai-tools-small-business-owners-2026', title: '5 AI Tools That Are Printing Money for Small Business Owners in 2026', date: 'Mar 22, 2026', desc: 'Small business owners using AI report 20-40% productivity gains. Here are the 5 tools actually driving revenue — with real numbers, not hype.' },
   { slug: 'automate-client-follow-up-ai', title: 'How to Automate Client Follow-Up with AI (No Code Required)', date: 'Mar 22, 2026', desc: 'Every slow follow-up is a lost sale. Here is how to deploy an AI agent that responds to every lead in under 2 minutes — 24/7, no code needed.' },
   { slug: 'ai-freelancer-automation-2026', title: '7 AI Automations Every Freelancer Needs in 2026 (Save 15+ Hours/Week)', date: 'Mar 22, 2026', desc: '77% of freelancers now use AI tools. The ones who automate proposals, invoicing, and client management are earning more while working less. Here are the 7 automations that matter most.' },

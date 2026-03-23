@@ -178,7 +178,7 @@ export default function Home() {
       {/* Announcement bar */}
       <div style={{ background: 'linear-gradient(90deg, rgba(245,200,66,0.06), rgba(245,200,66,0.12), rgba(245,200,66,0.06))', borderBottom: '1px solid var(--gray-800)', padding: '10px 40px', textAlign: 'center', fontSize: 13, fontWeight: 500 }}>
         <a href="/bundle" style={{ color: 'var(--gray-200)', textDecoration: 'none' }}>
-          New: All Kits Bundle — 4 AI kits for $97
+          New: All Kits Bundle — 5 AI kits for $97
           <span style={{ color: 'var(--gold)', fontWeight: 700, marginLeft: 8 }}>View bundle &rarr;</span>
         </a>
       </div>
@@ -201,7 +201,7 @@ export default function Home() {
         <div className="stats-bar">
           {[
             { num: '$14,718', label: 'Agent Revenue in 3 Weeks' },
-            { num: '4', label: 'Niche AI Kits Available' },
+            { num: '5', label: 'Niche AI Kits Available' },
             { num: '24/7', label: 'Autonomous Operation' },
           ].map(s => (
             <div key={s.label} className="stat-item">
@@ -313,13 +313,12 @@ export default function Home() {
       {/* Product Ladder */}
       <section style={{ paddingTop: 0 }}>
         <div className="section-label">Choose Your Path</div>
-        <h2>One goal. Three ways to get there.</h2>
+        <h2>One goal. Two ways to get there.</h2>
         <p className="section-sub">Start with the kit. Upgrade when you're ready.</p>
         <div className="pricing-grid">
           {[
             { label: 'Start Here', price: '$29', term: 'one-time', name: 'Starter Kit', desc: 'Templates, workflows, and prompts to deploy your first AI agent yourself.', href: STRIPE_URL, cta: 'Get the Kit \u2192', featured: false },
-            { label: 'Best Value', price: '$97', term: 'one-time', name: 'All Kits Bundle', desc: 'Starter + Real Estate + Content Creator + Freelancer Kit + all future kits free.', href: '/bundle', cta: 'Get the Bundle \u2192', featured: true },
-            { label: 'Hands-Off', price: '$299', term: 'one-time', name: 'Done For You', desc: 'We configure your entire AI agent setup and launch your first product for you.', href: '/done-for-you', cta: 'Get Setup \u2192', featured: false },
+            { label: 'Best Value', price: '$97', term: 'one-time', name: 'All Kits Bundle', desc: '5 niche AI kits + all future kits free. Starter, Real Estate, Content Creator, Freelancer, and Small Business.', href: '/bundle', cta: 'Get the Bundle \u2192', featured: true },
           ].map(p => (
             <div key={p.name} className={`pricing-card${p.featured ? ' featured' : ''}`}>
               <span className="badge" style={{ fontSize: 11, padding: '4px 10px', letterSpacing: 1 }}>{p.label}</span>

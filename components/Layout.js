@@ -186,10 +186,8 @@ export default function Layout({ children }) {
           <span className="logo-tools">TOOLS</span>
         </Link>
         <div className="nav-links">
-          <Link href="/services" className={`nav-link${path === '/services' ? ' active' : ''}`}>Services</Link>
+          <Link href="/kits" className={`nav-link${path === '/kits' ? ' active' : ''}`}>Kits</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
-          <Link href="/receptionist" className={`nav-link${path === '/receptionist' ? ' active' : ''}`}>AI Receptionist</Link>
-          <Link href="/done-for-you" className={`nav-link${path === '/done-for-you' ? ' active' : ''}`}>Done For You</Link>
           <Link href="/bundle" className="nav-cta">All Kits — $97</Link>
         </div>
         <button
@@ -203,13 +201,13 @@ export default function Layout({ children }) {
 
       <div className={`mobile-menu${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <Link href="/">Home</Link>
-        <Link href="/services">Services</Link>
-        <Link href="/receptionist">AI Receptionist</Link>
-        <Link href="/done-for-you">Done For You</Link>
+        <Link href="/kits">Kits</Link>
         <Link href="/blog">Blog</Link>
+        <Link href="/">Starter Kit</Link>
         <Link href="/real-estate-kit">Real Estate Kit</Link>
         <Link href="/content-creator-kit">Content Creator Kit</Link>
         <Link href="/freelancer-kit">Freelancer Kit</Link>
+        <Link href="/small-business-kit">Small Business Kit</Link>
         <Link href="/bundle" className="mobile-cta">Get All Kits — $97</Link>
       </div>
 
@@ -223,7 +221,7 @@ export default function Layout({ children }) {
               <span className="logo-dot">&middot;</span>
               <span className="logo-tools">TOOLS</span>
             </Link>
-            <p>AI automation tools and services for entrepreneurs and small businesses. Deploy AI that works 24/7 — so you can focus on what matters.</p>
+            <p>AI automation kits for entrepreneurs and small businesses. Deploy AI that works 24/7 — so you can focus on what matters.</p>
           </div>
           <div className="footer-col">
             <h4>Products</h4>
@@ -231,18 +229,16 @@ export default function Layout({ children }) {
             <Link href="/real-estate-kit">Real Estate Kit</Link>
             <Link href="/content-creator-kit">Creator Kit</Link>
             <Link href="/freelancer-kit">Freelancer Kit</Link>
+            <Link href="/small-business-kit">Small Business Kit</Link>
             <Link href="/bundle">All Kits Bundle</Link>
           </div>
           <div className="footer-col">
-            <h4>Services</h4>
-            <Link href="/receptionist">AI Receptionist</Link>
-            <Link href="/services">AI Sales Agent</Link>
-            <Link href="/done-for-you">Done For You</Link>
+            <h4>Resources</h4>
+            <Link href="/blog">Blog</Link>
             <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener">Book a Call</a>
           </div>
           <div className="footer-col">
             <h4>Company</h4>
-            <Link href="/blog">Blog</Link>
             <a href="mailto:iam@armando.mx">Contact</a>
           </div>
         </div>

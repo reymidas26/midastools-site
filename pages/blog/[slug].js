@@ -477,7 +477,7 @@ Your OpenAI system prompt: "You are an assistant for [Business Name]. A lead jus
 
 If you want to build it yourself, the tools above are all free to start.
 
-If you want it built for you — [that is what we do at Midas Tools](/services). Full follow-up automation, voice receptionist, and booking integration. Set up in a week.
+If you want every template and workflow ready to go — [grab the All Kits Bundle](/bundle). Follow-up automation, content repurposing, and client management. All in one package.
 
 **The cost of slow follow-up is real. The fix is a one-time setup.**
     `,
@@ -501,7 +501,7 @@ Here are the 7 tools top-producing agents are actually using right now — not t
 
 **The fix:** An AI agent that responds within 60 seconds with a personalized message referencing their specific inquiry, asks qualifying questions, and offers to schedule a showing.
 
-**Tools:** ChatGPT API + n8n automation, or a done-for-you service like [Midas Tools](/services).
+**Tools:** ChatGPT API + n8n automation, or grab the templates in our [Real Estate AI Kit](/real-estate-kit).
 
 **Impact:** Agents using instant AI response report 3-5x more booked showings from online leads.
 
@@ -539,9 +539,9 @@ Here are the 7 tools top-producing agents are actually using right now — not t
 
 **The problem:** Showing requests come in on Sunday mornings. Buyer inquiries hit your voicemail after 6 PM. You miss calls during closings and open houses.
 
-**The fix:** An [AI phone receptionist](/receptionist) that answers every call, qualifies the lead (buyer vs. seller, timeline, budget), and books showings directly on your calendar.
+**The fix:** An AI phone receptionist that answers every call, qualifies the lead (buyer vs. seller, timeline, budget), and books showings directly on your calendar.
 
-**Tools:** [Midas Tools AI Receptionist](/receptionist) — $499 setup + $299/mo. Or DIY with Vapi + Google Calendar.
+**Tools:** Vapi + Google Calendar for a DIY setup. Or use the call-handling templates in our [Real Estate AI Kit](/real-estate-kit).
 
 **Impact:** One recovered listing lead = $8,400 average commission. The service pays for itself with a single converted call.
 
@@ -575,7 +575,7 @@ AI is not going to replace real estate agents. But agents who use AI are going t
 
 We built the **[Real Estate AI Agent Kit](/real-estate-kit)** — $49, one-time purchase — with every template, prompt, and workflow mentioned in this article. Pre-built for how realtors actually work.
 
-Or if you want the full done-for-you setup including an AI phone receptionist, [book a call with our team](/services).
+Or get every kit we make — including the Starter Kit and all future kits — in the [All Kits Bundle for $97](/bundle).
 
 **[Get the Real Estate Kit — $49 →](/real-estate-kit)**
     `,
@@ -758,10 +758,109 @@ We built every template, prompt, and workflow mentioned in this article into our
 - **[Real Estate Kit](/real-estate-kit)** — Lead follow-up and client communication ($49)
 - **[Content Creator Kit](/content-creator-kit)** — Content repurposing for every platform ($39)
 - **[Freelancer Kit](/freelancer-kit)** — Proposals, invoicing, and client management ($39)
+- **[Small Business Kit](/small-business-kit)** — Social media, email, hiring, operations ($39)
 
-Or get all of them — plus the Starter Kit and every future kit — in the **[All Kits Bundle](/bundle)** for $97 (save 50%+).
+Or get all of them — plus the Starter Kit and every future kit — in the **[All Kits Bundle](/bundle)** for $97.
 
 **[Get the Bundle — $97 →](/bundle)**
+    `,
+  },
+  'ai-small-business-automation-2026': {
+    title: '9 AI Automations That Save Small Businesses 20+ Hours Per Week',
+    date: 'Mar 22, 2026',
+    meta: 'The specific AI templates and workflows small business owners are using in 2026 to automate social media, email, hiring, customer service, and daily operations.',
+    content: `
+## Small Businesses Are Quietly Winning With AI
+
+According to the US Chamber of Commerce, most small businesses in America are already using AI for everyday tasks. But here is the gap: they are using it badly. Asking ChatGPT random questions. Getting generic outputs. Wasting time re-prompting.
+
+The businesses saving 20+ hours per week are not doing that. They are using **structured templates** — pre-built prompts designed for specific business workflows. Here are the nine that matter most.
+
+## 1. Social Media Content Generation
+
+**The problem:** You know you need to post on Instagram, Facebook, and LinkedIn. But coming up with ideas, writing captions, and finding hashtags takes 3-5 hours per week.
+
+**The automation:** A social media content engine template that generates a full month of platform-specific posts from a single business description. You provide your business focus, target audience, and tone. The AI generates 20-30 posts per platform with hooks, hashtags, and CTAs.
+
+**Time saved:** 3-4 hours per week.
+
+## 2. Email Marketing Sequences
+
+**The problem:** You know email marketing works, but writing welcome sequences, promotional campaigns, and re-engagement emails is time-consuming. Most small businesses send one email per month — or none.
+
+**The automation:** Pre-built email templates for every stage of the customer journey. Welcome series (5 emails), promotional campaigns, abandoned cart recovery, re-engagement sequences, and newsletter frameworks. Paste into Mailchimp, ConvertKit, or any email platform.
+
+**Time saved:** 2-3 hours per week.
+
+## 3. Customer Service Responses
+
+**The problem:** Responding to Google reviews, support emails, and social media comments takes time. Bad responses (or no response) cost you customers.
+
+**The automation:** Customer service script templates that handle FAQs, complaints, review responses (positive and negative), and support tickets. Paste the customer message, get a professional response in 30 seconds.
+
+**Time saved:** 1-2 hours per week.
+
+## 4. Hiring and Job Descriptions
+
+**The problem:** Writing job descriptions, screening questions, and interview guides from scratch. Most small businesses wing it and make bad hires.
+
+**The automation:** Describe the role in plain English. Get a complete job description, 10 screening questions, a structured interview guide, and an onboarding checklist. Covers every type of small business hire from part-time retail to full-time operations.
+
+**Time saved:** 3-5 hours per hire.
+
+## 5. Meeting Summaries and Action Items
+
+**The problem:** After every meeting, someone needs to write up what was decided and who is doing what. Usually nobody does, and things fall through the cracks.
+
+**The automation:** Paste meeting notes (or a transcript from Zoom/Google Meet). Get a structured summary with decisions made, action items with owners, and follow-up dates. Takes 30 seconds instead of 15 minutes.
+
+**Time saved:** 1-2 hours per week.
+
+## 6. Sales Follow-Up Sequences
+
+**The problem:** You meet a potential customer, send one email, and then forget to follow up. Research shows it takes 5-7 touchpoints to close a sale. Most small businesses do 1-2.
+
+**The automation:** Follow-up sequence templates that generate 5-7 personalized touchpoints over 30 days. Each email references the previous conversation, adds value, and includes a clear next step. Not generic — customized to your business and the prospect.
+
+**Time saved:** 2-3 hours per week.
+
+## 7. Standard Operating Procedures (SOPs)
+
+**The problem:** Every process lives in your head. When you hire someone, you spend weeks training them because nothing is documented.
+
+**The automation:** Describe any business process in plain English. Get a formatted SOP with step-by-step instructions, decision trees, and common troubleshooting scenarios. Build your entire operations manual in days instead of months.
+
+**Time saved:** 5-10 hours initially, then ongoing.
+
+## 8. Financial Reporting and Expense Categorization
+
+**The problem:** End of month comes and you are scrambling to categorize expenses, reconcile accounts, and understand where your money went.
+
+**The automation:** Expense categorization prompts that take a list of transactions and organize them by category with notes. Weekly financial summary templates that turn raw numbers into actionable insights about revenue trends, cost centers, and cash flow.
+
+**Time saved:** 2-3 hours per month.
+
+## 9. Content Repurposing Across Platforms
+
+**The problem:** You write one blog post or create one video and it lives on one platform. Meanwhile your competitors are everywhere.
+
+**The automation:** Take any piece of content and generate versions for every platform — blog to Twitter threads, LinkedIn posts, Instagram captions, email newsletters, and YouTube scripts. One piece of content becomes 10 without starting from scratch.
+
+**Time saved:** 3-5 hours per week.
+
+## The Total Impact
+
+Add it up: **20-30 hours per week** of manual work replaced by AI templates that take minutes. At a value of $50/hour for a business owner, that is $1,000-$1,500 per week in recovered time.
+
+The cost? A $39 template kit and a ChatGPT subscription you probably already have.
+
+## Get the Templates
+
+Every template, prompt, and workflow mentioned in this article is available in the **[Small Business AI Kit](/small-business-kit)** — $39 one-time.
+
+Or get it plus 4 more niche kits in the **[All Kits Bundle](/bundle)** for $97.
+
+**[Get the Small Business Kit — $39 →](/small-business-kit)**
     `,
   },
 };
