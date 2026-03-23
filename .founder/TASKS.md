@@ -4,7 +4,7 @@
 Build trending products that help people make money. Research daily. Ship fast. Sell everywhere.
 
 ## In Progress
-- [ ] Writing blog: "7 ChatGPT Side Hustles Actually Making Money in 2026" (agent building)
+(nothing)
 
 ## To Do
 ### Distribution (Highest Priority)
@@ -50,12 +50,14 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] **SaaS Founder AI Kit ($39)** — launch playbooks, onboarding, churn prevention (Session 13)
 - [x] **BUNDLE UPGRADED TO 8 KITS** — Value $302, 68% savings at $97
 - [x] **REDDIT DISTRIBUTION DRAFTS** — 6 posts copy-paste ready (Session 12)
-- [x] **FULL SITE REBRAND** — Dark gold → clean white + blue accents, 30+ files, 34 pages (Session 13)
-- [x] **E-commerce blog post** — /blog/ai-ecommerce-product-descriptions-2026 (Session 13)
-- [x] Write blog: "Best ChatGPT Prompts for Business in 2026" — /blog/best-ai-prompts-business-2026
+- [x] **FULL SITE REBRAND** — Dark gold → clean white + blue accents, 30+ files (Session 13)
+- [x] **Blog: ChatGPT Side Hustles** — /blog/chatgpt-side-hustle-2026 (Session 13)
+- [x] **Blog: AI Tools for SaaS Founders** — /blog/ai-saas-founder-tools-2026 (Session 13)
+- [x] **Blog: E-commerce Descriptions** — /blog/ai-ecommerce-product-descriptions-2026 (Session 13)
+- [x] Write blog: "Best ChatGPT Prompts for Business in 2026" — done
 - [x] Build SaaS Founder AI Kit ($39) — shipped with page, ZIP, bundle integration
-- [x] Write blog targeting e-commerce keywords — /blog/ai-ecommerce-product-descriptions-2026
-- [x] Deploy latest changes (git push) — 4 commits pushed to main
+- [x] Write blog targeting e-commerce keywords — done
+- [x] Deploy latest changes — 7 commits pushed to main (Session 13)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var
