@@ -39,12 +39,12 @@ export default function AISmallBusinessAutomation2026() {
       </Head>
 
       <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#111827', lineHeight: '1.7' }}>
-        <Link href="/blog" style={{ color: '#888', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
+        <Link href="/blog" style={{ color: '#6B7280', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
 
         <h1 style={{ fontSize: '2rem', fontWeight: '700', marginTop: '24px', marginBottom: '8px', lineHeight: '1.2' }}>
           9 AI Automations That Save Small Businesses 20+ Hours Per Week
         </h1>
-        <p style={{ color: '#888', fontSize: '14px', marginBottom: '40px' }}>Mar 22, 2026 &middot; Rey Midas</p>
+        <p style={{ color: '#6B7280', fontSize: '14px', marginBottom: '40px' }}>Mar 22, 2026 &middot; Rey Midas</p>
 
         <p>The small businesses winning in 2026 are not working harder. They are not hiring faster. They are not &ldquo;grinding&rdquo; more hours.</p>
         <p>They automated the boring stuff.</p>
@@ -404,7 +404,7 @@ Format as a configuration I can plug into [ZAPIER/MAKE/NOTION].`}
               <tr><td style={{ padding: '8px', fontWeight: '700' }}>Total</td><td style={{ textAlign: 'right', padding: '8px', fontWeight: '700' }}>20&ndash;30+</td></tr>
             </tbody>
           </table>
-          <p style={{ fontSize: '12px', color: '#888', marginTop: '8px', marginBottom: '0' }}>* Per hire or per new client, not recurring weekly</p>
+          <p style={{ fontSize: '12px', color: '#6B7280', marginTop: '8px', marginBottom: '0' }}>* Per hire or per new client, not recurring weekly</p>
         </div>
 
         <p>Twenty to thirty hours per week. At $50/hour, that is $1,000&ndash;$1,500 per week in recovered time. Over $50,000 per year. And the cost? A ChatGPT or Claude subscription and an afternoon of setup.</p>
@@ -424,12 +424,12 @@ Format as a configuration I can plug into [ZAPIER/MAKE/NOTION].`}
               Get the Full Bundle &mdash; $97
             </a>
           </div>
-          <p style={{ margin: '12px 0 0', color: '#888', fontSize: '13px' }}>The Bundle includes the Small Business Kit plus 5 niche industry kits &mdash; best value if you want everything.</p>
+          <p style={{ margin: '12px 0 0', color: '#6B7280', fontSize: '13px' }}>The Bundle includes the Small Business Kit plus 5 niche industry kits &mdash; best value if you want everything.</p>
         </div>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <p style={{ color: '#888', fontSize: '14px' }}>
+        <p style={{ color: '#6B7280', fontSize: '14px' }}>
           <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#3B5FFF' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#3B5FFF' }}>iam@armando.mx</a>.</em>
         </p>
       </div>

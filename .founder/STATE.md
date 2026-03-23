@@ -1,7 +1,7 @@
 # State
 
 ## Current Status
-Day 1 — Session 12 in progress. BUILD PASSES (32 pages). 8 products FULLY DELIVERABLE. 8 SEO blog posts. Reddit drafts ready.
+Day 2 — Session 13. FULL REBRAND SHIPPED. BUILD PASSES (34 pages). 8 products DELIVERABLE. Pushed to main, Vercel deploying.
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
@@ -27,29 +27,34 @@ Day 1 — Session 12 in progress. BUILD PASSES (32 pages). 8 products FULLY DELI
 | Freelancer Automation | /blog/ai-freelancer-automation-2026 | AI freelancer automation 2026 | Freelancer Kit, Bundle |
 | AI Agent $10K Day | /blog/ai-agent-10k-day | — | Starter Kit |
 
-## Build Output (32 pages)
+## Build Output (34 pages)
 All pages compile and generate static HTML successfully. First Load JS ~80-96 kB per page.
 
-## Kit Content (19,123+ lines total)
-Each kit contains 7 files: README + 6 template/prompt files with real, actionable content.
-- **AI Prompt Mega Pack**: 200+ prompts — copywriting, social media, content creation, business ops, personal branding, productivity
-- **E-commerce Kit**: 155+ prompts — product descriptions, email sequences, ad copy, social media, customer communication, SEO (4,954 lines)
-- Real Estate Kit: Lead response, listing descriptions, follow-up sequences, market analysis, communication scripts, open house workflows
-- Content Creator Kit: Repurposing engine, Twitter threads, YouTube scripts, newsletters, content calendar, headline formulas
-- Freelancer Kit: Proposals, invoicing, onboarding, scope protection, rate negotiation, client updates
-- Small Business Kit: Social media, email marketing, customer service, hiring/HR, operations, sales follow-up
+## Design System (NEW — Session 13)
+- **Background**: White (#FFFFFF)
+- **Text**: Dark (#111827)
+- **Accent**: Electric Blue (#3B5FFF) — all CTAs, badges, highlights
+- **Surface**: Light gray (#F9FAFB) — cards, sections
+- **Borders**: Light gray (#E5E7EB)
+- **Card colors**: Green, Blue, Purple, Amber, Pink, Cyan pastels
+- **Buttons**: Pill-shaped (border-radius: 100px), blue bg + white text
+- **Dark sections**: Used for final CTAs (dark bg, white text, white buttons)
+- **Font**: Inter (loaded globally from _document.js)
+- **Style**: Clean, modern, fun — inspired by Future Founders reference
 
-## Product Funnel (Live)
-```
-Blog (SEO) → Mega Pack ($29) → Kit ($39-49) → Bundle ($97) → DFY ($299)
-```
-
-## This Session (Session 12)
-- **3 BLOG POSTS BUILT**: Fixed 3 broken 404 links — ai-tools-small-business-owners-2026, ai-small-business-automation-2026, automate-client-follow-up-ai
-- **[slug].js CLEANED**: Removed 3 duplicate entries, fixed path conflicts
-- **REDDIT DISTRIBUTION DRAFTS**: 6 copy-paste-ready posts saved to .founder/deliverables/
-- **E-COMMERCE AI KIT ($39) SHIPPED**: 4,954 lines, 155+ prompts, 7 files. Full product page, ZIP built (68K), integrated into kits catalog, bundle (now 7 kits, $263 value → $97 = 63% savings), nav/footer, thank-you page, and webhook routing.
-- Build verified: 32/32 pages pass
+## This Session (Session 13)
+- **FULL SITE REBRAND**: 30 files updated, dark gold → clean white + blue accents
+- **Layout.js**: Complete redesign — new color system, pill buttons, clean nav/footer
+- **Homepage**: Modern hero, colorful result cards, dark CTA footer section
+- **Kits page**: Color bars per kit, dark bundle upsell section
+- **Bundle page**: Clean comparison table, dark buy section
+- **All product pages**: Updated by agents (7 pages)
+- **All blog pages**: Updated (8 standalone + index + [slug])
+- **Service pages**: Updated (5 pages)
+- **Email templates**: Updated (stripe-webhook.js)
+- **Fonts**: Now loaded globally from _document.js
+- **Build verified**: 34/34 pages pass
+- **Pushed to main**: Vercel auto-deploying
 
 ## Blockers for Founder
 1. **Create Stripe Products**:
@@ -57,12 +62,11 @@ Blog (SEO) → Mega Pack ($29) → Kit ($39-49) → Bundle ($97) → DFY ($299)
    - "E-commerce AI Kit" at $39 → replace PLACEHOLDER_ECOMMERCE_KIT in ecommerce-kit.js and kits.js
 2. Set Stripe Payment Link success URLs to `https://www.midastools.co/thank-you?kit=<kit-type>` for each product
 3. Set NEXT_PUBLIC_GA_ID env var for analytics
-4. **Deploy (git push)** — multiple commits ahead of origin
-5. **Post Reddit drafts** — ready at .founder/deliverables/reddit-distribution-posts.md
+4. **Post Reddit drafts** — ready at .founder/deliverables/reddit-distribution-posts.md
 
 ## Next Session Priorities
-1. **SEO**: Write blog post targeting e-commerce keywords (drives E-commerce Kit traffic)
-2. **Product**: Build SaaS Founder AI Kit ($39) — launch playbooks, onboarding, churn prevention
-3. **Infrastructure**: Email capture → nurture sequences
-4. **Gumroad**: List all products on marketplace for additional distribution
-5. **Comparison pages**: Midas Tools vs individual AI tools
+1. **QA**: Visual review of deployed site — check all pages look right with new design
+2. **SEO**: Write blog post targeting e-commerce keywords
+3. **Product**: Build SaaS Founder AI Kit ($39) content + ZIP
+4. **Infrastructure**: Email capture → nurture sequences
+5. **Gumroad**: List all products on marketplace

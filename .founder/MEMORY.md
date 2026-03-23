@@ -49,6 +49,7 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **2026-03-22 (S10)**: AI Prompt Mega Pack ($29) shipped — 200+ prompts, 3,331 lines, 6 categories. Broadest appeal product, lowest price entry point.
 - **2026-03-22 (S10)**: Bundle upgraded to 6 products (now includes Mega Pack). Value anchor $195 → $224. 57% savings.
 - **2026-03-22 (S10)**: Mega Pack added to kits catalog (first position), nav, footer, bundle page, thank-you routing, and webhook delivery.
+- **2026-03-23 (S13)**: FULL SITE REBRAND — dark gold/black → clean white + electric blue (#3B5FFF). 30 files updated. Inspired by Future Founders reference. Pill buttons, colorful card accents, dark CTA sections. Pushed to main, Vercel deploying.
 
 ## What Worked
 - Felix Craft case study is strongest social proof ($14,718 in 3 weeks)
@@ -62,8 +63,9 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 ## Important Context
 - Environment vars needed: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, NEXT_PUBLIC_GA_ID
 - **Shared Layout**: `components/Layout.js` — nav, footer, global styles. All pages use it now.
-- Logo: "MIDAS·TOOLS" text mark (gold/white). No emoji.
-- All CSS is inline with design system vars (--gold: #F5C842, --black: #0A0A0A)
+- Logo: "MIDAS·TOOLS" text mark (blue accent + dark text). No emoji.
+- **Design System (Session 13 rebrand)**: White bg (#FFF), blue accent (#3B5FFF), dark text (#111827). CSS vars remapped: --gold→blue, --black→white, --white→dark. New vars: --accent, --bg, --text, --text-secondary, --text-tertiary, --border, --surface, --card-green/blue/purple/amber/pink/cyan.
+- Fonts loaded globally from _document.js (no longer per-page)
 - Font: Inter (Google Fonts), weights 400-900
 - Mobile breakpoint: max-width 600px or 700px
 - Blog has mix of hosted posts and external links (dev.to, Medium)

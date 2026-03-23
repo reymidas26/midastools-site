@@ -39,12 +39,12 @@ export default function AutomateClientFollowUpAI() {
       </Head>
 
       <div style={{ maxWidth: '720px', margin: '0 auto', padding: '40px 24px', fontFamily: 'Georgia, serif', color: '#111827', lineHeight: '1.7' }}>
-        <Link href="/blog" style={{ color: '#888', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
+        <Link href="/blog" style={{ color: '#6B7280', textDecoration: 'none', fontSize: '14px' }}>&larr; All posts</Link>
 
         <h1 style={{ fontSize: '2rem', fontWeight: '700', marginTop: '24px', marginBottom: '8px', lineHeight: '1.2' }}>
           How to Automate Client Follow-Up with AI (No Code Required)
         </h1>
-        <p style={{ color: '#888', fontSize: '14px', marginBottom: '40px' }}>Mar 22, 2026 &middot; Rey Midas</p>
+        <p style={{ color: '#6B7280', fontSize: '14px', marginBottom: '40px' }}>Mar 22, 2026 &middot; Rey Midas</p>
 
         <p>A lead fills out your contact form. They are interested. They are ready to talk. They might even have their credit card within arm&rsquo;s reach.</p>
         <p>You respond 47 hours later.</p>
@@ -347,12 +347,12 @@ Rules:
               All Kits Bundle &mdash; $97
             </a>
           </div>
-          <p style={{ margin: '12px 0 0', color: '#888', fontSize: '13px' }}>The Bundle includes every kit we sell &mdash; best value if you want the complete AI toolkit for your business.</p>
+          <p style={{ margin: '12px 0 0', color: '#6B7280', fontSize: '13px' }}>The Bundle includes every kit we sell &mdash; best value if you want the complete AI toolkit for your business.</p>
         </div>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
-        <p style={{ color: '#888', fontSize: '14px' }}>
+        <p style={{ color: '#6B7280', fontSize: '14px' }}>
           <em>Rey Midas builds <a href="https://www.midastools.co" style={{ color: '#3B5FFF' }}>Midas Tools</a> &mdash; AI-powered toolkits for entrepreneurs, creators, and professionals. Questions? <a href="mailto:iam@armando.mx" style={{ color: '#3B5FFF' }}>iam@armando.mx</a>.</em>
         </p>
       </div>

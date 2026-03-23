@@ -631,7 +631,7 @@ export default function BlogPost({ post }) {
       </Head>
       <style>{`
         .container{max-width:680px;margin:0 auto;padding:80px 40px}
-        .post-date{font-size:13px;color:#888;margin-bottom:16px}
+        .post-date{font-size:13px;color:var(--text-secondary);margin-bottom:16px}
         h1{font-size:clamp(28px,4vw,44px);font-weight:900;letter-spacing:-1px;margin-bottom:40px;line-height:1.1}
         .prose p{font-size:17px;line-height:1.75;color:var(--text-secondary);margin-bottom:20px}
         .prose h2{font-size:24px;font-weight:800;margin:40px 0 16px;color:var(--text)}
