@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'ai-tools-lawyers-2026', title: '8 AI Tools for Lawyers That Are Changing Legal Practice in 2026', date: 'Mar 24, 2026', desc: 'The best AI tools for lawyers and law firms in 2026. Contract review, legal research, client intake, billing optimization, and document drafting — with exact prompts.' },
+  { slug: 'ai-tools-accountants-2026', title: '7 AI Tools for Accountants and Bookkeepers That Save 15+ Hours Per Week', date: 'Mar 24, 2026', desc: 'The best AI tools for accountants in 2026. Automate data entry, categorize transactions, draft client communications, generate reports, and streamline tax prep.' },
   { slug: 'ai-tools-teachers-2026', title: '9 AI Tools for Teachers That Save 10+ Hours Per Week in 2026', date: 'Mar 24, 2026', desc: 'The best AI tools for teachers in 2026. Create lesson plans, grade faster, generate worksheets, write report card comments, and differentiate instruction — all with copy-paste prompts.' },
   { slug: 'ai-second-income-2026', title: 'How to Build a Second Income with AI in 2026 (Step-by-Step Guide)', date: 'Mar 24, 2026', desc: 'A practical guide to building a second income stream using AI tools in 2026. 7 proven methods with exact prompts, realistic income ranges, and time investments required.' },
   { slug: 'ai-tools-vs-hiring-2026', title: 'AI Tools vs. Hiring: What Small Businesses Should Automate (and What They Shouldn\'t)', date: 'Mar 24, 2026', desc: 'A practical comparison of AI tools vs. hiring for 10 common business functions. With cost breakdowns, time savings, and honest recommendations.' },
