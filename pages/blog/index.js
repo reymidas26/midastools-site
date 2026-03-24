@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'ai-marketing-tools-2026', title: '12 AI Marketing Tools That Actually Drive Revenue in 2026', date: 'Mar 24, 2026', desc: 'The best AI marketing tools in 2026 across content, analytics, automation, and ads. 12 tools with pricing, use cases, and 3 copy-paste marketing prompts.' },
   { slug: 'ai-tools-students-2026', title: '11 AI Tools Every Student Needs in 2026 (Most Are Free)', date: 'Mar 24, 2026', desc: 'The best AI tools for students in 2026. Study aids, writing helpers, research tools, and productivity apps — with honest reviews of free tiers and 3 copy-paste prompts.' },
   { slug: 'chatgpt-tips-tricks-2026', title: '25 ChatGPT Tips and Tricks Most People Don\'t Know in 2026', date: 'Mar 24, 2026', desc: 'Advanced ChatGPT tips, tricks, and hacks for 2026. 25 techniques for better outputs, productivity hacks, and advanced strategies — with copy-paste prompts for each.' },
   { slug: 'best-free-ai-tools-2026', title: '15 Best Free AI Tools in 2026 (That Are Actually Worth Using)', date: 'Mar 24, 2026', desc: 'The best free AI tools in 2026, tested and ranked. ChatGPT, Claude, Gemini, Perplexity, Canva AI, and 10 more — with honest reviews of what each free tier actually gives you.' },
