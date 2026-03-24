@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'ai-tools-by-profession-2026', title: 'AI Tools by Profession: The Complete 2026 Guide (10 Industries)', date: 'Mar 24, 2026', desc: 'The best AI tools for every profession in 2026. Healthcare, teachers, lawyers, accountants, small business, freelancers, real estate, e-commerce, creators, and SaaS — with time savings data for each.' },
   { slug: 'ai-tools-healthcare-2026', title: '7 AI Tools for Healthcare Workers That Reduce Burnout and Save Hours Daily', date: 'Mar 24, 2026', desc: 'The best AI tools for healthcare workers in 2026. Clinical documentation, patient communication, scheduling, and training — with HIPAA-compliant prompt templates.' },
   { slug: 'ai-tools-lawyers-2026', title: '8 AI Tools for Lawyers That Are Changing Legal Practice in 2026', date: 'Mar 24, 2026', desc: 'The best AI tools for lawyers and law firms in 2026. Contract review, legal research, client intake, billing optimization, and document drafting — with exact prompts.' },
   { slug: 'ai-tools-accountants-2026', title: '7 AI Tools for Accountants and Bookkeepers That Save 15+ Hours Per Week', date: 'Mar 24, 2026', desc: 'The best AI tools for accountants in 2026. Automate data entry, categorize transactions, draft client communications, generate reports, and streamline tax prep.' },
