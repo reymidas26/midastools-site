@@ -17,10 +17,11 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [ ] List all products on Gumroad for marketplace distribution
 
 ### Content / SEO
-- [ ] Write blog: "AI Tools for Students" (untapped audience)
-- [ ] Write blog: "AI Tools for HR and Recruiting" (high-value niche)
+- [ ] Write blog: "AI Prompt Engineering Guide" (evergreen how-to)
+- [ ] Write blog: "AI Tools for Nonprofit Leaders" (untapped niche)
 - [ ] Create Twitter/X thread from ChatGPT Tips post
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
+- [ ] Write blog: "AI Tools for Lawyers — Complete Guide" (expand existing)
 
 ### Infrastructure (Needs Founder)
 - [ ] Set Stripe Payment Link success URLs → /thank-you?kit=<type> for all products
@@ -80,6 +81,12 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] **REDDIT POST 7** — Free prompts post drafted, added to distribution schedule as FIRST post (Session 16)
 - [x] **SITEMAP UPDATED** — 41 URLs (Session 16)
 - [x] **BUILD PASSES + DEPLOYED** — 47 pages, pushed to main (Session 16)
+- [x] **Blog: AI Email Templates** — /blog/ai-email-templates-2026, 21 templates, 4 categories (Session 18)
+- [x] **Blog: AI Tools for Project Managers** — /blog/ai-tools-project-managers-2026, 8 tools + 3 prompts (Session 18)
+- [x] **Blog: AI Tools for HR & Recruiting** — /blog/ai-tools-hr-recruiting-2026, 9 tools + 3 prompts (Session 18)
+- [x] **Profession Hub Expanded** — 12 industries (was 10), added HR + PM (Session 18)
+- [x] **SITEMAP UPDATED** — 47 URLs (Session 18)
+- [x] **BUILD PASSES** — 54 pages (Session 18)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var

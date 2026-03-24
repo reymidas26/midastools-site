@@ -96,10 +96,28 @@ const professions = [
     timeSaved: '15+ hrs/week',
     tools: ['Launch playbooks', 'User onboarding', 'Churn prevention', 'Feature prioritization', 'Investor updates'],
   },
+  {
+    title: 'HR & Recruiting',
+    slug: '/blog/ai-tools-hr-recruiting-2026',
+    icon: '🤝',
+    audience: '3.8M+ HR professionals in the US',
+    topUse: 'Sourcing & screening — cut time-to-hire from 44 days to under 25',
+    timeSaved: '15+ hrs/week',
+    tools: ['Candidate sourcing', 'Resume screening', 'Interview scheduling', 'Onboarding automation', 'Employee engagement'],
+  },
+  {
+    title: 'Project Managers',
+    slug: '/blog/ai-tools-project-managers-2026',
+    icon: '📋',
+    audience: 'Millions of PMs across industries',
+    topUse: 'Status reports & scheduling — eliminate 54% admin overhead',
+    timeSaved: '10+ hrs/week',
+    tools: ['Meeting notes', 'Status reports', 'Task prioritization', 'Calendar optimization', 'Stakeholder comms'],
+  },
 ];
 
 export default function AIToolsByProfession2026() {
-  const title = 'AI Tools by Profession: The Complete 2026 Guide (10 Industries)';
+  const title = 'AI Tools by Profession: The Complete 2026 Guide (12 Industries)';
   const description = 'The best AI tools for every profession in 2026. Healthcare, teachers, lawyers, accountants, small business, freelancers, real estate, e-commerce, content creators, and SaaS founders — with exact prompts and time savings for each.';
   const url = 'https://www.midastools.co/blog/ai-tools-by-profession-2026';
 
