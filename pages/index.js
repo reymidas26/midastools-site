@@ -318,6 +318,41 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Browse All Kits */}
+      <section style={{ paddingTop: 0 }}>
+        <div className="section-label">AI Kits for Every Role</div>
+        <h2>Find the kit built for your industry</h2>
+        <p className="section-sub">Each kit includes ready-to-use prompts, templates, and workflows — or grab them all with the bundle.</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: 12 }}>
+          {[
+            { name: 'Prompt Mega Pack', price: '$29', desc: '200+ prompts for any business', href: '/ai-prompt-mega-pack', bg: 'var(--card-amber)' },
+            { name: 'Freelancer Kit', price: '$39', desc: 'Proposals, invoicing, client mgmt', href: '/freelancer-kit', bg: 'var(--card-green)' },
+            { name: 'Content Creator Kit', price: '$39', desc: 'Repurpose, schedule, grow', href: '/content-creator-kit', bg: 'var(--card-purple)' },
+            { name: 'Small Business Kit', price: '$39', desc: 'Operations, hiring, marketing', href: '/small-business-kit', bg: 'var(--card-blue)' },
+            { name: 'E-commerce Kit', price: '$39', desc: 'Listings, ads, customer retention', href: '/ecommerce-kit', bg: 'var(--card-pink)' },
+            { name: 'SaaS Founder Kit', price: '$39', desc: 'Launch, onboard, reduce churn', href: '/saas-founder-kit', bg: 'var(--card-cyan)' },
+            { name: 'Real Estate Kit', price: '$49', desc: 'Leads, listings, follow-ups', href: '/real-estate-kit', bg: 'var(--card-green)' },
+            { name: 'Starter Kit', price: '$29', desc: 'Deploy your AI entrepreneur', href: '/', bg: 'var(--card-blue)' },
+          ].map(k => (
+            <a key={k.name} href={k.href} style={{ display: 'block', background: k.bg, borderRadius: 12, padding: '20px 20px', textDecoration: 'none', transition: 'transform 0.15s, box-shadow 0.15s' }}
+              onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(0,0,0,0.08)'; }}
+              onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+                <span style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)' }}>{k.name}</span>
+                <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--accent)' }}>{k.price}</span>
+              </div>
+              <div style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.4 }}>{k.desc}</div>
+            </a>
+          ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 24 }}>
+          <a href="/bundle" style={{ color: 'var(--accent)', fontSize: 15, fontWeight: 700, textDecoration: 'none' }}>
+            Or get all 8 kits for $97 (save 68%) &rarr;
+          </a>
+        </div>
+      </section>
+
       {/* Product Ladder */}
       <section style={{ paddingTop: 0 }}>
         <div className="section-label">Choose Your Path</div>
