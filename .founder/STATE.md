@@ -1,7 +1,7 @@
 # State
 
 ## Current Status
-Day 2 — Session 16 complete. BUILD PASSES (47 pages). 9 products on site (8 kits + bundle). All Stripe links live. 24 blog posts (21 hosted + externals). FREE PROMPTS landing page live (/free-prompts). Site-wide email capture live. Internal cross-linking updated. Sitemap: 41 URLs. All verified building.
+Day 2 — Session 17 complete. BUILD PASSES (51 pages). 9 products on site (8 kits + bundle). All Stripe links live. 26 blog posts (23 hosted + externals). FREE PROMPTS landing page + AI ROI CALCULATOR (interactive free tool) live. Site-wide email capture live. Internal cross-linking updated. Sitemap: 44 URLs. All verified building.
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
