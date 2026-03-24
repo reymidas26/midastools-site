@@ -297,6 +297,7 @@ Create:
           <li><Link href="/blog/ai-freelancer-automation-2026" style={{ color: '#3B5FFF' }}>7 AI Automations Every Freelancer Needs in 2026</Link></li>
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/ai-tools-small-business-owners-2026" style={{ color: '#3B5FFF' }}>5 AI Tools That Are Printing Money for Small Business Owners</Link></li>
+          <li><Link href="/blog/ai-tools-lawyers-2026" style={{ color: '#3B5FFF' }}>8 AI Tools for Lawyers That Are Changing Legal Practice</Link></li>
         </ul>
       </div>
     </Layout>

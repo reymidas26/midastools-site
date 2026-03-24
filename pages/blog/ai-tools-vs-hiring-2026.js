@@ -195,6 +195,8 @@ export default function AIToolsVsHiring2026() {
           <li><Link href="/blog/ai-tools-small-business-owners-2026" style={{ color: '#3B5FFF' }}>5 AI Tools That Are Printing Money for Small Business Owners</Link></li>
           <li><Link href="/blog/automate-client-follow-up-ai" style={{ color: '#3B5FFF' }}>How to Automate Client Follow-Up with AI</Link></li>
           <li><Link href="/blog/ai-freelancer-automation-2026" style={{ color: '#3B5FFF' }}>7 AI Automations Every Freelancer Needs in 2026</Link></li>
+          <li><Link href="/blog/ai-tools-lawyers-2026" style={{ color: '#3B5FFF' }}>8 AI Tools for Lawyers That Are Changing Legal Practice</Link></li>
+          <li><Link href="/blog/ai-tools-accountants-2026" style={{ color: '#3B5FFF' }}>7 AI Tools for Accountants That Save 15+ Hours Per Week</Link></li>
         </ul>
       </div>
     </Layout>

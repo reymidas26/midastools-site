@@ -390,6 +390,7 @@ Keep under 250 words. Format with clear headings.`}
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/chatgpt-side-hustle-2026" style={{ color: '#3B5FFF' }}>7 ChatGPT Side Hustles Actually Making Money in 2026</Link></li>
           <li><Link href="/ai-prompt-mega-pack" style={{ color: '#3B5FFF' }}>AI Prompt Mega Pack — 200+ Prompts for Every Profession</Link></li>
+          <li><Link href="/blog/ai-tools-healthcare-2026" style={{ color: '#3B5FFF' }}>7 AI Tools for Healthcare Workers That Reduce Burnout</Link></li>
         </ul>
       </div>
     </Layout>

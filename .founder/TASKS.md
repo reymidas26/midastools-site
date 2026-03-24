@@ -17,8 +17,7 @@ Build trending products that help people make money. Research daily. Ship fast. 
 
 ### Content / SEO
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
-- [ ] Write blog: "AI Tools for Healthcare Workers 2026"
-- [ ] Add internal cross-links from existing posts to new posts
+- [ ] Add internal cross-links from existing posts to new posts (lawyers, accountants, healthcare)
 
 ### Infrastructure (Needs Founder)
 - [ ] Set Stripe Payment Link success URLs → /thank-you?kit=<type> for all products
