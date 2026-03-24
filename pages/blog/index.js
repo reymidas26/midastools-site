@@ -70,6 +70,16 @@ export default function Blog() {
       <div className="container">
         <div className="section-label">Blog</div>
         <h1>AI Entrepreneur Playbooks</h1>
+
+        <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 12, padding: '24px 28px', marginBottom: 48, display: 'flex', gap: 24, flexWrap: 'wrap', alignItems: 'center' }}>
+          <div style={{ flex: 1, minWidth: 200 }}>
+            <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)', marginBottom: 4 }}>Free Tools</div>
+            <div style={{ fontSize: 13, color: 'var(--text-secondary)' }}>Try before you buy — no account needed.</div>
+          </div>
+          <Link href="/ai-roi-calculator" style={{ fontSize: 14, fontWeight: 700, color: 'var(--accent)', textDecoration: 'none' }}>AI ROI Calculator &rarr;</Link>
+          <Link href="/free-prompts" style={{ fontSize: 14, fontWeight: 700, color: 'var(--accent)', textDecoration: 'none' }}>5 Free Prompts &rarr;</Link>
+        </div>
+
         {posts.map(p => (
           <div className="post" key={p.slug}>
             <div className="post-date">{p.date}</div>

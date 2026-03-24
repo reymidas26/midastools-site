@@ -179,6 +179,12 @@ export default function Kits() {
         ))}
       </div>
 
+      <div style={{ maxWidth: 860, margin: '0 auto', padding: '0 40px 32px', textAlign: 'center' }}>
+        <p style={{ fontSize: 15, color: 'var(--text-secondary)' }}>
+          Not sure which kit is right for you? <Link href="/ai-roi-calculator" style={{ color: 'var(--accent)', fontWeight: 700, textDecoration: 'none' }}>Try our free AI ROI Calculator &rarr;</Link>
+        </p>
+      </div>
+
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
