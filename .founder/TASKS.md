@@ -17,8 +17,6 @@ Build trending products that help people make money. Research daily. Ship fast. 
 
 ### Content / SEO
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
-- [ ] Write blog: "AI Tools for Lawyers 2026"
-- [ ] Write blog: "AI Tools for Accountants 2026"
 - [ ] Write blog: "AI Tools for Healthcare Workers 2026"
 - [ ] Add internal cross-links from existing posts to new posts
 
@@ -67,6 +65,10 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] **Blog: AI Tools vs. Hiring** — /blog/ai-tools-vs-hiring-2026, comparison table, framework (Session 15)
 - [x] **SITEMAP UPDATED** — 31 URLs (Session 15)
 - [x] **BUILD PASSES** — 41 pages (Session 15)
+- [x] **Blog: AI Tools for Lawyers** — /blog/ai-tools-lawyers-2026, 8 tools, ethics checklist, FAQ schema (Session 15)
+- [x] **Blog: AI Tools for Accountants** — /blog/ai-tools-accountants-2026, 7 tools, ROI table, FAQ schema (Session 15)
+- [x] **Internal cross-links** — 5 existing posts linked to 3 new S15 posts (Session 15)
+- [x] **BUILD PASSES** — 43 pages (Session 15)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var
