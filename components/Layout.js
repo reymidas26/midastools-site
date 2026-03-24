@@ -202,6 +202,7 @@ export default function Layout({ children }) {
         </Link>
         <div className="nav-links">
           <Link href="/free-prompts" className={`nav-link${path === '/free-prompts' ? ' active' : ''}`}>Free Prompts</Link>
+          <Link href="/ai-roi-calculator" className={`nav-link${path === '/ai-roi-calculator' ? ' active' : ''}`}>ROI Calculator</Link>
           <Link href="/kits" className={`nav-link${path === '/kits' ? ' active' : ''}`}>Kits</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
           <Link href="/bundle" className="nav-cta">All Kits — $97</Link>
@@ -218,6 +219,7 @@ export default function Layout({ children }) {
       <div className={`mobile-menu${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <Link href="/">Home</Link>
         <Link href="/free-prompts">Free Prompts</Link>
+        <Link href="/ai-roi-calculator">ROI Calculator</Link>
         <Link href="/kits">Kits</Link>
         <Link href="/blog">Blog</Link>
         <Link href="/ai-prompt-mega-pack">Prompt Mega Pack</Link>
@@ -260,6 +262,7 @@ export default function Layout({ children }) {
           <div className="footer-col">
             <h4>Resources</h4>
             <Link href="/free-prompts">Free AI Prompts</Link>
+            <Link href="/ai-roi-calculator">AI ROI Calculator</Link>
             <Link href="/blog">Blog</Link>
             <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener">Book a Call</a>
           </div>
