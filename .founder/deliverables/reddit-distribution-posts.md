@@ -428,8 +428,159 @@ If you want prompts for a specific use case — sales, real estate, freelancing,
 5. If a post gets removed by mods, don't repost. Message the mods politely and ask what to fix.
 6. Never edit the post to add more links after it gains traction — mods watch for this
 
+---
+
+## Post 8: r/Productivity — Email Templates
+
+**Posting tips:**
+- r/Productivity loves practical systems and templates
+- Lead with the time-saving data (28% of workday on email)
+- Provide enough templates to be genuinely useful standalone
+
+---
+
+**Title:** I made 21 email templates that cut my email time by 60% — here are the 7 best ones
+
+**Body:**
+
+I tracked my email time for a week. The number was embarrassing: 11+ hours. Research says the average professional spends 28% of their workday on email.
+
+So I built a system. I created templates for every email I send regularly, then refined them with AI until the response rates went up and the writing time went down. After 3 months of testing, here are the 7 that had the biggest impact:
+
+**1. The Cold Outreach That Gets Replies**
+
+Subject: Quick question about [THEIR RECENT ACHIEVEMENT]
+
+> Hi [NAME],
+>
+> Saw your [SPECIFIC THING] — impressive, especially [DETAIL THAT SHOWS YOU DID YOUR HOMEWORK].
+>
+> I help [ROLE LIKE THEIRS] [OUTCOME YOU DELIVER] without [PAIN POINT]. Based on what I see at [THEIR COMPANY], there might be some low-hanging fruit.
+>
+> Would a 15-minute call this week make sense? If not, no worries at all.
+>
+> [YOUR NAME]
+
+My response rate went from 8% to 22% with this format. The key is the specificity in line 1.
+
+**2. The Follow-Up (After No Response)**
+
+Subject: Re: [ORIGINAL SUBJECT]
+
+> Hi [NAME],
+>
+> I know things get buried — happens to all of us.
+>
+> One quick thought: [SINGLE VALUE PROPOSITION IN ONE SENTENCE — make it about THEIR problem, not your solution].
+>
+> If the timing is off, totally get it. But if it's relevant, I'd love 15 minutes.
+>
+> [YOUR NAME]
+
+No "just checking in." No "circling back." One clear value prop and an easy out.
+
+**3. The Late Payment Email That's Not Awkward**
+
+Subject: Quick housekeeping — Invoice #[NUMBER]
+
+> Hi [NAME],
+>
+> Hope things are going well on your end!
+>
+> Quick housekeeping: Invoice #[NUMBER] for $[AMOUNT] (due [DATE]) is still showing as outstanding in my system. Likely just an oversight with accounts payable.
+>
+> Could you check when this might be processed? Happy to resend the invoice if helpful.
+>
+> Thanks!
+> [YOUR NAME]
+
+"Housekeeping" frames it as routine. "My system" depersonalizes it. Works every time.
+
+**4. The Testimonial Request**
+
+Subject: Quick favor? (takes 60 seconds)
+
+> Hi [NAME],
+>
+> Working with you on [PROJECT] was a highlight. The results speak for themselves — [SPECIFIC METRIC/OUTCOME].
+>
+> Would you be open to sharing a 2-3 sentence quote about the experience? I'd use it on my website/proposals.
+>
+> To make it easy, here's a draft you can edit however you'd like:
+>
+> "[YOUR NAME] helped us [OUTCOME]. [SPECIFIC RESULT]. I'd recommend them to anyone looking for [SERVICE CATEGORY]."
+>
+> Feel free to rewrite completely — just wanted to give you a starting point.
+
+The "draft for you to edit" trick doubled my response rate. People prefer editing to writing from scratch.
+
+**5. The Meeting Request**
+
+Subject: 30 min this week? Re: [TOPIC]
+
+> Hi [NAME],
+>
+> I need your input on [SPECIFIC TOPIC — not vague].
+>
+> Specifically:
+> - [QUESTION/TOPIC 1]
+> - [QUESTION/TOPIC 2]
+> - [DECISION THAT NEEDS YOUR INPUT]
+>
+> Could you do 30 min [SUGGEST TWO SPECIFIC TIMES]? I'll have a tight agenda ready so we respect both our time.
+
+Specific agenda = higher acceptance. "Respect both our time" = instant credibility.
+
+**6. The Delegation Email**
+
+Subject: Ownership request — [TASK] by [DATE]
+
+> Hi [NAME],
+>
+> I'd like you to own [TASK]. Here's what I need:
+>
+> **What**: [CLEAR DESCRIPTION]
+> **Why it matters**: [CONTEXT]
+> **Deadline**: [DATE]
+> **Definition of done**: [SPECIFIC CRITERIA]
+> **Resources**: [LINKS/DOCS/PEOPLE]
+>
+> Please flag any blockers by [DATE — 1-2 days from now]. Otherwise I'll assume you're on track.
+
+Clear delegation = no confusion. "Flag blockers by X" eliminates the surprise miss.
+
+**7. The Post-Meeting Summary**
+
+Subject: Summary + action items — [MEETING TOPIC]
+
+> Hi all,
+>
+> Quick summary from today's [MEETING]:
+>
+> **Decisions made:**
+> - [DECISION 1]
+> - [DECISION 2]
+>
+> **Action items:**
+> - [PERSON]: [TASK] by [DATE]
+> - [PERSON]: [TASK] by [DATE]
+>
+> **Open questions (need follow-up):**
+> - [QUESTION — OWNER]
+>
+> Let me know if I missed anything. Otherwise, we're aligned.
+
+---
+
+These are from a larger set of 21 templates I compiled covering cold outreach, client management, internal comms, and follow-ups: https://www.midastools.co/blog/ai-email-templates-2026
+
+If you want to go deeper on email and communication automation, I also have a guide on automating client follow-up entirely: https://www.midastools.co/blog/automate-client-follow-up-ai
+
+---
+
 **Posting schedule suggestion:**
 - Week 1: Post 7 (r/ChatGPT — FREE PROMPTS) — lowest friction, captures emails, broadest audience
+- Week 1.5: Post 8 (r/Productivity — email templates) — different audience, high shareability
 - Week 2: Post 4 (r/smallbusiness) — high intent audience
 - Week 3: Post 6 (r/Entrepreneur) — journey post builds trust
 - Week 4: Post 2 (r/realestate) — niche test
