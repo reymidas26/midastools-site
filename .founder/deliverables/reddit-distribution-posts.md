@@ -637,3 +637,196 @@ Happy to answer any questions about how AI tools apply to your specific situatio
 - Reply to high-voted comments with additional value (more prompts)
 - DO NOT edit the main post to be more promotional
 - Let the engagement drive organic traffic to the link at the bottom
+
+---
+
+## Post 10: r/ChatGPT — AI Image Prompts
+
+**Posting tips:**
+- Best times: Tuesday-Thursday, 9-11am EST
+- r/ChatGPT (1M+ members) is hungry for image generation content right now — visual posts get massive engagement
+- Lead with the prompts themselves, show the variety of styles possible
+- Flair: "Prompt Engineering" if available
+- Engage in comments for the first 60 minutes — answer questions about specific prompt tweaks
+
+---
+
+**Title:** I compiled 50 ChatGPT image prompts that actually produce stunning results — here are my top 8
+
+**Body:**
+
+I've been testing AI image prompts obsessively for the past few months — across ChatGPT, DALL-E, Midjourney, you name it. Most prompt lists I found online were either too vague ("a beautiful sunset") or way too complicated with 15 nested parameters that don't actually improve the output.
+
+So I built my own library. Tested 50+ prompts, refined the wording, figured out which keywords actually move the needle on quality. Here are the 8 that consistently produce the best results:
+
+**1. Studio Ghibli Style Portrait**
+```
+Create a Studio Ghibli-style portrait of [DESCRIBE PERSON — e.g., "a woman in her 30s with short curly hair and round glasses"]. Soft watercolor textures, warm golden-hour lighting, whimsical background with [SETTING — e.g., "rolling green hills and a small cottage"]. Hayao Miyazaki aesthetic with gentle expression and hand-painted feel.
+```
+
+This one went viral for a reason — the Ghibli aesthetic just works. The key is specifying "soft watercolor textures" and "hand-painted feel" to avoid that plastic AI look.
+
+**2. Cinematic Movie Poster**
+```
+Design a cinematic movie poster for a [GENRE — e.g., "sci-fi thriller"] film called "[TITLE]". Main character: [DESCRIBE]. Dramatic lighting with [COLOR SCHEME — e.g., "deep blues and neon orange"]. Include lens flare, shallow depth of field, and a tagline at the bottom: "[YOUR TAGLINE]". Style: photorealistic, Hollywood blockbuster quality.
+```
+
+The trick here is "lens flare" and "shallow depth of field" — those two phrases alone push the output from amateur to professional.
+
+**3. Professional Headshot**
+```
+Generate a professional LinkedIn-style headshot of [DESCRIBE PERSON — e.g., "a man in his 40s, salt-and-pepper beard, confident smile"]. Wearing [ATTIRE — e.g., "a navy blazer over a white open-collar shirt"]. Clean studio backdrop with soft gradient from [COLOR] to white. Rembrandt lighting, sharp focus on the eyes, slight bokeh in the background. Shot on a Canon 85mm f/1.4 lens.
+```
+
+Yes, specifying the camera lens matters. "Canon 85mm f/1.4" tells the AI to generate that specific focal compression and bokeh pattern. Game changer for portraits.
+
+**4. Product Photography**
+```
+Create a product photography shot of [DESCRIBE PRODUCT — e.g., "a matte black ceramic coffee mug"]. Place on a [SURFACE — e.g., "light oak table"]. Styling: [PROPS — e.g., "scattered coffee beans, a folded linen napkin, morning light through a window"]. Three-point studio lighting with soft shadows. Shot from a 45-degree angle. Style: minimalist, editorial, ready for an e-commerce listing.
+```
+
+If you sell anything online, this prompt alone is worth its weight in gold. The "three-point studio lighting" and angle specification make it look like you hired a photographer.
+
+**5. Viral Aesthetic — Wes Anderson**
+```
+Create a Wes Anderson-style photograph of [SCENE — e.g., "a pastel-colored hotel lobby"]. Perfect symmetry, centered composition, muted pastel color palette with [DOMINANT COLOR — e.g., "dusty pink and mint green"]. Vintage 1960s decor, quirky details, flat lighting. Shot on 35mm film with slight grain.
+```
+
+Symmetry is king here. Wes Anderson prompts go viral because the aesthetic is instantly recognizable and deeply satisfying.
+
+**6. Watercolor Illustration**
+```
+Paint a loose watercolor illustration of [SUBJECT — e.g., "a cozy bookshop on a rainy Paris street"]. Visible brush strokes, paint bleeding at the edges, splashes of [ACCENT COLOR — e.g., "warm amber from the shop windows"]. White paper showing through in the highlights. Style: editorial illustration for a travel magazine.
+```
+
+**7. Isometric 3D Scene**
+```
+Create a detailed isometric 3D illustration of [SCENE — e.g., "a tiny home office setup"]. Include [DETAILS — e.g., "a desk with dual monitors, a cat sleeping on a stack of books, a coffee cup with steam, plants on the windowsill"]. Soft pastel colors, clean lines, miniature diorama feel. Lighting: warm afternoon sun from the upper left.
+```
+
+These perform incredibly well on social media. The miniature diorama look is endlessly shareable.
+
+**8. Dark Fantasy / Epic Scene**
+```
+Create a dark fantasy illustration of [SUBJECT — e.g., "an ancient library hidden inside a mountain"]. Volumetric lighting from [LIGHT SOURCE — e.g., "glowing crystals embedded in the cave walls"]. Massive scale — tiny human figure for perspective. Atmosphere: misty, mysterious, awe-inspiring. Style: concept art, matte painting quality, ultra-detailed.
+```
+
+The "tiny human figure for perspective" trick is what makes these feel epic instead of flat.
+
+---
+
+**What I learned about prompting for images:**
+
+- **Specify lighting.** It's the single most important variable. "Rembrandt lighting" vs. "flat lighting" vs. "volumetric lighting" gives you completely different moods.
+- **Name a camera lens.** "Shot on 85mm f/1.4" or "shot on 35mm film" gives the AI a concrete reference for depth of field and grain.
+- **Use art direction words.** "Editorial," "cinematic," "minimalist," "concept art" — these steer the entire output.
+- **Add imperfection.** "Visible brush strokes," "slight grain," "paint bleeding" — perfection looks fake. Controlled imperfection looks real.
+
+I've got 50+ of these organized by style (portraits, product shots, viral aesthetics, fantasy, architecture, and more) in a full blog post with all the breakdowns: [midastools.co/blog/chatgpt-image-prompts-2026](https://www.midastools.co/blog/chatgpt-image-prompts-2026)
+
+If you're looking for the complete library of 150+ image prompts across every style and AI tool, I put together a full prompt pack: [midastools.co/ai-prompt-mega-pack](https://www.midastools.co/ai-prompt-mega-pack)
+
+Drop your use case in the comments and I'll suggest the best prompt style and keywords for what you're trying to create.
+
+---
+
+## Post 11: r/midjourney — AI Image Prompt Techniques
+
+**Posting tips:**
+- Best times: Monday-Thursday, 10am-1pm EST
+- r/midjourney is a community of creators who know their stuff — don't oversimplify
+- Focus on cross-platform techniques, not just Midjourney-specific syntax
+- Show prompt structure and explain WHY certain keywords work
+- Avoid anything that looks like a product pitch — share knowledge first, link naturally
+
+---
+
+**Title:** Image prompt techniques that work across Midjourney, ChatGPT DALL-E, and Stable Diffusion — my cheat sheet after months of testing
+
+**Body:**
+
+I've been testing image prompts across Midjourney, ChatGPT (DALL-E), and Stable Diffusion for a while now, and one thing became obvious: the core techniques that produce great images are universal, even though each tool has its own syntax quirks.
+
+Here's my breakdown of the prompt structures that consistently work everywhere. No tool-specific flags — just the language patterns that get results.
+
+**The Anatomy of a Prompt That Works**
+
+Most people write prompts like this: "a castle on a hill at sunset"
+
+That's a starting point, not a prompt. Here's the structure I use:
+
+```
+[SUBJECT] + [STYLE REFERENCE] + [LIGHTING] + [CAMERA/LENS] + [MOOD/ATMOSPHERE] + [DETAIL LEVEL]
+```
+
+Each layer adds control. Let me show you how this works across different styles:
+
+---
+
+**Cinematic / Film Look**
+
+```
+A lone figure walking through a neon-lit Tokyo alley at night. Cinematic composition, anamorphic lens flare, rain-slicked streets reflecting pink and blue neon signs. Shot on 35mm film, slight grain, shallow depth of field. Blade Runner atmosphere, moody and atmospheric.
+```
+
+Why it works everywhere: "Cinematic composition" and "anamorphic lens flare" are understood across all models. The color specificity ("pink and blue neon") prevents the AI from defaulting to generic palettes. "Shot on 35mm film" adds texture that works in MJ, DALL-E, and SD alike.
+
+**Product Photography**
+
+```
+Flat lay photography of [PRODUCT — e.g., "artisanal chocolate bars in minimalist packaging"]. Arranged on a marble surface with [PROPS — e.g., "scattered cocoa nibs, a copper spoon, dried rose petals"]. Overhead shot, soft diffused natural lighting, no harsh shadows. Style: editorial, high-end food magazine, clean and appetizing.
+```
+
+This is money for anyone selling physical products. The "flat lay" + "overhead shot" combo gives you that Instagram-ready look. "Soft diffused natural lighting" prevents that harsh AI-generated flash look that screams artificial.
+
+**Viral Aesthetic Styles**
+
+These are the styles that get shared like crazy on social media:
+
+*Wes Anderson:*
+```
+A symmetrical photograph of a vintage train station platform. Wes Anderson color palette — dusty rose, sage green, cream. Perfect center composition, 1960s retro details, a single figure with a matching suitcase. Flat lighting, shot on medium format film. Whimsical and meticulously composed.
+```
+
+*Retro Futurism:*
+```
+A 1970s retro-futuristic space station interior. Curved walls, orange and brown upholstery, circular windows showing Earth. Analog control panels with physical buttons and dials. Warm tungsten lighting, slight lens distortion. Style: NASA meets mid-century modern design.
+```
+
+The key to viral aesthetics is consistency within the prompt. Every detail should reinforce the same era and mood. "1960s retro details" with "medium format film" tells a coherent story. Mix eras and you get mush.
+
+**The "Imperfection" Technique**
+
+This is probably the most underrated trick: telling the AI to be imperfect.
+
+```
+A watercolor sketch of a Parisian café terrace in autumn. Loose brush strokes, paint bleeding beyond the lines, visible pencil underdrawing. Warm ochre and burnt sienna palette with pops of cadmium red from the awning. White paper showing through in highlights. Unfinished edges — the painting fades into blank paper on the right side.
+```
+
+Why this works: AI tools default to "perfect" renders. Perfection looks fake. When you ask for "visible pencil underdrawing" or "paint bleeding beyond the lines," you get output that looks like an actual artist made it. This technique works across every tool I've tested.
+
+**Architecture / Interior Design**
+
+```
+A modern Japanese-inspired living room. Floor-to-ceiling windows overlooking a bamboo garden. Wabi-sabi aesthetic — raw concrete walls, natural wood furniture with visible grain, a single imperfect ceramic vase. Late afternoon sunlight casting long shadows across the tatami floor. Shot with a wide-angle tilt-shift lens. Architectural Digest photography style.
+```
+
+"Wabi-sabi aesthetic" is a power keyword — it tells any AI model to embrace natural imperfection and simplicity. Combined with "Architectural Digest photography style," you get editorial quality with organic warmth.
+
+---
+
+**Cross-Platform Tips:**
+
+1. **Lighting is 80% of the output.** Learn these terms: Rembrandt lighting, volumetric light, golden hour, rim lighting, soft diffused, three-point studio. Each one gives a dramatically different result.
+
+2. **Reference real cameras.** "Shot on Hasselblad 500C" or "Canon 85mm f/1.2" works everywhere. The AI has trained on EXIF data and camera-specific looks.
+
+3. **Name art movements, not adjectives.** "Art Nouveau" is more precise than "decorative and organic." "Brutalist" is more useful than "big and concrete." The AI maps to training data — named styles give cleaner results.
+
+4. **Mood words are multipliers.** "Eerie," "serene," "chaotic," "intimate" — these shift the entire composition. Add one mood word and watch everything change.
+
+5. **Avoid prompt soup.** More keywords is not better. A focused 30-word prompt usually beats a 100-word mess. Every word should earn its place.
+
+I wrote up a full breakdown with 50+ prompts organized by style (portraits, products, landscapes, fantasy, architecture, viral aesthetics) here: [midastools.co/blog/chatgpt-image-prompts-2026](https://www.midastools.co/blog/chatgpt-image-prompts-2026)
+
+If anyone wants a prompt tailored to a specific style or use case, drop it in the comments — I've tested a lot of combinations and happy to share what works.

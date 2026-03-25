@@ -8,10 +8,10 @@ export default function Bundle() {
   return (
     <Layout>
       <Head>
-        <title>AI Toolkit Bundle — All 8 Kits for $97 | Midas Tools</title>
-        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 68%." />
+        <title>AI Toolkit Bundle — All 9 Kits for $97 | Midas Tools</title>
+        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Image Prompt Pack, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 71%." />
         <meta property="og:title" content="AI Toolkit Bundle — All 8 Kits for $97 | Midas Tools" />
-        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 68% vs buying separately. Includes all future kits free." />
+        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 71% vs buying separately. Includes all future kits free." />
         <meta property="og:url" content="https://www.midastools.co/bundle" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ export default function Bundle() {
         </p>
 
         <div style={{display:'inline-flex',alignItems:'baseline',gap:16,marginBottom:40}}>
-          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$224</span>
+          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$331</span>
           <span style={{fontSize:48,fontWeight:900,color:'var(--accent)',letterSpacing:-2}}>$97</span>
         </div>
 
@@ -57,11 +57,17 @@ export default function Bundle() {
       {/* What's Included */}
       <section style={{paddingTop:0}}>
         <div className="section-label">What's Included</div>
-        <h2>8 complete kits + lifetime updates</h2>
+        <h2>9 complete kits + lifetime updates</h2>
         <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Everything you need to automate your business, your content, and your client pipeline.</p>
 
         <div className="kits-grid">
           {[
+            {
+              abbr: 'IP', name: 'AI Image Prompt Pack', price: '$29', bg: 'var(--card-pink)',
+              desc: '150+ AI image generation prompts for social media, brands, products, headshots, and viral aesthetic styles. Works with ChatGPT, Midjourney, DALL-E.',
+              link: '/ai-image-prompt-pack',
+              items: ['25+ social media image prompts', '25+ brand & marketing prompts', '25+ e-commerce product prompts', '25+ content & blog graphics', '25+ headshot & portrait prompts', '25+ viral aesthetic styles'],
+            },
             {
               abbr: 'MP', name: 'AI Prompt Mega Pack', price: '$29', bg: 'var(--card-amber)',
               desc: '200+ battle-tested AI prompts for copywriting, social media, content creation, business operations, personal branding, and productivity.',
@@ -176,7 +182,7 @@ export default function Bundle() {
             <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$302</span>
             <span style={{fontSize:48,fontWeight:900,color:'#FFFFFF'}}>$97</span>
           </div>
-          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 8 kits + future kits free</div>
+          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 9 kits + future kits free</div>
           <ul style={{listStyle:'none',textAlign:'left',marginBottom:32}}>
             {[
               'AI Prompt Mega Pack ($29 value)',

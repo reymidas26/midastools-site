@@ -6,12 +6,20 @@ const BUNDLE_STRIPE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 
 const kits = [
   {
+    name: 'AI Image Prompt Pack',
+    price: '$29',
+    desc: '150+ AI image generation prompts for social media, brands, products, headshots & viral styles. Works with ChatGPT, Midjourney, DALL-E.',
+    href: '/ai-image-prompt-pack',
+    stripe: 'https://buy.stripe.com/PLACEHOLDER_IMAGE_PACK',
+    badge: 'NEW',
+    color: 'var(--card-pink)',
+  },
+  {
     name: 'AI Prompt Mega Pack',
     price: '$29',
     desc: '200+ battle-tested AI prompts for copywriting, social media, content, operations, branding & productivity. Works with any LLM.',
     href: '/ai-prompt-mega-pack',
     stripe: 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d',
-    badge: 'NEW',
     color: 'var(--card-amber)',
   },
   {
@@ -188,7 +196,7 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 8 kits + future kits for $97</h2>
+          <h2>Get all 9 kits + future kits for $97</h2>
           <p>Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>

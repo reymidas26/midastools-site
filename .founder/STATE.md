@@ -1,11 +1,12 @@
 # State
 
 ## Current Status
-Day 2 — Session 18 complete. BUILD PASSES (55 pages). 9 products on site (8 kits + bundle). All Stripe links live. 29 blog posts (26 hosted + externals). FREE PROMPTS landing page + AI ROI CALCULATOR + **AI KIT QUIZ** (3 interactive free tools) live. Site-wide email capture live. Internal cross-linking updated. Profession hub expanded to 12 industries. Sitemap: 48 URLs. 8 Twitter threads + 9 Reddit posts ready. All verified building.
+Day 3 — Session 19 complete. BUILD PASSES (56 pages). 10 products on site (9 kits + bundle). 30 blog posts (27 hosted + externals). AI Image Prompt Pack ($29) shipped — riding the viral AI image generation trend. Bundle upgraded to 9 kits ($331 value → $97, 71% savings). Site-wide "9 kits" references updated across 10+ files. Sitemap: 50 URLs. All verified building.
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
 |---------|-------|------|-----|--------|
+| AI Image Prompt Pack | $29 | /ai-image-prompt-pack | ai-image-prompt-pack.zip | ✅ Built (needs Stripe link) |
 | AI Prompt Mega Pack | $29 | /ai-prompt-mega-pack | ai-prompt-mega-pack.zip (82K) | ✅ Live |
 | OpenClaw Starter Kit | $29 | / | openclaw-starter-kit.zip (16K) | ✅ Live |
 | Real Estate AI Kit | $49 | /real-estate-kit | real-estate-kit.zip (39K) | ✅ Live |
@@ -14,30 +15,42 @@ Day 2 — Session 18 complete. BUILD PASSES (55 pages). 9 products on site (8 ki
 | Small Business AI Kit | $39 | /small-business-kit | small-business-kit.zip (42K) | ✅ Live |
 | E-commerce AI Kit | $39 | /ecommerce-kit | ecommerce-kit.zip (68K) | ✅ Live |
 | SaaS Founder AI Kit | $39 | /saas-founder-kit | saas-founder-kit.zip | ✅ Live |
-| All Kits Bundle | $97 | /bundle | All 8 ZIPs | ✅ Live |
+| All Kits Bundle | $97 | /bundle | All 9 ZIPs | ✅ Live |
 
-## Blog Posts (16 hosted + externals)
-| Post | URL | Target Keyword | CTAs |
-|------|-----|----------------|------|
-| AI Tools for Teachers | /blog/ai-tools-teachers-2026 | AI tools for teachers 2026 | Mega Pack, Bundle |
-| Build a Second Income with AI | /blog/ai-second-income-2026 | second income AI 2026, make money with AI | Mega Pack, Freelancer Kit, Bundle |
-| AI Tools vs. Hiring | /blog/ai-tools-vs-hiring-2026 | AI tools vs hiring, AI vs employee cost | Small Biz Kit, Bundle |
-| Best AI Prompt Packs | /blog/best-ai-prompt-packs-2026 | best AI prompt packs 2026 | Mega Pack, Bundle |
-| How to Price Freelance Services | /blog/how-to-price-freelance-services-ai-2026 | freelance pricing strategy AI 2026 | Freelancer Kit, Bundle |
-| AI Tools for SaaS Founders | /blog/ai-saas-founder-tools-2026 | AI tools SaaS founders 2026 | SaaS Kit, Bundle |
-| ChatGPT Side Hustles | /blog/chatgpt-side-hustle-2026 | ChatGPT side hustle 2026 | Mega Pack, Bundle |
-| E-commerce Descriptions | /blog/ai-ecommerce-product-descriptions-2026 | AI product descriptions 2026 | E-commerce Kit, Bundle |
-| 50 AI Prompts Making Money | /blog/best-ai-prompts-business-2026 | best AI prompts for business 2026 | Mega Pack, Bundle |
-| 5 AI Tools for Small Biz | /blog/ai-tools-small-business-owners-2026 | AI tools for small business owners 2026 | Small Biz Kit, Bundle |
-| 9 AI Automations | /blog/ai-small-business-automation-2026 | AI automation small business 2026 | Small Biz Kit, Bundle |
-| Automate Client Follow-Up | /blog/automate-client-follow-up-ai | automate client follow-up AI | Freelancer Kit, Bundle |
-| RE AI Tools | /blog/ai-tools-real-estate-agents-2026 | AI tools real estate agents 2026 | RE Kit, Bundle |
-| Content Repurposing | /blog/ai-content-repurposing-2026 | AI content repurposing 2026 | Creator Kit, Bundle |
-| Freelancer Automation | /blog/ai-freelancer-automation-2026 | AI freelancer automation 2026 | Freelancer Kit, Bundle |
-| AI Agent $10K Day | /blog/ai-agent-10k-day | — | Starter Kit |
+## This Session (Session 19)
+- **NEW PRODUCT: AI Image Prompt Pack ($29)** — /ai-image-prompt-pack, 150+ image generation prompts in 6 categories (social media, brand/marketing, e-commerce, content/blog, headshots, viral styles). Works with ChatGPT/DALL-E, Midjourney, Stable Diffusion, Leonardo AI.
+- **VIRAL BLOG POST**: "50 Viral ChatGPT Image Prompts That Broke the Internet in 2026" — /blog/chatgpt-image-prompts-2026 (23.6 kB — our biggest blog post). Targets massive "ChatGPT image prompts" keyword.
+- **Kit Content**: 7 files, 160+ prompts in kit-content/ai-image-prompt-pack/
+- **ZIP Built**: public/ai-image-prompt-pack.zip
+- **Bundle Upgraded**: Now 9 kits, $331 value → $97 (71% savings, was 68%)
+- **Kits Catalog Updated**: Image Pack added as first item with NEW badge
+- **Blog Index Updated**: New post at top (30 total posts now)
+- **Sitemap Updated**: 50 URLs (was 48)
+- **Site-wide Updates**: "8 kits" → "9 kits" and "68%" → "71%" on homepage, bundle, thank-you, and all kit pages
+- **BUILD PASSES**: 56 pages (was 54)
 
-## Build Output (41 pages)
-All pages compile and generate static HTML successfully.
+## Research Findings (Session 19)
+- AI image prompts are THE viral trend of March 2026 — searches up 80-120%
+- Image/video generation prompts outperform generic productivity prompts (29.4% CAGR)
+- ChatGPT image generation exploding on Instagram, TikTok, Pinterest
+- Ghibli/anime style, cinematic, hyperrealistic, neon cyberpunk = top trending styles
+- Top Gumroad sellers: $47.14 avg price, 293 avg sales, 4.4+ rating
+- "AI slop" backlash means CURATED, SPECIFIC prompts are more valued than ever
+
+## Blockers for Founder
+1. **⚡ CREATE STRIPE LINK** for AI Image Prompt Pack ($29) — page has PLACEHOLDER_IMAGE_PACK
+2. **⚡ POST REDDIT DRAFTS** — Posts 1-9 ready. .founder/deliverables/reddit-distribution-posts.md
+3. Set Stripe Payment Link success URLs to `/thank-you?kit=<type>` for each product
+4. Set NEXT_PUBLIC_GA_ID env var for analytics
+5. Set up email marketing tool (ConvertKit/Resend)
+
+## Next Priorities
+1. **Push to main** — deploy Session 19 changes
+2. **Distribution**: Create Reddit post for AI Image Prompt Pack (visual content angle)
+3. **SEO**: Cross-link new image prompts blog post from existing high-traffic posts
+4. **Product**: Consider Notion AI Templates kit (top Gumroad category)
+5. **Gumroad**: List all products on marketplace
+6. **Twitter/X**: Create thread from ChatGPT image prompts post (highly shareable)
 
 ## Design System (Session 13)
 - **Background**: White (#FFFFFF)
@@ -49,39 +62,3 @@ All pages compile and generate static HTML successfully.
 - **Buttons**: Pill-shaped (border-radius: 100px), blue bg + white text
 - **Font**: Inter (loaded globally from _document.js)
 - **Style**: Clean, modern, fun — inspired by Future Founders reference
-
-## This Session (Session 16)
-- **FREE PROMPTS LANDING PAGE**: /free-prompts — 5 battle-tested prompts gated by email capture, with upsell to Mega Pack ($29) + Bundle ($97). Lead magnet funnel.
-- **2 NEW HIGH-TRAFFIC BLOG POSTS**:
-  - "15 Best Free AI Tools in 2026" — /blog/best-free-ai-tools-2026 (targets "best free AI tools 2026" — massive search volume keyword)
-  - "25 ChatGPT Tips and Tricks Most People Don't Know" — /blog/chatgpt-tips-tricks-2026 (targets "ChatGPT tips" — 768M+ monthly searches for ChatGPT)
-- **NAV + FOOTER UPDATED**: "Free Prompts" added to desktop nav, mobile menu, and footer
-- **HOMEPAGE UPDATED**: Secondary CTA "Not ready to buy? Get 5 free AI prompts →" below hero
-- **INTERNAL CROSS-LINKS**: Added /free-prompts links + cross-links to 3 existing high-traffic posts (best-ai-prompts, chatgpt-side-hustle, ai-second-income)
-- **REDDIT POST 7**: New free-prompts-focused Reddit post added to distribution drafts (lowest friction entry point)
-- **BLOG INDEX UPDATED**: 2 new posts added at top (now 21 hosted posts)
-- **SITEMAP UPDATED**: 41 URLs (was 38)
-- **BUILD PASSES**: 47 pages (was 44)
-
-## This Session (Session 18)
-- **Blog: AI Email Templates** — /blog/ai-email-templates-2026, 21 templates in 4 categories, targets "AI email templates" keyword
-- **Blog: AI Tools for Project Managers** — /blog/ai-tools-project-managers-2026, 8 tools + 3 prompts, targets PM keyword
-- **Blog: AI Tools for HR & Recruiting** — /blog/ai-tools-hr-recruiting-2026, 9 tools + 3 prompts, targets HR/recruiting keyword
-- **Profession Hub Expanded** — ai-tools-by-profession now covers 12 industries (was 10), added HR and PM
-- **Blog Index Updated** — 3 new posts at top (now 29 total posts)
-- **Sitemap Updated** — 47 URLs (was 44)
-- **BUILD PASSES** — 54 pages (was 51)
-
-## Blockers for Founder
-1. **⚡ POST REDDIT DRAFTS** — Post 7 (free prompts) is ready NOW. This week. .founder/deliverables/reddit-distribution-posts.md
-2. Set Stripe Payment Link success URLs to `https://www.midastools.co/thank-you?kit=<kit-type>` for each product
-3. Set NEXT_PUBLIC_GA_ID env var for analytics
-4. Set up email marketing tool (ConvertKit/Resend) — email capture is live but only notifies via Gmail
-
-## Next Priorities
-1. **Distribution**: Post Reddit drafts (Post 7 FIRST — free prompts) — HIGHEST PRIORITY
-2. **Gumroad**: List all products on marketplace
-3. **More content**: "AI for Nonprofit Leaders", "AI Prompt Engineering Guide", comparison pages
-4. **QA**: Full visual review of deployed site on mobile
-5. **Email marketing platform**: Connect email capture to ConvertKit/Resend for nurture sequences
-6. **Twitter/X content**: Create a thread from the ChatGPT tips post

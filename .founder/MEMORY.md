@@ -5,13 +5,13 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 ## Key Facts
 - **Project**: Midas Tools — Product building machine. Research trending products, build versions, sell them.
 - **Stack**: Next.js 14.2, React 18, Stripe, Nodemailer/Gmail SMTP, inline CSS
-- **Products**: AI Prompt Mega Pack ($29), Starter Kit ($29), Real Estate Kit ($49), Content Creator Kit ($39), Freelancer Kit ($39), Small Business Kit ($39), Bundle ($97), DFY ($299), AI Services ($499-$5K)
+- **Products**: AI Image Prompt Pack ($29), AI Prompt Mega Pack ($29), Starter Kit ($29), Real Estate Kit ($49), Content Creator Kit ($39), Freelancer Kit ($39), Small Business Kit ($39), E-commerce Kit ($39), SaaS Founder Kit ($39), Bundle ($97)
 - **OpenClaw**: Open-source AI agent framework with 247K GitHub stars (March 2026), featured on Lex Fridman
 - **Felix Craft**: Proof-of-concept agent that earned $14,718 in 3 weeks (key case study)
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
-- **Site pages**: 47 pages total (build output), including dynamic blog
-- **Blog posts**: 21 hosted standalone posts + external dev.to posts. S16: Best Free AI Tools, ChatGPT Tips & Tricks
+- **Site pages**: 56 pages total (build output), including dynamic blog
+- **Blog posts**: 30 total (27 hosted + external dev.to posts). S19: ChatGPT Image Prompts (viral blog)
 - **Components**: Layout.js (nav+footer+global styles), EmailCapture.js (site-wide lead magnet)
 - **Free Prompts page**: /free-prompts — email-gated lead magnet with 5 prompts, upsell to Mega Pack + Bundle
 - **Sitemap**: 41 URLs (public/sitemap.xml)
@@ -67,6 +67,14 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 ## What Failed
 (Nothing yet — Day 0)
 
+## Viral Trends (March 2026)
+- AI image prompts = #1 viral trend. Searches up 80-120%. 29.4% CAGR through 2033
+- ChatGPT image generation exploding on Instagram, TikTok, Pinterest, WhatsApp
+- Top trending styles: Ghibli/anime, cinematic, hyperrealistic, neon cyberpunk, 3D clay
+- "AI slop" backlash = opportunity for CURATED, SPECIFIC prompts (higher perceived value)
+- Notion templates still top Gumroad category ($65.8M in software dev)
+- Multimodal AI adoption up 65% YoY, creator tools up 80-120% in searches
+
 ## Important Context
 - Environment vars needed: GMAIL_ADDRESS, GMAIL_APP_PASSWORD, STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, NEXT_PUBLIC_GA_ID
 - **Shared Layout**: `components/Layout.js` — nav, footer, global styles. All pages use it now.
@@ -79,7 +87,7 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Stripe checkout URLs defined as STRIPE_URL constant at top of each page file
 - All 9 Stripe products have live payment links. Founder needs to set success URLs to /thank-you?kit=<type>
 - **EmailCapture component**: `components/EmailCapture.js` — renders on all pages except homepage. Uses styled-jsx, POSTs to /api/subscribe with source: 'site-wide-capture'
-- **Sitemap**: public/sitemap.xml — 28 URLs, updated 2026-03-24
+- **Sitemap**: public/sitemap.xml — 50 URLs, updated 2026-03-25
 - Kit content lives in kit-content/ dir, ZIPs in public/. Use .founder/tools/build-kits.sh to rebuild ZIPs.
 - Webhook routing: stripe-webhook.js detects kit type via session.metadata.kit_type → payment_link → product_name → amount
 - External blog posts (dev.to) cannot be edited for internal links
