@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'best-midjourney-prompts-2026', title: '40+ Best Midjourney Prompts for Stunning AI Art in 2026 (Copy & Paste)', date: 'Mar 26, 2026', desc: 'The best Midjourney prompts for 2026. 40+ copy-paste prompts for photorealistic portraits, product photography, cinematic art, anime, architecture, and abstract design. Includes v6.1 parameters.' },
   { slug: 'how-to-make-money-with-ai-2026', title: 'How to Make Money with AI in 2026: 12 Proven Methods (With Real Examples)', date: 'Mar 25, 2026', desc: '12 proven methods to make money with AI in 2026. Real income examples, tools needed, and step-by-step guides. From selling prompt packs to AI consulting.' },
   { slug: 'chatgpt-prompts-students-2026', title: '30 ChatGPT Prompts Every Student Needs in 2026 (Study Smarter, Not Harder)', date: 'Mar 25, 2026', desc: 'The best ChatGPT prompts for students. Copy-paste prompts for essays, studying, note-taking, exam prep, and time management.' },
   { slug: 'chatgpt-action-figure-prompt-2026', title: 'How to Create Your Own ChatGPT Action Figure (Best Prompts + Tips)', date: 'Mar 25, 2026', desc: 'The viral trend explained. 15+ copy-paste prompts for action figures, doll boxes, and collectible toys.' },

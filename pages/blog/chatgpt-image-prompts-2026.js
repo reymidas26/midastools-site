@@ -113,6 +113,7 @@ export default function ChatGPTImagePrompts2026() {
         <p>The problem? Most people type &ldquo;a cat sitting on a chair&rdquo; and wonder why the output looks mediocre. Meanwhile, creators who know how to write specific, detailed prompts are generating images that rack up millions of views, replace expensive photoshoots, and sell products.</p>
         <p>These are not theoretical prompts. These are the <strong>50 prompts people are actually using</strong> to create viral images right now. Every single one is copy-paste ready. I have organized them by use case so you can jump straight to the category you need.</p>
         <p>Paste any of these into ChatGPT (Plus or Pro for best results) and watch what happens.</p>
+        <p><strong>Using Midjourney instead?</strong> Check out our <Link href="/blog/best-midjourney-prompts-2026" style={{ color: '#3B5FFF' }}>40+ Best Midjourney Prompts for 2026</Link> with v6.1 parameters, --ar ratios, and multi-prompt syntax.</p>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 

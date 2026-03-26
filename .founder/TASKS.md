@@ -15,7 +15,7 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [ ] Need email marketing tool (ConvertKit/Resend) — capture is live, nurture is not
 
 ### Distribution (Can Do Autonomously via SEO)
-- [ ] Cross-link new image prompts blog from existing high-traffic posts
+- [x] Cross-link new image prompts blog from existing high-traffic posts (Session 20)
 - [ ] Create Twitter/X thread from ChatGPT Image Prompts post (highly shareable visual content)
 - [ ] Create Reddit post for AI Image Prompt Pack (visual content angle for r/ChatGPT, r/midjourney)
 - [ ] Post Reddit Posts 1-9 from .founder/deliverables/reddit-distribution-posts.md
@@ -25,7 +25,7 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [ ] Write blog: "AI Prompt Engineering Guide" (evergreen how-to)
 - [ ] Write blog: "AI Tools for Nonprofit Leaders" (untapped niche)
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
-- [ ] Write blog: "Best Midjourney Prompts 2026" (capitalize on image trend)
+- [x] Write blog: "Best Midjourney Prompts 2026" (capitalize on image trend) — Session 20
 - [ ] Write blog: "How to Make Money Selling AI Art" (monetization angle)
 
 ### Products (Next to Build)
@@ -79,6 +79,10 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] **AI IMAGE PROMPT PACK ($29)** — 150+ prompts, 6 categories, product page, ZIP, blog post (Session 19)
 - [x] **Blog: 50 Viral ChatGPT Image Prompts** — /blog/chatgpt-image-prompts-2026, our biggest blog post (Session 19)
 - [x] **BUILD PASSES** — 56 pages (Session 19)
+- [x] **Blog: Best Midjourney Prompts 2026** — /blog/best-midjourney-prompts-2026, 40+ prompts, 17.9 kB (Session 20)
+- [x] **CROSS-LINKING** — Internal links across 3 image/prompt blog posts for SEO cluster (Session 20)
+- [x] **SITEMAP UPDATED** — 56 URLs (Session 20)
+- [x] **BUILD PASSES** — 58 pages (Session 20)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var

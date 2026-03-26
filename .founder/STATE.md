@@ -1,7 +1,7 @@
 # State
 
 ## Current Status
-Day 3 — Session 19 complete. BUILD PASSES (57 pages). 10 products on site (9 kits + bundle). 31 blog posts (28 hosted + externals). AI Image Prompt Pack ($29) shipped — riding the viral AI image generation trend. Bundle upgraded to 9 kits ($331 value → $97, 71% savings). TREND BLOG: "ChatGPT Action Figure Prompt" post live — targeting #1 viral AI search term. 2 new Reddit distribution posts drafted (r/ChatGPT, r/midjourney). Everything pushed to main and deploying. Sitemap: 51 URLs.
+Day 3 — Session 20 complete. BUILD PASSES (58 pages). 10 products on site (9 kits + bundle). 32 blog posts (29 hosted + externals). New "Best Midjourney Prompts 2026" blog post (17.9 kB, 40+ prompts). Cross-linked image content across 3 posts for internal SEO boost. Sitemap: 56 URLs.
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
@@ -17,25 +17,12 @@ Day 3 — Session 19 complete. BUILD PASSES (57 pages). 10 products on site (9 k
 | SaaS Founder AI Kit | $39 | /saas-founder-kit | saas-founder-kit.zip | ✅ Live |
 | All Kits Bundle | $97 | /bundle | All 9 ZIPs | ✅ Live |
 
-## This Session (Session 19)
-- **NEW PRODUCT: AI Image Prompt Pack ($29)** — /ai-image-prompt-pack, 150+ image generation prompts in 6 categories (social media, brand/marketing, e-commerce, content/blog, headshots, viral styles). Works with ChatGPT/DALL-E, Midjourney, Stable Diffusion, Leonardo AI.
-- **VIRAL BLOG POST**: "50 Viral ChatGPT Image Prompts That Broke the Internet in 2026" — /blog/chatgpt-image-prompts-2026 (23.6 kB — our biggest blog post). Targets massive "ChatGPT image prompts" keyword.
-- **Kit Content**: 7 files, 160+ prompts in kit-content/ai-image-prompt-pack/
-- **ZIP Built**: public/ai-image-prompt-pack.zip
-- **Bundle Upgraded**: Now 9 kits, $331 value → $97 (71% savings, was 68%)
-- **Kits Catalog Updated**: Image Pack added as first item with NEW badge
-- **Blog Index Updated**: New post at top (30 total posts now)
-- **Sitemap Updated**: 50 URLs (was 48)
-- **Site-wide Updates**: "8 kits" → "9 kits" and "68%" → "71%" on homepage, bundle, thank-you, and all kit pages
-- **BUILD PASSES**: 56 pages (was 54)
-
-## Research Findings (Session 19)
-- AI image prompts are THE viral trend of March 2026 — searches up 80-120%
-- Image/video generation prompts outperform generic productivity prompts (29.4% CAGR)
-- ChatGPT image generation exploding on Instagram, TikTok, Pinterest
-- Ghibli/anime style, cinematic, hyperrealistic, neon cyberpunk = top trending styles
-- Top Gumroad sellers: $47.14 avg price, 293 avg sales, 4.4+ rating
-- "AI slop" backlash means CURATED, SPECIFIC prompts are more valued than ever
+## This Session (Session 20)
+- **NEW BLOG: "40+ Best Midjourney Prompts 2026"** — /blog/best-midjourney-prompts-2026 (17.9 kB). 40+ copy-paste prompts across 6 categories: portraits, product photography, cinematic, anime/illustration, architecture, abstract/patterns. Includes Midjourney v6.1 parameters, --ar, --style raw, --niji, multi-prompt syntax.
+- **CROSS-LINKING**: Added internal links across 3 existing blog posts (chatgpt-image-prompts → midjourney, action-figure → both image posts, best-ai-prompt-packs → image pack + both image guides). This creates a strong internal link cluster for AI image SEO.
+- **Blog Index Updated**: New post at top (32 total posts, 29 hosted)
+- **Sitemap Updated**: 56 URLs (was 55)
+- **BUILD PASSES**: 58 pages (was 57)
 
 ## Blockers for Founder
 1. **⚡ CREATE STRIPE LINK** for AI Image Prompt Pack ($29) — page has PLACEHOLDER_IMAGE_PACK
@@ -45,12 +32,13 @@ Day 3 — Session 19 complete. BUILD PASSES (57 pages). 10 products on site (9 k
 5. Set up email marketing tool (ConvertKit/Resend)
 
 ## Next Priorities
-1. **Push to main** — deploy Session 19 changes
-2. **Distribution**: Create Reddit post for AI Image Prompt Pack (visual content angle)
-3. **SEO**: Cross-link new image prompts blog post from existing high-traffic posts
-4. **Product**: Consider Notion AI Templates kit (top Gumroad category)
-5. **Gumroad**: List all products on marketplace
-6. **Twitter/X**: Create thread from ChatGPT image prompts post (highly shareable)
+1. **Push to main** — deploy Session 20 changes
+2. **Distribution**: Post Reddit drafts (9 ready), create new one for Midjourney post
+3. **Product**: Build Notion AI Templates Kit ($39) — top Gumroad category
+4. **Product**: Build AI Video Prompt Pack ($29) — video generation trending
+5. **Content**: Write "How to Make Money Selling AI Art" blog (monetization angle)
+6. **Gumroad**: List all products on marketplace
+7. **Twitter/X**: Create threads from image prompt posts
 
 ## Design System (Session 13)
 - **Background**: White (#FFFFFF)

@@ -136,6 +136,7 @@ export default function ChatGPTActionFigurePrompt2026() {
 
         <h2 style={{ fontSize: '1.4rem', fontWeight: '700', marginTop: '40px' }}>10 Best ChatGPT Action Figure Prompts</h2>
         <p>Each prompt below is copy-paste ready. Replace the bracketed sections with your own details. For the most realistic results, upload a photo of yourself along with the prompt.</p>
+        <p>Want more AI image prompts beyond action figures? See our <Link href="/blog/chatgpt-image-prompts-2026" style={{ color: '#3B5FFF' }}>50 Viral ChatGPT Image Prompts</Link> and <Link href="/blog/best-midjourney-prompts-2026" style={{ color: '#3B5FFF' }}>40+ Best Midjourney Prompts for 2026</Link>.</p>
 
         {/* PROMPT 1 */}
         <h3 style={{ fontSize: '1.15rem', fontWeight: '700', marginTop: '32px' }}>1. Classic Action Figure in Blister Pack</h3>

@@ -324,7 +324,7 @@ export default function BestAIPromptPacks2026() {
 
         <p><strong>If you are a developer</strong> who primarily uses AI for code generation, debugging, and technical tasks, the AI Prompt Engineer Bundle ($49) is worth the premium. It goes deep where the Mega Pack stays broad.</p>
 
-        <p><strong>If you are a designer or visual creator</strong> who needs image generation prompts, start with PromptHero&rsquo;s free library. It has the largest collection of tested prompts for Midjourney, Stable Diffusion, and DALL-E.</p>
+        <p><strong>If you are a designer or visual creator</strong> who needs image generation prompts, check out our <Link href="/ai-image-prompt-pack" style={{ color: '#3B5FFF' }}>AI Image Prompt Pack</Link> with 150+ prompts for ChatGPT/DALL-E, Midjourney, and Stable Diffusion. We also have free guides: <Link href="/blog/chatgpt-image-prompts-2026" style={{ color: '#3B5FFF' }}>50 Viral ChatGPT Image Prompts</Link> and <Link href="/blog/best-midjourney-prompts-2026" style={{ color: '#3B5FFF' }}>40+ Best Midjourney Prompts</Link>.</p>
 
         <p><strong>If you are budget-conscious and only use ChatGPT</strong>, AIPRM&rsquo;s free tier is a reasonable starting point. Just be prepared to spend time sorting through community submissions to find quality.</p>
 
