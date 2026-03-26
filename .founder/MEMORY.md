@@ -5,13 +5,14 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 ## Key Facts
 - **Project**: Midas Tools — Product building machine. Research trending products, build versions, sell them.
 - **Stack**: Next.js 14.2, React 18, Stripe, Nodemailer/Gmail SMTP, inline CSS
-- **Products**: AI Video Prompt Pack ($29), Notion AI Templates Kit ($39), AI Image Prompt Pack ($29), AI Prompt Mega Pack ($29), Starter Kit ($29), Real Estate Kit ($49), Content Creator Kit ($39), Freelancer Kit ($39), Small Business Kit ($39), E-commerce Kit ($39), SaaS Founder Kit ($39), Bundle ($97 — 11 kits, $399 value, 76% savings)
+- **Products**: AI Video Prompt Pack ($29), Notion AI Templates Kit ($39), AI Image Prompt Pack ($29), AI Prompt Mega Pack ($29), Starter Kit ($29), Real Estate Kit ($49), Content Creator Kit ($39), Freelancer Kit ($39), Small Business Kit ($39), E-commerce Kit ($39), SaaS Founder Kit ($39), AI Resume & Career Kit ($29), AI Social Media Manager Kit ($39), Bundle ($97 — 13 kits, $467 value, 79% savings)
 - **OpenClaw**: Open-source AI agent framework with 247K GitHub stars (March 2026), featured on Lex Fridman
 - **Felix Craft**: Proof-of-concept agent that earned $14,718 in 3 weeks (key case study)
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
-- **Site pages**: 59 pages total (build output), including dynamic blog
-- **Blog posts**: 33 total (30 hosted + external dev.to posts). S20: Midjourney Prompts + AI Art Monetization
+- **Site pages**: 71+ pages total (build output), including dynamic blog
+- **Blog posts**: 39 total (36+ hosted + external dev.to posts). S20: Midjourney + AI Art. S22: Prompt Generator blog.
+- **ALL Stripe links are LIVE** — no more placeholders. Resend email marketing wired up (S22.5).
 - **Components**: Layout.js (nav+footer+global styles), EmailCapture.js (site-wide lead magnet)
 - **Free Prompts page**: /free-prompts — email-gated lead magnet with 5 prompts, upsell to Mega Pack + Bundle
 - **Sitemap**: 41 URLs (public/sitemap.xml)
@@ -60,6 +61,10 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **2026-03-26 (S20)**: Built "Best Midjourney Prompts 2026" blog (40+ prompts, 17.9 kB). Cross-linked 3 image posts + prompt packs post to create SEO cluster. Strategy: dominate AI image prompt keywords with interlinked content.
 - **2026-03-26 (S20)**: Notion AI Templates Kit ($39) shipped — 150+ templates, 7,424 lines, 6 categories. Tapping #1 Gumroad category ($65.8M). Bundle upgraded to 10 kits, $370 value → $97 (74% savings).
 - **2026-03-26 (S21)**: AI Video Prompt Pack ($29) shipped — 150+ prompts, 1,055 lines, 6 categories. Video generation searches up 80-120%. Works with Sora, Runway, Pika, Kling AI, Luma. Bundle upgraded to 11 kits, $399 value → $97 (76% savings). Sitewide bundle refs updated across 19+ files.
+- **2026-03-26 (S22.5)**: AI Resume & Career Kit ($29) shipped — 125+ prompts, 7 files, 6 categories (resumes, cover letters, LinkedIn, interview prep, job search, salary negotiation). All Stripe links wired. Resend email connected. Bundle upgraded to 12 kits, $428 value → $97 (77% savings).
+- **2026-03-26 (S23)**: State audit — discovered Resume Kit + Stripe links + Resend were shipped in untracked sessions. Updated all state docs. Cross-linked Resume Kit from 3 blog posts. Added resume-career-kit to sitemap.
+- **2026-03-26 (S23)**: AI Social Media Manager Kit ($39) shipped — 150+ prompts, 7 files, 6 categories (content calendars, caption hooks, viral formulas, analytics, community management, paid ads). All platforms covered. Bundle upgraded to 13 kits, $467 value → $97 (79% savings).
+- **2026-03-26 (S23)**: Blog "15 ChatGPT Prompts to Write a Perfect Resume in 2026" shipped — 52KB, massive SEO targeting job search keywords. Cross-linked from 4 posts + resume kit page.
 - **2026-03-26 (S22)**: FREE AI PROMPT GENERATOR shipped — /prompt-generator, interactive tool with 8 categories (sales email, social media, product description, blog outline, cold outreach, AI image, video script, business strategy). Users fill in 3 fields → get customized prompt → copy to clipboard → upsell to paid packs. This is our traffic magnet play. Free tools get 10x more shares/backlinks than static content. Added to main nav, cross-linked from 4 existing posts. Blog post targeting "free AI prompt generator" keywords also shipped.
 
 ## What Worked
@@ -89,9 +94,9 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Mobile breakpoint: max-width 600px or 700px
 - Blog has mix of hosted posts and external links (dev.to, Medium)
 - Stripe checkout URLs defined as STRIPE_URL constant at top of each page file
-- All 9 Stripe products have live payment links. Founder needs to set success URLs to /thank-you?kit=<type>
+- All 12+ Stripe products have live payment links. Founder needs to set success URLs to /thank-you?kit=<type>
 - **EmailCapture component**: `components/EmailCapture.js` — renders on all pages except homepage. Uses styled-jsx, POSTs to /api/subscribe with source: 'site-wide-capture'
-- **Sitemap**: public/sitemap.xml — 58 URLs, updated 2026-03-26
+- **Sitemap**: public/sitemap.xml — 65+ URLs, updated 2026-03-26
 - **Image SEO Cluster**: 3 posts cross-linked (chatgpt-image-prompts, chatgpt-action-figure, best-midjourney-prompts) + best-ai-prompt-packs links to image pack. Strong internal linking for AI image generation keywords.
 - Kit content lives in kit-content/ dir, ZIPs in public/. Use .founder/tools/build-kits.sh to rebuild ZIPs.
 - Webhook routing: stripe-webhook.js detects kit type via session.metadata.kit_type → payment_link → product_name → amount

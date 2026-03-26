@@ -477,10 +477,10 @@ export default function HowToMakeMoneyWithAI2026() {
         <p>Every method in this guide benefits from well-crafted AI prompts. The difference between generic AI output and money-making output is the quality of your prompts.</p>
 
         <div style={{ background: '#f0f4ff', border: '2px solid #3B5FFF', borderRadius: '12px', padding: '24px', textAlign: 'center', margin: '32px 0' }}>
-          <p style={{ fontSize: '18px', fontWeight: '700', marginBottom: '8px' }}>All 11 AI Kits &mdash; One Bundle</p>
+          <p style={{ fontSize: '18px', fontWeight: '700', marginBottom: '8px' }}>All 13 AI Kits &mdash; One Bundle</p>
           <p style={{ color: '#6B7280', marginBottom: '16px' }}>Prompt packs, templates, and workflows for freelancers, creators, realtors, small business owners, and more. Everything you need to start earning with AI.</p>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get All 11 Kits &mdash; $97 (Save 76%)
+            Get All 13 Kits &mdash; $97 (Save 79%)
           </a>
         </div>
 
@@ -514,6 +514,7 @@ export default function HowToMakeMoneyWithAI2026() {
           <li><Link href="/blog/chatgpt-side-hustle-2026" style={{ color: '#3B5FFF' }}>7 ChatGPT Side Hustles Actually Making Money in 2026</Link></li>
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/ai-freelancer-automation-2026" style={{ color: '#3B5FFF' }}>7 AI Automations Every Freelancer Needs in 2026</Link></li>
+          <li><Link href="/resume-career-kit" style={{ color: '#3B5FFF' }}>AI Resume &amp; Career Kit — Land Your Next Role Faster with 125+ Prompts</Link></li>
         </ul>
 
         <div style={{ marginTop: '32px', padding: '20px 24px', background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: '8px' }}>

@@ -273,10 +273,10 @@ Keep the entire report under 500 words. Design for email — scannable, short pa
           {/* CTA 1 */}
           <div style={s.cta}>
             <p style={{ fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.5px', color: 'rgba(255,255,255,0.5)', marginBottom: '12px' }}>500+ Ready-Made Prompts</p>
-            <p style={{ fontSize: '20px', fontWeight: 800, marginBottom: '8px' }}>Get All 11 AI Kits — $97</p>
-            <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.6)', marginBottom: '20px' }}>Grant writing, fundraising, email marketing, content creation, operations, and more. 500+ prompts across 11 kits.</p>
+            <p style={{ fontSize: '20px', fontWeight: 800, marginBottom: '8px' }}>Get All 13 AI Kits — $97</p>
+            <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.6)', marginBottom: '20px' }}>Grant writing, fundraising, email marketing, content creation, operations, and more. 500+ prompts across 13 kits.</p>
             <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#FFFFFF', color: 'var(--text)', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: 700, fontSize: '15px' }}>
-              Get the Bundle — $97 (Save 76%) →
+              Get the Bundle — $97 (Save 79%) →
             </a>
           </div>
 
@@ -516,12 +516,12 @@ Requirements:
             <p style={{ fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1.5px', color: 'rgba(255,255,255,0.5)', marginBottom: '12px' }}>For Your Entire Team</p>
             <p style={{ fontSize: '22px', fontWeight: 900, marginBottom: '8px' }}>Get 500+ AI Prompts for $97</p>
             <p style={{ fontSize: '15px', color: 'rgba(255,255,255,0.6)', marginBottom: '20px', maxWidth: '440px', margin: '0 auto 20px', lineHeight: 1.6 }}>
-              Grant writing, fundraising, email marketing, social media, content creation, operations, and more. 11 complete AI kits.
+              Grant writing, fundraising, email marketing, social media, content creation, operations, and more. 13 complete AI kits.
             </p>
             <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#FFFFFF', color: 'var(--text)', padding: '16px 36px', borderRadius: '100px', textDecoration: 'none', fontWeight: 800, fontSize: '16px' }}>
               Get the Bundle — $97 →
             </a>
-            <p style={{ marginTop: '16px', fontSize: '13px', color: 'rgba(255,255,255,0.4)' }}>$399 value · Save 76% · 30-day money-back guarantee</p>
+            <p style={{ marginTop: '16px', fontSize: '13px', color: 'rgba(255,255,255,0.4)' }}>$467 value · Save 79% · 30-day money-back guarantee</p>
           </div>
 
           {/* Related */}

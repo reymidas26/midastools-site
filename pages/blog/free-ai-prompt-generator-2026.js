@@ -392,7 +392,7 @@ export default function FreeAIPromptGenerator2026() {
               { title: 'The Complete AI Prompt Engineering Guide for 2026', href: '/blog/prompt-engineering-guide-2026' },
               { title: '25 ChatGPT Tips and Tricks Most People Don\'t Know', href: '/blog/chatgpt-tips-tricks-2026' },
               { title: 'AI Prompt Mega Pack — 150+ Ready-Made Prompts', href: '/ai-prompt-mega-pack' },
-              { title: 'The Complete AI Tools Bundle — All 11 Kits', href: '/bundle' },
+              { title: 'The Complete AI Tools Bundle — All 13 Kits', href: '/bundle' },
             ].map(link => (
               <li key={link.href} style={{ padding: '8px 0' }}>
                 <Link href={link.href} style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 600, fontSize: '15px' }}>

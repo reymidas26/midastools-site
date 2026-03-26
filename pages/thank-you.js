@@ -58,6 +58,11 @@ const KITS = {
     file: 'resume-career-kit.zip',
     items: ['Resume & CV optimization prompts (25+)', 'Cover letter generators (20+)', 'LinkedIn profile optimization (20+)', 'Interview preparation scripts (20+)', 'Job search strategy prompts (20+)', 'Salary negotiation templates (20+)'],
   },
+  'social-media-kit': {
+    name: 'AI Social Media Manager Kit',
+    file: 'social-media-kit.zip',
+    items: ['Content calendar system (25+ prompts)', 'Caption hooks & templates (30+)', 'Viral content formulas (25+ prompts)', 'Analytics & growth frameworks (25+)', 'Community management scripts (20+)', 'Paid social ad templates (25+)'],
+  },
   'bundle': {
     name: 'Complete AI Toolkit Bundle',
     file: null,
@@ -74,8 +79,9 @@ const KITS = {
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
       { name: 'AI Resume & Career Kit', file: 'resume-career-kit.zip' },
+      { name: 'AI Social Media Manager Kit', file: 'social-media-kit.zip' },
     ],
-    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'AI Resume & Career Kit (125+ prompts)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
+    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'AI Resume & Career Kit (125+ prompts)', 'AI Social Media Manager Kit (150+ prompts)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
   },
 };
 
@@ -143,7 +149,7 @@ export default function ThankYou() {
 
         {!isBundle && (
           <div style={{background:'rgba(59,95,255,0.06)',border:'1px solid rgba(59,95,255,0.2)',borderRadius:12,padding:'20px 24px',marginBottom:24,textAlign:'left'}}>
-            <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 11 kits? Save 76%</p>
+            <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 13 kits? Save 79%</p>
             <p style={{fontSize:14,color:'var(--gray-400)',lineHeight:1.5}}>Get the <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style={{color:'var(--gold)',fontWeight:700}}>Complete Bundle for $97</a> — includes every kit plus all future releases free.</p>
           </div>
         )}

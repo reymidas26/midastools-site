@@ -364,7 +364,7 @@ Format: Friendly but professional. Start with a one-line summary of the week. Us
         {/* CTA AFTER TIP 16 */}
         <div style={{ marginTop: '32px', marginBottom: '32px', padding: '24px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px', textAlign: 'center' }}>
           <p style={{ margin: '0 0 12px', fontSize: '16px', fontWeight: '700' }}>Stop building prompts from scratch.</p>
-          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get all 11 AI kits with 500+ ready-to-use prompts for sales, marketing, content, operations, freelancing, and more.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get all 13 AI kits with 500+ ready-to-use prompts for sales, marketing, content, operations, freelancing, and more.</p>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 28px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Bundle &mdash; $97
           </a>

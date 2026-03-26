@@ -183,7 +183,7 @@ export default function Home() {
       {/* Announcement bar */}
       <div style={{ background: 'var(--surface)', borderBottom: '1px solid var(--border)', padding: '10px 40px', textAlign: 'center', fontSize: 13, fontWeight: 500 }}>
         <a href="/bundle" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>
-          New: All Kits Bundle — 11 AI kits for $97
+          New: All Kits Bundle — 13 AI kits for $97
           <span style={{ color: 'var(--accent)', fontWeight: 700, marginLeft: 8 }}>View bundle &rarr;</span>
         </a>
       </div>
@@ -354,6 +354,8 @@ export default function Home() {
             { name: 'E-commerce Kit', price: '$39', desc: 'Listings, ads, customer retention', href: '/ecommerce-kit', bg: 'var(--card-pink)' },
             { name: 'SaaS Founder Kit', price: '$39', desc: 'Launch, onboard, reduce churn', href: '/saas-founder-kit', bg: 'var(--card-cyan)' },
             { name: 'Real Estate Kit', price: '$49', desc: 'Leads, listings, follow-ups', href: '/real-estate-kit', bg: 'var(--card-green)' },
+            { name: 'Social Media Kit', price: '$39', desc: 'Calendars, captions, viral content', href: '/social-media-kit', bg: 'var(--card-cyan)' },
+            { name: 'Resume & Career Kit', price: '$29', desc: 'Resumes, LinkedIn, interviews', href: '/resume-career-kit', bg: 'var(--card-green)' },
             { name: 'Starter Kit', price: '$29', desc: 'Deploy your AI entrepreneur', href: '/', bg: 'var(--card-blue)' },
           ].map(k => (
             <a key={k.name} href={k.href} style={{ display: 'block', background: k.bg, borderRadius: 12, padding: '20px 20px', textDecoration: 'none', transition: 'transform 0.15s, box-shadow 0.15s' }}
@@ -370,7 +372,7 @@ export default function Home() {
         </div>
         <div style={{ textAlign: 'center', marginTop: 24 }}>
           <a href="/bundle" style={{ color: 'var(--accent)', fontSize: 15, fontWeight: 700, textDecoration: 'none' }}>
-            Or get all 11 kits for $97 (save 76%) &rarr;
+            Or get all 13 kits for $97 (save 79%) &rarr;
           </a>
         </div>
       </section>
@@ -383,7 +385,7 @@ export default function Home() {
         <div className="pricing-grid">
           {[
             { label: 'Start Here', price: '$29', term: 'one-time', name: 'Starter Kit', desc: 'Templates, workflows, and prompts to deploy your first AI agent yourself.', href: STRIPE_URL, cta: 'Get the Kit \u2192', featured: false },
-            { label: 'Best Value', price: '$97', term: 'one-time', name: 'All Kits Bundle', desc: '11 AI kits + all future kits free. Save 76% vs buying separately.', href: 'https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g', cta: 'Get the Bundle \u2192', featured: true },
+            { label: 'Best Value', price: '$97', term: 'one-time', name: 'All Kits Bundle', desc: '13 AI kits + all future kits free. Save 79% vs buying separately.', href: 'https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g', cta: 'Get the Bundle \u2192', featured: true },
           ].map(p => (
             <div key={p.name} className={`pricing-card${p.featured ? ' featured' : ''}`}>
               <span className="badge" style={{ fontSize: 11, padding: '4px 10px', letterSpacing: 1 }}>{p.label}</span>

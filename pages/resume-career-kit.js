@@ -208,7 +208,7 @@ export default function ResumeCareerKit() {
       {/* Bundle Upsell */}
       <section style={{paddingTop:0}}>
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
-          <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Save 77%</div>
+          <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Save 79%</div>
           <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Get all 12 AI kits for $97</p>
           <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:8,lineHeight:1.6}}>$429 value. This kit + 11 more niche AI kits &mdash; plus every future kit free.</p>
           <p style={{color:'var(--gray-400)',fontSize:14,marginBottom:20}}>Resume & Career, Freelancer, Small Business, Creator, Real Estate, and 7 more.</p>
@@ -323,6 +323,15 @@ export default function ResumeCareerKit() {
         </div>
       </section>
 
+      {/* Related Blog Post */}
+      <section style={{paddingTop:0}}>
+        <div style={{background:'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)',borderRadius:12,padding:32,textAlign:'center',maxWidth:700,margin:'0 auto 48px'}}>
+          <h3 style={{marginTop:0,fontSize:'1.2rem'}}>Free Guide: 15 ChatGPT Resume Prompts</h3>
+          <p style={{color:'#4B5563',fontSize:15,marginBottom:16}}>Get 15 copy-paste prompts for resumes, cover letters, LinkedIn, and interviews — free on our blog.</p>
+          <a href="/blog/ai-resume-prompts-chatgpt-2026" style={{display:'inline-block',background:'#3B5FFF',color:'#fff',padding:'12px 28px',borderRadius:100,textDecoration:'none',fontWeight:700,fontSize:15}}>Read the Free Guide →</a>
+        </div>
+      </section>
+
       {/* Related Products */}
       <section style={{paddingTop:0}}>
         <h2 style={{textAlign:'center'}}>More <span>AI Kits</span></h2>
@@ -331,7 +340,7 @@ export default function ResumeCareerKit() {
           {[
             { name: 'Freelancer Kit', desc: 'Win more clients. AI proposals, invoices, and client management.', href: '/freelancer-kit', price: '$39' },
             { name: 'Small Business Kit', desc: 'Social media, email, hiring, and operations — all automated.', href: '/small-business-kit', price: '$39' },
-            { name: 'All 12 Kits Bundle', desc: 'Every kit we make, now and forever. Save 77%.', href: BUNDLE_URL, price: '$97' },
+            { name: 'All 13 Kits Bundle', desc: 'Every kit we make, now and forever. Save 79%.', href: BUNDLE_URL, price: '$97' },
           ].map(p => (
             <a key={p.name} href={p.href} style={{background:'var(--gray-900)',border:'1px solid var(--gray-800)',borderRadius:12,padding:24,textAlign:'center',textDecoration:'none',color:'inherit',transition:'border-color 0.2s'}}>
               <div style={{fontSize:16,fontWeight:700,marginBottom:6}}>{p.name}</div>

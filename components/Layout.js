@@ -234,6 +234,7 @@ export default function Layout({ children }) {
         <Link href="/notion-templates-kit">Notion Templates Kit</Link>
         <Link href="/ai-video-prompt-pack">Video Prompt Pack</Link>
         <Link href="/resume-career-kit">Resume &amp; Career Kit</Link>
+        <Link href="/social-media-kit">Social Media Kit</Link>
         <Link href="/bundle" className="mobile-cta">Get All Kits — $97</Link>
       </div>
 
@@ -265,6 +266,7 @@ export default function Layout({ children }) {
             <Link href="/notion-templates-kit">Notion Templates</Link>
             <Link href="/ai-video-prompt-pack">Video Prompt Pack</Link>
             <Link href="/resume-career-kit">Resume &amp; Career Kit</Link>
+            <Link href="/social-media-kit">Social Media Kit</Link>
             <Link href="/bundle">All Kits Bundle</Link>
           </div>
           <div className="footer-col">

@@ -67,7 +67,7 @@ export default async function handler(req, res) {
             <a href="https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d" style="display:inline-block;background:#FFF;color:#3B5FFF;font-weight:700;font-size:16px;padding:12px 32px;border-radius:100px;text-decoration:none;">Get the Mega Pack — $29</a>
           </div>
 
-          <p style="font-size:14px;color:#6B7280;line-height:1.6;">Or grab <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style="color:#3B5FFF;">all 12 kits for $97</a> (save 76%).</p>
+          <p style="font-size:14px;color:#6B7280;line-height:1.6;">Or grab <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style="color:#3B5FFF;">all 13 kits for $97</a> (save 79%).</p>
 
           <p style="font-size:14px;color:#6B7280;margin-top:32px;">Build something great,<br/>The MidasTools Team</p>
 

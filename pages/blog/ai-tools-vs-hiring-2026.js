@@ -179,11 +179,11 @@ export default function AIToolsVsHiring2026() {
           </a>
         </div>
 
-        <p>Or grab everything with the <strong>All Kits Bundle</strong> &mdash; 8 kits, $302 value, just $97.</p>
+        <p>Or grab everything with the <strong>All Kits Bundle</strong> &mdash; 13 kits, $467 value, just $97.</p>
 
         <div style={{ textAlign: 'center', margin: '24px 0' }}>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get the Bundle — $97 (Save 76%)
+            Get the Bundle — $97 (Save 79%)
           </a>
         </div>
 

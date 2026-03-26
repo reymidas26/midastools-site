@@ -89,6 +89,15 @@ const kits = [
     color: 'var(--card-blue)',
   },
   {
+    name: 'AI Social Media Manager Kit',
+    price: '$39',
+    desc: 'Content calendars, caption templates, viral formulas, analytics prompts & paid ad copy for every major platform.',
+    href: '/social-media-kit',
+    stripe: 'https://buy.stripe.com/PLACEHOLDER_SOCIAL_MEDIA',
+    badge: 'NEW',
+    color: 'var(--card-cyan)',
+  },
+  {
     name: 'Notion AI Templates Kit',
     price: '$39',
     desc: '150+ ready-made Notion templates with AI prompts for project management, CRM, content planning, productivity, and business ops.',
@@ -222,8 +231,8 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 12 kits + future kits for $97</h2>
-          <p>Video Pack + Image Pack + Notion Templates + Resume &amp; Career + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
+          <h2>Get all 13 kits + future kits for $97</h2>
+          <p>Video Pack + Image Pack + Notion Templates + Resume &amp; Career + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder + Social Media Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>
       </div>

@@ -257,7 +257,7 @@ Keep each under 50 characters.`}
             <p style={{ fontSize: '20px', fontWeight: 800, marginBottom: '8px' }}>Get 500+ Ready-Made AI Prompts</p>
             <p style={{ fontSize: '14px', color: 'rgba(255,255,255,0.6)', marginBottom: '20px' }}>Text, image, and video prompts. Professionally engineered. Copy, paste, customize.</p>
             <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#FFFFFF', color: 'var(--text)', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: 700, fontSize: '15px' }}>
-              Get All 11 Kits — $97 →
+              Get All 13 Kits — $97 →
             </a>
           </div>
 
@@ -592,7 +592,7 @@ For any score below 8, rewrite that section and explain what you changed.`}
             <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#FFFFFF', color: 'var(--text)', padding: '16px 36px', borderRadius: '100px', textDecoration: 'none', fontWeight: 800, fontSize: '16px' }}>
               Get the Bundle — $97 →
             </a>
-            <p style={{ marginTop: '16px', fontSize: '13px', color: 'rgba(255,255,255,0.4)' }}>$399 value · One-time payment · 30-day money-back guarantee</p>
+            <p style={{ marginTop: '16px', fontSize: '13px', color: 'rgba(255,255,255,0.4)' }}>$467 value · One-time payment · 30-day money-back guarantee</p>
           </div>
 
           {/* Related */}
@@ -605,6 +605,8 @@ For any score below 8, rewrite that section and explain what you changed.`}
               { title: '40+ Best Midjourney Prompts for Stunning AI Art', href: '/blog/best-midjourney-prompts-2026' },
               { title: 'Best AI Prompt Packs for Every Business', href: '/blog/best-ai-prompt-packs-2026' },
               { title: 'How to Make Money Selling AI Art in 2026', href: '/blog/how-to-make-money-selling-ai-art-2026' },
+              { title: '15 ChatGPT Prompts to Write a Perfect Resume in 2026', href: '/blog/ai-resume-prompts-chatgpt-2026' },
+              { title: '20 AI Prompts That Will Transform Your Social Media', href: '/blog/ai-social-media-prompts-2026' },
               { title: 'Free AI Prompt Generator — Build Custom Prompts Instantly', href: '/prompt-generator' },
             ].map(link => (
               <li key={link.href} style={{ padding: '8px 0' }}>

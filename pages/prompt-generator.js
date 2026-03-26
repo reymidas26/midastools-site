@@ -886,10 +886,10 @@ export default function PromptGenerator() {
               <div className="desc">200+ prompts for every business task</div>
             </a>
             <a href={STRIPE_BUNDLE} className="upsell-option featured" target="_blank" rel="noopener noreferrer">
-              <div className="tag">Best Value — 76% Off</div>
+              <div className="tag">Best Value — 79% Off</div>
               <div className="price">$97</div>
-              <div className="name">All 11 Kits Bundle</div>
-              <div className="desc">1,000+ prompts + templates. $399 value.</div>
+              <div className="name">All 13 Kits Bundle</div>
+              <div className="desc">1,000+ prompts + templates. $467 value.</div>
             </a>
           </div>
         </div>

@@ -398,6 +398,35 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Social Media Blog + Kit -->
+  <url>
+    <loc>https://www.midastools.co/blog/ai-social-media-prompts-2026</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Social Media Kit -->
+  <url>
+    <loc>https://www.midastools.co/social-media-kit</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Resume & Career Blog + Kit -->
+  <url>
+    <loc>https://www.midastools.co/blog/ai-resume-prompts-chatgpt-2026</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.midastools.co/resume-career-kit</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Other pages -->
   <url>
     <loc>https://www.midastools.co/thank-you</loc>

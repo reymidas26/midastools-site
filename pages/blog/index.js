@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'ai-social-media-prompts-2026', title: '20 AI Prompts That Will Transform Your Social Media in 2026', date: 'Mar 26, 2026', desc: '20 copy-paste AI prompts for social media management. Content calendars, captions, viral formulas, analytics, community management & paid ads for every platform.' },
+  { slug: 'ai-resume-prompts-chatgpt-2026', title: '15 ChatGPT Prompts to Write a Perfect Resume in 2026', date: 'Mar 26, 2026', desc: 'The best ChatGPT resume prompts for 2026. 15 copy-paste AI prompts for resume writing, cover letters, LinkedIn optimization, interview prep, and salary negotiation.' },
   { slug: 'free-ai-prompt-generator-2026', title: 'Free AI Prompt Generator: Build Perfect Prompts in Seconds (2026)', date: 'Mar 26, 2026', desc: 'Generate custom AI prompts for sales emails, social media, product descriptions, blog outlines, cold outreach, and more. Free, instant, no signup required.' },
   { slug: 'how-to-make-money-selling-ai-art-2026', title: 'How to Make Money Selling AI Art in 2026: 7 Proven Methods ($500\u2013$10K/Month)', date: 'Mar 26, 2026', desc: '7 proven methods to make money selling AI art. Print-on-demand, stock photography, commissions, prompt packs, and more. Real income numbers and copy-paste prompts.' },
   { slug: 'best-midjourney-prompts-2026', title: '40+ Best Midjourney Prompts for Stunning AI Art in 2026 (Copy & Paste)', date: 'Mar 26, 2026', desc: 'The best Midjourney prompts for 2026. 40+ copy-paste prompts for photorealistic portraits, product photography, cinematic art, anime, architecture, and abstract design. Includes v6.1 parameters.' },

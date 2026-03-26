@@ -189,12 +189,21 @@ export default function ContentCreatorKit() {
         </div>
       </section>
 
+      {/* Related Kit */}
+      <section style={{paddingTop:0}}>
+        <div style={{background:'linear-gradient(135deg, #F0FDFA 0%, #CCFBF1 100%)',borderRadius:12,padding:24,textAlign:'center',marginBottom:32}}>
+          <p style={{marginTop:0,fontWeight:700,fontSize:'1.05rem'}}>Need help with social media specifically?</p>
+          <p style={{color:'#4B5563',fontSize:14,marginBottom:16}}>Our <a href="/social-media-kit" style={{color:'#3B5FFF',fontWeight:600}}>AI Social Media Manager Kit</a> has 150+ prompts for content calendars, captions, viral formulas, analytics, community management &amp; paid ads across every platform.</p>
+          <a href="/social-media-kit" style={{display:'inline-block',background:'#3B5FFF',color:'#fff',padding:'10px 24px',borderRadius:100,textDecoration:'none',fontWeight:700,fontSize:14}}>See the Social Media Kit — $39 &rarr;</a>
+        </div>
+      </section>
+
       {/* Bundle Upsell */}
       <section style={{paddingTop:0}}>
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
-          <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Save 76%</div>
-          <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Get all 11 AI kits for $97</p>
-          <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + 7 more niche AI kits &mdash; plus every future kit free.</p>
+          <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Save 79%</div>
+          <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Get all 13 AI kits for $97</p>
+          <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + 12 more AI kits &mdash; plus every future kit free.</p>
           <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style={{color:'var(--gold)',fontWeight:700,fontSize:15,textDecoration:'none'}}>
             Get the Bundle — $97 &rarr;
           </a>

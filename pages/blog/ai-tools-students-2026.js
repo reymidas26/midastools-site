@@ -343,11 +343,11 @@ Assignment requirements: [PASTE THE PROMPT OR RUBRIC IF YOU HAVE IT]`}
           </a>
         </div>
 
-        <p>Or grab the <strong>All Kits Bundle</strong> for $97 (8 kits, 68% savings) and get every prompt pack &mdash; useful well beyond school for freelancing, content creation, job searching, and building side income.</p>
+        <p>Or grab the <strong>All Kits Bundle</strong> for $97 (13 kits, 79% savings) and get every prompt pack &mdash; useful well beyond school for freelancing, content creation, job searching, and building side income.</p>
 
         <div style={{ textAlign: 'center', margin: '24px 0' }}>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get the Bundle &mdash; $97 (Save 76%)
+            Get the Bundle &mdash; $97 (Save 79%)
           </a>
         </div>
 

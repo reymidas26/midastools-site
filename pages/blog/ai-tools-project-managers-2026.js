@@ -324,9 +324,9 @@ Also provide:
         <p>Pick one workflow. Automate it this week. Measure the time saved. Then add the next one.</p>
 
         <div style={{ background: 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)', borderRadius: '12px', padding: '32px', margin: '40px 0', textAlign: 'center' }}>
-          <h3 style={{ marginTop: 0, fontSize: '1.3rem' }}>Get All 11 Kits for $97</h3>
-          <p style={{ color: '#4B5563', marginBottom: '20px' }}>The Complete AI Prompt Bundle includes SaaS, freelancer, small business, marketing, and more &mdash; 11 kits, $399 value. Every prompt tested, organized, and ready to paste.</p>
-          <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>Get the Bundle &mdash; $97 (Save 76%) &rarr;</a>
+          <h3 style={{ marginTop: 0, fontSize: '1.3rem' }}>Get All 13 Kits for $97</h3>
+          <p style={{ color: '#4B5563', marginBottom: '20px' }}>The Complete AI Prompt Bundle includes SaaS, freelancer, small business, marketing, and more &mdash; 13 kits, $467 value. Every prompt tested, organized, and ready to paste.</p>
+          <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>Get the Bundle &mdash; $97 (Save 79%) &rarr;</a>
         </div>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

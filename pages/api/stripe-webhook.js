@@ -126,6 +126,20 @@ const KIT_MAP = {
       'Complete setup guide',
     ],
   },
+  'social-media-kit': {
+    name: 'AI Social Media Manager Kit',
+    file: 'social-media-kit.zip',
+    subject: 'Your AI Social Media Manager Kit is ready',
+    items: [
+      'Content calendar system (25+ prompts)',
+      'Caption hooks & templates (30+ templates)',
+      'Viral content formulas (25+ prompts)',
+      'Analytics & growth frameworks (25+ prompts)',
+      'Community management scripts (20+ templates)',
+      'Paid social ad templates (25+ prompts)',
+      'Complete setup guide',
+    ],
+  },
   'notion-templates': {
     name: 'Notion AI Templates Kit',
     file: 'notion-templates-kit.zip',
@@ -170,6 +184,7 @@ const KIT_MAP = {
       'Small Business AI Kit (social + email + operations)',
       'E-commerce AI Kit (product descriptions + email + ads)',
       'SaaS Founder AI Kit (launch + onboarding + churn prevention)',
+      'AI Social Media Manager Kit (150+ social media prompts)',
       'All future kits — free, forever',
     ],
     files: [
@@ -184,6 +199,7 @@ const KIT_MAP = {
       { name: 'Small Business AI Kit', file: 'small-business-kit.zip' },
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
+      { name: 'AI Social Media Manager Kit', file: 'social-media-kit.zip' },
     ],
   },
 };
@@ -225,6 +241,7 @@ function detectKit(session) {
   if (productName.includes('small business')) return KIT_MAP['small-business'];
   if (productName.includes('e-commerce') || productName.includes('ecommerce')) return KIT_MAP['ecommerce'];
   if (productName.includes('saas') || productName.includes('founder kit')) return KIT_MAP['saas-founder'];
+  if (productName.includes('social media')) return KIT_MAP['social-media-kit'];
   if (productName.includes('bundle') || productName.includes('all kits')) return KIT_MAP['bundle'];
 
   // Check amount as last resort

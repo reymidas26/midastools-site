@@ -241,7 +241,7 @@ export default function NotionTemplatesKit() {
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
           <div style={{fontSize:12,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Best Value</div>
           <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Want everything? Get all kits for $97</p>
-          <p style={{color:'var(--text-secondary)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + every other AI kit we sell &mdash; $399 value for $97. Save 76%.</p>
+          <p style={{color:'var(--text-secondary)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + every other AI kit we sell &mdash; $467 value for $97. Save 79%.</p>
           <Link href="/bundle" style={{color:'var(--accent)',fontWeight:700,fontSize:15,textDecoration:'none'}}>
             Get the Bundle — $97 &rarr;
           </Link>

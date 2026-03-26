@@ -317,14 +317,14 @@ For all content: comply with AICPA professional standards. No specific tax advic
           </a>
         </div>
 
-        <p>Or grab everything with the <strong>All Kits Bundle</strong> &mdash; 8 kits, $302 value, just $97.</p>
+        <p>Or grab everything with the <strong>All Kits Bundle</strong> &mdash; 13 kits, $467 value, just $97.</p>
 
         <div style={{ textAlign: 'center', margin: '24px 0' }}>
           <a href={STRIPE_SMALL_BIZ} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px', marginRight: '12px' }}>
             Small Business Kit — $39
           </a>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
-            All 11 Kits — $97 (Save 76%)
+            All 13 Kits — $97 (Save 79%)
           </a>
         </div>
 

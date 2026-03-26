@@ -3,97 +3,47 @@
 ## Mission: Product Building Machine
 Build trending products that help people make money. Research daily. Ship fast. Sell everywhere.
 
-## In Progress
-(nothing)
+## In Progress (Session 23)
+- [ ] **AI Social Media Manager Kit ($39)** — Kit content + product page + ZIP + integrations (agent building)
+- [ ] **Blog: "15 ChatGPT Prompts to Write a Perfect Resume in 2026"** — SEO blog for Resume Kit (agent building)
 
 ## To Do
 ### Founder Action Items (BLOCKING)
-- [ ] **Create Stripe link for AI Video Prompt Pack ($29)** — page has PLACEHOLDER_VIDEO_PACK, needs real link
-- [ ] **Create Stripe link for Notion AI Templates Kit ($39)** — page has PLACEHOLDER_NOTION_KIT, needs real link
-- [ ] **Create Stripe link for AI Image Prompt Pack ($29)** — page has PLACEHOLDER_IMAGE_PACK, needs real link
+- [ ] **Create Stripe link for AI Social Media Manager Kit ($39)** — when product page is ready
 - [ ] Set Stripe Payment Link success URLs → /thank-you?kit=<type> for all products
-- [ ] Need GA4 analytics (NEXT_PUBLIC_GA_ID env var)
+- [ ] Need GA4 analytics (NEXT_PUBLIC_GA_ID env var) — CRITICAL, we can't measure anything
 - [ ] Need Gumroad account for marketplace distribution
-- [ ] Need email marketing tool (ConvertKit/Resend) — capture is live, nurture is not
+- [ ] **Post Reddit drafts** — 9 posts ready in .founder/deliverables/reddit-distribution-posts.md
 
 ### Distribution (Can Do Autonomously via SEO)
-- [x] Cross-link new image prompts blog from existing high-traffic posts (Session 20)
-- [ ] Create Twitter/X thread from ChatGPT Image Prompts post (highly shareable visual content)
-- [ ] Create Reddit post for AI Image Prompt Pack (visual content angle for r/ChatGPT, r/midjourney)
-- [ ] Post Reddit Posts 1-9 from .founder/deliverables/reddit-distribution-posts.md
-- [ ] List all products on Gumroad marketplace
+- [ ] Create Twitter/X thread from ChatGPT Image Prompts post
+- [ ] Create Reddit post for AI Image Prompt Pack
+- [ ] Write more SEO blog posts targeting high-volume keywords
 
 ### Content / SEO (Next Sprint)
-- [x] Write blog: "AI Prompt Engineering Guide" (evergreen how-to) — Session 21
-- [x] Write blog: "AI Tools for Nonprofit Leaders" (untapped niche) — Session 21
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
-- [x] Write blog: "Best Midjourney Prompts 2026" (capitalize on image trend) — Session 20
-- [x] Write blog: "How to Make Money Selling AI Art" (monetization angle) — Session 20
+- [ ] Write blog targeting "AI social media" keywords (for Social Media Kit)
+- [ ] Write "Notion templates for business" blog (for Notion Kit)
 
 ### Products (Next to Build)
-- [x] Notion AI Templates Kit ($39) — top Gumroad category, $65.8M market — Session 20
-- [x] AI Video Prompt Pack ($29) — video generation up 80-120% in searches — Session 21
-- [ ] AI Resume/Career Kit ($29) — always-green job search market
-- [ ] AI Social Media Manager Kit ($39) — scheduling, captions, analytics
+- [x] AI Social Media Manager Kit ($39) — in progress
+- [ ] AI Email Marketing Kit ($29) — email is universal pain point
+- [ ] AI Presentation/Pitch Deck Kit ($29) — startup/enterprise market
 
 ## Done
-- [x] Baseline assessment completed
-- [x] Homepage improved (social proof, trust signals, product banner, product ladder updated)
-- [x] Receptionist page improved (competitive comparison table, ROI callout)
-- [x] Market research: Gumroad/Reddit/HN trends analyzed (Session 4 + 5)
-- [x] Real Estate AI Agent Kit ($49) — /real-estate-kit + blog post
-- [x] Content Creator AI Kit ($39) — /content-creator-kit + blog post
-- [x] **Freelancer Automation Kit ($39)** — /freelancer-kit + blog post (Session 5)
-- [x] All Kits Bundle ($97) — /bundle with comparison table + cross-links
-- [x] Cross-linked bundle from all kit pages (upsell sections)
-- [x] Professional trust upgrade (shared Layout, text mark, consistent nav/footer)
-- [x] **CTA CONVERSION FIX** — all hero CTAs go direct to Stripe checkout (Session 9)
-- [x] **ALL KIT ZIPS BUILT** — real content in every kit (Session 9)
-- [x] **WEBHOOK ROUTING** — stripe-webhook.js detects product and sends correct download (Session 9)
-- [x] **THANK-YOU PAGE** — dynamic, shows correct kit + download based on ?kit= param (Session 9)
-- [x] **Small Business AI Kit ($39)** — /small-business-kit + deliverable ZIP (Session 9)
-- [x] **AI PROMPT MEGA PACK ($29)** — 200+ prompts, full product page, ZIP built (Session 10)
-- [x] **E-COMMERCE AI KIT ($39)** — 155+ prompts, product page, ZIP (Session 12)
-- [x] **SaaS Founder AI Kit ($39)** — launch playbooks, onboarding, churn prevention (Session 13)
-- [x] **BUNDLE UPGRADED TO 9 KITS** — Value $331, 71% savings at $97 (Session 19)
-- [x] **REDDIT DISTRIBUTION DRAFTS** — 9 posts copy-paste ready (Session 12+16)
-- [x] **FULL SITE REBRAND** — Dark gold → clean white + blue accents, 30+ files (Session 13)
-- [x] **Blog: ChatGPT Side Hustles** — /blog/chatgpt-side-hustle-2026 (Session 13)
-- [x] **Blog: AI Tools for SaaS Founders** — /blog/ai-saas-founder-tools-2026 (Session 13)
-- [x] **Blog: E-commerce Descriptions** — /blog/ai-ecommerce-product-descriptions-2026 (Session 13)
-- [x] Write blog: "Best ChatGPT Prompts for Business in 2026" — done
-- [x] Build SaaS Founder AI Kit ($39) — shipped with page, ZIP, bundle integration
-- [x] Write blog targeting e-commerce keywords — done
-- [x] Deploy latest changes — 7 commits pushed to main (Session 13)
-- [x] **Stripe links wired** — all 3 placeholder products now have real Stripe payment links (Session 13.5)
-- [x] **EMAIL CAPTURE COMPONENT** — site-wide lead magnet on all pages except homepage (Session 14)
-- [x] **Blog: Freelance Pricing with AI** — /blog/how-to-price-freelance-services-ai-2026 (Session 14)
-- [x] **SITEMAP UPDATED** — 50 URLs (Session 19)
-- [x] **Blog: AI Tools for Teachers** — /blog/ai-tools-teachers-2026 (Session 15)
-- [x] **Blog: Build a Second Income with AI** — /blog/ai-second-income-2026 (Session 15)
-- [x] **Blog: AI Tools vs. Hiring** — /blog/ai-tools-vs-hiring-2026 (Session 15)
-- [x] **Blog: AI Tools for Lawyers** — /blog/ai-tools-lawyers-2026 (Session 15)
-- [x] **Blog: AI Tools for Accountants** — /blog/ai-tools-accountants-2026 (Session 15)
-- [x] **FREE PROMPTS LANDING PAGE** — /free-prompts (Session 16)
-- [x] **Blog: Best Free AI Tools 2026** — /blog/best-free-ai-tools-2026 (Session 16)
-- [x] **Blog: ChatGPT Tips & Tricks** — /blog/chatgpt-tips-tricks-2026 (Session 16)
-- [x] **Blog: AI Email Templates** — /blog/ai-email-templates-2026 (Session 18)
-- [x] **Blog: AI Tools for Project Managers** — /blog/ai-tools-project-managers-2026 (Session 18)
-- [x] **Blog: AI Tools for HR & Recruiting** — /blog/ai-tools-hr-recruiting-2026 (Session 18)
-- [x] **AI IMAGE PROMPT PACK ($29)** — 150+ prompts, 6 categories, product page, ZIP, blog post (Session 19)
-- [x] **Blog: 50 Viral ChatGPT Image Prompts** — /blog/chatgpt-image-prompts-2026, our biggest blog post (Session 19)
-- [x] **BUILD PASSES** — 56 pages (Session 19)
-- [x] **Blog: Best Midjourney Prompts 2026** — /blog/best-midjourney-prompts-2026, 40+ prompts, 17.9 kB (Session 20)
-- [x] **CROSS-LINKING** — Internal links across 3 image/prompt blog posts for SEO cluster (Session 20)
-- [x] **SITEMAP UPDATED** — 56 URLs (Session 20)
-- [x] **BUILD PASSES** — 58 pages (Session 20)
-- [x] **Blog: How to Make Money Selling AI Art 2026** — /blog/how-to-make-money-selling-ai-art-2026, 7 monetization methods (Session 20)
-- [x] **CROSS-LINKING ROUND 2** — AI art post linked from how-to-make-money + side-hustle posts (Session 20)
-- [x] **NOTION AI TEMPLATES KIT ($39)** — 150+ templates, 7,424 lines, 6 categories, product page, ZIP, bundle integration (Session 20)
-- [x] **BUNDLE UPGRADED TO 10 KITS** — Value $370, 74% savings at $97 (Session 20)
+- [x] All 12 products shipped with live Stripe links
+- [x] 39 blog posts published
+- [x] Free AI Prompt Generator tool shipped
+- [x] Full site rebrand (white + blue)
+- [x] Email capture component site-wide
+- [x] Resend email marketing wired up
+- [x] Bundle upgraded to 12 kits ($428 value → $97)
+- [x] Resume Kit cross-linked from 3 blog posts
+- [x] Sitemap updated (65+ URLs)
+- [x] State files audited and corrected (Session 23)
+- [x] Reddit distribution drafts created (9 posts)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var
 - Gumroad — need account
-- Email nurture — need ConvertKit/Resend connected
-- AI Image Prompt Pack Stripe link — needs founder to create in Stripe dashboard
+- Social Media Kit Stripe link — needs founder to create in Stripe dashboard

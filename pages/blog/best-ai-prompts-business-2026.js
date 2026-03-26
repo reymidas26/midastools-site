@@ -337,6 +337,12 @@ Role: [TITLE] at [COMPANY]. Topic: [TALK TOPIC]. Key credentials: [TOP 3]. Write
 Challenge: [PROBLEM]. Solution: [WHAT I DID]. Results: [METRICS]. Structure: One-sentence summary, the challenge, my approach (3-4 steps), results (specific numbers), key takeaway. Under 400 words. Focus on the transformation, not the process.`}
         </div>
 
+        <div style={{ background: 'linear-gradient(135deg, #F0FDF4 0%, #DCFCE7 100%)', borderRadius: '12px', padding: '24px', margin: '32px 0' }}>
+          <p style={{ marginTop: 0, fontWeight: '700', fontSize: '1.05rem' }}>🎯 Want more career &amp; job search prompts?</p>
+          <p style={{ color: '#4B5563', marginBottom: '16px' }}>Our <a href="/resume-career-kit" style={{ color: '#3B5FFF', fontWeight: '600' }}>AI Resume &amp; Career Kit</a> has 125+ prompts for resumes, cover letters, LinkedIn optimization, interview prep, and salary negotiation — everything you need to land your next role faster.</p>
+          <a href="https://buy.stripe.com/4gM8wO6Sb4aJ4Cw3BEcMM0j" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '10px 24px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>Get the Career Kit — $29 &rarr;</a>
+        </div>
+
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <h2 style={{ fontSize: '1.4rem', fontWeight: '700', marginTop: '40px' }}>Productivity &amp; Decision Making</h2>

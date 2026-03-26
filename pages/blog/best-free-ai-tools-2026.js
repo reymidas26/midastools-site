@@ -204,9 +204,9 @@ Transcript: [PASTE OTTER TRANSCRIPT]`}
         {/* CTA 2 */}
         <div style={{ marginTop: '48px', marginBottom: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Skip the learning curve</h3>
-          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Our AI kits include ready-to-use prompts for every tool on this list &mdash; writing, research, design, video, automation, and more. 8 kits covering every use case. <strong>$97 one-time for the complete bundle.</strong></p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Our AI kits include ready-to-use prompts for every tool on this list &mdash; writing, research, design, video, automation, and more. 13 kits covering every use case. <strong>$97 one-time for the complete bundle.</strong></p>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
-            Get All 8 Kits for $97
+            Get All 13 Kits for $97
           </a>
         </div>
 
@@ -293,6 +293,7 @@ Transcript: [PASTE OTTER TRANSCRIPT]`}
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/ai-tools-small-business-owners-2026" style={{ color: '#3B5FFF' }}>5 AI Tools That Are Printing Money for Small Business Owners in 2026</Link></li>
           <li><Link href="/blog/chatgpt-image-prompts-2026" style={{ color: '#3B5FFF' }}>50 Viral ChatGPT Image Prompts You Need to Try in 2026</Link></li>
+          <li><Link href="/social-media-kit" style={{ color: '#3B5FFF' }}>AI Social Media Manager Kit — Content Calendars, Captions &amp; Viral Formulas</Link></li>
         </ul>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

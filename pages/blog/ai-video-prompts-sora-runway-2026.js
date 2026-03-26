@@ -458,8 +458,8 @@ export default function AIVideoPromptsSoraRunway2026() {
           {/* Bundle upsell */}
           <div style={{ background: 'rgba(59,95,255,0.04)', border: '1px solid rgba(59,95,255,0.15)', borderRadius: '16px', padding: '28px', textAlign: 'center', margin: '0 0 48px' }}>
             <p style={{ fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '1px', color: 'var(--accent)', marginBottom: '8px' }}>Best Value</p>
-            <p style={{ fontSize: '18px', fontWeight: 800, marginBottom: '4px', color: 'var(--text)' }}>Get all 11 AI kits for $97</p>
-            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '16px' }}>Video Pack + Image Pack + Mega Pack + 8 niche kits. $399 value — save 76%.</p>
+            <p style={{ fontSize: '18px', fontWeight: 800, marginBottom: '4px', color: 'var(--text)' }}>Get all 13 AI kits for $97</p>
+            <p style={{ fontSize: '14px', color: 'var(--text-secondary)', marginBottom: '16px' }}>Video Pack + Image Pack + Mega Pack + 10 niche kits. $467 value — save 79%.</p>
             <a href={STRIPE_BUNDLE} style={{ color: 'var(--accent)', fontWeight: 700, fontSize: '15px', textDecoration: 'none' }}>
               Get the Bundle — $97 →
             </a>

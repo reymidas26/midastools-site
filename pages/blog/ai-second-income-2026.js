@@ -285,7 +285,7 @@ Create:
             Freelancer Kit — $39
           </a>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
-            All 11 Kits — $97 (Save 76%)
+            All 13 Kits — $97 (Save 79%)
           </a>
         </div>
 
@@ -304,6 +304,7 @@ Create:
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/ai-tools-small-business-owners-2026" style={{ color: '#3B5FFF' }}>5 AI Tools That Are Printing Money for Small Business Owners</Link></li>
           <li><Link href="/blog/best-free-ai-tools-2026" style={{ color: '#3B5FFF' }}>15 Best Free AI Tools in 2026</Link></li>
+          <li><Link href="/social-media-kit" style={{ color: '#3B5FFF' }}>AI Social Media Manager Kit — Automate Your Content Creation</Link></li>
         </ul>
       </div>
     </Layout>
