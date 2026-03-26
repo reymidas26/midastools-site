@@ -8,6 +8,8 @@ Build trending products that help people make money. Research daily. Ship fast. 
 
 ## To Do
 ### Founder Action Items (BLOCKING)
+- [ ] **Create Stripe link for AI Video Prompt Pack ($29)** — page has PLACEHOLDER_VIDEO_PACK, needs real link
+- [ ] **Create Stripe link for Notion AI Templates Kit ($39)** — page has PLACEHOLDER_NOTION_KIT, needs real link
 - [ ] **Create Stripe link for AI Image Prompt Pack ($29)** — page has PLACEHOLDER_IMAGE_PACK, needs real link
 - [ ] Set Stripe Payment Link success URLs → /thank-you?kit=<type> for all products
 - [ ] Need GA4 analytics (NEXT_PUBLIC_GA_ID env var)
@@ -22,15 +24,17 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [ ] List all products on Gumroad marketplace
 
 ### Content / SEO (Next Sprint)
-- [ ] Write blog: "AI Prompt Engineering Guide" (evergreen how-to)
-- [ ] Write blog: "AI Tools for Nonprofit Leaders" (untapped niche)
+- [x] Write blog: "AI Prompt Engineering Guide" (evergreen how-to) — Session 21
+- [x] Write blog: "AI Tools for Nonprofit Leaders" (untapped niche) — Session 21
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
 - [x] Write blog: "Best Midjourney Prompts 2026" (capitalize on image trend) — Session 20
 - [x] Write blog: "How to Make Money Selling AI Art" (monetization angle) — Session 20
 
 ### Products (Next to Build)
 - [x] Notion AI Templates Kit ($39) — top Gumroad category, $65.8M market — Session 20
-- [ ] AI Video Prompt Pack ($29) — video generation up 80-120% in searches
+- [x] AI Video Prompt Pack ($29) — video generation up 80-120% in searches — Session 21
+- [ ] AI Resume/Career Kit ($29) — always-green job search market
+- [ ] AI Social Media Manager Kit ($39) — scheduling, captions, analytics
 
 ## Done
 - [x] Baseline assessment completed

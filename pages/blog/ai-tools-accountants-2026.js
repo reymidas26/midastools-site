@@ -324,7 +324,7 @@ For all content: comply with AICPA professional standards. No specific tax advic
             Small Business Kit — $39
           </a>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
-            All 8 Kits — $97 (Save 68%)
+            All 11 Kits — $97 (Save 76%)
           </a>
         </div>
 

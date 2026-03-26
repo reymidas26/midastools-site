@@ -587,6 +587,7 @@ Example:
           <li><Link href="/blog/chatgpt-action-figure-prompt-2026" style={{ color: '#3B5FFF' }}>The Viral ChatGPT Action Figure Prompt Everyone Is Using</Link></li>
           <li><Link href="/ai-image-prompt-pack" style={{ color: '#3B5FFF' }}>AI Image Prompt Pack &mdash; 200+ Ready-to-Use Prompts</Link></li>
           <li><Link href="/bundle" style={{ color: '#3B5FFF' }}>Midas Tools Complete Bundle &mdash; All Kits, One Price</Link></li>
+          <li><Link href="/blog/ai-video-prompts-sora-runway-2026" style={{ color: '#3B5FFF' }}>30+ Best AI Video Prompts for Sora, Runway &amp; Pika 2026</Link></li>
         </ul>
 
       </div>

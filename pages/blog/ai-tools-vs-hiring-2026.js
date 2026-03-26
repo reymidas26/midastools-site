@@ -183,7 +183,7 @@ export default function AIToolsVsHiring2026() {
 
         <div style={{ textAlign: 'center', margin: '24px 0' }}>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get the Bundle — $97 (Save 68%)
+            Get the Bundle — $97 (Save 76%)
           </a>
         </div>
 

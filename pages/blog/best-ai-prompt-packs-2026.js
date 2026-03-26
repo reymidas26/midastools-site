@@ -332,6 +332,8 @@ export default function BestAIPromptPacks2026() {
 
         <p>The bottom line: the right prompt pack should pay for itself within the first week of use. If you save even one hour of prompt engineering time per week, a $29 purchase earns its money back immediately. The question is not whether to buy a prompt pack &mdash; it is which one matches how you actually work.</p>
 
+        <p><strong>Want to learn the fundamentals behind great prompts?</strong> Read our <Link href="/blog/prompt-engineering-guide-2026" style={{ color: '#3B5FFF' }}>Complete AI Prompt Engineering Guide for 2026</Link> &mdash; it covers the techniques, frameworks, and strategies that make prompt packs effective in the first place.</p>
+
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
@@ -346,6 +348,7 @@ export default function BestAIPromptPacks2026() {
             </Link>
           </div>
           <p style={{ margin: '12px 0 0', color: '#6B7280', fontSize: '13px' }}>The Bundle includes the Mega Pack plus 5 niche industry kits &mdash; best value for professionals who want everything.</p>
+          <p style={{ margin: '12px 0 0', color: '#6B7280', fontSize: '13px' }}>New: check out the <Link href="/ai-video-prompt-pack" style={{ color: '#3B5FFF', fontWeight: '600' }}>AI Video Prompt Pack</Link> &mdash; ready-to-use prompts for Sora, Runway, Pika, and more.</p>
         </div>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

@@ -6,6 +6,15 @@ const BUNDLE_STRIPE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 
 const kits = [
   {
+    name: 'AI Video Prompt Pack',
+    price: '$29',
+    desc: '150+ AI video generation prompts for social media, product demos, tutorials, cinematic content, corporate videos & viral styles. Works with Sora, Runway, Pika, Kling AI.',
+    href: '/ai-video-prompt-pack',
+    stripe: 'https://buy.stripe.com/PLACEHOLDER_VIDEO_PACK',
+    badge: 'NEW',
+    color: 'var(--card-cyan)',
+  },
+  {
     name: 'AI Image Prompt Pack',
     price: '$29',
     desc: '150+ AI image generation prompts for social media, brands, products, headshots & viral styles. Works with ChatGPT, Midjourney, DALL-E.',
@@ -204,8 +213,8 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 10 kits + future kits for $97</h2>
-          <p>Notion Templates + Prompt Mega Pack + Image Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
+          <h2>Get all 11 kits + future kits for $97</h2>
+          <p>Video Pack + Image Pack + Notion Templates + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>
       </div>

@@ -140,11 +140,29 @@ const KIT_MAP = {
       'Complete setup guide',
     ],
   },
+  'video-prompt-pack': {
+    name: 'AI Video Prompt Pack',
+    file: 'ai-video-prompt-pack.zip',
+    subject: 'Your AI Video Prompt Pack is ready',
+    items: [
+      '25+ Social media video prompts (TikTok, Reels, Shorts)',
+      '25+ Product & marketing video prompts',
+      '25+ Educational & tutorial video prompts',
+      '25+ Cinematic & storytelling prompts',
+      '25+ Business & corporate video prompts',
+      '25+ Viral & trending style prompts',
+      'Pro tips & best practices for each category',
+    ],
+  },
   'bundle': {
     name: 'All Kits Bundle',
     file: null, // Multiple files
     subject: 'Your Complete AI Toolkit Bundle is ready',
     items: [
+      'AI Video Prompt Pack (150+ video generation prompts)',
+      'AI Image Prompt Pack (150+ image generation prompts)',
+      'AI Prompt Mega Pack (200+ text prompts)',
+      'Notion AI Templates Kit (150+ Notion templates)',
       'OpenClaw Starter Kit (5 identity templates + workflows)',
       'Real Estate AI Kit (lead response + listings + follow-ups)',
       'Content Creator AI Kit (repurposing + scripts + calendar)',
@@ -152,11 +170,13 @@ const KIT_MAP = {
       'Small Business AI Kit (social + email + operations)',
       'E-commerce AI Kit (product descriptions + email + ads)',
       'SaaS Founder AI Kit (launch + onboarding + churn prevention)',
-      'Notion AI Templates Kit (150+ Notion templates)',
       'All future kits — free, forever',
     ],
     files: [
+      { name: 'AI Video Prompt Pack', file: 'ai-video-prompt-pack.zip' },
+      { name: 'AI Image Prompt Pack', file: 'ai-image-prompt-pack.zip' },
       { name: 'AI Prompt Mega Pack', file: 'ai-prompt-mega-pack.zip' },
+      { name: 'Notion AI Templates Kit', file: 'notion-templates-kit.zip' },
       { name: 'OpenClaw Starter Kit', file: 'openclaw-starter-kit.zip' },
       { name: 'Real Estate AI Kit', file: 'real-estate-kit.zip' },
       { name: 'Content Creator AI Kit', file: 'content-creator-kit.zip' },
@@ -164,7 +184,6 @@ const KIT_MAP = {
       { name: 'Small Business AI Kit', file: 'small-business-kit.zip' },
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
-      { name: 'Notion AI Templates Kit', file: 'notion-templates-kit.zip' },
     ],
   },
 };
@@ -198,6 +217,7 @@ function detectKit(session) {
 
   // Check product/line item name as fallback
   const productName = (session.metadata?.product_name || '').toLowerCase();
+  if (productName.includes('video')) return KIT_MAP['video-prompt-pack'];
   if (productName.includes('prompt') || productName.includes('mega pack')) return KIT_MAP['prompt-mega-pack'];
   if (productName.includes('real estate')) return KIT_MAP['real-estate'];
   if (productName.includes('content creator') || productName.includes('creator')) return KIT_MAP['content-creator'];

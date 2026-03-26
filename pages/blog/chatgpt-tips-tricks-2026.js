@@ -364,7 +364,7 @@ Format: Friendly but professional. Start with a one-line summary of the week. Us
         {/* CTA AFTER TIP 16 */}
         <div style={{ marginTop: '32px', marginBottom: '32px', padding: '24px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px', textAlign: 'center' }}>
           <p style={{ margin: '0 0 12px', fontSize: '16px', fontWeight: '700' }}>Stop building prompts from scratch.</p>
-          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get all 8 AI kits with 500+ ready-to-use prompts for sales, marketing, content, operations, freelancing, and more.</p>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get all 11 AI kits with 500+ ready-to-use prompts for sales, marketing, content, operations, freelancing, and more.</p>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 28px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
             Get the Bundle &mdash; $97
           </a>
@@ -581,6 +581,7 @@ Show the scoring in a clean table with the final weighted score and a 2-sentence
           <li><Link href="/blog/chatgpt-side-hustle-2026" style={{ color: '#3B5FFF' }}>7 ChatGPT Side Hustles Actually Making Money in 2026</Link></li>
           <li><Link href="/blog/ai-second-income-2026" style={{ color: '#3B5FFF' }}>How to Build a Second Income with AI Tools in 2026</Link></li>
           <li><Link href="/blog/chatgpt-image-prompts-2026" style={{ color: '#3B5FFF' }}>50 Viral ChatGPT Image Prompts You Need to Try in 2026</Link></li>
+          <li><Link href="/blog/prompt-engineering-guide-2026" style={{ color: '#3B5FFF' }}>The Complete AI Prompt Engineering Guide for 2026</Link></li>
         </ul>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

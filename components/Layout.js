@@ -231,6 +231,7 @@ export default function Layout({ children }) {
         <Link href="/ecommerce-kit">E-commerce Kit</Link>
         <Link href="/saas-founder-kit">SaaS Founder Kit</Link>
         <Link href="/notion-templates-kit">Notion Templates Kit</Link>
+        <Link href="/ai-video-prompt-pack">Video Prompt Pack</Link>
         <Link href="/bundle" className="mobile-cta">Get All Kits — $97</Link>
       </div>
 
@@ -260,6 +261,7 @@ export default function Layout({ children }) {
             <Link href="/ecommerce-kit">E-commerce Kit</Link>
             <Link href="/saas-founder-kit">SaaS Founder Kit</Link>
             <Link href="/notion-templates-kit">Notion Templates</Link>
+            <Link href="/ai-video-prompt-pack">Video Prompt Pack</Link>
             <Link href="/bundle">All Kits Bundle</Link>
           </div>
           <div className="footer-col">

@@ -477,10 +477,10 @@ export default function HowToMakeMoneyWithAI2026() {
         <p>Every method in this guide benefits from well-crafted AI prompts. The difference between generic AI output and money-making output is the quality of your prompts.</p>
 
         <div style={{ background: '#f0f4ff', border: '2px solid #3B5FFF', borderRadius: '12px', padding: '24px', textAlign: 'center', margin: '32px 0' }}>
-          <p style={{ fontSize: '18px', fontWeight: '700', marginBottom: '8px' }}>All 9 AI Kits &mdash; One Bundle</p>
+          <p style={{ fontSize: '18px', fontWeight: '700', marginBottom: '8px' }}>All 11 AI Kits &mdash; One Bundle</p>
           <p style={{ color: '#6B7280', marginBottom: '16px' }}>Prompt packs, templates, and workflows for freelancers, creators, realtors, small business owners, and more. Everything you need to start earning with AI.</p>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get All 9 Kits &mdash; $97 (Save 68%)
+            Get All 11 Kits &mdash; $97 (Save 76%)
           </a>
         </div>
 

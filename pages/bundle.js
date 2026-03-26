@@ -8,10 +8,10 @@ export default function Bundle() {
   return (
     <Layout>
       <Head>
-        <title>AI Toolkit Bundle — All 10 Kits for $97 | Midas Tools</title>
-        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Notion Templates, Image Prompt Pack, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 74%." />
+        <title>AI Toolkit Bundle — All 11 Kits for $97 | Midas Tools</title>
+        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Video Prompt Pack, Image Prompt Pack, Notion Templates, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 77%." />
         <meta property="og:title" content="AI Toolkit Bundle — All 10 Kits for $97 | Midas Tools" />
-        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 74% vs buying separately. Includes all future kits free." />
+        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 77% vs buying separately. Includes all future kits free." />
         <meta property="og:url" content="https://www.midastools.co/bundle" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ export default function Bundle() {
         </p>
 
         <div style={{display:'inline-flex',alignItems:'baseline',gap:16,marginBottom:40}}>
-          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$370</span>
+          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$399</span>
           <span style={{fontSize:48,fontWeight:900,color:'var(--accent)',letterSpacing:-2}}>$97</span>
         </div>
 
@@ -57,11 +57,17 @@ export default function Bundle() {
       {/* What's Included */}
       <section style={{paddingTop:0}}>
         <div className="section-label">What's Included</div>
-        <h2>10 complete kits + lifetime updates</h2>
+        <h2>11 complete kits + lifetime updates</h2>
         <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Everything you need to automate your business, your content, and your client pipeline.</p>
 
         <div className="kits-grid">
           {[
+            {
+              abbr: 'VP', name: 'AI Video Prompt Pack', price: '$29', bg: 'var(--card-cyan)',
+              desc: '150+ AI video generation prompts for social media, product demos, tutorials, cinematic content, corporate videos, and viral trending styles. Works with Sora, Runway, Pika, Kling AI.',
+              link: '/ai-video-prompt-pack',
+              items: ['25+ social media video prompts', '25+ product & marketing video prompts', '25+ educational & tutorial prompts', '25+ cinematic & storytelling prompts', '25+ business & corporate prompts', '25+ viral & trending style prompts'],
+            },
             {
               abbr: 'IP', name: 'AI Image Prompt Pack', price: '$29', bg: 'var(--card-pink)',
               desc: '150+ AI image generation prompts for social media, brands, products, headshots, and viral aesthetic styles. Works with ChatGPT, Midjourney, DALL-E.',
@@ -159,6 +165,7 @@ export default function Bundle() {
             <div style={{padding:'14px 20px',background:'var(--surface)',borderBottom:'1px solid var(--border)',borderRight:'1px solid var(--border)',fontWeight:700,fontSize:13,textAlign:'center',color:'var(--text-secondary)'}}>Individual</div>
             <div style={{padding:'14px 20px',background:'rgba(59,95,255,0.04)',borderBottom:'1px solid var(--border)',fontWeight:700,fontSize:13,textAlign:'center',color:'var(--accent)'}}>Bundle</div>
             {[
+              { label: 'Video Prompt Pack', ind: '$29', bun: '\u2713' },
               { label: 'Starter Kit', ind: '$29', bun: '\u2713' },
               { label: 'Real Estate Kit', ind: '$49', bun: '\u2713' },
               { label: 'Content Creator Kit', ind: '$39', bun: '\u2713' },
@@ -168,12 +175,12 @@ export default function Bundle() {
               { label: 'SaaS Founder Kit', ind: '$39', bun: '\u2713' },
               { label: 'Notion Templates Kit', ind: '$39', bun: '\u2713' },
               { label: 'Future kits', ind: 'Extra cost', bun: 'Included' },
-              { label: 'Total', ind: '$370+', bun: '$97' },
+              { label: 'Total', ind: '$399+', bun: '$97' },
             ].map((row, i) => (
               <div key={row.label} style={{display:'contents'}}>
-                <div style={{padding:'12px 20px',borderBottom: i < 9 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400,color:'var(--text)'}}>{row.label}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 9 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,textAlign:'center',color:'var(--text-secondary)'}}>{row.ind}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 9 ? '1px solid var(--border)' : 'none',background:'rgba(59,95,255,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--accent)' : 'var(--text)',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 10 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400,color:'var(--text)'}}>{row.label}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 10 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,textAlign:'center',color:'var(--text-secondary)'}}>{row.ind}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 10 ? '1px solid var(--border)' : 'none',background:'rgba(59,95,255,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--accent)' : 'var(--text)',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
               </div>
             ))}
           </div>
@@ -186,13 +193,16 @@ export default function Bundle() {
           <div className="badge" style={{marginBottom:20,background:'rgba(255,255,255,0.1)',borderColor:'rgba(255,255,255,0.2)',color:'#FFFFFF'}}>Best Value</div>
           <h2 style={{marginBottom:8,color:'#FFFFFF'}}>The Complete AI Toolkit</h2>
           <div style={{display:'flex',alignItems:'baseline',justifyContent:'center',gap:16,margin:'16px 0 4px'}}>
-            <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$302</span>
+            <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$399</span>
             <span style={{fontSize:48,fontWeight:900,color:'#FFFFFF'}}>$97</span>
           </div>
-          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 10 kits + future kits free</div>
+          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 11 kits + future kits free</div>
           <ul style={{listStyle:'none',textAlign:'left',marginBottom:32}}>
             {[
+              'AI Video Prompt Pack ($29 value)',
+              'AI Image Prompt Pack ($29 value)',
               'AI Prompt Mega Pack ($29 value)',
+              'Notion AI Templates Kit ($39 value)',
               'OpenClaw Entrepreneur Starter Kit ($29 value)',
               'Real Estate AI Agent Kit ($49 value)',
               'Content Creator AI Kit ($39 value)',
@@ -221,9 +231,9 @@ export default function Bundle() {
         <h2>Questions</h2>
         <div style={{display:'flex',flexDirection:'column',gap:24}}>
           {[
-            { q: 'What exactly do I get?', a: 'Eight complete AI kits (Starter, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, SaaS Founder, plus the Prompt Mega Pack) delivered as ZIP files. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, or any AI tool. No software to install.' },
+            { q: 'What exactly do I get?', a: 'Eleven complete AI kits — Video Prompt Pack, Image Prompt Pack, Notion Templates, Prompt Mega Pack, Starter, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder — delivered as ZIP files. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, Sora, Midjourney, or any AI tool. No software to install.' },
             { q: 'What are "future kits"?', a: 'We release new niche AI kits regularly. Bundle buyers get every new kit automatically at no extra cost, delivered to the same email.' },
-            { q: 'Do I need all eight kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want the Starter Kit plus at least one niche kit — or if you want access to every future kit we release.' },
+            { q: 'Do I need all eleven kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want two or more kits — or if you want access to every future kit we release.' },
             { q: 'Can I share this with my team?', a: 'The license is for one person. For team licenses, email iam@armando.mx and we will set up a custom plan.' },
             { q: 'What if it doesn\'t work for me?', a: '30-day full refund, no questions asked. Email iam@armando.mx.' },
           ].map(f => (

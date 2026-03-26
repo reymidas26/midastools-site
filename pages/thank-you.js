@@ -48,11 +48,19 @@ const KITS = {
     file: 'notion-templates-kit.zip',
     items: ['Project management templates (25+)', 'Content calendar & planning (25+)', 'CRM & sales pipeline (25+)', 'Personal productivity system (25+)', 'Business operations SOPs (25+)', 'Freelancer & agency templates (25+)'],
   },
+  'video-prompt-pack': {
+    name: 'AI Video Prompt Pack',
+    file: 'ai-video-prompt-pack.zip',
+    items: ['25+ Social media video prompts', '25+ Product & marketing video prompts', '25+ Educational & tutorial prompts', '25+ Cinematic & storytelling prompts', '25+ Business & corporate prompts', '25+ Viral & trending style prompts'],
+  },
   'bundle': {
     name: 'Complete AI Toolkit Bundle',
     file: null,
     files: [
+      { name: 'AI Video Prompt Pack', file: 'ai-video-prompt-pack.zip' },
+      { name: 'AI Image Prompt Pack', file: 'ai-image-prompt-pack.zip' },
       { name: 'AI Prompt Mega Pack', file: 'ai-prompt-mega-pack.zip' },
+      { name: 'Notion AI Templates Kit', file: 'notion-templates-kit.zip' },
       { name: 'OpenClaw Starter Kit', file: 'openclaw-starter-kit.zip' },
       { name: 'Real Estate AI Kit', file: 'real-estate-kit.zip' },
       { name: 'Content Creator AI Kit', file: 'content-creator-kit.zip' },
@@ -60,9 +68,8 @@ const KITS = {
       { name: 'Small Business AI Kit', file: 'small-business-kit.zip' },
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
-      { name: 'Notion AI Templates Kit', file: 'notion-templates-kit.zip' },
     ],
-    items: ['AI Prompt Mega Pack (200+ prompts)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'Notion AI Templates Kit (150+ templates)', 'All future kits — free, forever'],
+    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
   },
 };
 
@@ -130,7 +137,7 @@ export default function ThankYou() {
 
         {!isBundle && (
           <div style={{background:'rgba(59,95,255,0.06)',border:'1px solid rgba(59,95,255,0.2)',borderRadius:12,padding:'20px 24px',marginBottom:24,textAlign:'left'}}>
-            <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 10 kits? Save 74%</p>
+            <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 11 kits? Save 76%</p>
             <p style={{fontSize:14,color:'var(--gray-400)',lineHeight:1.5}}>Get the <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style={{color:'var(--gold)',fontWeight:700}}>Complete Bundle for $97</a> — includes every kit plus all future releases free.</p>
           </div>
         )}

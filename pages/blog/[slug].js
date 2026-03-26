@@ -655,7 +655,7 @@ export default function BlogPost({ post }) {
         </div>
         <div className="cta-inline">
           <p>Get every AI template, workflow, and prompt we make — in one bundle.</p>
-          <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g">Get All 8 Kits — $97 (Save 68%) →</a>
+          <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g">Get All 11 Kits — $97 (Save 76%) →</a>
           <p style={{marginTop:12,fontSize:13,color:'var(--text-tertiary)'}}>Or start with the <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{color:'var(--accent)'}}>Starter Kit — $29</a></p>
         </div>
       </div>

@@ -608,6 +608,7 @@ Direction C (Abstract): A pure abstract composition — [flowing paint pours / c
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/chatgpt-side-hustle-2026" style={{ color: '#3B5FFF' }}>7 ChatGPT Side Hustles Actually Making Money in 2026</Link></li>
           <li><Link href="/blog/ai-second-income-2026" style={{ color: '#3B5FFF' }}>How to Build a Second Income with AI Tools in 2026</Link></li>
+          <li><Link href="/blog/ai-video-prompts-sora-runway-2026" style={{ color: '#3B5FFF' }}>30+ Best AI Video Prompts for Sora, Runway &amp; Pika 2026</Link></li>
         </ul>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

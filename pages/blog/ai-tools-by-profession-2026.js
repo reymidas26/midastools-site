@@ -114,10 +114,19 @@ const professions = [
     timeSaved: '10+ hrs/week',
     tools: ['Meeting notes', 'Status reports', 'Task prioritization', 'Calendar optimization', 'Stakeholder comms'],
   },
+  {
+    title: 'Nonprofit Leaders',
+    slug: '/blog/ai-tools-nonprofit-leaders-2026',
+    icon: '💚',
+    audience: '1.5M+ nonprofits in the US',
+    topUse: 'Grant writing — cut proposal time by 70% with AI drafts',
+    timeSaved: '15+ hrs/week',
+    tools: ['Grant proposals', 'Fundraising emails', 'Donor reports', 'Social media', 'Volunteer management', 'Board presentations'],
+  },
 ];
 
 export default function AIToolsByProfession2026() {
-  const title = 'AI Tools by Profession: The Complete 2026 Guide (12 Industries)';
+  const title = 'AI Tools by Profession: The Complete 2026 Guide (13 Industries)';
   const description = 'The best AI tools for every profession in 2026. Healthcare, teachers, lawyers, accountants, small business, freelancers, real estate, e-commerce, content creators, and SaaS founders — with exact prompts and time savings for each.';
   const url = 'https://www.midastools.co/blog/ai-tools-by-profession-2026';
 
@@ -244,7 +253,7 @@ export default function AIToolsByProfession2026() {
 
         <div style={{ textAlign: 'center', margin: '24px 0' }}>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get the Bundle — $97 (Save 68%)
+            Get the Bundle — $97 (Save 76%)
           </a>
         </div>
       </div>

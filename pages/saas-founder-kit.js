@@ -265,7 +265,7 @@ export default function SaasFounderKit() {
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
           <div style={{fontSize:12,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Best Value</div>
           <p style={{fontSize:20,fontWeight:800,marginBottom:8}}>Get all AI kits for $97</p>
-          <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + 7 more niche AI kits &mdash; plus every future kit free. Save 68%.</p>
+          <p style={{color:'var(--gray-400)',fontSize:15,marginBottom:20,lineHeight:1.6}}>This kit + 10 more AI kits &mdash; plus every future kit free. Save 76%.</p>
           <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{color:'var(--gold)',fontWeight:700,fontSize:15,textDecoration:'none'}}>
             Get the Bundle — $97 &rarr;
           </a>
