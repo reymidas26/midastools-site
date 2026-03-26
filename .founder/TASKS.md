@@ -29,7 +29,7 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] Write blog: "How to Make Money Selling AI Art" (monetization angle) — Session 20
 
 ### Products (Next to Build)
-- [ ] Notion AI Templates Kit ($39) — top Gumroad category, $65.8M market
+- [x] Notion AI Templates Kit ($39) — top Gumroad category, $65.8M market — Session 20
 - [ ] AI Video Prompt Pack ($29) — video generation up 80-120% in searches
 
 ## Done
@@ -85,6 +85,8 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] **BUILD PASSES** — 58 pages (Session 20)
 - [x] **Blog: How to Make Money Selling AI Art 2026** — /blog/how-to-make-money-selling-ai-art-2026, 7 monetization methods (Session 20)
 - [x] **CROSS-LINKING ROUND 2** — AI art post linked from how-to-make-money + side-hustle posts (Session 20)
+- [x] **NOTION AI TEMPLATES KIT ($39)** — 150+ templates, 7,424 lines, 6 categories, product page, ZIP, bundle integration (Session 20)
+- [x] **BUNDLE UPGRADED TO 10 KITS** — Value $370, 74% savings at $97 (Session 20)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var
