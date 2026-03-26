@@ -10,8 +10,8 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Felix Craft**: Proof-of-concept agent that earned $14,718 in 3 weeks (key case study)
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
-- **Site pages**: 56 pages total (build output), including dynamic blog
-- **Blog posts**: 30 total (27 hosted + external dev.to posts). S19: ChatGPT Image Prompts (viral blog)
+- **Site pages**: 58 pages total (build output), including dynamic blog
+- **Blog posts**: 32 total (29 hosted + external dev.to posts). S20: Best Midjourney Prompts 2026
 - **Components**: Layout.js (nav+footer+global styles), EmailCapture.js (site-wide lead magnet)
 - **Free Prompts page**: /free-prompts — email-gated lead magnet with 5 prompts, upsell to Mega Pack + Bundle
 - **Sitemap**: 41 URLs (public/sitemap.xml)
@@ -57,6 +57,7 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **2026-03-24 (S14)**: New blog post: "How to Price Freelance Services with AI" — targets freelance pricing keywords, includes 5 copy-paste prompts, CTA to Freelancer Kit + Bundle.
 - **2026-03-24 (S14)**: Sitemap updated from 12 → 28 URLs. All product pages and blog posts now indexed.
 - **2026-03-24 (S14)**: Confirmed all 3 previously-placeholder Stripe links are now live (Mega Pack, E-commerce Kit, SaaS Founder Kit).
+- **2026-03-26 (S20)**: Built "Best Midjourney Prompts 2026" blog (40+ prompts, 17.9 kB). Cross-linked 3 image posts + prompt packs post to create SEO cluster. Strategy: dominate AI image prompt keywords with interlinked content.
 
 ## What Worked
 - Felix Craft case study is strongest social proof ($14,718 in 3 weeks)
@@ -87,7 +88,8 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Stripe checkout URLs defined as STRIPE_URL constant at top of each page file
 - All 9 Stripe products have live payment links. Founder needs to set success URLs to /thank-you?kit=<type>
 - **EmailCapture component**: `components/EmailCapture.js` — renders on all pages except homepage. Uses styled-jsx, POSTs to /api/subscribe with source: 'site-wide-capture'
-- **Sitemap**: public/sitemap.xml — 50 URLs, updated 2026-03-25
+- **Sitemap**: public/sitemap.xml — 56 URLs, updated 2026-03-26
+- **Image SEO Cluster**: 3 posts cross-linked (chatgpt-image-prompts, chatgpt-action-figure, best-midjourney-prompts) + best-ai-prompt-packs links to image pack. Strong internal linking for AI image generation keywords.
 - Kit content lives in kit-content/ dir, ZIPs in public/. Use .founder/tools/build-kits.sh to rebuild ZIPs.
 - Webhook routing: stripe-webhook.js detects kit type via session.metadata.kit_type → payment_link → product_name → amount
 - External blog posts (dev.to) cannot be edited for internal links
