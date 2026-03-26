@@ -582,6 +582,7 @@ Show the scoring in a clean table with the final weighted score and a 2-sentence
           <li><Link href="/blog/ai-second-income-2026" style={{ color: '#3B5FFF' }}>How to Build a Second Income with AI Tools in 2026</Link></li>
           <li><Link href="/blog/chatgpt-image-prompts-2026" style={{ color: '#3B5FFF' }}>50 Viral ChatGPT Image Prompts You Need to Try in 2026</Link></li>
           <li><Link href="/blog/prompt-engineering-guide-2026" style={{ color: '#3B5FFF' }}>The Complete AI Prompt Engineering Guide for 2026</Link></li>
+          <li><Link href="/prompt-generator" style={{ color: '#3B5FFF' }}>Build Custom Prompts with Our Free AI Prompt Generator</Link></li>
         </ul>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

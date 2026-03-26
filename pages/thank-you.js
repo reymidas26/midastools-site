@@ -53,6 +53,11 @@ const KITS = {
     file: 'ai-video-prompt-pack.zip',
     items: ['25+ Social media video prompts', '25+ Product & marketing video prompts', '25+ Educational & tutorial prompts', '25+ Cinematic & storytelling prompts', '25+ Business & corporate prompts', '25+ Viral & trending style prompts'],
   },
+  'resume-career-kit': {
+    name: 'AI Resume & Career Kit',
+    file: 'resume-career-kit.zip',
+    items: ['Resume & CV optimization prompts (25+)', 'Cover letter generators (20+)', 'LinkedIn profile optimization (20+)', 'Interview preparation scripts (20+)', 'Job search strategy prompts (20+)', 'Salary negotiation templates (20+)'],
+  },
   'bundle': {
     name: 'Complete AI Toolkit Bundle',
     file: null,
@@ -68,8 +73,9 @@ const KITS = {
       { name: 'Small Business AI Kit', file: 'small-business-kit.zip' },
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
+      { name: 'AI Resume & Career Kit', file: 'resume-career-kit.zip' },
     ],
-    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
+    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'AI Resume & Career Kit (125+ prompts)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
   },
 };
 

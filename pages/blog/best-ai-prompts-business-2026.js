@@ -516,6 +516,7 @@ Format: Executive summary, KPI table, what worked (3), what didn't (3), next qua
           <li><Link href="/blog/chatgpt-side-hustle-2026" style={{ color: '#3B5FFF' }}>7 ChatGPT Side Hustles Actually Making Money in 2026</Link></li>
           <li><Link href="/blog/ai-second-income-2026" style={{ color: '#3B5FFF' }}>How to Build a Second Income with AI in 2026</Link></li>
           <li><Link href="/blog/best-free-ai-tools-2026" style={{ color: '#3B5FFF' }}>15 Best Free AI Tools in 2026</Link></li>
+          <li><Link href="/prompt-generator" style={{ color: '#3B5FFF' }}>Try Our Free AI Prompt Generator — Build Custom Prompts Instantly</Link></li>
         </ul>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

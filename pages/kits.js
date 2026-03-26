@@ -97,6 +97,15 @@ const kits = [
     badge: 'NEW',
     color: 'var(--card-purple)',
   },
+  {
+    name: 'AI Resume & Career Kit',
+    price: '$29',
+    desc: '125+ prompts for resumes, cover letters, LinkedIn, interviews, job search & salary negotiation',
+    href: '/resume-career-kit',
+    stripe: 'PLACEHOLDER_RESUME_CAREER_KIT',
+    badge: 'NEW',
+    color: 'var(--card-green)',
+  },
 ];
 
 export default function Kits() {
@@ -213,8 +222,8 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 11 kits + future kits for $97</h2>
-          <p>Video Pack + Image Pack + Notion Templates + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
+          <h2>Get all 12 kits + future kits for $97</h2>
+          <p>Video Pack + Image Pack + Notion Templates + Resume &amp; Career + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>
       </div>

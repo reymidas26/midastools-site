@@ -201,8 +201,8 @@ export default function Layout({ children }) {
           <span className="logo-tools">TOOLS</span>
         </Link>
         <div className="nav-links">
+          <Link href="/prompt-generator" className={`nav-link${path === '/prompt-generator' ? ' active' : ''}`}>Prompt Generator</Link>
           <Link href="/chatgpt-prompts" className={`nav-link${path === '/chatgpt-prompts' ? ' active' : ''}`}>Prompts</Link>
-          <Link href="/free-prompts" className={`nav-link${path === '/free-prompts' ? ' active' : ''}`}>Free Prompts</Link>
           <Link href="/kits" className={`nav-link${path === '/kits' ? ' active' : ''}`}>Kits</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
           <Link href="/bundle" className="nav-cta">All Kits — $97</Link>
@@ -218,6 +218,7 @@ export default function Layout({ children }) {
 
       <div className={`mobile-menu${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <Link href="/">Home</Link>
+        <Link href="/prompt-generator">Prompt Generator</Link>
         <Link href="/chatgpt-prompts">ChatGPT Prompts</Link>
         <Link href="/free-prompts">Free Prompts</Link>
         <Link href="/kits">Kits</Link>
@@ -232,6 +233,7 @@ export default function Layout({ children }) {
         <Link href="/saas-founder-kit">SaaS Founder Kit</Link>
         <Link href="/notion-templates-kit">Notion Templates Kit</Link>
         <Link href="/ai-video-prompt-pack">Video Prompt Pack</Link>
+        <Link href="/resume-career-kit">Resume &amp; Career Kit</Link>
         <Link href="/bundle" className="mobile-cta">Get All Kits — $97</Link>
       </div>
 
@@ -262,10 +264,12 @@ export default function Layout({ children }) {
             <Link href="/saas-founder-kit">SaaS Founder Kit</Link>
             <Link href="/notion-templates-kit">Notion Templates</Link>
             <Link href="/ai-video-prompt-pack">Video Prompt Pack</Link>
+            <Link href="/resume-career-kit">Resume &amp; Career Kit</Link>
             <Link href="/bundle">All Kits Bundle</Link>
           </div>
           <div className="footer-col">
             <h4>Resources</h4>
+            <Link href="/prompt-generator">Prompt Generator</Link>
             <Link href="/chatgpt-prompts">ChatGPT Prompts</Link>
             <Link href="/free-prompts">Free AI Prompts</Link>
             <Link href="/blog">Blog</Link>

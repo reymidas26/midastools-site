@@ -533,6 +533,17 @@ For any score below 8, rewrite that section and explain what you changed.`}
             </div>
           </div>
 
+          {/* Prompt Generator Callout */}
+          <div style={{ background: 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)', border: '2px solid rgba(59,95,255,0.2)', borderRadius: '16px', padding: '32px', textAlign: 'center', margin: '48px 0' }}>
+            <p style={{ fontSize: '20px', fontWeight: 800, marginBottom: '8px', color: 'var(--text)' }}>Build Perfect Prompts in Seconds</p>
+            <p style={{ fontSize: '15px', color: 'var(--text-secondary)', marginBottom: '20px', maxWidth: '480px', marginLeft: 'auto', marginRight: 'auto' }}>
+              Our free AI Prompt Generator applies every framework from this guide automatically. Pick your task, fill in the details, and get a professional-grade prompt instantly.
+            </p>
+            <Link href="/prompt-generator" style={{ display: 'inline-block', background: 'var(--accent)', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: 700, fontSize: '15px' }}>
+              Try the Free Prompt Generator →
+            </Link>
+          </div>
+
           {/* Section 7: Common Mistakes */}
           <h2 id="mistakes" style={s.h2}>7. The 7 Most Common Prompt Engineering Mistakes</h2>
 
@@ -594,6 +605,7 @@ For any score below 8, rewrite that section and explain what you changed.`}
               { title: '40+ Best Midjourney Prompts for Stunning AI Art', href: '/blog/best-midjourney-prompts-2026' },
               { title: 'Best AI Prompt Packs for Every Business', href: '/blog/best-ai-prompt-packs-2026' },
               { title: 'How to Make Money Selling AI Art in 2026', href: '/blog/how-to-make-money-selling-ai-art-2026' },
+              { title: 'Free AI Prompt Generator — Build Custom Prompts Instantly', href: '/prompt-generator' },
             ].map(link => (
               <li key={link.href} style={{ padding: '8px 0' }}>
                 <Link href={link.href} style={{ color: 'var(--accent)', textDecoration: 'none', fontWeight: 600, fontSize: '15px' }}>

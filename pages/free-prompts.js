@@ -522,6 +522,7 @@ export default function FreePrompts() {
           <Link href="/quiz">Not Sure Which Kit? Take the 60-Second Quiz</Link>
           <Link href="/ai-roi-calculator">AI ROI Calculator — See How Much AI Saves You</Link>
           <Link href="/ai-prompt-mega-pack">AI Prompt Mega Pack — Full Product Details</Link>
+          <Link href="/prompt-generator">Free AI Prompt Generator — Build Custom Prompts for Any Task</Link>
         </div>
       </section>
     </Layout>

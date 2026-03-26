@@ -1,7 +1,7 @@
 # State
 
 ## Current Status
-Day 3 — Session 21 complete. BUILD PASSES (69 pages). 12 products on site (11 kits + bundle). 36 blog posts (33 hosted + externals). AI Video Prompt Pack ($29) shipped + 3 blog posts. Bundle upgraded to 11 kits ($399 value → $97, 76% savings). Sitemap: 62 URLs.
+Day 3 — Session 22 complete. BUILD PASSES (71 pages). 12 products on site (11 kits + bundle). 37 blog posts (34 hosted + externals). **NEW: Free AI Prompt Generator** — interactive tool at /prompt-generator (8 categories, instant custom prompts, upsell to paid packs). + Supporting blog post. Sitemap: 64 URLs.
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
@@ -19,20 +19,13 @@ Day 3 — Session 21 complete. BUILD PASSES (69 pages). 12 products on site (11 
 | SaaS Founder AI Kit | $39 | /saas-founder-kit | saas-founder-kit.zip | ✅ Live |
 | All Kits Bundle | $97 | /bundle | All 11 ZIPs | ✅ Live |
 
-## This Session (Session 21)
-- **NEW PRODUCT: AI Video Prompt Pack ($29)** — /ai-video-prompt-pack, 150+ prompts in 6 categories (social media, product/marketing, educational/tutorials, cinematic/storytelling, business/corporate, viral/trending). 1,055 lines across 7 files. Works with Sora, Runway, Pika, Kling AI, Luma Dream Machine.
-- **BUNDLE UPGRADED**: Now 11 kits, $399 value → $97 (76% savings, was 74%)
-- **SITE-WIDE UPDATES**: "10 kits" → "11 kits" and "74%" → "76%" across 19+ files (homepage, bundle, kits catalog, all kit pages, quiz, thank-you, 12 blog posts)
-- **ZIP Built**: public/ai-video-prompt-pack.zip (31K)
-- **Integration**: Kits catalog, bundle page+comparison table+buy section+FAQ, nav, footer, thank-you routing, webhook delivery all updated
-- **NEW BLOG: "30+ Best AI Video Prompts for Sora, Runway & Pika 2026"** — /blog/ai-video-prompts-sora-runway-2026 (10.7 kB). 30+ prompts, tool comparison table, FAQ schema, 3 CTAs to Video Pack.
-- **CROSS-LINKING**: Video blog linked from chatgpt-image-prompts, best-midjourney-prompts, best-ai-prompt-packs posts. Video Pack linked from best-ai-prompt-packs.
-- **NEW BLOG: "The Complete AI Prompt Engineering Guide for 2026"** — /blog/prompt-engineering-guide-2026 (10.4 kB). Evergreen how-to covering text, image, and video prompting. 5 fundamentals, advanced techniques, 7 common mistakes. CTAs to all 3 prompt packs + bundle.
-- **CROSS-LINKING ROUND 2**: Prompt engineering guide linked from chatgpt-tips-tricks and best-ai-prompt-packs posts.
-- **NEW BLOG: "8 AI Tools for Nonprofit Leaders 2026"** — /blog/ai-tools-nonprofit-leaders-2026 (9.46 kB). Untapped niche. 8 use cases: grant writing, fundraising emails, donor reports, social media, volunteers, board presentations, events, website. Tool comparison table. 3 ethics tips.
-- **CROSS-LINKING ROUND 3**: Nonprofit post added to ai-tools-by-profession hub (now 13 industries).
-- **Sitemap Updated**: 62 URLs (was 58)
-- **BUILD PASSES**: 69 pages (was 59)
+## This Session (Session 22)
+- **NEW: FREE AI PROMPT GENERATOR** — /prompt-generator (9.49 kB). Interactive tool with 8 categories: Sales Email, Social Media, Product Description, Blog Outline, Cold Outreach, AI Image Prompt, Video Script, Business Strategy. Users fill in 3 fields → get a customized expert prompt instantly. Copy to clipboard. Upsell to Mega Pack ($29) + Bundle ($97). WebApplication + FAQPage schema. This is our TRAFFIC MAGNET — free tools get 10x more shares than static content.
+- **NEW BLOG: "Free AI Prompt Generator: Build Perfect Prompts in Seconds"** — /blog/free-ai-prompt-generator-2026 (7.92 kB). SEO targeting "free AI prompt generator", "AI prompt maker", "ChatGPT prompt builder" keywords. How-to + 8 categories explained + free vs premium comparison + FAQ schema.
+- **CROSS-LINKING**: Prompt generator linked from 4 existing posts (prompt-engineering-guide, chatgpt-tips-tricks, best-ai-prompts-business, free-prompts page). Generator also linked from blog post.
+- **NAV UPDATED**: "Prompt Generator" added as primary nav item, replacing "Free Prompts" in top nav (still in mobile menu + footer)
+- **Sitemap Updated**: 64 URLs (was 62)
+- **BUILD PASSES**: 71 pages (was 69)
 
 ## Blockers for Founder
 1. **⚡ CREATE STRIPE LINK** for AI Video Prompt Pack ($29) — page has PLACEHOLDER_VIDEO_PACK
