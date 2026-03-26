@@ -26,7 +26,7 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [ ] Write blog: "AI Tools for Nonprofit Leaders" (untapped niche)
 - [ ] Create comparison pages (Midas Tools vs. individual AI tools)
 - [x] Write blog: "Best Midjourney Prompts 2026" (capitalize on image trend) — Session 20
-- [ ] Write blog: "How to Make Money Selling AI Art" (monetization angle)
+- [x] Write blog: "How to Make Money Selling AI Art" (monetization angle) — Session 20
 
 ### Products (Next to Build)
 - [ ] Notion AI Templates Kit ($39) — top Gumroad category, $65.8M market
@@ -83,6 +83,8 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] **CROSS-LINKING** — Internal links across 3 image/prompt blog posts for SEO cluster (Session 20)
 - [x] **SITEMAP UPDATED** — 56 URLs (Session 20)
 - [x] **BUILD PASSES** — 58 pages (Session 20)
+- [x] **Blog: How to Make Money Selling AI Art 2026** — /blog/how-to-make-money-selling-ai-art-2026, 7 monetization methods (Session 20)
+- [x] **CROSS-LINKING ROUND 2** — AI art post linked from how-to-make-money + side-hustle posts (Session 20)
 
 ## Blocked
 - Analytics — need NEXT_PUBLIC_GA_ID env var
