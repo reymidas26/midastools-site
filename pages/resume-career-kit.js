@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import Layout from '../components/Layout';
 
-const STRIPE_URL = 'PLACEHOLDER_RESUME_KIT';
+const STRIPE_URL = 'https://buy.stripe.com/4gM8wO6Sb4aJ4Cw3BEcMM0j';
 const BUNDLE_URL = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 
 export default function ResumeCareerKit() {

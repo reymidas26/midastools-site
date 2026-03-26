@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import Layout from '../components/Layout';
 
-const STRIPE_URL = 'https://buy.stripe.com/PLACEHOLDER_VIDEO_PACK';
+const STRIPE_URL = 'https://buy.stripe.com/cNi6oGgsLfTrfha2xAcMM0g';
 
 export default function AIVideoPromptPack() {
   const [email, setEmail] = useState('');

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import Layout from '../components/Layout';
 
-const STRIPE_URL = 'https://buy.stripe.com/PLACEHOLDER_IMAGE_PACK';
+const STRIPE_URL = 'https://buy.stripe.com/8x24gyccv7mVglegoqcMM0i';
 
 export default function AIImagePromptPack() {
   const [email, setEmail] = useState('');

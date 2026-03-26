@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/Layout';
 
-const STRIPE_URL = 'PLACEHOLDER_IMAGE_PACK';
+const STRIPE_URL = 'https://buy.stripe.com/8x24gyccv7mVglegoqcMM0i';
 const BUNDLE_URL = 'https://buy.stripe.com/4gw5mf0Zl1U5aVW5kp';
 const IMAGE_PACK_LINK = '/ai-image-prompt-pack';
 

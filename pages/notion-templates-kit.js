@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
 
-const STRIPE_URL = 'PLACEHOLDER_NOTION_KIT';
+const STRIPE_URL = 'https://buy.stripe.com/aFa14mfoH8qZ6KEgoqcMM0h';
 
 export default function NotionTemplatesKit() {
   const [email, setEmail] = useState('');
