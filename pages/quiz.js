@@ -301,8 +301,8 @@ export default function Quiz() {
             {isBundle ? (
               <div className="bundle-card">
                 <div style={{ fontSize: 13, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, color: '#A5B4FC', marginBottom: 16 }}>Best Value — Recommended for You</div>
-                <h2>All 8 AI Kits Bundle</h2>
-                <div className="savings">$302 value — save 68%</div>
+                <h2>All 10 AI Kits Bundle</h2>
+                <div className="savings">$370 value — save 74%</div>
                 <div className="price">${BUNDLE.price}</div>
                 <div className="price-note">One-time payment. Yours forever.</div>
                 <a href={BUNDLE.stripe} className="bundle-cta">Get the Bundle →</a>
@@ -332,8 +332,8 @@ export default function Quiz() {
             {!isBundle && (
               <div className="bundle-card">
                 <div style={{ fontSize: 13, fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, color: '#A5B4FC', marginBottom: 12 }}>Want it all?</div>
-                <h2>Get All 8 Kits for ${BUNDLE.price}</h2>
-                <div className="savings">$302 value — save 68%</div>
+                <h2>Get All 10 Kits for ${BUNDLE.price}</h2>
+                <div className="savings">$370 value — save 74%</div>
                 <a href={BUNDLE.stripe} className="bundle-cta">Get the Bundle →</a>
               </div>
             )}

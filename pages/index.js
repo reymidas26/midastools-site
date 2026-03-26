@@ -183,7 +183,7 @@ export default function Home() {
       {/* Announcement bar */}
       <div style={{ background: 'var(--surface)', borderBottom: '1px solid var(--border)', padding: '10px 40px', textAlign: 'center', fontSize: 13, fontWeight: 500 }}>
         <a href="/bundle" style={{ color: 'var(--text-secondary)', textDecoration: 'none' }}>
-          New: All Kits Bundle — 9 AI kits for $97
+          New: All Kits Bundle — 10 AI kits for $97
           <span style={{ color: 'var(--accent)', fontWeight: 700, marginLeft: 8 }}>View bundle &rarr;</span>
         </a>
       </div>
@@ -348,7 +348,7 @@ export default function Home() {
         </div>
         <div style={{ textAlign: 'center', marginTop: 24 }}>
           <a href="/bundle" style={{ color: 'var(--accent)', fontSize: 15, fontWeight: 700, textDecoration: 'none' }}>
-            Or get all 9 kits for $97 (save 68%) &rarr;
+            Or get all 10 kits for $97 (save 74%) &rarr;
           </a>
         </div>
       </section>
@@ -361,7 +361,7 @@ export default function Home() {
         <div className="pricing-grid">
           {[
             { label: 'Start Here', price: '$29', term: 'one-time', name: 'Starter Kit', desc: 'Templates, workflows, and prompts to deploy your first AI agent yourself.', href: STRIPE_URL, cta: 'Get the Kit \u2192', featured: false },
-            { label: 'Best Value', price: '$97', term: 'one-time', name: 'All Kits Bundle', desc: '9 AI kits + all future kits free. Save 71% vs buying separately.', href: 'https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g', cta: 'Get the Bundle \u2192', featured: true },
+            { label: 'Best Value', price: '$97', term: 'one-time', name: 'All Kits Bundle', desc: '10 AI kits + all future kits free. Save 74% vs buying separately.', href: 'https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g', cta: 'Get the Bundle \u2192', featured: true },
           ].map(p => (
             <div key={p.name} className={`pricing-card${p.featured ? ' featured' : ''}`}>
               <span className="badge" style={{ fontSize: 11, padding: '4px 10px', letterSpacing: 1 }}>{p.label}</span>

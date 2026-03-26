@@ -8,10 +8,10 @@ export default function Bundle() {
   return (
     <Layout>
       <Head>
-        <title>AI Toolkit Bundle — All 9 Kits for $97 | Midas Tools</title>
-        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Image Prompt Pack, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 71%." />
-        <meta property="og:title" content="AI Toolkit Bundle — All 8 Kits for $97 | Midas Tools" />
-        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 71% vs buying separately. Includes all future kits free." />
+        <title>AI Toolkit Bundle — All 10 Kits for $97 | Midas Tools</title>
+        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Notion Templates, Image Prompt Pack, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 74%." />
+        <meta property="og:title" content="AI Toolkit Bundle — All 10 Kits for $97 | Midas Tools" />
+        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 74% vs buying separately. Includes all future kits free." />
         <meta property="og:url" content="https://www.midastools.co/bundle" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -44,7 +44,7 @@ export default function Bundle() {
         </p>
 
         <div style={{display:'inline-flex',alignItems:'baseline',gap:16,marginBottom:40}}>
-          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$331</span>
+          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$370</span>
           <span style={{fontSize:48,fontWeight:900,color:'var(--accent)',letterSpacing:-2}}>$97</span>
         </div>
 
@@ -57,7 +57,7 @@ export default function Bundle() {
       {/* What's Included */}
       <section style={{paddingTop:0}}>
         <div className="section-label">What's Included</div>
-        <h2>9 complete kits + lifetime updates</h2>
+        <h2>10 complete kits + lifetime updates</h2>
         <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Everything you need to automate your business, your content, and your client pipeline.</p>
 
         <div className="kits-grid">
@@ -116,6 +116,12 @@ export default function Bundle() {
               link: '/saas-founder-kit',
               items: ['Launch playbook & Product Hunt copy', 'Onboarding & activation emails', 'Churn prevention sequences', 'Growth marketing frameworks', 'Pricing & positioning copy'],
             },
+            {
+              abbr: 'NT', name: 'Notion AI Templates Kit', price: '$39', bg: 'var(--card-purple)',
+              desc: '150+ ready-made Notion templates with built-in AI prompts for project management, CRM, content planning, and productivity.',
+              link: '/notion-templates-kit',
+              items: ['Project management templates', 'CRM & sales pipeline', 'Content calendar & planning', 'Personal productivity system', 'Business operations SOPs', 'Freelancer & agency templates'],
+            },
           ].map(kit => (
             <div key={kit.name} className="kit-card">
               <div className="kit-icon" style={{ background: kit.bg }}>{kit.abbr}</div>
@@ -160,13 +166,14 @@ export default function Bundle() {
               { label: 'Small Business Kit', ind: '$39', bun: '\u2713' },
               { label: 'E-commerce Kit', ind: '$39', bun: '\u2713' },
               { label: 'SaaS Founder Kit', ind: '$39', bun: '\u2713' },
+              { label: 'Notion Templates Kit', ind: '$39', bun: '\u2713' },
               { label: 'Future kits', ind: 'Extra cost', bun: 'Included' },
-              { label: 'Total', ind: '$302+', bun: '$97' },
+              { label: 'Total', ind: '$370+', bun: '$97' },
             ].map((row, i) => (
               <div key={row.label} style={{display:'contents'}}>
-                <div style={{padding:'12px 20px',borderBottom: i < 8 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400,color:'var(--text)'}}>{row.label}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 8 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,textAlign:'center',color:'var(--text-secondary)'}}>{row.ind}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 8 ? '1px solid var(--border)' : 'none',background:'rgba(59,95,255,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--accent)' : 'var(--text)',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 9 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400,color:'var(--text)'}}>{row.label}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 9 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,textAlign:'center',color:'var(--text-secondary)'}}>{row.ind}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 9 ? '1px solid var(--border)' : 'none',background:'rgba(59,95,255,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--accent)' : 'var(--text)',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
               </div>
             ))}
           </div>
@@ -182,7 +189,7 @@ export default function Bundle() {
             <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$302</span>
             <span style={{fontSize:48,fontWeight:900,color:'#FFFFFF'}}>$97</span>
           </div>
-          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 9 kits + future kits free</div>
+          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 10 kits + future kits free</div>
           <ul style={{listStyle:'none',textAlign:'left',marginBottom:32}}>
             {[
               'AI Prompt Mega Pack ($29 value)',

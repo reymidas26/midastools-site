@@ -126,6 +126,20 @@ const KIT_MAP = {
       'Complete setup guide',
     ],
   },
+  'notion-templates': {
+    name: 'Notion AI Templates Kit',
+    file: 'notion-templates-kit.zip',
+    subject: 'Your Notion AI Templates Kit is ready',
+    items: [
+      'Project management templates (25+ Notion pages)',
+      'Content calendar & planning (25+ templates)',
+      'CRM & sales pipeline (25+ templates)',
+      'Personal productivity system (25+ templates)',
+      'Business operations SOPs (25+ templates)',
+      'Freelancer & agency templates (25+ templates)',
+      'Complete setup guide',
+    ],
+  },
   'bundle': {
     name: 'All Kits Bundle',
     file: null, // Multiple files
@@ -138,6 +152,7 @@ const KIT_MAP = {
       'Small Business AI Kit (social + email + operations)',
       'E-commerce AI Kit (product descriptions + email + ads)',
       'SaaS Founder AI Kit (launch + onboarding + churn prevention)',
+      'Notion AI Templates Kit (150+ Notion templates)',
       'All future kits — free, forever',
     ],
     files: [
@@ -149,6 +164,7 @@ const KIT_MAP = {
       { name: 'Small Business AI Kit', file: 'small-business-kit.zip' },
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
+      { name: 'Notion AI Templates Kit', file: 'notion-templates-kit.zip' },
     ],
   },
 };

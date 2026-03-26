@@ -77,8 +77,16 @@ const kits = [
     desc: 'Launch playbooks, onboarding sequences, churn prevention, and growth marketing for SaaS builders.',
     href: '/saas-founder-kit',
     stripe: 'https://buy.stripe.com/fZudR8dgz8qZ5GAfkmcMM0f',
-    badge: 'NEW',
     color: 'var(--card-blue)',
+  },
+  {
+    name: 'Notion AI Templates Kit',
+    price: '$39',
+    desc: '150+ ready-made Notion templates with AI prompts for project management, CRM, content planning, productivity, and business ops.',
+    href: '/notion-templates-kit',
+    stripe: 'PLACEHOLDER_NOTION_KIT',
+    badge: 'NEW',
+    color: 'var(--card-purple)',
   },
 ];
 
@@ -196,8 +204,8 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 9 kits + future kits for $97</h2>
-          <p>Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
+          <h2>Get all 10 kits + future kits for $97</h2>
+          <p>Notion Templates + Prompt Mega Pack + Image Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>
       </div>
