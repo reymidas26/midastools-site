@@ -434,4 +434,35 @@
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
+  <!-- Email Marketing Kit -->
+  <url>
+    <loc>https://www.midastools.co/email-marketing-kit</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: AI Email Marketing Prompts -->
+  <url>
+    <loc>https://www.midastools.co/blog/ai-email-marketing-prompts-2026</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Presentation Kit -->
+  <url>
+    <loc>https://www.midastools.co/presentation-kit</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: AI Presentation Prompts -->
+  <url>
+    <loc>https://www.midastools.co/blog/ai-presentation-prompts-2026</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

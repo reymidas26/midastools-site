@@ -709,11 +709,13 @@ Best,
           <li><Link href="/blog/automate-client-follow-up-ai" style={{ color: '#3B5FFF' }}>How to Automate Client Follow-Up with AI (No Code Required)</Link></li>
           <li><Link href="/blog/ai-freelancer-automation-2026" style={{ color: '#3B5FFF' }}>AI Freelancer Automation: Save 10+ Hours Per Week in 2026</Link></li>
           <li><Link href="/free-prompts" style={{ color: '#3B5FFF' }}>Free AI Prompt Library</Link></li>
+          <li><Link href="/email-marketing-kit" style={{ color: '#3B5FFF' }}>AI Email Marketing Kit — 125+ Prompts for Sequences, Newsletters & Outreach</Link></li>
+          <li><Link href="/blog/ai-email-marketing-prompts-2026" style={{ color: '#3B5FFF' }}>20 AI Prompts That Will Transform Your Email Marketing in 2026</Link></li>
         </ul>
 
         {/* CTA 3: End */}
         <div style={{ background: 'linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 100%)', borderRadius: '12px', padding: '32px', margin: '40px 0', textAlign: 'center' }}>
-          <h3 style={{ marginTop: 0, fontSize: '1.3rem' }}>Get All 8 Kits for $97</h3>
+          <h3 style={{ marginTop: 0, fontSize: '1.3rem' }}>Get All 14 Kits for $97</h3>
           <p style={{ color: '#4B5563', marginBottom: '20px' }}>Email templates, sales scripts, marketing prompts, client management workflows, and more. One bundle, every tool your business needs.</p>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>Get the Complete Bundle &rarr;</a>
         </div>

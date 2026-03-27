@@ -115,6 +115,24 @@ const kits = [
     badge: 'NEW',
     color: 'var(--card-green)',
   },
+  {
+    name: 'AI Email Marketing Kit',
+    price: '$29',
+    desc: '125+ prompts for welcome sequences, sales emails, newsletters, cold outreach, retention campaigns & subject lines.',
+    href: '/email-marketing-kit',
+    stripe: 'https://buy.stripe.com/PLACEHOLDER_EMAIL_MARKETING',
+    badge: 'NEW',
+    color: 'var(--card-amber)',
+  },
+  {
+    name: 'AI Presentation Kit',
+    price: '$29',
+    desc: '125+ prompts for pitch decks, sales presentations, conference talks, business reports, training & slide storytelling.',
+    href: '/presentation-kit',
+    stripe: 'https://buy.stripe.com/PLACEHOLDER_PRESENTATION',
+    badge: 'NEW',
+    color: 'var(--card-purple)',
+  },
 ];
 
 export default function Kits() {
@@ -231,8 +249,8 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 13 kits + future kits for $97</h2>
-          <p>Video Pack + Image Pack + Notion Templates + Resume &amp; Career + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder + Social Media Kit — plus every kit we release in the future, free.</p>
+          <h2>Get all 15 kits + future kits for $97</h2>
+          <p>Video Pack + Image Pack + Notion Templates + Resume &amp; Career + Email Marketing + Presentation Kit + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder + Social Media Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>
       </div>

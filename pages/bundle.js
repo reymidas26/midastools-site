@@ -8,10 +8,10 @@ export default function Bundle() {
   return (
     <Layout>
       <Head>
-        <title>AI Toolkit Bundle — All 13 Kits for $97 | Midas Tools</title>
-        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Video Prompt Pack, Image Prompt Pack, Notion Templates, Resume &amp; Career Kit, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder Kit — plus all future kits free. $97 one-time. Save 79%." />
-        <meta property="og:title" content="AI Toolkit Bundle — All 13 Kits for $97 | Midas Tools" />
-        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 79% vs buying separately. Includes all future kits free." />
+        <title>AI Toolkit Bundle — All 15 Kits for $97 | Midas Tools</title>
+        <meta name="description" content="Get every Midas Tools AI kit in one bundle: Video Prompt Pack, Image Prompt Pack, Notion Templates, Resume &amp; Career Kit, Email Marketing Kit, Presentation Kit, Prompt Mega Pack, Starter Kit, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, SaaS Founder Kit, and Social Media Kit — plus all future kits free. $97 one-time. Save 82%." />
+        <meta property="og:title" content="AI Toolkit Bundle — All 15 Kits for $97 | Midas Tools" />
+        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 82% vs buying separately. Includes all future kits free." />
         <meta property="og:url" content="https://www.midastools.co/bundle" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -39,12 +39,13 @@ export default function Bundle() {
       <section style={{textAlign:'center',paddingBottom:40}}>
         <div className="badge" style={{marginBottom:32}}>Complete AI Toolkit</div>
         <h1>Every AI Kit.<br /><span>One Price. $97.</span></h1>
+
         <p style={{fontSize:18,color:'var(--text-secondary)',maxWidth:560,margin:'0 auto 16px',lineHeight:1.7}}>
           Get every Midas Tools AI kit — plus all future kits we release — for one flat price. No subscriptions. No upsells.
         </p>
 
         <div style={{display:'inline-flex',alignItems:'baseline',gap:16,marginBottom:40}}>
-          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$467</span>
+          <span style={{fontSize:22,color:'var(--text-tertiary)',textDecoration:'line-through',fontWeight:700}}>$535</span>
           <span style={{fontSize:48,fontWeight:900,color:'var(--accent)',letterSpacing:-2}}>$97</span>
         </div>
 
@@ -57,7 +58,7 @@ export default function Bundle() {
       {/* What's Included */}
       <section style={{paddingTop:0}}>
         <div className="section-label">What's Included</div>
-        <h2>13 complete kits + lifetime updates</h2>
+        <h2>15 complete kits + lifetime updates</h2>
         <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Everything you need to automate your business, your content, and your client pipeline.</p>
 
         <div className="kits-grid">
@@ -140,6 +141,18 @@ export default function Bundle() {
               link: '/social-media-kit',
               items: ['30-day content calendar system', 'Caption hooks & templates', 'Viral content formulas', 'Analytics & growth prompts', 'Community management scripts', 'Paid social ad templates'],
             },
+            {
+              abbr: 'EM', name: 'AI Email Marketing Kit', price: '$29', bg: 'var(--card-amber)',
+              desc: '125+ prompts for welcome sequences, sales emails, newsletters, cold outreach, retention campaigns, and subject line copywriting.',
+              link: '/email-marketing-kit',
+              items: ['Welcome & onboarding sequences', 'Sales & promotional emails', 'Newsletter content templates', 'Cold outreach & follow-ups', 'Retention & re-engagement', 'Subject lines & copywriting'],
+            },
+            {
+              abbr: 'PK', name: 'AI Presentation & Pitch Deck Kit', price: '$29', bg: 'var(--card-purple)',
+              desc: '125+ prompts for pitch decks, sales presentations, conference talks, business reports, training workshops, and slide storytelling.',
+              link: '/presentation-kit',
+              items: ['Pitch deck prompts', 'Sales presentation templates', 'Conference talk outlines', 'Business report frameworks', 'Training & workshop decks', 'Slide design & storytelling'],
+            },
           ].map(kit => (
             <div key={kit.name} className="kit-card">
               <div className="kit-icon" style={{ background: kit.bg }}>{kit.abbr}</div>
@@ -187,13 +200,15 @@ export default function Bundle() {
               { label: 'SaaS Founder Kit', ind: '$39', bun: '\u2713' },
               { label: 'Notion Templates Kit', ind: '$39', bun: '\u2713' },
               { label: 'Resume & Career Kit', ind: '$29', bun: '\u2713' },
+              { label: 'Email Marketing Kit', ind: '$29', bun: '\u2713' },
+              { label: 'Presentation Kit', ind: '$29', bun: '\u2713' },
               { label: 'Future kits', ind: 'Extra cost', bun: 'Included' },
-              { label: 'Total', ind: '$467+', bun: '$97' },
+              { label: 'Total', ind: '$535+', bun: '$97' },
             ].map((row, i) => (
               <div key={row.label} style={{display:'contents'}}>
-                <div style={{padding:'12px 20px',borderBottom: i < 11 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400,color:'var(--text)'}}>{row.label}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 11 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,textAlign:'center',color:'var(--text-secondary)'}}>{row.ind}</div>
-                <div style={{padding:'12px 20px',borderBottom: i < 11 ? '1px solid var(--border)' : 'none',background:'rgba(59,95,255,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--accent)' : 'var(--text)',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 13 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,fontWeight: row.label === 'Total' ? 800 : 400,color:'var(--text)'}}>{row.label}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 13 ? '1px solid var(--border)' : 'none',borderRight:'1px solid var(--border)',fontSize:14,textAlign:'center',color:'var(--text-secondary)'}}>{row.ind}</div>
+                <div style={{padding:'12px 20px',borderBottom: i < 13 ? '1px solid var(--border)' : 'none',background:'rgba(59,95,255,0.02)',fontSize:14,textAlign:'center',color: row.label === 'Total' ? 'var(--accent)' : 'var(--text)',fontWeight: row.label === 'Total' ? 900 : 600}}>{row.bun}</div>
               </div>
             ))}
           </div>
@@ -206,10 +221,10 @@ export default function Bundle() {
           <div className="badge" style={{marginBottom:20,background:'rgba(255,255,255,0.1)',borderColor:'rgba(255,255,255,0.2)',color:'#FFFFFF'}}>Best Value</div>
           <h2 style={{marginBottom:8,color:'#FFFFFF'}}>The Complete AI Toolkit</h2>
           <div style={{display:'flex',alignItems:'baseline',justifyContent:'center',gap:16,margin:'16px 0 4px'}}>
-            <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$467</span>
+            <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$535</span>
             <span style={{fontSize:48,fontWeight:900,color:'#FFFFFF'}}>$97</span>
           </div>
-          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 13 kits + future kits free</div>
+          <div style={{color:'rgba(255,255,255,0.6)',fontSize:15,marginBottom:32}}>One-time payment &middot; All 15 kits + future kits free</div>
           <ul style={{listStyle:'none',textAlign:'left',marginBottom:32}}>
             {[
               'AI Video Prompt Pack ($29 value)',
@@ -224,6 +239,8 @@ export default function Bundle() {
               'E-commerce AI Kit ($39 value)',
               'SaaS Founder AI Kit ($39 value)',
               'AI Resume & Career Kit ($29 value)',
+              'AI Email Marketing Kit ($29 value)',
+              'AI Presentation & Pitch Deck Kit ($29 value)',
               'All future niche kits — included free',
               'Lifetime updates on all products',
               '30-day money-back guarantee',
@@ -245,9 +262,9 @@ export default function Bundle() {
         <h2>Questions</h2>
         <div style={{display:'flex',flexDirection:'column',gap:24}}>
           {[
-            { q: 'What exactly do I get?', a: 'Twelve complete AI kits — Video Prompt Pack, Image Prompt Pack, Notion Templates, Resume & Career Kit, Prompt Mega Pack, Starter, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder — delivered as ZIP files. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, Sora, Midjourney, or any AI tool. No software to install.' },
+            { q: 'What exactly do I get?', a: 'Fifteen complete AI kits — Video Prompt Pack, Image Prompt Pack, Notion Templates, Resume & Career Kit, Email Marketing Kit, Presentation Kit, Social Media Kit, Prompt Mega Pack, Starter, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder — delivered as ZIP files. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, Sora, Midjourney, or any AI tool. No software to install.' },
             { q: 'What are "future kits"?', a: 'We release new niche AI kits regularly. Bundle buyers get every new kit automatically at no extra cost, delivered to the same email.' },
-            { q: 'Do I need all twelve kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want two or more kits — or if you want access to every future kit we release.' },
+            { q: 'Do I need all fifteen kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want two or more kits — or if you want access to every future kit we release.' },
             { q: 'Can I share this with my team?', a: 'The license is for one person. For team licenses, email iam@armando.mx and we will set up a custom plan.' },
             { q: 'What if it doesn\'t work for me?', a: '30-day full refund, no questions asked. Email iam@armando.mx.' },
           ].map(f => (

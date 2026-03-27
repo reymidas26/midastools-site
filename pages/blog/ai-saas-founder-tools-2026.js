@@ -212,6 +212,7 @@ Prioritize commercial-intent keywords that attract people who are actively looki
           <li><Link href="/blog/ai-agent-10k-day" style={{ color: '#3B5FFF' }}>AI Agents Made $10,000 in a Single Day</Link></li>
           <li><Link href="/blog/best-ai-prompts-business-2026" style={{ color: '#3B5FFF' }}>50 AI Prompts That Are Actually Making People Money in 2026</Link></li>
           <li><Link href="/blog/chatgpt-side-hustle-2026" style={{ color: '#3B5FFF' }}>7 ChatGPT Side Hustles Actually Making Money in 2026</Link></li>
+          <li><Link href="/presentation-kit" style={{ color: '#3B5FFF' }}>AI Presentation & Pitch Deck Kit — 125+ Prompts for Founders</Link></li>
         </ul>
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />

@@ -140,6 +140,34 @@ const KIT_MAP = {
       'Complete setup guide',
     ],
   },
+  'email-marketing-kit': {
+    name: 'AI Email Marketing Kit',
+    file: 'email-marketing-kit.zip',
+    subject: 'Your AI Email Marketing Kit is ready',
+    items: [
+      'Welcome & onboarding sequences (25+ prompts)',
+      'Sales & promotional emails (25+ prompts)',
+      'Newsletter content templates (20+ prompts)',
+      'Cold outreach & follow-ups (20+ prompts)',
+      'Retention & re-engagement campaigns (20+ prompts)',
+      'Subject lines & copywriting frameworks (20+ prompts)',
+      'Complete setup guide',
+    ],
+  },
+  'presentation-kit': {
+    name: 'AI Presentation & Pitch Deck Kit',
+    file: 'presentation-kit.zip',
+    subject: 'Your AI Presentation & Pitch Deck Kit is ready',
+    items: [
+      'Pitch deck prompts (25+ prompts)',
+      'Sales presentation templates (25+ prompts)',
+      'Conference talk outlines (20+ prompts)',
+      'Business report frameworks (20+ prompts)',
+      'Training & workshop decks (20+ prompts)',
+      'Slide design & storytelling (20+ prompts)',
+      'Complete setup guide',
+    ],
+  },
   'notion-templates': {
     name: 'Notion AI Templates Kit',
     file: 'notion-templates-kit.zip',
@@ -185,6 +213,8 @@ const KIT_MAP = {
       'E-commerce AI Kit (product descriptions + email + ads)',
       'SaaS Founder AI Kit (launch + onboarding + churn prevention)',
       'AI Social Media Manager Kit (150+ social media prompts)',
+      'AI Email Marketing Kit (125+ email marketing prompts)',
+      'AI Presentation & Pitch Deck Kit (125+ presentation prompts)',
       'All future kits — free, forever',
     ],
     files: [
@@ -200,6 +230,8 @@ const KIT_MAP = {
       { name: 'E-commerce AI Kit', file: 'ecommerce-kit.zip' },
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
       { name: 'AI Social Media Manager Kit', file: 'social-media-kit.zip' },
+      { name: 'AI Email Marketing Kit', file: 'email-marketing-kit.zip' },
+      { name: 'AI Presentation & Pitch Deck Kit', file: 'presentation-kit.zip' },
     ],
   },
 };
@@ -242,6 +274,8 @@ function detectKit(session) {
   if (productName.includes('e-commerce') || productName.includes('ecommerce')) return KIT_MAP['ecommerce'];
   if (productName.includes('saas') || productName.includes('founder kit')) return KIT_MAP['saas-founder'];
   if (productName.includes('social media')) return KIT_MAP['social-media-kit'];
+  if (productName.includes('email marketing')) return KIT_MAP['email-marketing-kit'];
+  if (productName.includes('presentation') || productName.includes('pitch deck')) return KIT_MAP['presentation-kit'];
   if (productName.includes('bundle') || productName.includes('all kits')) return KIT_MAP['bundle'];
 
   // Check amount as last resort

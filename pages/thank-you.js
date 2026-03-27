@@ -63,6 +63,16 @@ const KITS = {
     file: 'social-media-kit.zip',
     items: ['Content calendar system (25+ prompts)', 'Caption hooks & templates (30+)', 'Viral content formulas (25+ prompts)', 'Analytics & growth frameworks (25+)', 'Community management scripts (20+)', 'Paid social ad templates (25+)'],
   },
+  'email-marketing-kit': {
+    name: 'AI Email Marketing Kit',
+    file: 'email-marketing-kit.zip',
+    items: ['Welcome & onboarding sequences (25+ prompts)', 'Sales & promotional emails (25+ prompts)', 'Newsletter content templates (20+ prompts)', 'Cold outreach & follow-ups (20+ prompts)', 'Retention & re-engagement campaigns (20+ prompts)', 'Subject lines & copywriting frameworks (20+ prompts)'],
+  },
+  'presentation-kit': {
+    name: 'AI Presentation & Pitch Deck Kit',
+    file: 'presentation-kit.zip',
+    items: ['Pitch deck prompts (25+ prompts)', 'Sales presentation templates (25+ prompts)', 'Conference talk outlines (20+ prompts)', 'Business report frameworks (20+ prompts)', 'Training & workshop decks (20+ prompts)', 'Slide design & storytelling (20+ prompts)'],
+  },
   'bundle': {
     name: 'Complete AI Toolkit Bundle',
     file: null,
@@ -80,8 +90,10 @@ const KITS = {
       { name: 'SaaS Founder AI Kit', file: 'saas-founder-kit.zip' },
       { name: 'AI Resume & Career Kit', file: 'resume-career-kit.zip' },
       { name: 'AI Social Media Manager Kit', file: 'social-media-kit.zip' },
+      { name: 'AI Email Marketing Kit', file: 'email-marketing-kit.zip' },
+      { name: 'AI Presentation & Pitch Deck Kit', file: 'presentation-kit.zip' },
     ],
-    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'AI Resume & Career Kit (125+ prompts)', 'AI Social Media Manager Kit (150+ prompts)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
+    items: ['AI Video Prompt Pack (150+ video prompts)', 'AI Image Prompt Pack (150+ image prompts)', 'AI Prompt Mega Pack (200+ text prompts)', 'Notion AI Templates Kit (150+ templates)', 'AI Resume & Career Kit (125+ prompts)', 'AI Social Media Manager Kit (150+ prompts)', 'AI Email Marketing Kit (125+ prompts)', 'AI Presentation & Pitch Deck Kit (125+ prompts)', 'OpenClaw Starter Kit', 'Real Estate AI Kit', 'Content Creator AI Kit', 'Freelancer AI Kit', 'Small Business AI Kit', 'E-commerce AI Kit', 'SaaS Founder AI Kit', 'All future kits — free, forever'],
   },
 };
 
@@ -149,7 +161,7 @@ export default function ThankYou() {
 
         {!isBundle && (
           <div style={{background:'rgba(59,95,255,0.06)',border:'1px solid rgba(59,95,255,0.2)',borderRadius:12,padding:'20px 24px',marginBottom:24,textAlign:'left'}}>
-            <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 13 kits? Save 79%</p>
+            <p style={{fontSize:14,fontWeight:700,color:'var(--gold)',marginBottom:6}}>Want all 15 kits? Save 82%</p>
             <p style={{fontSize:14,color:'var(--gray-400)',lineHeight:1.5}}>Get the <a href="https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b" style={{color:'var(--gold)',fontWeight:700}}>Complete Bundle for $97</a> — includes every kit plus all future releases free.</p>
           </div>
         )}

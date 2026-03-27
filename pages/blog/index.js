@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'ai-presentation-prompts-2026', title: '15 AI Prompts That Will Make Your Presentations 10x Better in 2026', date: 'Mar 26, 2026', desc: '15 copy-paste AI prompts for presentations. Pitch decks, sales presentations, conference talks, business reports & slide storytelling frameworks.' },
+  { slug: 'ai-email-marketing-prompts-2026', title: '20 AI Prompts That Will Transform Your Email Marketing in 2026', date: 'Mar 26, 2026', desc: '20 copy-paste AI prompts for email marketing. Welcome sequences, sales emails, newsletters, cold outreach, retention campaigns & subject lines that convert.' },
   { slug: 'ai-social-media-prompts-2026', title: '20 AI Prompts That Will Transform Your Social Media in 2026', date: 'Mar 26, 2026', desc: '20 copy-paste AI prompts for social media management. Content calendars, captions, viral formulas, analytics, community management & paid ads for every platform.' },
   { slug: 'ai-resume-prompts-chatgpt-2026', title: '15 ChatGPT Prompts to Write a Perfect Resume in 2026', date: 'Mar 26, 2026', desc: 'The best ChatGPT resume prompts for 2026. 15 copy-paste AI prompts for resume writing, cover letters, LinkedIn optimization, interview prep, and salary negotiation.' },
   { slug: 'free-ai-prompt-generator-2026', title: 'Free AI Prompt Generator: Build Perfect Prompts in Seconds (2026)', date: 'Mar 26, 2026', desc: 'Generate custom AI prompts for sales emails, social media, product descriptions, blog outlines, cold outreach, and more. Free, instant, no signup required.' },
