@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'cold-email-templates-2026', title: '25 Cold Email Templates That Actually Get Replies in 2026 (Copy & Paste)', date: 'Mar 27, 2026', desc: '25 proven cold email templates for B2B sales, freelancers, SaaS founders, and job seekers. Copy-paste templates with subject lines, follow-up sequences, and strategy guide.' },
   { slug: 'best-instagram-hashtags-2026', title: '150+ Best Instagram Hashtags for 2026 (By Niche + Strategy Guide)', date: 'Mar 27, 2026', desc: 'The ultimate list of Instagram hashtags for 2026. 150+ hashtags organized by niche, Reels-specific tags, strategy guide, common mistakes, and a 30-day hashtag challenge.' },
   { slug: 'ai-presentation-prompts-2026', title: '15 AI Prompts That Will Make Your Presentations 10x Better in 2026', date: 'Mar 26, 2026', desc: '15 copy-paste AI prompts for presentations. Pitch decks, sales presentations, conference talks, business reports & slide storytelling frameworks.' },
   { slug: 'ai-email-marketing-prompts-2026', title: '20 AI Prompts That Will Transform Your Email Marketing in 2026', date: 'Mar 26, 2026', desc: '20 copy-paste AI prompts for email marketing. Welcome sequences, sales emails, newsletters, cold outreach, retention campaigns & subject lines that convert.' },

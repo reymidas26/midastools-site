@@ -345,6 +345,28 @@ export default function EmailMarketingKit() {
         </a>
       </section>
 
+      {/* Free Tools & Blog */}
+      <section style={{paddingTop:0}}>
+        <h2 style={{textAlign:'center',marginBottom:32}}>Free Email Marketing Resources</h2>
+        <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(260px,1fr))',gap:16}}>
+          <a href="/email-subject-line-tester" style={{background:'linear-gradient(135deg,#EEF2FF,#F0F5FF)',border:'2px solid rgba(59,95,255,0.15)',borderRadius:16,padding:24,textDecoration:'none',color:'inherit'}}>
+            <div style={{fontSize:11,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',marginBottom:6}}>Free Tool</div>
+            <div style={{fontSize:17,fontWeight:700,marginBottom:6}}>Email Subject Line Tester</div>
+            <div style={{fontSize:13,color:'var(--text-secondary)',lineHeight:1.6}}>Score your subject lines for open rates, spam risk & engagement before you send.</div>
+          </a>
+          <a href="/blog/cold-email-templates-2026" style={{background:'linear-gradient(135deg,#EEF2FF,#F0F5FF)',border:'2px solid rgba(59,95,255,0.15)',borderRadius:16,padding:24,textDecoration:'none',color:'inherit'}}>
+            <div style={{fontSize:11,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',marginBottom:6}}>Blog</div>
+            <div style={{fontSize:17,fontWeight:700,marginBottom:6}}>25 Cold Email Templates</div>
+            <div style={{fontSize:13,color:'var(--text-secondary)',lineHeight:1.6}}>Copy-paste templates for B2B sales, freelancers, SaaS founders & job seekers.</div>
+          </a>
+          <a href="/blog/ai-email-marketing-prompts-2026" style={{background:'linear-gradient(135deg,#EEF2FF,#F0F5FF)',border:'2px solid rgba(59,95,255,0.15)',borderRadius:16,padding:24,textDecoration:'none',color:'inherit'}}>
+            <div style={{fontSize:11,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',marginBottom:6}}>Blog</div>
+            <div style={{fontSize:17,fontWeight:700,marginBottom:6}}>20 AI Email Marketing Prompts</div>
+            <div style={{fontSize:13,color:'var(--text-secondary)',lineHeight:1.6}}>Welcome sequences, sales emails, newsletters, cold outreach & subject lines.</div>
+          </a>
+        </div>
+      </section>
+
       {/* Related Products */}
       <section style={{paddingTop:0}}>
         <h2 style={{textAlign:'center',marginBottom:32}}>Related Kits</h2>
