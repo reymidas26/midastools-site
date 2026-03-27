@@ -5,17 +5,18 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 ## Key Facts
 - **Project**: Midas Tools — Product building machine. Research trending products, build versions, sell them.
 - **Stack**: Next.js 14.2, React 18, Stripe, Nodemailer/Gmail SMTP, inline CSS
-- **Products**: AI Video Prompt Pack ($29), Notion AI Templates Kit ($39), AI Image Prompt Pack ($29), AI Prompt Mega Pack ($29), Starter Kit ($29), Real Estate Kit ($49), Content Creator Kit ($39), Freelancer Kit ($39), Small Business Kit ($39), E-commerce Kit ($39), SaaS Founder Kit ($39), AI Resume & Career Kit ($29), AI Social Media Manager Kit ($39), Bundle ($97 — 13 kits, $467 value, 79% savings)
+- **Products**: 15 kits + Bundle ($97 — $535 value, 82% savings). All with live Stripe links.
 - **OpenClaw**: Open-source AI agent framework with 247K GitHub stars (March 2026), featured on Lex Fridman
 - **Felix Craft**: Proof-of-concept agent that earned $14,718 in 3 weeks (key case study)
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
-- **Site pages**: 71+ pages total (build output), including dynamic blog
-- **Blog posts**: 39 total (36+ hosted + external dev.to posts). S20: Midjourney + AI Art. S22: Prompt Generator blog.
+- **Site pages**: 85 pages total (build output), including dynamic blog
+- **Blog posts**: 43 total. S20: Midjourney + AI Art. S22: Prompt Generator blog.
 - **ALL Stripe links are LIVE** — no more placeholders. Resend email marketing wired up (S22.5).
 - **Components**: Layout.js (nav+footer+global styles), EmailCapture.js (site-wide lead magnet)
 - **Free Prompts page**: /free-prompts — email-gated lead magnet with 5 prompts, upsell to Mega Pack + Bundle
-- **Sitemap**: 41 URLs (public/sitemap.xml)
+- **Sitemap**: 129 URLs (public/sitemap.xml)
+- **S29**: Bundle page conversion optimized (social proof, outcomes, personas). All 14 product pages bundle upsell copy fixed. Bottleneck is now acquisition — zero traffic, GSC not set up.
 - **Reddit drafts**: .founder/deliverables/reddit-distribution-posts.md — 6 posts ready to copy-paste
 - **AI Receptionist market**: Competitors range $25-$199/mo. Midas at $499 setup + $299/mo is premium-priced.
 
