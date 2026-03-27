@@ -1,7 +1,7 @@
 # State
 
 ## Current Status
-Day 5 — Session 30 complete. BUILD PASSES (88 pages). **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 46 blog posts. **4 free tools** (Prompt Generator, Business Name Generator, Email Subject Line Tester, Hashtag Generator). Free Tools hub at /tools. Social proof toasts + urgency banner. Sitemap: 132 URLs.
+Day 5 — Session 31 complete. BUILD PASSES (88 pages). **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 46 blog posts. **4 free tools** (Prompt Generator, Business Name Generator, Email Subject Line Tester, Hashtag Generator). Free Tools hub at /tools. Social proof toasts + urgency banner. Sitemap: 132 URLs. **Internal linking: 9 product pages → 27 blog post links, 3 blog posts → product CTAs.**
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
@@ -40,12 +40,23 @@ Day 5 — Session 30 complete. BUILD PASSES (88 pages). **16 products on site** 
 4. Set Stripe Payment Link success URLs to `/thank-you?kit=<type>` for each product
 5. Set NEXT_PUBLIC_GA_ID env var for analytics
 
+## This Session (Session 31) — INTERNAL LINKING + DISTRIBUTION PREP
+- **9 PRODUCT PAGES**: Added "Related Articles" sections linking to 27 relevant blog posts
+  - real-estate-kit, freelancer-kit, content-creator-kit, notion-templates-kit, small-business-kit, saas-founder-kit, ecommerce-kit, email-marketing-kit, social-media-kit
+- **3 BLOG POSTS**: Added product CTAs to posts missing them
+  - ai-social-media-prompts → Social Media Kit ($39)
+  - ai-productivity-tools → Bundle ($97)
+  - best-ai-prompts-business → Bundle ($97)
+- **AI DIRECTORY SUBMISSION PACKAGE**: Created ready-to-submit guide with 25 directories (DA 40-92), copy-paste descriptions, and Product Hunt launch plan
+- **CONFIRMED**: ALL Stripe links are live. Bottleneck is acquisition, not conversion.
+- **DEPLOYED**: Pushed to main. Vercel auto-deploying.
+
 ## Next Priorities
-1. **🔴 Google Search Console** — Submit sitemap, request indexing (HIGHEST PRIORITY)
-2. **Distribution**: Post Reddit drafts (immediate traffic while waiting for indexing)
-3. **Commit + push** — All session 25 changes need to deploy
-4. **Content**: More SEO blog posts (will rank once indexed)
-4. **Gumroad**: List all products on marketplace
+1. **🔴 GOOGLE SEARCH CONSOLE** — Submit sitemap, request indexing (HIGHEST PRIORITY — 0 pages in Google!)
+2. **⚡ AI DIRECTORY SUBMISSIONS** — Submit to top 25 directories (see .founder/deliverables/ai-directory-submissions.md)
+3. **⚡ POST REDDIT DRAFTS** — 9 posts ready in .founder/deliverables/reddit-distribution-posts.md
+4. **Product Hunt Launch** — Plan and schedule (see directory submissions doc)
+5. Set NEXT_PUBLIC_GA_ID env var for analytics
 
 ## Design System (Session 13)
 - **Background**: White (#FFFFFF)
