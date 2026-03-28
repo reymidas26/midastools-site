@@ -483,6 +483,14 @@ Tone: Confident, transparent, forward-looking. Acknowledge challenges but frame 
           </p>
 
           <div style={{ display: 'grid', gap: '16px', margin: '16px 0 32px' }}>
+            <div style={{ background: '#FEF2F2', border: '1px solid #FECACA', borderRadius: '12px', padding: '20px' }}>
+              <h3 style={{ fontSize: '17px', fontWeight: 700, marginBottom: '6px', color: 'var(--text)' }}>
+                <Link href="/prompt-roaster" style={{ color: '#DC2626', textDecoration: 'none' }}>Prompt Roaster</Link>
+              </h3>
+              <p style={{ ...s.p, margin: 0 }}>
+                Paste any prompt and get brutally honest (but hilarious) feedback on what&apos;s wrong. The roaster checks for 10 common &ldquo;prompt sins&rdquo; and generates a fixed version. The funniest way to learn prompt engineering. <Link href="/prompt-roaster" style={{ color: '#DC2626', textDecoration: 'none', fontWeight: 600 }}>Get your prompt roasted →</Link>
+              </p>
+            </div>
             <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '12px', padding: '20px' }}>
               <h3 style={{ fontSize: '17px', fontWeight: 700, marginBottom: '6px', color: 'var(--text)' }}>
                 <Link href="/prompt-enhancer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>Prompt Enhancer</Link>

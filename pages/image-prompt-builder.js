@@ -1044,6 +1044,7 @@ export default function ImagePromptBuilder() {
       <section className="related">
         <h2>More Free AI Tools</h2>
         <div className="related-grid">
+          <Link href="/prompt-roaster" className="related-link">🔥 Prompt Roaster</Link>
           <Link href="/prompt-generator" className="related-link">🤖 AI Prompt Generator</Link>
           <Link href="/prompt-enhancer" className="related-link">⚡ Prompt Enhancer</Link>
           <Link href="/prompt-scorer" className="related-link">📊 Prompt Scorer</Link>

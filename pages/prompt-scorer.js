@@ -1039,6 +1039,14 @@ export default function PromptScorer() {
       <section className="related">
         <h2>More Free AI Tools</h2>
         <div className="related-grid">
+          <Link href="/prompt-roaster" className="related-card">
+            <h3 className="rc-title">AI Prompt Roaster</h3>
+            <p className="rc-desc">Get your prompt brutally roasted for 10 common sins, then get a fixed version.</p>
+          </Link>
+          <Link href="/prompt-enhancer" className="related-card">
+            <h3 className="rc-title">AI Prompt Enhancer</h3>
+            <p className="rc-desc">Get 5 enhanced versions of any prompt — Professional, Creative, Viral & more.</p>
+          </Link>
           <Link href="/prompt-generator" className="related-card">
             <h3 className="rc-title">AI Prompt Generator</h3>
             <p className="rc-desc">Generate expert-level prompts for any use case. 8 categories, instant results.</p>

@@ -936,6 +936,10 @@ export default function PromptEnhancer() {
       <section className="related">
         <h2>More Free AI Tools</h2>
         <div className="related-grid">
+          <Link href="/prompt-roaster" className="related-card">
+            <h3 className="rc-title">AI Prompt Roaster</h3>
+            <p className="rc-desc">Get your prompt brutally roasted for 10 common sins, then get a fixed version.</p>
+          </Link>
           <Link href="/prompt-scorer" className="related-card">
             <h3 className="rc-title">AI Prompt Scorer</h3>
             <p className="rc-desc">Score your prompts on a 0-100 scale with actionable improvement tips.</p>
