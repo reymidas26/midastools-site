@@ -478,8 +478,17 @@ Soft, gallery-style lighting. White background. The entire presentation screams 
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
+        {/* FREE TOOL */}
+        <div style={{ marginTop: '32px', padding: '24px', background: '#ECFDF5', border: '1px solid #6EE7B7', borderRadius: '8px' }}>
+          <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>🎨 Build Custom Image Prompts Free</h3>
+          <p style={{ margin: '0 0 12px', color: '#6B7280', fontSize: '15px' }}>Use our free <strong>AI Image Prompt Builder</strong> to create prompts for any style — Ghibli, Cyberpunk, Hyperrealistic, 3D Clay + more. Pick mood, lighting, camera angle. Works with ChatGPT, Midjourney &amp; DALL·E.</p>
+          <a href="/image-prompt-builder" style={{ display: 'inline-block', background: '#059669', color: '#fff', padding: '10px 24px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
+            Try the Image Prompt Builder →
+          </a>
+        </div>
+
         {/* FINAL CTA */}
-        <div style={{ marginTop: '48px', padding: '32px', background: '#111827', borderRadius: '8px', textAlign: 'center' }}>
+        <div style={{ marginTop: '24px', padding: '32px', background: '#111827', borderRadius: '8px', textAlign: 'center' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem', color: '#fff' }}>Want every AI image prompt you will ever need?</h3>
           <p style={{ margin: '0 0 16px', color: '#9CA3AF', fontSize: '15px' }}>The <strong style={{ color: '#fff' }}>All Kits Bundle</strong> includes 500+ prompts across 8 specialized kits &mdash; image generation, sales, marketing, content, freelancing, real estate, and more. One purchase, every prompt, lifetime access.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', justifyContent: 'center' }}>

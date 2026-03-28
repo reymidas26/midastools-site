@@ -109,6 +109,9 @@ export default function AIImagePromptPack() {
         <p style={{marginTop:14, fontSize:14, color:'var(--gray-400)'}}>
           One-time payment · Instant download · 30-day money-back guarantee
         </p>
+        <p style={{marginTop:8, fontSize:13, color:'var(--gray-400)'}}>
+          Want to try first? Use our <a href="/image-prompt-builder" style={{color:'var(--gold)', fontWeight:600}}>free AI Image Prompt Builder</a>
+        </p>
         <div className="tools-row">
           <div className="tool-badge">ChatGPT (DALL-E)</div>
           <div className="tool-badge">Midjourney</div>

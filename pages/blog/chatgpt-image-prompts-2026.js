@@ -637,7 +637,15 @@ Direction C (Abstract): A pure abstract composition — [flowing paint pours / c
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         {/* FINAL CTA */}
-        <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
+        <div style={{ marginTop: '32px', padding: '24px', background: '#ECFDF5', border: '1px solid #6EE7B7', borderRadius: '8px' }}>
+          <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>🎨 Try Our Free AI Image Prompt Builder</h3>
+          <p style={{ margin: '0 0 12px', color: '#6B7280', fontSize: '15px' }}>Don&apos;t want to write prompts from scratch? Use our <strong>free visual tool</strong> to pick a style (Ghibli, Cyberpunk, Hyperrealistic + 9 more), set mood &amp; lighting, and get a perfect prompt for ChatGPT, Midjourney, or DALL·E in seconds.</p>
+          <a href="/image-prompt-builder" style={{ display: 'inline-block', background: '#059669', color: '#fff', padding: '10px 24px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
+            Build Your Image Prompt Free →
+          </a>
+        </div>
+
+        <div style={{ marginTop: '24px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Ready to create scroll-stopping visuals on demand?</h3>
           <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>The <strong>AI Image Prompt Pack</strong> includes 200+ battle-tested image prompts organized by use case &mdash; portraits, products, social media, branding, art, and viral trends. Every prompt is pre-built with camera, lighting, composition, and mood details. Copy, paste, generate. $29 one-time.</p>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center' }}>

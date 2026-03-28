@@ -429,8 +429,17 @@ export default function HowToMakeMoneySellingAiArt2026() {
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
+        {/* FREE TOOL */}
+        <div style={{ marginTop: '32px', marginBottom: '16px', padding: '24px', background: '#ECFDF5', border: '1px solid #6EE7B7', borderRadius: '8px' }}>
+          <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>🎨 Free AI Image Prompt Builder</h3>
+          <p style={{ margin: '0 0 12px', color: '#6B7280', fontSize: '15px' }}>Create perfect prompts visually — 12 art styles, mood &amp; lighting controls, optimized for ChatGPT, Midjourney &amp; DALL·E. No login required.</p>
+          <a href="/image-prompt-builder" style={{ display: 'inline-block', background: '#059669', color: '#fff', padding: '10px 24px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
+            Build Image Prompts Free →
+          </a>
+        </div>
+
         {/* ==================== FINAL CTA ==================== */}
-        <div style={{ marginTop: '32px', marginBottom: '32px', padding: '24px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px', textAlign: 'center' }}>
+        <div style={{ marginTop: '16px', marginBottom: '32px', padding: '24px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px', textAlign: 'center' }}>
           <p style={{ margin: '0 0 12px', fontSize: '16px', fontWeight: '700' }}>Ready to Start Selling AI Art?</p>
           <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get 200+ tested image prompts for portraits, products, stock photos, and social media. Works with ChatGPT and Midjourney.</p>
           <a href={IMAGE_PACK_LINK} style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '14px 28px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>
