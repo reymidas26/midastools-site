@@ -51,6 +51,14 @@ const TOOLS = [
     categories: '5 enhancement styles',
     bg: 'var(--card-pink)',
   },
+  {
+    title: 'AI Image Prompt Builder',
+    desc: 'Build perfect AI image prompts visually. Pick from 12 trending styles (Ghibli, Cyberpunk, Hyperrealistic), set mood & lighting, get copy-paste prompts for ChatGPT, Midjourney, DALL·E & Stable Diffusion.',
+    href: '/image-prompt-builder',
+    tag: '🔥 Trending',
+    categories: '12 art styles · 4 platforms',
+    bg: 'var(--card-purple)',
+  },
 ];
 
 const COMING_SOON = [
