@@ -6,7 +6,7 @@ const INDEXNOW_KEY = '2935cf832fa6443d608bd993ec83dad9';
 const HOST = 'www.midastools.co';
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
-// All URLs to submit — synced with sitemap.xml (136 URLs)
+// All URLs to submit — synced with sitemap.xml (141 URLs)
 const URLS = [
   // Homepage & key pages
   '/',
@@ -33,13 +33,15 @@ const URLS = [
   '/social-media-kit',
   '/email-marketing-kit',
   '/presentation-kit',
-  // Free tools (5)
+  // Free tools (8)
   '/prompt-generator',
   '/business-name-generator',
   '/email-subject-line-tester',
   '/hashtag-generator',
   '/prompt-scorer',
   '/prompt-enhancer',
+  '/image-prompt-builder',
+  '/prompt-roaster',
   // Service pages
   '/services',
   '/receptionist',
@@ -64,7 +66,9 @@ const URLS = [
   '/prompts/chatgpt-coding-prompts',
   '/prompts/chatgpt-ai-image-prompts',
   '/prompts/chatgpt-daily-planning-productivity',
-  // Blog posts (all 47+)
+  // Blog posts (all 50+)
+  '/blog/ai-prompt-mistakes-2026',
+  '/blog/chatgpt-ghibli-style-prompts-2026',
   '/blog/how-to-write-better-ai-prompts-2026',
   '/blog/felix-craft-story',
   '/blog/ai-prompt-scorer-2026',
