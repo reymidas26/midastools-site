@@ -613,21 +613,30 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  return { props: { post: posts[params.slug], slug: params.slug } };
+  return { props: { post: posts[params.slug] || null, slug: params.slug } };
 }
 
-export default function BlogPost({ post }) {
+export default function BlogPost({ post, slug }) {
   const paragraphs = post.content.trim().split('\n').filter(l => l.trim());
+  const canonicalUrl = `https://www.midastools.co/blog/${slug}`;
 
   return (
     <Layout>
       <Head>
         <title>{post.title} — Midas Tools</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
+        <link rel="canonical" href={canonicalUrl} />
         <meta name="description" content={post.meta} />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.meta} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.meta} />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
+        <meta property="og:site_name" content="Midas Tools" />
+        <meta property="article:published_time" content={post.date} />
       </Head>
       <style>{`
         .container{max-width:680px;margin:0 auto;padding:80px 40px}
@@ -655,7 +664,7 @@ export default function BlogPost({ post }) {
         </div>
         <div className="cta-inline">
           <p>Get every AI template, workflow, and prompt we make — in one bundle.</p>
-          <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g">Get All 13 Kits — $97 (Save 79%) →</a>
+          <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g">Get All 15 Kits — $97 (Save 81%) →</a>
           <p style={{marginTop:12,fontSize:13,color:'var(--text-tertiary)'}}>Or start with the <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{color:'var(--accent)'}}>Starter Kit — $29</a></p>
         </div>
       </div>

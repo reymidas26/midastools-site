@@ -69,12 +69,19 @@ export default function Blog() {
   return (
     <Layout>
       <Head>
-        <title>Blog — Midas Tools</title>
+        <title>Blog — Midas Tools | AI Automation Guides &amp; Playbooks</title>
         <link rel="icon" type="image/png" href="/favicon.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
+        <link rel="canonical" href="https://www.midastools.co/blog" />
         <meta name="description" content="How-to guides, case studies, and playbooks for solopreneurs building AI agents that automate their business. Free resources from Midas Tools." />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blog — Midas Tools" />
+        <meta name="twitter:description" content="How-to guides, case studies, and playbooks for solopreneurs building AI agents that automate their business." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.midastools.co/blog" />
+        <meta property="og:title" content="Blog — Midas Tools" />
+        <meta property="og:description" content="How-to guides, case studies, and playbooks for solopreneurs building AI agents that automate their business." />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
+        <meta property="og:site_name" content="Midas Tools" />
       </Head>
       <style>{`
         .container{max-width:720px;margin:0 auto;padding:80px 40px}

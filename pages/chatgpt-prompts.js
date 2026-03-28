@@ -65,6 +65,7 @@ export default function ChatGPTPrompts() {
     <Layout>
       <Head>
         <title>ChatGPT Prompts: The Complete Collection (500+ Prompts for 2026) — Midas Tools</title>
+        <link rel="canonical" href="https://www.midastools.co/chatgpt-prompts" />
         <meta name="description" content="The ultimate collection of ChatGPT prompts for 2026. 500+ prompts for business, students, side hustles, image generation, and every profession. Free prompts included." />
         <meta name="keywords" content="ChatGPT prompts, best ChatGPT prompts 2026, ChatGPT prompt list" />
         <meta property="og:title" content="ChatGPT Prompts: The Complete Collection (500+ Prompts for 2026)" />

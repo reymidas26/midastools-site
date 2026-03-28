@@ -95,6 +95,7 @@ export default function AIROICalculator() {
     <Layout>
       <Head>
         <title>{title} | Midas Tools</title>
+        <link rel="canonical" href="https://www.midastools.co/ai-roi-calculator" />
         <meta name="description" content={description} />
         <meta name="keywords" content="AI ROI calculator, AI automation savings, AI tools ROI, how much does AI save, AI productivity calculator 2026" />
         <meta property="og:title" content={title} />

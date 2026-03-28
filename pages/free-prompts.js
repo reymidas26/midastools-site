@@ -148,6 +148,7 @@ export default function FreePrompts() {
     <Layout>
       <Head>
         <title>{title} | Midas Tools</title>
+        <link rel="canonical" href="https://www.midastools.co/free-prompts" />
         <meta name="description" content={description} />
         <meta name="keywords" content="free AI prompts, ChatGPT prompts free, AI prompts for business, free AI tools, best AI prompts 2026" />
         <meta property="og:title" content={title} />

@@ -140,6 +140,7 @@ export default function Kits() {
     <Layout>
       <Head>
         <title>AI Automation Kits — Midas Tools</title>
+        <link rel="canonical" href="https://www.midastools.co/kits" />
         <meta name="description" content="Browse every AI automation kit from Midas Tools. Pick your niche or grab them all in one bundle." />
         <meta property="og:title" content="AI Automation Kits — Midas Tools" />
         <meta property="og:description" content="Every kit we make. Pick your niche or grab them all." />

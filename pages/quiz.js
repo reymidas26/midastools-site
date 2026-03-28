@@ -184,6 +184,7 @@ export default function Quiz() {
     <Layout>
       <Head>
         <title>What AI Kit Do You Need? Free Quiz — Midas Tools</title>
+        <link rel="canonical" href="https://www.midastools.co/quiz" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta name="description" content="Take this 60-second quiz to find the perfect AI prompt kit for your role. Personalized recommendations based on your goals, experience, and budget." />
         <meta name="twitter:card" content="summary_large_image" />
