@@ -119,7 +119,11 @@ export default function Post() {
 
         <h2>Getting Started</h2>
 
-        <p>The fastest way to go from OpenClaw install to revenue-focused agent is the <strong>OpenClaw Entrepreneur Starter Kit</strong>. It includes the exact SOUL.md identity templates, heartbeat workflow systems, and product launch prompts that the Felix Craft model runs on.</p>
+        <p><strong>Step 1:</strong> Generate your agent&apos;s SOUL.md config in 60 seconds with our free <a href="/soul-generator" style={{color:'#3B5FFF',fontWeight:600}}>SOUL.md Generator</a> — 6 industry presets included.</p>
+
+        <p><strong>Step 2:</strong> For a complete production-ready setup, the <strong>OpenClaw Entrepreneur Starter Kit</strong> includes the exact SOUL.md identity templates, heartbeat workflow systems, and product launch prompts that the Felix Craft model runs on.</p>
+
+        <p>For a full walkthrough, read our <a href="/blog/openclaw-setup-guide-2026" style={{color:'#3B5FFF',fontWeight:600}}>2026 OpenClaw Setup Guide</a>.</p>
 
         <p>You get a configured agent — not just the tool. That's the difference between a piano and a musician.</p>
 
