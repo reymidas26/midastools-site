@@ -43,6 +43,14 @@ const TOOLS = [
     categories: '5 scoring criteria',
     bg: 'var(--card-purple)',
   },
+  {
+    title: 'AI Prompt Enhancer',
+    desc: 'Paste any basic AI prompt and get 5 professionally enhanced versions — Professional, Creative, Data-Driven, Viral, and Expert styles. Copy or share on Twitter with one click.',
+    href: '/prompt-enhancer',
+    tag: 'New',
+    categories: '5 enhancement styles',
+    bg: 'var(--card-pink)',
+  },
 ];
 
 const COMING_SOON = [

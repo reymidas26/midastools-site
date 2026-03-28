@@ -265,6 +265,7 @@ export default function Home() {
             { href: '/email-subject-line-tester', title: 'Email Subject Line Tester', desc: 'Score your subject lines for open rates, spam risk & engagement before you send.', tag: 'New' },
             { href: '/hashtag-generator', title: 'AI Hashtag Generator', desc: 'Generate optimized hashtags for Instagram, TikTok, Twitter & more. 22 niches.', tag: 'New' },
             { href: '/prompt-scorer', title: 'AI Prompt Scorer', desc: 'Score any prompt 1-100 with specific feedback. Improve your prompts instantly.', tag: 'New' },
+            { href: '/prompt-enhancer', title: 'AI Prompt Enhancer', desc: 'Paste any prompt, get 5 enhanced versions — Professional, Creative, Data-Driven, Viral & Expert.', tag: 'New' },
           ].map(tool => (
             <a key={tool.href} href={tool.href} style={{
               display: 'block', background: 'linear-gradient(135deg, #EEF2FF, #F0F5FF)', border: '2px solid rgba(59,95,255,0.15)',

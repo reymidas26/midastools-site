@@ -6,7 +6,7 @@ const INDEXNOW_KEY = '2935cf832fa6443d608bd993ec83dad9';
 const HOST = 'www.midastools.co';
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
-// All important URLs to submit
+// All URLs to submit — synced with sitemap.xml (136 URLs)
 const URLS = [
   // Homepage & key pages
   '/',
@@ -16,7 +16,9 @@ const URLS = [
   '/blog',
   '/free-prompts',
   '/chatgpt-prompts',
-  // Products
+  '/quiz',
+  '/ai-roi-calculator',
+  // Products (15 kits + 3 prompt packs)
   '/ai-prompt-mega-pack',
   '/ai-image-prompt-pack',
   '/ai-video-prompt-pack',
@@ -31,13 +33,39 @@ const URLS = [
   '/social-media-kit',
   '/email-marketing-kit',
   '/presentation-kit',
-  // Free tools
+  // Free tools (5)
   '/prompt-generator',
   '/business-name-generator',
   '/email-subject-line-tester',
   '/hashtag-generator',
   '/prompt-scorer',
-  // High-value blog posts
+  '/prompt-enhancer',
+  // Service pages
+  '/services',
+  '/receptionist',
+  '/ai-audit',
+  '/done-for-you',
+  '/content-service',
+  // Prompt template hub + pages (programmatic SEO)
+  '/prompts',
+  '/prompts/chatgpt-email-subject-lines',
+  '/prompts/chatgpt-product-descriptions',
+  '/prompts/chatgpt-social-media-captions',
+  '/prompts/chatgpt-blog-post-outline',
+  '/prompts/chatgpt-cold-email',
+  '/prompts/chatgpt-resume-cover-letter',
+  '/prompts/chatgpt-business-plan',
+  '/prompts/midjourney-product-photography',
+  '/prompts/chatgpt-seo-content',
+  '/prompts/chatgpt-customer-service-responses',
+  '/prompts/chatgpt-real-estate-prompts',
+  '/prompts/chatgpt-youtube-video-scripts',
+  '/prompts/chatgpt-notion-templates',
+  '/prompts/chatgpt-coding-prompts',
+  '/prompts/chatgpt-ai-image-prompts',
+  '/prompts/chatgpt-daily-planning-productivity',
+  // Blog posts (all 47+)
+  '/blog/felix-craft-story',
   '/blog/ai-prompt-scorer-2026',
   '/blog/chatgpt-image-prompts-2026',
   '/blog/best-midjourney-prompts-2026',
@@ -87,7 +115,6 @@ const URLS = [
   '/blog/how-to-price-freelance-services-ai-2026',
   '/blog/ai-agent-10k-day',
   '/blog/openclaw-vs-chatgpt-autonomous-agent',
-  '/blog/felix-craft-story',
 ];
 
 export default async function handler(req, res) {
