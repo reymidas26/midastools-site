@@ -42,6 +42,7 @@ const URLS = [
   '/prompt-enhancer',
   '/image-prompt-builder',
   '/prompt-roaster',
+  '/soul-generator',
   // Service pages
   '/services',
   '/receptionist',

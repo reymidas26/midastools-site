@@ -202,7 +202,7 @@ export default function Layout({ children }) {
           <span className="logo-tools">TOOLS</span>
         </Link>
         <div className="nav-links">
-          <Link href="/tools" className={`nav-link${path === '/tools' || path === '/prompt-generator' || path === '/prompt-scorer' || path === '/prompt-enhancer' || path === '/image-prompt-builder' || path === '/business-name-generator' || path === '/hashtag-generator' || path === '/prompt-roaster' ? ' active' : ''}`}>Free Tools</Link>
+          <Link href="/tools" className={`nav-link${path === '/tools' || path === '/prompt-generator' || path === '/prompt-scorer' || path === '/prompt-enhancer' || path === '/image-prompt-builder' || path === '/business-name-generator' || path === '/hashtag-generator' || path === '/prompt-roaster' || path === '/soul-generator' ? ' active' : ''}`}>Free Tools</Link>
           <Link href="/prompts" className={`nav-link${path === '/chatgpt-prompts' || path.startsWith('/prompts') ? ' active' : ''}`}>Prompts</Link>
           <Link href="/kits" className={`nav-link${path === '/kits' ? ' active' : ''}`}>Kits</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
@@ -228,6 +228,7 @@ export default function Layout({ children }) {
         <Link href="/prompt-enhancer">Prompt Enhancer</Link>
         <Link href="/image-prompt-builder">Image Prompt Builder</Link>
         <Link href="/prompt-roaster">Prompt Roaster</Link>
+        <Link href="/soul-generator">SOUL.md Generator</Link>
         <Link href="/prompts">Prompt Templates</Link>
         <Link href="/chatgpt-prompts">ChatGPT Prompts</Link>
         <Link href="/free-prompts">Free Prompts</Link>
@@ -294,6 +295,7 @@ export default function Layout({ children }) {
             <Link href="/prompt-enhancer">Prompt Enhancer</Link>
             <Link href="/image-prompt-builder">Image Prompt Builder</Link>
             <Link href="/prompt-roaster">Prompt Roaster</Link>
+            <Link href="/soul-generator">SOUL.md Generator</Link>
             <Link href="/prompts">Prompt Templates</Link>
             <Link href="/chatgpt-prompts">ChatGPT Prompts</Link>
             <Link href="/free-prompts">Free AI Prompts</Link>
