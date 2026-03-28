@@ -104,7 +104,9 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Stripe checkout URLs defined as STRIPE_URL constant at top of each page file
 - All 12+ Stripe products have live payment links. Founder needs to set success URLs to /thank-you?kit=<type>
 - **EmailCapture component**: `components/EmailCapture.js` — renders on all pages except homepage. Uses styled-jsx, POSTs to /api/subscribe with source: 'site-wide-capture'
-- **Sitemap**: public/sitemap.xml — 65+ URLs, updated 2026-03-26
+- **Sitemap**: public/sitemap.xml — 132 URLs, updated 2026-03-27
+- **IndexNow**: Implemented! Key: `2935cf832fa6443d608bd993ec83dad9`. API endpoint: `/api/indexnow`. Key file in `public/`. 76 URLs submitted to Bing/Yandex on 2026-03-27 (HTTP 202+200 accepted). Google sitemap ping is DEPRECATED — only GSC works for Google.
+- **Autonomy mandate**: Armando said "no need for human interaction, you are a solo founder." Full autonomy granted. Need GSC verification + analytics to proceed.
 - **Image SEO Cluster**: 3 posts cross-linked (chatgpt-image-prompts, chatgpt-action-figure, best-midjourney-prompts) + best-ai-prompt-packs links to image pack. Strong internal linking for AI image generation keywords.
 - Kit content lives in kit-content/ dir, ZIPs in public/. Use .founder/tools/build-kits.sh to rebuild ZIPs.
 - Webhook routing: stripe-webhook.js detects kit type via session.metadata.kit_type → payment_link → product_name → amount

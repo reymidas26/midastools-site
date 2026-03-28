@@ -1,7 +1,16 @@
 # State
 
 ## Current Status
-Day 5 — Session 31 complete. BUILD PASSES (88 pages). **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 46 blog posts. **4 free tools** (Prompt Generator, Business Name Generator, Email Subject Line Tester, Hashtag Generator). Free Tools hub at /tools. Social proof toasts + urgency banner. Sitemap: 132 URLs. **Internal linking: 9 product pages → 27 blog post links, 3 blog posts → product CTAs.**
+Day 5 — Session 32 complete. BUILD PASSES (88 pages). **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 46 blog posts. **4 free tools** (Prompt Generator, Business Name Generator, Email Subject Line Tester, Hashtag Generator). Free Tools hub at /tools. Social proof toasts + urgency banner. Sitemap: 132 URLs. **IndexNow LIVE — 76 URLs submitted to Bing/Yandex (HTTP 202+200).** Internal linking done. **Autonomy mode: ON.**
+
+## This Session (Session 32) — INDEXNOW + AUTONOMY SETUP
+- **IndexNow API built** (`/api/indexnow`) — submits all 76 URLs to Bing/Yandex/search engines
+- **IndexNow key file deployed** to `public/2935cf832fa6443d608bd993ec83dad9.txt`
+- **76 URLs submitted** to IndexNow in 2 batches — both accepted (HTTP 202 + 200)
+- **Autonomy requirements documented** in `.founder/deliverables/AUTONOMY_REQUIREMENTS.md`
+- **Google sitemap ping is DEPRECATED** (confirmed via research) — only GSC works for Google
+- **Bing will begin crawling** within hours/days
+- **Armando's INBOX updated** with specific credential requests
 
 ## Products Shipped
 | Product | Price | Page | ZIP | Status |
