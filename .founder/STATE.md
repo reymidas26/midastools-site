@@ -1,18 +1,25 @@
 # State
 
 ## Current Status
-Day 6 — Session 37 complete. BUILD PASSES (113 pages). **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 50 blog posts. **8 free tools** (NEW: AI Prompt Roaster). **16 programmatic SEO prompt template pages** at /prompts. Sitemap: 141 URLs. **IndexNow LIVE.** 2 GitHub backlink repos (DA 96). **Autonomy mode: ON.**
+Day 8 — Session 38 complete. **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 51 blog posts. **9 free tools** (NEW: OpenClaw SOUL.md Generator). **16 programmatic SEO prompt template pages** at /prompts. Sitemap: 143 URLs. **IndexNow LIVE.** 2 GitHub backlink repos (DA 96). **Autonomy mode: ON.**
 
-## This Session (Session 37) — VIRAL PROMPT ROASTER + PROMPT MISTAKES BLOG
-- **AI Prompt Roaster built** — 8th free tool at /prompt-roaster. Paste any prompt → get roasted for 10 "prompt sins" (too vague, no role, no context, no format, no examples, no constraints, overly polite, too short, ALL CAPS, generic opener). Severity ratings: Dumpster Fire 💀 → Actually Decent 👏. Generates fixed expert-level prompt. Twitter sharing + shareable URLs for viral distribution.
-- **Blog post shipped** — "10 AI Prompt Mistakes That Are Ruining Your ChatGPT Output (2026)" with before/after examples for each sin, RACE framework cheat sheet, tool CTAs, JSON-LD Article + FAQ schema.
-- **Integrated across site** — Prompt Roaster added to nav (active state), mobile menu, footer, homepage Free Tools section, tools page.
-- **Cross-linked** from 3 existing blog posts (how-to-write-better-ai-prompts, prompt-engineering-guide, ai-prompt-scorer).
-- **Sitemap updated** — 141 URLs (was 139).
-- **Build: 113 pages** (was 111).
-- **Google**: Still only 1 page indexed. GSC remains #1 blocker.
-- **Slack DM sent** to Armando with ship report + GSC reminder.
-- **Deployed** to main, Vercel auto-deploying.
+## This Session (Session 38) — OPENCLAW TREND WAVE: SOUL.md GENERATOR + SETUP GUIDE
+- **KEY INSIGHT**: OpenClaw hit 100K GitHub stars and was acquired by OpenAI — it's #1 on a16z's Top 100 AI Consumer Apps. We are THE OpenClaw Starter Kit company. This is our moment.
+- **OpenClaw SOUL.md Generator built** — 9th free tool at /soul-generator. Interactive config builder with 6 industry presets (E-commerce, Content Creator, Real Estate, SaaS, Freelancer, Small Business). Completeness tracker, copy button, Twitter sharing, shareable URLs. Targets OpenClaw community (100K+ users) for SOCIAL traffic bypassing Google indexing gap.
+- **Blog post shipped** — "OpenClaw Setup Guide 2026: Deploy Your First AI Agent in 30 Minutes" — comprehensive guide targeting massive "OpenClaw setup/tutorial" search volume. Step-by-step with code blocks, comparison tables, Felix Craft case study, FAQ schema.
+- **Integrated across site** — SOUL.md Generator added to nav (active state), mobile menu, footer, homepage Free Tools section, tools page.
+- **Cross-linked** from OpenClaw vs ChatGPT blog post → soul-generator + setup guide.
+- **Sitemap updated** — 143 URLs (was 141).
+- **Google**: Still only 1 page indexed. GSC remains #1 blocker. Slack DM sent with urgency about OpenClaw trend.
+- **Bing**: Still 0 visible results. IndexNow submitted daily.
+- **Deployed** 3 commits to main, Vercel auto-deploying.
+
+## Previous Session (Session 37) — VIRAL PROMPT ROASTER + PROMPT MISTAKES BLOG
+- **AI Prompt Roaster built** — 8th free tool at /prompt-roaster. Paste any prompt → get roasted for 10 "prompt sins". Severity ratings: Dumpster Fire → Actually Decent. Generates fixed expert-level prompt.
+- **Blog post shipped** — "10 AI Prompt Mistakes That Are Ruining Your ChatGPT Output (2026)"
+- **Cross-linked** from 3 existing blog posts.
+- **Sitemap updated** — 141 URLs (was 139). Build: 113 pages.
+- **Google**: Still only 1 page indexed.
 
 ## Previous Session (Session 36) — VIRAL IMAGE TOOL + GHIBLI SEO
 - **AI Image Prompt Builder built** — 7th free tool at /image-prompt-builder. Visual builder with 12 art styles (Ghibli, Cyberpunk, Hyperrealistic, Oil Painting, 3D Isometric, Comic, Watercolor, Pixel Art, Minimalist, Fantasy, 3D Clay, Vintage). 8 moods, 4 AI platforms (ChatGPT, Midjourney, DALL-E, Stable Diffusion). Platform-specific prompt formatting. Copy + Twitter share buttons.
