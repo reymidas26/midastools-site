@@ -660,6 +660,20 @@ export default function BlogPost({ post, slug }) {
   const paragraphs = post.content.trim().split('\n').filter(l => l.trim());
   const canonicalUrl = `https://www.midastools.co/blog/${slug}`;
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.meta,
+    url: canonicalUrl,
+    datePublished: post.date,
+    dateModified: post.updated || post.date,
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
+    publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+    image: 'https://www.midastools.co/og-image.png',
+  };
+
   return (
     <Layout>
       <Head>
@@ -677,6 +691,8 @@ export default function BlogPost({ post, slug }) {
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:site_name" content="Midas Tools" />
         <meta property="article:published_time" content={post.date} />
+        {post.updated && <meta property="article:modified_time" content={post.updated} />}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       </Head>
       <style>{`
         .container{max-width:680px;margin:0 auto;padding:80px 40px}
@@ -692,15 +708,40 @@ export default function BlogPost({ post, slug }) {
         .cta-inline a{display:inline-block;background:var(--accent);color:#FFFFFF;padding:14px 32px;border-radius:8px;font-weight:800;text-decoration:none;font-size:16px}
       `}</style>
       <div className="container">
-        <div className="post-date">{post.date}</div>
+        <div className="post-date">{post.date}{post.updated ? ` · Updated ${post.updated}` : ''}</div>
         <h1>{post.title}</h1>
         <div className="prose">
-          {paragraphs.map((line, i) => {
-            if (line.startsWith('## ')) return <h2 key={i}>{line.replace('## ', '')}</h2>;
-            if (line.startsWith('> ')) return <blockquote key={i}><p>{line.replace('> ', '')}</p></blockquote>;
-            if (line.startsWith('**') && line.endsWith('**')) return <p key={i}><strong>{line.replace(/\*\*/g, '')}</strong></p>;
-            return <p key={i} dangerouslySetInnerHTML={{ __html: line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>') }} />;
-          })}
+          {(() => {
+            const rendered = [];
+            let tableRows = [];
+            const flushTable = () => {
+              if (tableRows.length > 0) {
+                const headers = tableRows[0].split('|').filter(c => c.trim());
+                const rows = tableRows.slice(2).map(r => r.split('|').filter(c => c.trim()));
+                rendered.push(
+                  <div key={`table-${rendered.length}`} style={{overflowX:'auto',margin:'24px 0'}}>
+                    <table style={{width:'100%',borderCollapse:'collapse',fontSize:'15px'}}>
+                      <thead><tr>{headers.map((h,j) => <th key={j} style={{padding:'10px 16px',borderBottom:'2px solid var(--border)',textAlign:'left',fontWeight:700,color:'var(--text)'}}>{h.trim()}</th>)}</tr></thead>
+                      <tbody>{rows.map((r,j) => <tr key={j}>{r.map((c,k) => <td key={k} style={{padding:'10px 16px',borderBottom:'1px solid var(--border)',color:'var(--text-secondary)'}} dangerouslySetInnerHTML={{__html: c.trim().replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')}} />)}</tr>)}</tbody>
+                    </table>
+                  </div>
+                );
+                tableRows = [];
+              }
+            };
+            const fmt = t => t.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\*(.*?)\*/g, '<em>$1</em>').replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>');
+            paragraphs.forEach((line, i) => {
+              if (line.startsWith('|')) { tableRows.push(line); return; }
+              flushTable();
+              if (line.startsWith('## ')) { rendered.push(<h2 key={i}>{line.replace('## ', '')}</h2>); }
+              else if (line.startsWith('> ')) { rendered.push(<blockquote key={i}><p dangerouslySetInnerHTML={{__html: fmt(line.replace('> ', ''))}} /></blockquote>); }
+              else if (line.startsWith('- ')) { rendered.push(<p key={i} style={{paddingLeft:'20px'}} dangerouslySetInnerHTML={{__html: '• ' + fmt(line.replace('- ', ''))}} />); }
+              else if (/^\d+\.\s/.test(line)) { rendered.push(<p key={i} style={{paddingLeft:'20px'}} dangerouslySetInnerHTML={{__html: fmt(line)}} />); }
+              else { rendered.push(<p key={i} dangerouslySetInnerHTML={{__html: fmt(line)}} />); }
+            });
+            flushTable();
+            return rendered;
+          })()}
         </div>
         <div className="cta-inline">
           <p>Get every AI template, workflow, and prompt we make — in one bundle.</p>
