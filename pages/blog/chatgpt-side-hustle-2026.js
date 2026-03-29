@@ -228,6 +228,14 @@ For each scenario: opening message, 2-3 follow-up questions to qualify the visit
         <p>The best part? The barrier to entry is low, but the barrier to <em>doing it well</em> is still high enough that mediocre operators cannot compete with you. If you bring real expertise, taste, and reliability to the table, AI just makes you 5x faster.</p>
         <p>Pick one hustle from this list. Do it for one client this week. Get paid. Then decide if you want to scale it.</p>
 
+        <div style={{ marginTop: '32px', marginBottom: '32px', padding: '24px', background: 'linear-gradient(135deg, #EEF2FF, #F0F5FF)', border: '2px solid rgba(59,95,255,0.2)', borderRadius: '12px', textAlign: 'center' }}>
+          <p style={{ margin: '0 0 8px', fontSize: '17px', fontWeight: 800, color: '#111827' }}>Not sure which AI hustle fits YOU?</p>
+          <p style={{ margin: '0 0 16px', fontSize: '14px', color: '#6B7280' }}>Take our free 60-second quiz &mdash; get your AI founder archetype + matched side hustles.</p>
+          <Link href="/ai-income-blueprint" style={{ display: 'inline-block', background: '#3B5FFF', color: '#FFFFFF', padding: '12px 28px', borderRadius: '100px', textDecoration: 'none', fontWeight: 700, fontSize: '15px' }}>
+            Take the AI Income Blueprint Quiz &rarr;
+          </Link>
+        </div>
+
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         <h2 style={{ fontSize: '1.4rem', fontWeight: '700', marginTop: '40px' }}>Related Reads</h2>

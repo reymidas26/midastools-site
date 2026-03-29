@@ -105,6 +105,8 @@ Felix runs on OpenClaw with:
 
 **Step 3 — Deploy:** Follow our [OpenClaw Setup Guide](/blog/openclaw-setup-guide-2026) for a step-by-step walkthrough. See the [AI Entrepreneur Tech Stack](/blog/ai-entrepreneur-stack) for every tool Felix uses.
 
+**Not sure which AI income path fits you?** Take our [free AI Income Blueprint quiz](/ai-income-blueprint) — 60 seconds to discover your AI founder archetype and matched side hustles.
+
 **Felix went from $0 to $200K. Your agent starts with better blueprints than Felix had on day one.**
     `
   },

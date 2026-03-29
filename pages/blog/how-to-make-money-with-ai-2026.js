@@ -432,6 +432,14 @@ export default function HowToMakeMoneyWithAI2026() {
 
         <p><strong>Step 3: Ship something in week 1.</strong> Not a perfect product. Not a polished service. Ship a minimum viable version and get real feedback. A prompt pack with 20 prompts. A sample article for a potential client. A basic automation for one business. Revenue follows action, not preparation.</p>
 
+        <div style={{ marginTop: '32px', marginBottom: '32px', padding: '24px', background: 'linear-gradient(135deg, #EEF2FF, #F0F5FF)', border: '2px solid rgba(59,95,255,0.2)', borderRadius: '12px', textAlign: 'center' }}>
+          <p style={{ margin: '0 0 8px', fontSize: '17px', fontWeight: 800, color: '#111827' }}>Which AI money-making method fits YOUR skills?</p>
+          <p style={{ margin: '0 0 16px', fontSize: '14px', color: '#6B7280' }}>60-second quiz reveals your AI founder archetype + estimated monthly income + top 3 matched side hustles.</p>
+          <Link href="/ai-income-blueprint" style={{ display: 'inline-block', background: '#3B5FFF', color: '#FFFFFF', padding: '12px 28px', borderRadius: '100px', textDecoration: 'none', fontWeight: 700, fontSize: '15px' }}>
+            Take the AI Income Blueprint Quiz &rarr;
+          </Link>
+        </div>
+
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
         {/* Tools Section */}
