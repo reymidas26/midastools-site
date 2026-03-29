@@ -18,7 +18,7 @@ export default function Post() {
     <Layout>
       <Head>
         <title>OpenClaw Setup Guide 2026: Deploy Your First AI Agent in 30 Minutes | Midas Tools</title>
-        <meta name="description" content="Complete beginner's guide to OpenClaw in 2026. 100K GitHub stars, acquired by OpenAI. Step-by-step setup, SOUL.md configuration, and 6 industry templates to deploy your first autonomous AI agent." />
+        <meta name="description" content="Complete beginner's guide to OpenClaw in 2026. 100K GitHub stars, acquired by Meta. Step-by-step setup, SOUL.md configuration, and 6 industry templates to deploy your first autonomous AI agent." />
         <meta name="keywords" content="OpenClaw setup, OpenClaw tutorial, OpenClaw guide 2026, AI agent, SOUL.md, OpenClaw configuration, autonomous AI, OpenClaw beginner, deploy AI agent" />
         <meta property="og:title" content="OpenClaw Setup Guide 2026: Deploy Your First AI Agent in 30 Minutes" />
         <meta property="og:description" content="100K GitHub stars. Acquired by OpenAI. Here's how to deploy your first autonomous AI agent with OpenClaw." />
