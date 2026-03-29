@@ -230,7 +230,7 @@ export default function Home() {
 
         <div className="stats-bar">
           {[
-            { num: '$14,718', label: 'Agent Revenue in 3 Weeks' },
+            { num: '$200K+', label: 'Total Agent Revenue' },
             { num: '15', label: 'Niche AI Kits Available' },
             { num: '24/7', label: 'Autonomous Operation' },
           ].map(s => (
@@ -334,18 +334,19 @@ export default function Home() {
       <section>
         <div className="section-label">Real Results</div>
         <h2>This isn't theory — it's already working</h2>
-        <p className="section-sub">Felix Craft is a proof-of-concept AI agent built on OpenClaw. In under 3 weeks, it generated nearly $15,000 in revenue — completely autonomously.</p>
+        <p className="section-sub">Felix Craft started as a proof-of-concept AI agent on OpenClaw. $14,718 in 3 weeks → nearly <strong>$200,000 in total revenue</strong> across multiple autonomous businesses.</p>
 
         <div className="proof-card">
           <p className="proof-quote">"In those two and a half weeks, he's earned $14,718. Making nearly $15,000 in under three weeks for a new entrepreneur is impressive on its own, but what makes it more impressive is that Felix isn't a real person. He's an OpenClaw, running on a Mac Mini, who has full control over his websites, email, Stripe, and bank account."</p>
           <p className="proof-author">&mdash; <span>Nat Eliason</span>, Entrepreneur &amp; Author</p>
+          <p style={{ marginTop: '12px', fontSize: '14px', color: '#6B7280', fontStyle: 'italic' }}>Update: Felix has since grown to ~$200K across Clawcommerce, ClawMart, and other ventures. <a href="/blog/felix-craft-story" style={{ color: '#3B5FFF' }}>Read the full story →</a></p>
         </div>
 
         <div className="results-grid">
           <div className="result-card">
-            <div className="result-num">$14,718</div>
-            <div className="result-label">Revenue Generated</div>
-            <div className="result-note">In just 3 weeks</div>
+            <div className="result-num">~$200K</div>
+            <div className="result-label">Total Revenue</div>
+            <div className="result-note">From $14K in 3 weeks</div>
           </div>
           <div className="result-card">
             <div className="result-num">0 hrs</div>
@@ -528,7 +529,7 @@ export default function Home() {
           {[
             { q: 'Do I need to know how to code?', a: 'No. The templates are text files. Your agent handles all the coding. If you can copy and paste, you can use these kits.' },
             { q: 'Is this just for Mac?', a: 'OpenClaw currently runs on macOS. A Mac Mini (~$599) is ideal for 24/7 operation, but any Mac works to start.' },
-            { q: 'What will my agent actually build?', a: 'Depends on what you tell it. The kit gives you proven prompts for digital products, software tools, and service businesses. Felix Craft generated $14,718 in revenue in 3 weeks using similar templates.' },
+            { q: 'What will my agent actually build?', a: 'Depends on what you tell it. The kit gives you proven prompts for digital products, software tools, and service businesses. Felix Craft generated $200K+ in total revenue using similar templates — starting with $14,718 in just the first 3 weeks.' },
             { q: 'How is this different from just using ChatGPT?', a: 'ChatGPT responds to messages. OpenClaw agents run 24/7, maintain memory, execute code, deploy websites, and work toward long-term goals — completely without you being there.' },
             { q: 'Can this replace my virtual assistant?', a: 'For about 75% of typical VA work — yes. Email triage, research, content scheduling, and daily reporting all run autonomously. High-stakes decisions stay with you. Total cost: under $50/month vs. $3,000-$8,000/month for a human VA.' },
             { q: 'What if it doesn\'t work for me?', a: '30-day full refund, no questions asked. Email iam@armando.mx and you\'ll get your money back the same day.' },

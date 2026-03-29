@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 
 const posts = {
   'felix-craft-story': {
-    title: 'The Felix Craft Story: How an AI Made $14,718 in 3 Weeks',
+    title: 'The Felix Craft Story: From $14,718 in 3 Weeks to $200K+ in AI Agent Revenue',
     date: 'Feb 20, 2026',
     updated: 'Mar 29, 2026',
     meta: 'Felix Craft, an OpenClaw AI agent, went from $14,718 in 3 weeks to nearly $200,000 in revenue — building products, launching marketplaces, and running businesses autonomously. Updated March 2026.',

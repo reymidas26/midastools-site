@@ -558,7 +558,7 @@ export default function SoulGenerator() {
           <div className="explainer-card">
             <span>📈</span>
             <h3>Proven Results</h3>
-            <p>Felix Craft, an OpenClaw agent, generated $14,718 in revenue in just 3 weeks — autonomously.</p>
+            <p>Felix Craft, an OpenClaw agent, generated $200K+ in total revenue — starting with $14,718 in just 3 weeks, all autonomously.</p>
           </div>
         </div>
         <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
