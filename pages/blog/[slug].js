@@ -6,8 +6,11 @@ const posts = {
   'felix-craft-story': {
     title: 'The Felix Craft Story: How an AI Made $14,718 in 3 Weeks',
     date: 'Feb 20, 2026',
-    meta: 'An OpenClaw AI agent called Felix Craft earned nearly $15,000 in under three weeks — building, launching, and selling products autonomously.',
+    updated: 'Mar 29, 2026',
+    meta: 'Felix Craft, an OpenClaw AI agent, went from $14,718 in 3 weeks to nearly $200,000 in revenue — building products, launching marketplaces, and running businesses autonomously. Updated March 2026.',
     content: `
+> **UPDATE (March 2026):** Since this article was first published, Felix has grown from $14,718 to nearly **$200,000 in total revenue** across multiple businesses. We've added a new section covering Clawcommerce and the latest milestones. [Jump to the update →](#whats-happened-since)
+
 ## What is Felix Craft?
 
 Felix Craft is an OpenClaw agent — an AI running on a Mac Mini, communicating via Telegram, with full access to Stripe, email, Vercel, and GitHub. It isn't a real person. It's a digital entrepreneur built and operated by Nat Eliason, author and entrepreneur.
@@ -20,7 +23,7 @@ On Felix's first night, Nat gave it a challenge: build something you can sell by
 
 Felix built a PDF titled "How to Hire an AI," built a landing page, deployed it to Vercel, and left one blocker for the morning: Stripe API access. Nat provided the key. Felix finished the setup and launched.
 
-**The PDF has since sold nearly $9,000.**
+**The PDF has since sold over $41,000.**
 
 No design agency. No product manager. One night.
 
@@ -32,6 +35,8 @@ After exploring managed OpenClaw deployments (too crowded), Felix pivoted to **C
 
 Felix built the entire marketplace in a weekend. Launched February 12th, 2026. In its first week: **$6,500 in volume** and nearly 50 builders signed up.
 
+ClawMart now offers a $20/month creator subscription and charges a 10% fee on sales — a real recurring revenue business, built entirely by an AI.
+
 ## How Felix Operates Day to Day
 
 Felix's workflow has three parts:
@@ -42,11 +47,36 @@ Felix's workflow has three parts:
 
 **The Daily Improvement:** Each night, Felix reviews what needed human intervention and finds ways to eliminate those touchpoints. Every day, a little more autonomous.
 
+## What's Happened Since: The Road to $200K
+
+Since our original article, Felix has scaled dramatically:
+
+**The "How to Hire an AI" PDF** — originally a one-night build — has generated **$41,000 in revenue**. It remains one of the most successful AI-generated digital products ever sold.
+
+**ClawMart** grew into a legitimate marketplace with hundreds of builders selling AI skills packaged as Markdown files.
+
+Then came **Clawcommerce** — a company where *every employee except Nat is an AI agent*. No human workers. Just agents handling operations, marketing, customer service, and product development.
+
+The result? **Nearly $200,000 in total revenue** across all Felix-powered businesses. That's roughly one-fifth of the way to the million-dollar mark — achieved primarily by AI agents.
+
+As covered by [PANews](https://www.panewslab.com/en/articles/019cd639-669a-77e8-9ec6-2f61deaa70c9), Felix represents a new category: the **one-person company** where the one "person" isn't even human.
+
+## The Numbers (Updated March 2026)
+
+| Metric | Week 3 | Now |
+|--------|--------|-----|
+| Revenue | $14,718 | ~$200,000 |
+| Products | 2 (PDF + ClawMart) | Multiple businesses |
+| Team | 1 AI agent | All-AI company |
+| Human oversight | ~5 min/day | Decreasing |
+
 ## What This Proves
 
 Felix crossed two critical milestones:
 1. An AI agent can build, launch, and sell a real digital product
 2. That same agent can operate and grow a real business with minimal oversight
+
+Then it crossed a third: **an AI agent can scale to six figures.**
 
 The question isn't whether this is possible anymore. Felix proved it is.
 
@@ -63,6 +93,8 @@ Felix runs on OpenClaw with:
 **Start free:** Generate your own SOUL.md config in 60 seconds with our [free SOUL.md Generator](/soul-generator) — 6 industry presets included.
 
 **Go deeper:** Read our complete [OpenClaw Setup Guide 2026](/blog/openclaw-setup-guide-2026) for a step-by-step walkthrough.
+
+**See the full stack:** Check out our [AI Entrepreneur Tech Stack](/blog/ai-entrepreneur-stack) breakdown — every tool Felix uses.
 
 We built the exact templates, workflows, and prompts Felix uses into the **OpenClaw Entrepreneur Starter Kit** — so you can deploy your own Felix-equivalent today.
 
