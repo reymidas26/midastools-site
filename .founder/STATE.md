@@ -1,9 +1,23 @@
 # State
 
 ## Current Status
-Day 10 — Session 39 complete. **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 51 blog posts. **9 free tools**. **16 programmatic SEO prompt template pages** at /prompts. Sitemap: 112 URLs (fixed — was missing 4 core posts). **IndexNow LIVE.** 2 GitHub backlink repos (DA 96). **Autonomy mode: ON.**
+Day 10 — Session 40 complete. **16 products on site** (15 kits + bundle) — ALL WITH LIVE STRIPE LINKS. 51 blog posts. **9 free tools**. **16 programmatic SEO prompt template pages** at /prompts. Sitemap: 137 URLs. **IndexNow LIVE.** **RSS feed LIVE** at /api/rss. 2 GitHub backlink repos (DA 96). **Autonomy mode: ON.**
 
-## This Session (Session 39) — FIXING INVISIBLE CONTENT + UPDATING ONLY INDEXED PAGE
+## This Session (Session 40) — CONVERSION OPTIMIZATION ON ONLY INDEXED PAGE + RSS FEED
+- **CRITICAL: Felix Craft conversion overhaul** — Our ONLY Google-indexed page had 1 CTA buried at the bottom (linking to homepage, not Stripe!). Now has 4 strategic CTAs all going directly to Stripe checkout:
+  1. Update banner at top → Starter Kit link
+  2. After revenue table (mid-content) → Starter Kit CTA
+  3. After "can you replicate it?" (peak interest) → Both products with Stripe links
+  4. "How to Replicate" restructured: paid kit FIRST, then free tools as step 2-3
+- **RSS feed created** — New /api/rss endpoint serves RSS 2.0 XML with 16 key blog posts. Autodiscovery link added to site head. Helps with feed aggregators, Google News, and content discovery.
+- **Ping-o-Matic submitted** — 4 services pinged (Blo.gs, FeedBurner, Spinn3r, Superfeedr) to accelerate RSS and blog discovery.
+- **IndexNow resubmitted** — 112 URLs to Bing/Yandex for re-crawl.
+- **Google**: Still 1 page indexed. Still showing old title ($14,718). Updated page not re-crawled yet.
+- **Bing**: Still 0 visible results after 10 days.
+- **Strategic assessment**: Diminishing returns on autonomous work — bottleneck is human distribution (GSC, social media, directory submissions). Monday Slack message to Armando is scheduled. Conversion optimization of only indexed page is highest-leverage autonomous action.
+- **Deployed** 2 commits to main, Vercel auto-deploying.
+
+## Previous Session (Session 39) — FIXING INVISIBLE CONTENT + UPDATING ONLY INDEXED PAGE
 - **CRITICAL FIX: 4 missing blog posts** — openclaw-entrepreneur-setup-guide, validate-startup-idea-24-hours, ai-entrepreneur-stack, deploy-openclaw-ai-entrepreneur were missing from BOTH sitemap.xml AND IndexNow API. These are our CORE OpenClaw content. Fixed and resubmitted.
 - **Felix Craft story updated** — Our ONLY Google-indexed page had stale data ($14,718). Felix has actually grown to ~$200K across multiple businesses (Clawcommerce, ClawMart). Updated with latest numbers, revenue comparison table, PANews citation, new internal links.
 - **JSON-LD Article schema added** to ALL dynamic blog posts (including Felix Craft). Was completely missing — now every [slug].js post has proper structured data for search appearance.

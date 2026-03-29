@@ -7,7 +7,9 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Stack**: Next.js 14.2, React 18, Stripe, Nodemailer/Gmail SMTP, inline CSS
 - **Products**: 15 kits + Bundle ($97 — $535 value, 82% savings). All with live Stripe links.
 - **OpenClaw**: Open-source AI agent framework with 247K GitHub stars (March 2026), featured on Lex Fridman
-- **Felix Craft**: Proof-of-concept agent that earned $14,718 in 3 weeks (key case study)
+- **Felix Craft**: AI agent that went from $14,718 in 3 weeks to ~$200K total revenue (key case study, our ONLY indexed page)
+- **RSS feed**: /api/rss — RSS 2.0 with 16 blog posts. Autodiscovery link in site head.
+- **Conversion insight**: Felix Craft page had 1 CTA at bottom linking to homepage. Fixed to 4 CTAs all direct-to-Stripe. This is our most important page.
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
 - **Site pages**: 85 pages total (build output), including dynamic blog
