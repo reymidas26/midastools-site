@@ -269,6 +269,7 @@ export default function Home() {
             { href: '/prompt-roaster', title: 'AI Prompt Roaster', desc: 'Get your bad prompts hilariously roasted, then get a fixed expert-level version. 10 "prompt sins" detected.', tag: '🔥 Viral' },
             { href: '/soul-generator', title: 'SOUL.md Generator', desc: 'Build your OpenClaw AI agent config in 60 seconds. 6 industry presets, production-ready output.', tag: '🔥 NEW' },
             { href: '/image-prompt-builder', title: 'AI Image Prompt Builder', desc: 'Build perfect prompts for ChatGPT, Midjourney & DALL·E. 12 viral styles including Ghibli & Cyberpunk.', tag: '🔥 Trending' },
+            { href: '/ai-income-blueprint', title: 'AI Income Blueprint', desc: 'Answer 3 questions, discover your AI founder archetype & estimated monthly income. Shareable results.', tag: '🔥 NEW' },
           ].map(tool => (
             <a key={tool.href} href={tool.href} style={{
               display: 'block', background: 'linear-gradient(135deg, #EEF2FF, #F0F5FF)', border: '2px solid rgba(59,95,255,0.15)',

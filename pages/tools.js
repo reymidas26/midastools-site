@@ -75,6 +75,14 @@ const TOOLS = [
     categories: '12 art styles · 4 platforms',
     bg: 'var(--card-purple)',
   },
+  {
+    title: 'AI Income Blueprint',
+    desc: 'Answer 3 questions, get your personalized AI founder archetype, estimated monthly income potential, and top 3 matched side hustles. Shareable results — challenge your friends.',
+    href: '/ai-income-blueprint',
+    tag: '🔥 NEW',
+    categories: '6 archetypes · 12 side hustles',
+    bg: 'var(--card-green)',
+  },
 ];
 
 const COMING_SOON = [
