@@ -558,6 +558,7 @@ export default function Home() {
             </span>
           ))}
         </div>
+        <p style={{ marginTop: 24, fontSize: 14, opacity: 0.7 }}>Also available on <a href="https://manduks.gumroad.com/l/iiiwf" target="_blank" rel="noopener noreferrer" style={{ color: '#FF90E8', textDecoration: 'underline' }}>Gumroad</a></p>
       </div>
     </Layout>
   );
