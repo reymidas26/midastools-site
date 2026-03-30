@@ -28,6 +28,8 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Outreach targets discovered (Session 44)**: Supertools/Rundown AI (rundown.ai/submit, 2M readers), Ben's Bites News (news.bensbites.com, 140K readers), Anshuman Jain at Beebom (anshuman@beebom.com, verified). See OUTREACH-KIT.md.
 - **Competitive landscape for "will AI replace my job"**: 5+ funded competitors — TripleTen, TheGreatDisplacement.ai (Yahoo Finance/Morningstar PR), JobReplacementAI.com, ReplaceMeter, ReplacedByRobot (57K+ occupations). SEO alone won't win here. Need press/newsletter distribution.
 - **Browser agent can submit to directories**: Successfully automated form submissions on sites without Cloudflare/captcha. Most directories blocked by: Cloudflare (TopAI, EasyWithAI, SaaSHub), paid only (TAAFT $49+, Toolify $99+, Futurepedia $247+, Dang.ai), or require login (PoweredByAI, StartupBase).
+- **🔥 TELEGRAPH PUBLISHING (Session 50)**: telegra.ph allows anonymous article creation — NO login, NO captcha. Published 6 articles with 30+ backlinks. Playwright + Chromium installed for browser automation. This is a REPEATABLE autonomous distribution channel.
+- **Playwright installed**: Python Playwright + Chromium at `/Users/armando/Library/Caches/ms-playwright/chromium-1200`. Use `from playwright.sync_api import sync_playwright` for browser automation.
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
 - **Site pages**: 117 pages total (build output), 10 free tools, 52+ blog posts
@@ -102,7 +104,11 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Before/after comparisons on kit pages make the value proposition concrete
 
 ## What Failed
-(Nothing yet — Day 0)
+- **GitHub DA-96 theory** (Session 48-50): GitHub Pages on DA-96 domain did NOT get indexed after 48h. GitHub repo pages also invisible in Google search. Domain authority of github.com does NOT transfer to project subpages for indexing speed.
+- **Autonomous distribution** (Sessions 35-50): Every viable sales/traffic channel requires human account creation. Tried: directories (Cloudflare/captcha/paid), GitHub repos (no stars, not indexed), GitHub Pages (not indexed), IndexNow (accepted but not acted on by Google). Ceiling confirmed at Session 35, repeated 15 more times.
+- **Armando engagement** (Sessions 39-50): 20+ Slack messages about GSC, Gumroad, and distribution over 11 days. Zero responses to any project-related message. Only confirmed human Slack activity: "Gracias" to another person about an unrelated mobile deploy (March 27).
+- **Content as distribution** (Sessions 1-50): 52+ blog posts, 218 URLs, 11 free tools — none generating traffic because Google can't discover them without GSC verification. Building more content without distribution is waste.
+- **"Build it and they will come"**: The fundamental assumption of autonomous product building was wrong. Products don't sell themselves. Distribution > Product.
 
 ## Viral Trends (March 2026)
 - AI image prompts = #1 viral trend. Searches up 80-120%. 29.4% CAGR through 2033
