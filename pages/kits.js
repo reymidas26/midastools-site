@@ -29,6 +29,7 @@ const kits = [
     desc: '200+ battle-tested AI prompts for copywriting, social media, content, operations, branding & productivity. Works with any LLM.',
     href: '/ai-prompt-mega-pack',
     stripe: 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d',
+    gumroad: 'https://manduks.gumroad.com/l/pdcjj',
     color: 'var(--card-amber)',
   },
   {
@@ -45,6 +46,7 @@ const kits = [
     desc: 'Lead follow-up, listing descriptions, CMA summaries, and open house workflows for realtors.',
     href: '/real-estate-kit',
     stripe: 'https://buy.stripe.com/fZueVcb8r6iR5GAfkmcMM08',
+    gumroad: 'https://manduks.gumroad.com/l/oxaka',
     color: 'var(--card-green)',
   },
   {
@@ -233,9 +235,10 @@ export default function Kits() {
               {kit.badge && <span className="kit-badge">{kit.badge}</span>}
             </div>
             <div className="kit-desc">{kit.desc}</div>
-            <div style={{display:'flex',alignItems:'center',gap:16,marginTop:4}}>
+            <div style={{display:'flex',alignItems:'center',gap:16,marginTop:4,flexWrap:'wrap'}}>
               <a href={kit.stripe} className="btn-primary" style={{fontSize:14,padding:'10px 20px'}}>Buy Now &rarr;</a>
               <Link href={kit.href} className="kit-link">Details</Link>
+              {kit.gumroad && <a href={kit.gumroad} target="_blank" rel="noopener noreferrer" style={{fontSize:12,color:'var(--text-tertiary)',textDecoration:'underline',textUnderlineOffset:2}}>Gumroad</a>}
             </div>
           </div>
         ))}
