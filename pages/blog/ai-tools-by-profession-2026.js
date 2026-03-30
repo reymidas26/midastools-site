@@ -249,12 +249,18 @@ export default function AIToolsByProfession2026() {
           </a>
         </div>
 
-        <p style={{ textAlign: 'center' }}>Or grab the <strong>All Kits Bundle</strong> — 13 kits for $97 (79% off).</p>
+        <p style={{ textAlign: 'center' }}>Or grab the <strong>All Kits Bundle</strong> — 15 kits for $97 (81% off).</p>
 
         <div style={{ textAlign: 'center', margin: '24px 0' }}>
           <a href={STRIPE_BUNDLE} style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '14px 32px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '16px' }}>
-            Get the Bundle — $97 (Save 79%)
+            Get the Bundle — $97 (Save 81%)
           </a>
+        </div>
+
+        <div style={{ background: '#FEF2F2', border: '2px solid #FECACA', borderRadius: 16, padding: 24, textAlign: 'center', margin: '32px 0' }}>
+          <p style={{ fontSize: 18, fontWeight: 700, color: '#111827', marginBottom: 8 }}>Will AI replace YOUR profession?</p>
+          <p style={{ fontSize: 14, color: '#6B7280', marginBottom: 16 }}>Check your job&apos;s AI replacement risk score &mdash; 40+ jobs analyzed with real 2026 data, timelines, and safe skills.</p>
+          <a href="/ai-job-risk" style={{ display: 'inline-block', background: 'linear-gradient(135deg, #DC2626, #D97706)', color: '#fff', padding: '12px 28px', borderRadius: 100, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>Check My Job Risk (Free)</a>
         </div>
       </div>
     </Layout>

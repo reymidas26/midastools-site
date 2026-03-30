@@ -767,6 +767,13 @@ Tone: Confident and factual. This is a business discussion, not a personal favor
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
+        {/* AI JOB RISK CTA */}
+        <div style={{ background: '#FEF2F2', border: '2px solid #FECACA', borderRadius: 16, padding: 24, textAlign: 'center', marginBottom: 32 }}>
+          <p style={{ fontSize: 18, fontWeight: 700, color: '#111827', marginBottom: 8 }}>Worried AI might replace your job?</p>
+          <p style={{ fontSize: 14, color: '#6B7280', marginBottom: 16 }}>Check your career&apos;s AI replacement risk score &mdash; 40+ jobs analyzed with real 2026 data.</p>
+          <a href="/ai-job-risk" style={{ display: 'inline-block', background: 'linear-gradient(135deg, #DC2626, #D97706)', color: '#fff', padding: '12px 28px', borderRadius: 100, fontWeight: 700, fontSize: 15, textDecoration: 'none' }}>Check My Job Risk (Free)</a>
+        </div>
+
         {/* EMAIL CAPTURE */}
         <EmailCapture />
 

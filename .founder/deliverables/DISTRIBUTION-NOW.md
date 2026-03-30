@@ -3,7 +3,9 @@
 > **Armando**: Each post below is copy-paste ready. Total time: ~15 minutes for ALL platforms.
 > This is the #1 thing that unblocks revenue. The site has 117 pages, 10 free tools, 16 products — but 0 traffic.
 >
-> **NEW (Session 42):** AI Income Blueprint — viral quiz with shareable results. See twitter-ai-income-blueprint.md for full thread.
+> **NEW (Session 43):** "Will AI Replace My Job?" — our most viral tool yet. 40+ jobs with risk scores. See twitter-ai-job-risk.md for full thread + Reddit posts.
+>
+> **Also new:** Blog post "Will AI Replace My Job? 40+ Jobs Ranked" targeting massive search volume keyword.
 >
 > ## QUICK WIN DIRECTORIES (2 min each, need your account)
 > These are free, high-value platforms — just need signup:
