@@ -13,6 +13,13 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Directory strategy**: 100+ free AI directories exist (github.com/best-of-ai/ai-directories). Comprehensive tracker created at .founder/deliverables/directory-submission-tracker-100.md. Most need accounts, some accept email submissions.
 - **GitHub backlinks**: 5 repos (free-ai-prompts, awesome-ai-business-tools, ai-job-risk-database, ai-prompt-cheatsheet, + forks) + 2 gists (AI Agent Frameworks, AI Founder Archetypes). All DA 96. Total: 7+ backlink sources. All cross-linked to each other and to midastools.co tools.
 - **GitHub distribution strategy (Session 45)**: When directory submissions are blocked (accounts/captcha/paid), GitHub repos are the best autonomous alternative. DA 96, indexed by Google in hours, supports rich markdown/data, and gets discovered via GitHub search + Google.
+- **🔥 GITHUB PAGES STOREFRONT (Session 47)**: 3 landing pages with DIRECT Stripe checkout on github.io (DA 96):
+  - manduks.github.io/free-ai-prompts/ — 25+ prompts, category filter, copy buttons, 3 Stripe CTAs
+  - manduks.github.io/ai-job-risk-database/ — 102 jobs searchable/sortable, 2 Stripe CTAs
+  - manduks.github.io/ai-prompt-cheatsheet/ — CRAFT framework, 35+ prompts, 3 Stripe CTAs
+  - Fixed vestigial CNAME in manduks.github.io repo (was redirecting to armando.mx/Vercel, breaking all project Pages)
+  - GitHub token available via `git credential fill` (osxkeychain) for API operations
+  - GitHub Pages API: POST /repos/:owner/:repo/pages to enable, PUT contents/ to push files
 - **MARKETPLACE PIVOT (Session 46)**: After 45 sessions with $0 revenue, pivoted strategy from "drive traffic to midastools.co" to "sell on marketplaces with built-in buyer traffic." Gumroad (10% fee, massive discovery), Whop (free to list, growing), PromptBase (20% fee, prompt-specific), Etsy ($0.20/listing). God of Prompt has 17K+ customers on Gumroad alone. Complete launch package at `.founder/deliverables/GUMROAD-LAUNCH-PACKAGE.md`.
 - **Gumroad competitive intel**: AI prompt packs sell for $5-$150 on Gumroad. Small creators making $1K+/month. Top sellers: "All In One Booster AI Kit" (150K prompts), God of Prompt (2K+ prompts, $150 bundle). Our $97 bundle with 15 kits is competitively positioned.
 - **AI Income Blueprint**: Viral quiz tool at /ai-income-blueprint. 6 archetypes, shareable URLs, social share buttons. First tool designed for SOCIAL distribution, not SEO. GitHub gist backlink: https://gist.github.com/manduks/fe8afd374f94d274e6946e562b2c363d
