@@ -83,6 +83,14 @@ const TOOLS = [
     categories: '6 archetypes · 12 side hustles',
     bg: 'var(--card-green)',
   },
+  {
+    title: 'Will AI Replace My Job?',
+    desc: 'Check your job\'s AI replacement risk with real 2026 data. 40+ jobs analyzed with risk scores, automation timelines, at-risk tasks, and safe skills. Shareable results — compare with friends.',
+    href: '/ai-job-risk',
+    tag: '🔥 VIRAL',
+    categories: '40+ jobs · risk scores',
+    bg: 'var(--card-pink)',
+  },
 ];
 
 const COMING_SOON = [

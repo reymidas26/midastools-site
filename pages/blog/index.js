@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 const posts = [
+  { slug: 'will-ai-replace-my-job-2026', title: 'Will AI Replace My Job? 40+ Jobs Ranked by AI Risk (2026 Data)', date: 'Mar 29, 2026', desc: 'We analyzed 40+ common jobs for AI replacement risk using real 2026 data. Data entry clerks face 96% risk while plumbers face only 10%. See where your job ranks and how to future-proof your career.' },
   { slug: 'ai-tools-content-creators-2026', title: '10 AI Tools Content Creators Are Using to 10x Their Output in 2026', date: 'Mar 27, 2026', desc: 'The best AI tools for content creators in 2026. 10 tested tools for writing, video, design, and distribution — with pricing, honest reviews, and copy-paste prompts.' },
   { slug: 'notion-templates-business-2026', title: '12 Notion Templates Every Business Needs in 2026 (+ AI Prompts to Power Them)', date: 'Mar 27, 2026', desc: 'The 12 essential Notion templates for running a business in 2026. Project management, CRM, budgets, SOPs, and more — plus AI prompts to set up each one in minutes.' },
   { slug: 'ai-prompts-real-estate-agents-2026', title: '20 AI Prompts Every Real Estate Agent Needs in 2026', date: 'Mar 27, 2026', desc: 'The best AI prompts for real estate agents. 20 copy-paste ChatGPT prompts for listing descriptions, lead generation, social media, market analysis, and business operations.' },

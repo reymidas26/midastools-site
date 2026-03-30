@@ -43,6 +43,8 @@ const URLS = [
   '/image-prompt-builder',
   '/prompt-roaster',
   '/soul-generator',
+  '/ai-income-blueprint',
+  '/ai-job-risk',
   // Service pages
   '/services',
   '/receptionist',
@@ -73,6 +75,7 @@ const URLS = [
   '/blog/chatgpt-ghibli-style-prompts-2026',
   '/blog/how-to-write-better-ai-prompts-2026',
   '/blog/felix-craft-story',
+  '/blog/will-ai-replace-my-job-2026',
   '/blog/ai-prompt-scorer-2026',
   '/blog/chatgpt-image-prompts-2026',
   '/blog/best-midjourney-prompts-2026',

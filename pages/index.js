@@ -270,6 +270,7 @@ export default function Home() {
             { href: '/soul-generator', title: 'SOUL.md Generator', desc: 'Build your OpenClaw AI agent config in 60 seconds. 6 industry presets, production-ready output.', tag: '🔥 NEW' },
             { href: '/image-prompt-builder', title: 'AI Image Prompt Builder', desc: 'Build perfect prompts for ChatGPT, Midjourney & DALL·E. 12 viral styles including Ghibli & Cyberpunk.', tag: '🔥 Trending' },
             { href: '/ai-income-blueprint', title: 'AI Income Blueprint', desc: 'Answer 3 questions, discover your AI founder archetype & estimated monthly income. Shareable results.', tag: '🔥 NEW' },
+            { href: '/ai-job-risk', title: 'Will AI Replace My Job?', desc: 'Check your job\'s AI replacement risk score. 40+ jobs analyzed with real 2026 data, timelines & safe skills.', tag: '🔥 VIRAL' },
           ].map(tool => (
             <a key={tool.href} href={tool.href} style={{
               display: 'block', background: 'linear-gradient(135deg, #EEF2FF, #F0F5FF)', border: '2px solid rgba(59,95,255,0.15)',

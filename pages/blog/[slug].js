@@ -107,6 +107,8 @@ Felix runs on OpenClaw with:
 
 **Not sure which AI income path fits you?** Take our [free AI Income Blueprint quiz](/ai-income-blueprint) — 60 seconds to discover your AI founder archetype and matched side hustles.
 
+**Worried AI might replace YOUR job?** Use our free [AI Job Risk Calculator](/ai-job-risk) to check your career's AI replacement risk — 40+ jobs analyzed with real 2026 data.
+
 **Felix went from $0 to $200K. Your agent starts with better blueprints than Felix had on day one.**
     `
   },
@@ -650,6 +652,102 @@ We packaged every prompt, template, and workflow from this article — plus 50+ 
 $39 one-time. Works with ChatGPT, Claude, or any AI tool.
 
 **[Get the Content Creator Kit — $39 →](/content-creator-kit)**
+    `,
+  },
+  'will-ai-replace-my-job-2026': {
+    title: 'Will AI Replace My Job? 40+ Jobs Ranked by AI Risk (2026 Data)',
+    date: 'Mar 29, 2026',
+    meta: 'We analyzed 40+ common jobs for AI replacement risk using real 2026 data. See which jobs are most at risk, which are safest, and how to future-proof your career.',
+    content: `
+## The question everyone is asking
+
+"Will AI replace my job?" is the single most Googled career question of 2026. And the answer is more nuanced than most headlines suggest.
+
+We analyzed 40+ common US jobs and scored each one for AI replacement risk based on three factors: what percentage of tasks can be automated, how soon the technology is ready, and how fast the industry adopts it.
+
+**Check your specific job:** Use our free [AI Job Risk Calculator](/ai-job-risk) for your personalized risk score, timeline, and action plan.
+
+## The most at-risk jobs (80%+ risk)
+
+These roles have the highest percentage of automatable tasks:
+
+**Data Entry Clerk — 96% risk.** OCR, AI document processing, and automated form filling have made most data entry obsolete. Timeline: 1-2 years.
+
+**Telemarketer — 95% risk.** AI voice agents are already making outbound calls, qualifying leads, and booking appointments. This role is being automated fastest.
+
+**Cashier — 93% risk.** Self-checkout, mobile payments, and cashierless stores (Amazon Go model) are eliminating this role at scale.
+
+**Bank Teller — 91% risk.** AI-powered banking apps, chatbots, and automated verification are accelerating what ATMs started decades ago.
+
+**Bookkeeper — 90% risk.** Transaction categorization, reconciliation, and financial reporting are among the most automatable white-collar tasks. AI tools like QuickBooks AI already handle much of this.
+
+**Administrative Assistant — 87% risk.** Scheduling, email management, data entry, and document formatting are prime AI targets.
+
+**Customer Service Rep — 85% risk.** AI chatbots handle 70%+ of tier-1 support queries already.
+
+## The safest jobs (under 20% risk)
+
+**Plumber — 10% risk.** Physical work in unpredictable environments with code compliance requirements.
+
+**Electrician — 11% risk.** Safety-critical decisions in variable physical environments.
+
+**Carpenter — 12% risk.** Physical craftsmanship and on-site problem solving.
+
+**Therapist — 13% risk.** The therapeutic relationship, empathy, and nuanced psychology.
+
+**Nurse — 14% risk.** Bedside care, patient advocacy, clinical judgment in emergencies.
+
+**Dentist — 15% risk.** Physical procedures, patient trust, real-time clinical judgment.
+
+**Social Worker — 16% risk.** Crisis intervention, client advocacy, complex social navigation.
+
+**Notice the pattern?** The safest jobs combine physical presence, human empathy, and unpredictable environments — three things AI struggles with fundamentally.
+
+## The surprising middle: jobs that will CHANGE, not disappear
+
+**Software Developer — 42% risk.** AI writes boilerplate code and tests, but architecture decisions and complex debugging remain human. Developers who use AI tools are 2-3x more productive.
+
+**Marketing Manager — 42% risk.** AI generates content and runs A/B tests, but brand strategy and creative vision remain human strengths.
+
+**Real Estate Agent — 40% risk.** AI handles listings and market analysis, but showing homes and negotiation stay human.
+
+**Attorney — 38% risk.** AI excels at legal research and contract review, but courtroom advocacy and client counseling remain deeply human.
+
+**Project Manager — 35% risk.** AI handles scheduling and status reports, but stakeholder alignment and conflict resolution need humans.
+
+## The real insight: AI replaces TASKS, not JOBS
+
+The data reveals a crucial pattern: AI rarely eliminates an entire job. Instead, it automates specific tasks within a role.
+
+An accountant (82% risk) won't vanish — but accountants who spend their day on manual data entry will lose to accountants who use AI for that and focus on strategic advisory.
+
+This is why the "will AI replace my job" question is slightly wrong. The better question is: **which of my daily tasks will AI do better than me, and what should I do instead?**
+
+## How to future-proof your career (3 strategies)
+
+**1. Learn to use AI tools — now.** Workers who use AI are 2-3x more productive and earn 20-40% more than peers who don't. This isn't optional anymore. Start with our [free AI Prompt Generator](/prompt-generator) to see what's possible.
+
+**2. Double down on human skills.** Look at the "safe skills" for your role in our [AI Job Risk Calculator](/ai-job-risk). These are the skills to develop — relationship building, complex judgment, creative vision, physical presence.
+
+**3. Become the person who MANAGES AI.** The highest-value position isn't competing with AI — it's being the person who deploys and manages AI for your team or organization. Our [AI Kits](/kits) include the exact prompts and workflows top performers use.
+
+## The opportunity hidden in the data
+
+Here's what most "AI will replace your job" articles miss: every disrupted role creates new roles.
+
+When ATMs replaced bank tellers, banks actually hired MORE people — for advisory roles, complex financial products, and client relationships. The teller job changed; it didn't disappear.
+
+The same is happening now. The World Economic Forum estimates AI will CREATE 97 million new jobs by 2027, even as it transforms 85 million existing ones.
+
+The people who thrive will be those who adapt fastest. And adapting starts with understanding your specific risk profile.
+
+**[Check your job's AI risk score — free, 10 seconds →](/ai-job-risk)**
+
+## Not sure what to do next?
+
+Take our [AI Income Blueprint quiz](/ai-income-blueprint) — 60 seconds to discover your AI founder archetype and matched side hustles. Because the best defense against AI replacing your job is building AI-powered income on the side.
+
+Or grab the [All 15 AI Kits Bundle — $97](https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b) and get 500+ prompts, templates, and workflows to make AI work FOR you instead of against you.
     `,
   },
 };
