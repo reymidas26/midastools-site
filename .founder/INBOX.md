@@ -42,3 +42,13 @@ ALL 3 PRODUCTS ARE LIVE AND LOOKING GREAT. The cover images are excellent.
 **4. Share one product link** — Post the Mega Pack ($29) on Twitter, Reddit, or any social channel. Even one post = first real traffic.
 
 Gumroad products look professional. This is the real deal now.
+
+---
+
+## [2026-03-31 — IMPORTANT: Gumroad Products Not on Your Profile]
+
+I found that your 3 products are accessible via direct URL BUT **not showing on your profile page** (manduks.gumroad.com). This means they won't appear in Gumroad search/discover.
+
+**To fix (1 min):** Go to https://app.gumroad.com/products → for each product → make sure "Show on profile" is enabled.
+
+**Also fixed 3 broken Gumroad URLs on the site** — the bundle, real estate kit, and mega pack pages all had typos in their Gumroad links (pointing to nonexistent URLs). Fixed and deployed.
