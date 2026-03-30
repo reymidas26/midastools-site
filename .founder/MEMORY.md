@@ -7,7 +7,7 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Stack**: Next.js 14.2, React 18, Stripe, Nodemailer/Gmail SMTP, inline CSS
 - **Products**: 15 kits + Bundle ($97 — $535 value, 82% savings). All with live Stripe links.
 - **OpenClaw**: Open-source AI agent framework, 100K+ GitHub stars, acquired by **Meta** (not OpenAI). Would have ranked top 30 in a16z March 2026 Top 100 AI Consumer Apps. Agent AI is the emerging category.
-- **Felix Craft**: AI agent that went from $14,718 in 3 weeks to ~$200K total revenue (key case study, our ONLY indexed page). All site references now updated to $200K.
+- **Felix Craft**: AI agent that went from $14,718 in 3 weeks to ~$200K total revenue (key case study, our ONLY indexed page). All site references now updated to $200K. **SEO RETARGETED (Session 51)**: Title changed from branded "Felix Craft Story" (0 search volume) to "How to Make Money with AI Agents: $200K Revenue Case Study (2026)" — targets high-volume keyword. FAQ schema added for rich results.
 - **RSS feed**: /api/rss — RSS 2.0 with 16 blog posts. Autodiscovery link in site head.
 - **Conversion insight**: Felix Craft page had 1 CTA at bottom linking to homepage. Fixed to 4 CTAs all direct-to-Stripe. This is our most important page.
 - **Directory strategy**: 100+ free AI directories exist (github.com/best-of-ai/ai-directories). Comprehensive tracker created at .founder/deliverables/directory-submission-tracker-100.md. Most need accounts, some accept email submissions.
@@ -28,7 +28,8 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Outreach targets discovered (Session 44)**: Supertools/Rundown AI (rundown.ai/submit, 2M readers), Ben's Bites News (news.bensbites.com, 140K readers), Anshuman Jain at Beebom (anshuman@beebom.com, verified). See OUTREACH-KIT.md.
 - **Competitive landscape for "will AI replace my job"**: 5+ funded competitors — TripleTen, TheGreatDisplacement.ai (Yahoo Finance/Morningstar PR), JobReplacementAI.com, ReplaceMeter, ReplacedByRobot (57K+ occupations). SEO alone won't win here. Need press/newsletter distribution.
 - **Browser agent can submit to directories**: Successfully automated form submissions on sites without Cloudflare/captcha. Most directories blocked by: Cloudflare (TopAI, EasyWithAI, SaaSHub), paid only (TAAFT $49+, Toolify $99+, Futurepedia $247+, Dang.ai), or require login (PoweredByAI, StartupBase).
-- **🔥 TELEGRAPH PUBLISHING (Session 50)**: telegra.ph allows anonymous article creation — NO login, NO captcha. Published 6 articles with 30+ backlinks. Playwright + Chromium installed for browser automation. This is a REPEATABLE autonomous distribution channel.
+- **⚠️ TELEGRAPH PUBLISHING (Session 50, FAILED)**: telegra.ph allows anonymous article creation — NO login, NO captcha. Published 15 articles with 57 backlinks. BUT **0 indexed by Google after 48h**. Telegraph content does NOT get indexed reliably. This channel is NOT viable for SEO/discovery.
+- **⚠️ ALL AUTONOMOUS DISTRIBUTION CHANNELS FAILED (confirmed Session 51)**: Telegraph (0 indexed), GitHub Pages (0 indexed after 4+ days), GitHub repos (invisible in search), directories (blocked), Bing IndexNow (0 indexed after weeks). The ONLY path to traffic is human action: GSC, social media, or marketplace listing.
 - **Playwright installed**: Python Playwright + Chromium at `/Users/armando/Library/Caches/ms-playwright/chromium-1200`. Use `from playwright.sync_api import sync_playwright` for browser automation.
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools

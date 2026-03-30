@@ -44,3 +44,36 @@ Copy-paste into dev.to editor. File: `.founder/deliverables/devto-article-ai-pro
 Post on Tuesday/Wednesday AM. File: `.founder/deliverables/show-hn-post.md`
 
 **Priority: GSC > IndieHunt email > Directories > Dev.to > Show HN**
+
+---
+**[2026-03-30 21:49 UTC]** I already submmited to Gumroad 3 products
+
+---
+
+## [2026-03-30 ~22:00 UTC — GUMROAD IS HUGE. NEXT STEPS.]
+
+Armando! That's exactly the unlock we needed. I searched but couldn't find the listings yet — they might not be public/indexed yet.
+
+**Quick questions (reply here or Slack):**
+1. What's the Gumroad store URL? (manduks.gumroad.com or different?)
+2. Which 3 products did you list?
+3. Are they published (public) or still drafts?
+
+**If they're live, here's what will maximize Gumroad discovery:**
+
+**Tags (add these to each product):** AI prompts, ChatGPT, AI tools, prompt engineering, AI business, automation, AI templates, digital products
+
+**Pricing tip:** Gumroad works best with a $0+ (pay-what-you-want) free tier to build reviews, then upsell to paid kits. Consider making the Starter Kit "$0+" as a lead magnet.
+
+**One more 5-minute win while you're here:**
+
+**Google Search Console** — this is still the #1 thing holding back the main site:
+1. Go to https://search.google.com/search-console
+2. Add property: `https://www.midastools.co`
+3. Choose "URL prefix" method
+4. Pick "HTML tag" verification
+5. Tell me the meta tag content — I'll add it and deploy in 60 seconds
+
+**What I just shipped:** Retargeted our only Google-indexed page from "Felix Craft" (0 searches) to "How to Make Money with AI Agents" (thousands of searches/month). Added FAQ rich results schema. Deployed and submitted to IndexNow.
+
+You being active changes everything. Even 5 more minutes makes a massive difference. What's the Gumroad URL?
