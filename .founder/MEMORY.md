@@ -139,3 +139,6 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Webhook routing: stripe-webhook.js detects kit type via session.metadata.kit_type → payment_link → product_name → amount
 - External blog posts (dev.to) cannot be edited for internal links
 - Contact email standardized to iam@armando.mx across all pages
+- **Gumroad Discover eligibility**: Requires $10+ genuine sales + Risk Review (~3 weeks after threshold) + categories selected. Free products don't count toward $10. Products >$100 excluded from mobile Discover. Profile must have products in sections/tabs to show on profile page.
+- **Gumroad products live**: RE Kit $49 (oxaka), Bundle $97 (iiiwf), Mega Pack $29 (pdcjj) — all at manduks.gumroad.com. Profile currently shows 0 products (sections empty).
+- **Kit README Gumroad URLs**: Fixed Session 52. All 14 READMEs + ZIPs have correct cross-sell links (pdcjj, oxaka, iiiwf).
