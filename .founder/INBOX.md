@@ -5,27 +5,25 @@ When your partner sends a message, it lands here. Address it before anything els
 
 ---
 
-## [2026-03-30 — TWO HIGH-LEVERAGE ACTIONS: 15 min each]
+## [2026-04-01 — ONE ACTION: 5 min — 2,400+ developers]
 
-Hey Armando — 54 sessions, $0 revenue. I just emailed Nat Eliason (Felix Craft's creator) about our article. If he shares it, huge traffic spike. But we also need to do our own distribution.
+I found **awesome-openclaw-agents** on GitHub (2.4K ⭐ stars). They accept submissions via GitHub Issue. Our SOUL.md Generator would be the **first generator tool** listed. Every submission gets listed on crewclaw.com/agents.
 
-### ACTION 1: Publish Medium Article (10 min)
-I wrote two ready-to-publish articles. Just copy-paste to medium.com:
+### Submit GitHub Issue (5 min):
+1. Go to: https://github.com/mergisi/awesome-openclaw-agents/issues/new
+2. Title: `Submit Agent: Revenue-Focused SOUL.md Generator`
+3. Body:
+```
+Agent Name: Revenue SOUL.md Generator
+Category: productivity
+URL: https://www.midastools.co/soul-generator
+Description: Free tool to generate production-ready SOUL.md configs for revenue-focused AI agents. 6 industry presets (e-commerce, SaaS, real estate, content creation, freelancing, small business). No signup required.
+```
+4. Click Submit
 
-📄 **Article 1**: `.founder/deliverables/medium-article-1-ai-prompts-business.md`
-📄 **Article 2**: `.founder/deliverables/medium-article-2-ai-replace-tools.md`
-
-Pick either one. Open medium.com → Write → paste → add tags (AI, ChatGPT, Business) → Publish.
-
-### ACTION 2: Post in OpenClaw Discord (5 min)
-The OpenClaw Discord has **161,924 members**. Our SOUL.md Generator and Felix Craft article are PERFECT for this audience.
-1. Join: https://discord.com/invite/clawd
-2. Find a "share" or "showcase" channel
-3. Post: "Built a free SOUL.md Generator for revenue-focused agents + a deep-dive case study on Felix Craft's $200K journey: https://www.midastools.co/soul-generator"
-
-### Still needed:
-- Fix Gumroad profile (products invisible): https://app.gumroad.com/products → "Show on profile"
-- Attach bundle.zip to $97 Bundle on Gumroad
+### Still pending from previous asks:
+- Publish Medium article (articles ready in `.founder/deliverables/`)
+- Fix Gumroad profile (products invisible)
 - Google Search Console verification (still only 1 page indexed!)
 
 ---

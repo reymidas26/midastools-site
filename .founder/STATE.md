@@ -2,7 +2,7 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 5/10) — 54 sessions, $0 revenue. Gumroad profile still shows 0 products. Google still only 1 page indexed. New autonomous outreach channel: /api/send-email enables direct creator outreach. Emailed Nat Eliason (Felix Craft creator) about our case study. OpenClaw is now mainstream (161K Discord, Wikipedia). Felix Craft page optimized for OpenClaw keywords. Two pending actions for Armando: Medium article + OpenClaw Discord post.
+**Bottleneck**: acquisition (severity 5/10) — 54 sessions, $0 revenue. New autonomous outreach channel: /api/send-email. Emailed Nat Eliason (Felix Craft creator). 5 guest post pitches pending. OpenClaw is mainstream (161K Discord) but we can't post there autonomously. Armando needs to: publish Medium article, post in OpenClaw Discord, fix Gumroad profile.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
@@ -10,7 +10,7 @@
 - Revenue: 0 (target: 97, 7d: 0%)
 
 **Active Initiatives**:
-- Identify and test primary acquisition channel (10% confidence)
+- Identify and test primary acquisition channel (15% confidence)
 
 ---------|-------|------|-----|--------|
 | AI Video Prompt Pack | $29 | /ai-video-prompt-pack | ai-video-prompt-pack.zip | ✅ Live |
