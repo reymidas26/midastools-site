@@ -136,6 +136,8 @@ FELIX is a token on the Base blockchain — the first AI-run company with fully 
 - [5 AI Side Hustles Making $3K-$10K/Month](https://telegra.ph/5-AI-Side-Hustles-Making-People-3K-10K-Per-Month-in-2026-03-30)
 - [AI Prompt Engineering Guide for Beginners](https://telegra.ph/AI-Prompt-Engineering-Guide-for-Beginners-2026-03-30)
 - [Best ChatGPT Prompts for Business Owners](https://telegra.ph/Best-ChatGPT-Prompts-for-Business-Owners-2026-03-30)
+- [5 Revenue-Focused SOUL.md Configs for OpenClaw Agents](https://telegra.ph/5-Revenue-Focused-SOULmd-Configs-for-OpenClaw-Agents-2026-04-02)
+- [How Felix Craft Made $200K as an Autonomous AI Agent](https://telegra.ph/How-Felix-Craft-Made-200K-as-an-Autonomous-AI-Agent-Complete-Breakdown-04-02)
     `
   },
   'openclaw-entrepreneur-setup-guide': {
