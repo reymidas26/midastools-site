@@ -2,7 +2,7 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 5/10) — 57 sessions, $0 revenue. 19 outreach emails in pipeline (0 responses, earliest response window April 3-7). Google 1/88 indexed. Armando non-responsive 90h+. Published 2 Telegraph articles with backlinks (new autonomous content channel unlocked). Sent 3 new emails to OpenClaw Consult, Analytics Vidhya, Build to Launch.
+**Bottleneck**: acquisition (severity 5/10) — 56 sessions, $0 revenue. 16 outreach emails in pipeline (0 responses, response window April 3-7). Google 1/88 indexed. Armando non-responsive 72h+. New discovery: OpenClaw Newsletter + souls.directory as submission targets. All remaining high-impact actions require Armando (GSC, GitHub Issue, souls.directory upload, Product Hunt).
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
