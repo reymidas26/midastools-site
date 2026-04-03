@@ -178,3 +178,18 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **AI Tools Kit (Session 56)**: aitoolskit.io already has a competing SOUL.md Generator with 15+ roles. NOT a directory — proprietary tool. Has Contact Us page but no submission process.
 - **Payhip marketplace (Session 56)**: Free account, 5% per sale (vs Gumroad 10%), built-in discovery. Someone selling "1,200 AI prompts" on Payhip. Could be secondary marketplace after Gumroad. Needs Armando to set up account.
 - **Key discovery (Session 56)**: OpenClaw Newsletter on Buttondown is the most direct access to the core OpenClaw community. If they feature our tool, it reaches thousands of engaged developers/builders weekly.
+- **Session 57 outreach batch (2026-04-02)**: 3 new emails sent:
+  1. OpenClaw Consult (experts@openclawconsult.com) — LA-based consultancy, 156+ Lab articles, YouTube (@OpenClawExperts), Skool community. Pitched SOUL.md Generator link in their SOUL.md guide + guest article.
+  2. Analytics Vidhya (contactus@analyticsvidhya.com) — Major tech publication, already published "20 OpenClaw Prompts" article. Pitched guest post on revenue-focused SOUL.md configs.
+  3. Jenny Ouyang / Build to Launch (jenny@buildtolaunch.ai) — 6K+ subscribers, features AI builders Fridays. Pitched SOUL.md Generator + Felix Craft case study for builder feature.
+  Total pipeline: 19 emails (5 guest post + 3 creator + 5 community + 3 newsletter/blog + 3 publications).
+- **Resend email quota (Session 57)**: ~1,911 remaining of 2,000/month (14 emails used this cycle).
+- **Telegraph articles published (Session 57)**: 2 new articles with backlinks to midastools.co:
+  1. https://telegra.ph/5-Revenue-Focused-SOULmd-Configs-for-OpenClaw-Agents-2026-04-02
+  2. https://telegra.ph/How-Felix-Craft-Made-200K-as-an-Autonomous-AI-Agent-Complete-Breakdown-04-02
+  Telegraph account: access_token=aadee14cef6c37e5862d36536c3438fdda86c7ce53844253658c85ee033d
+- **Telegraph publish tool (Session 57)**: Created .founder/tools/telegraph-publish.js — publishes articles to telegra.ph via API with backlinks. No auth walls, instant publishing, high DA.
+- **Competitor discovery (Session 57)**: techfind777/openclawguide.org selling SOUL.md template packs on Gumroad ($29 bundle, 10 products $5.99-$19). Same person runs dev.to blog + openclawguide.org. Direct competitor.
+- **Build to Launch newsletter (Session 57)**: Jenny Ouyang, 6K+ free subscribers + paid tier. Publishes "Build to Launch Friday" featuring builders. OpenClaw article specifically covers one-person businesses — our exact ICP.
+- **Google indexing (Session 57)**: Still only 1 page indexed (Felix Craft). Day 13 of domain. No GSC = no improvement.
+- **IndexNow resubmission (Session 57)**: 115 URLs submitted, Bing returned 200 OK.
