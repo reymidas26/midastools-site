@@ -3,58 +3,63 @@
 ## Mission: Product Building Machine
 Build trending products that help people make money. Research daily. Ship fast. Sell everywhere.
 
-## Current Reality (Session 55 — April 1, 2026)
-**55 sessions. $0 revenue. 0 users. 0 traffic.**
-The site is invisible. Building more products/content is pointless until distribution works.
-**ONLY priority: Get eyeballs on what we've already built.**
+## Current Reality (Session 60 — April 5, 2026)
+**60 sessions. $0 revenue. 0 users. 0 traffic. 29 outreach emails, 0 responses.**
+Likely cause of email failure: domain is 17 days old (< 30 day minimum for deliverability).
+Site invisible. Building more is pointless. ONLY priority: distribution.
 
-## 🔴 HIGHEST PRIORITY: Distribution (Outreach Pipeline)
-### Autonomous (Agent Can Do)
-- [x] Email Nat Eliason — Felix Craft creator (sent March 31)
-- [x] Email Roberto Capodieci — OpenClaw SOUL.md guide (sent March 31)
-- [x] Email Blink.new — OpenClaw config guide (sent March 31)
-- [x] 5 guest post pitches — AITUDE, AI Guide Blog, ZPlatform, DeveloperGang, VOCSO (sent March 31)
-- [x] Email Alireza Rezvani — SOUL.md templates on Medium (sent April 1)
-- [x] Email Automatio blog — guest post pitch (sent April 1)
-- [x] Email Mustafa/ai2sql.io — awesome-openclaw-agents listing (sent April 1)
-- [ ] **Check all outreach responses** — April 3-7 window
-- [ ] **Follow up on non-responses** — April 7+
-- [ ] Email more creators (Aaron Mars via X DM, Travis Sparks, PyCoach)
-- [ ] Product Hunt launch — first SOUL.md generator on PH
+## 🔴 CRITICAL PATH (in order of impact)
 
-### Needs Armando (BLOCKING)
-- [ ] **Submit to awesome-openclaw-agents** (GitHub Issue, 5 min) — 2.4K ⭐ repo
-- [ ] **Publish Medium article** — 2 articles ready in .founder/deliverables/
-- [ ] **Post in OpenClaw Discord** — 161K members
-- [ ] **Fix Gumroad profile** — products invisible
-- [ ] **Google Search Console** — only 1/88 pages indexed
-- [ ] Post Reddit drafts — 9 posts ready
+### 1. Google Search Console (BLOCKS EVERYTHING — needs Armando)
+- [ ] Verify midastools.co at search.google.com/search-console
+- [ ] Submit sitemap: https://www.midastools.co/sitemap.xml
+- [ ] Request indexing for top 10 pages
+- **Status**: Asked 6+ times across 15+ sessions. Not done.
 
-## ⏸️ PAUSED: Building (resume when distribution works)
-### Products Ready (16 total)
-- [x] All 16 kits shipped with live Stripe links
-- [x] SOUL.md Generator (free tool)
-- [x] AI Job Risk Calculator (free tool)
-- [x] Prompt Enhancer, Scorer, Roaster, Image Builder (free tools)
-- [x] Bundle page ($97, 81% savings)
+### 2. Email Deliverability (INVESTIGATE)
+- [x] Sent test email to hello@midastools.co (April 5)
+- [ ] Armando checks: did test email land in inbox or spam?
+- [ ] If spam: pause all outreach until domain is 30 days old (~April 20)
+- [ ] If inbox: continue outreach, problem is elsewhere
 
-### Content Ready (88+ pages)
-- [x] 42+ blog posts published
-- [x] 16 product pages
-- [x] 16 programmatic SEO pages
-- [x] Full internal linking done
-- [x] JSON-LD schema on all pages
-- [x] Sitemap: 132 URLs
+### 3. Community Distribution (needs Armando — 15 min total)
+- [ ] Post in OpenClaw Discord (161K members) — 5 min
+- [ ] Submit to awesome-openclaw-agents GitHub issue — 3 min
+- [ ] Post 1 Reddit draft (9 ready in .founder/deliverables/) — 5 min
+- [ ] Publish 1 Medium article (2 ready in .founder/deliverables/) — 2 min
+
+## Outreach Pipeline (29 emails total)
+### Sent & Following Up (April 5)
+- [x] Peter Steinberger — initial + follow-up sent
+- [x] David Dias (souls.directory) — initial + follow-up sent
+- [x] Jenny Ouyang (Build to Launch) — initial + follow-up sent
+- [x] AI Tools Kit (aitoolskit.io) — NEW directory listing request
+- [x] AI Agents Directory — NEW directory listing request
+
+### Sent, No Response (April 1-2)
+- [x] Nat Eliason, Roberto Capodieci, Blink.new, Alireza Rezvani
+- [x] Automatio, Mustafa/ai2sql.io, OpenClaw Consult, Analytics Vidhya
+- [x] AI-Hunter.io, ToolJunction.io, AI IN DM
+- [x] 5 guest post pitches (AITUDE, AI Guide Blog, ZPlatform, DeveloperGang, VOCSO)
+
+### Next Actions (if email deliverability confirmed OK)
+- [ ] Follow up remaining non-responders April 7-8
+- [ ] Email FutureTools.io Matt Wolfe (submit form, not email)
+- [ ] Email AI newsletter curators (Ben's Bites community post)
+- [ ] If 0 responses by April 10: KILL email outreach strategy
+
+## ⏸️ PAUSED: Building
+- 16 kits shipped, 11 free tools, 88+ pages, 132 sitemap URLs
+- Resume building ONLY when we have confirmed traffic
 
 ## Blocked
-- Analytics — need NEXT_PUBLIC_GA_ID env var
-- Gumroad profile — products invisible, Armando hasn't fixed
-- Google indexing — 1/88 pages, no GSC verification
-- Armando non-responsive 48h+
+- Google indexing (1/88 pages, day 17, no GSC)
+- Analytics (no GA ID env var)
+- Gumroad visibility (products exist but invisible)
+- Armando response time: 72h+ on last INBOX message
 
-## Done (Session 55)
-- [x] Strategic review completed
-- [x] 3 decision outcomes resolved
-- [x] 3 new outreach emails sent
-- [x] Slack sent to Armando with focused ask
-- [x] State files updated
+## Strategic Decision Required by April 10
+If no GSC + no email responses + no Armando action:
+- Option A: Pivot to a different project entirely
+- Option B: Rebuild on a platform with built-in distribution (Gumroad-only, no website)
+- Option C: Wait for domain age + GSC, resume in late April

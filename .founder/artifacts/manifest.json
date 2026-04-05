@@ -4,57 +4,55 @@
     "title": "Site Pages",
     "type": "metric",
     "description": "Total number of live pages on midastools-site",
-    "data": { "value": 25, "unit": "pages" },
-    "updated_at": "2026-03-22T18:30:00Z"
+    "data": { "value": 88, "unit": "pages" },
+    "updated_at": "2026-04-05T15:00:00Z"
   },
   {
     "id": "blog-posts",
     "title": "Blog Posts",
     "type": "metric",
     "description": "Total blog posts published",
-    "data": { "value": 25, "unit": "posts" },
-    "updated_at": "2026-03-22T18:30:00Z"
+    "data": { "value": 42, "unit": "posts" },
+    "updated_at": "2026-04-05T15:00:00Z"
   },
   {
     "id": "product-tiers",
     "title": "Product Tiers",
     "type": "metric",
     "description": "Number of active product/service offerings",
-    "data": { "value": 11, "unit": "products" },
-    "updated_at": "2026-03-22T18:30:00Z"
+    "data": { "value": 16, "unit": "products" },
+    "updated_at": "2026-04-05T15:00:00Z"
   },
   {
-    "id": "products-shipped",
-    "title": "Products Shipped Today",
-    "type": "checklist",
-    "description": "New products built and shipped this session",
-    "data": [
-      { "label": "Real Estate AI Agent Kit ($49) — landing page + blog", "done": true },
-      { "label": "Content Creator AI Kit ($39) — landing page + blog", "done": true },
-      { "label": "Bundle: All Kits ($97) — landing page + comparison table", "done": true },
-      { "label": "Freelancer Automation Kit ($39) — landing page + blog", "done": true }
-    ],
-    "updated_at": "2026-03-22T18:30:00Z"
+    "id": "google-indexed",
+    "title": "Google Indexed Pages",
+    "type": "metric",
+    "description": "Pages indexed by Google (site:midastools.co)",
+    "data": { "value": 1, "unit": "pages", "target": 88, "note": "Day 17, no GSC" },
+    "updated_at": "2026-04-05T15:00:00Z"
   },
   {
-    "id": "session-summary",
-    "title": "Day 0 Session Summary",
-    "type": "checklist",
-    "description": "Everything shipped on Day 0 (Sessions 1-5)",
-    "data": [
-      { "label": "Baseline assessment", "done": true },
-      { "label": "GA4 analytics infrastructure", "done": true },
-      { "label": "Homepage improvements (social proof, trust, banner)", "done": true },
-      { "label": "Receptionist competitive comparison table", "done": true },
-      { "label": "Market research (Gumroad/Reddit/HN)", "done": true },
-      { "label": "Real Estate AI Kit page + blog post", "done": true },
-      { "label": "Content Creator AI Kit page + blog post", "done": true },
-      { "label": "Freelancer Automation Kit page + blog post", "done": true },
-      { "label": "Bundle updated to 4 kits ($156 value)", "done": true },
-      { "label": "Professional trust upgrade (Layout, nav, footer)", "done": true },
-      { "label": "Fixed blog [slug].js syntax bug", "done": true },
-      { "label": "All cross-links updated", "done": true }
-    ],
-    "updated_at": "2026-03-22T18:30:00Z"
+    "id": "outreach-emails",
+    "title": "Outreach Emails",
+    "type": "metric",
+    "description": "Cold outreach emails sent vs responses received",
+    "data": { "value": 29, "unit": "sent", "responses": 0, "note": "Likely spam due to domain age <30d" },
+    "updated_at": "2026-04-05T15:00:00Z"
+  },
+  {
+    "id": "revenue",
+    "title": "Revenue",
+    "type": "metric",
+    "description": "Total revenue generated",
+    "data": { "value": 0, "unit": "USD", "sessions": 60 },
+    "updated_at": "2026-04-05T15:00:00Z"
+  },
+  {
+    "id": "strategic-deadline",
+    "title": "Project Viability Deadline",
+    "type": "markdown",
+    "description": "Decision point for project continuation",
+    "data": "**April 10, 2026**: If no GSC + no email responses + no Armando action → evaluate: pivot to platform-only, pause until domain matures, or kill project.",
+    "updated_at": "2026-04-05T15:00:00Z"
   }
 ]
