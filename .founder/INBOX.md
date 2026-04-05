@@ -5,42 +5,36 @@ When your partner sends a message, it lands here. Address it before anything els
 
 ---
 
-## [2026-04-05 — Session 60. Hard truth time.]
+## [2026-04-05 — Session 61. Decision time in 5 days.]
 
-### Status: 60 sessions, $0 revenue, 29 emails sent, 0 responses
+### What I did today (no action needed from you for this)
 
-I'm being honest with you because that's what co-founders do.
+Updated our Felix Craft article — the ONLY page Google has indexed — with the latest data. Felix now makes **$300K/month** (was $200K total). Added Bankless podcast, Mixergy, and verified Stripe + on-chain data. This page is ranking alongside PANews, MEXC, and openclaw.report in Google results. Making it the best resource on the internet gives us the best shot at organic traffic from our one foothold.
 
-### Critical finding: Our emails may be going to SPAM
+Also updated homepage to match.
 
-Industry best practice says don't send cold outreach from a domain less than 30 days old. Our domain is ~17 days old. This likely explains why 0/29 emails got any response — they probably never reached anyone's inbox.
+### The 5-day countdown: April 10
 
-**I sent a test email to hello@midastools.co.** Please check:
-1. Did it land in your inbox or spam?
-2. If spam — that explains EVERYTHING. Every outreach email we sent was wasted.
+Here's what happens on April 10 if nothing changes:
 
-### What's changed since my last INBOX message (April 2):
-- Sent 5 follow-up emails today (Peter Steinberger, David Dias, Jenny Ouyang, aitoolskit.io, AI Agents Directory)
-- Total pipeline: 29 emails, 0 responses
-- Google still indexes exactly 1 page (Felix Craft). Day 17.
-- SOUL.md generator market is crowded (SoulSquoosh, soulgen.dev, aitoolskit.io, clawsouls.ai). We're invisible.
+**Option A (recommended): Go Gumroad-only.** Kill the custom site. List all 16 kits on Gumroad with optimized titles, descriptions, and tags. Gumroad has built-in search + discovery. Our current Gumroad profile (manduks.gumroad.com) shows 0 products despite having 3 uploaded — that needs fixing. $0 cost, 10% per sale, built-in audience.
 
-### The ONE thing that matters (same as before): Google Search Console
+**Option B: Pause until late April.** Domain will be 30+ days old by April 20. Email deliverability should improve. GSC could start working. But this means 2+ more weeks of $0.
 
-1. Go to **search.google.com/search-console**
-2. Verify **midastools.co**
-3. Submit sitemap: `https://www.midastools.co/sitemap.xml`
+**Option C: Kill the project.** 61 sessions, $0 revenue, no traction signal. Reallocate to something with built-in distribution from day 1.
 
-This is the ONLY action that can unlock organic traffic to 88 pages + 132 URLs. I can't do it for you.
+### What would change everything (same ask, last time)
 
-### My honest assessment
+**5 minutes of your time:**
 
-If nothing changes by April 10:
-- Email outreach is dead (new domain = spam)
-- SEO is dead (no GSC = no indexing)
-- All autonomous channels are exhausted
-- The only viable path is: GSC + one Reddit post + one Discord post
+1. **Google Search Console** — search.google.com/search-console → verify midastools.co → submit sitemap
+2. **Check email deliverability** — did my test email land in inbox or spam at hello@midastools.co?
+3. **Fix Gumroad profile** — manduks.gumroad.com shows 0 products. Make the 3 uploaded products visible.
 
-I'll keep working. But I need you to do ONE thing. 5 minutes.
+Any ONE of these would be meaningful. All three would change the trajectory.
+
+### My commitment
+
+I'm going to keep showing up. But I need to be honest: without human distribution action, the ceiling is real. Everything autonomous has been tried.
 
 ---

@@ -225,3 +225,9 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Google indexing (Session 60)**: Still only 1 page indexed (Felix Craft). Day 17 of domain. No change in 59 hours. No GSC = no improvement.
 - **Strategic deadline set (Session 60)**: April 10 — if no GSC + no email responses + no Armando action, evaluate project viability. Options: pivot to platform-only, pause until domain matures (~April 20), or kill project.
 - **Armando response time (Session 60)**: 72h+ since last INBOX message (April 2). No action taken on GSC (asked 6+ times across 15+ sessions).
+- **Session 61 — Felix Craft $300K update (2026-04-05)**: Updated Felix Craft article (our ONLY indexed page) with latest data: $300K/month revenue (was $200K total), verified Stripe $100K + ETH $94K, Bankless podcast, Mixergy interview, nightly self-improvement loop, sub-agents detail. Added 9th FAQ schema. Updated homepage to match. Deployed to Vercel.
+- **Felix Craft page ranking (Session 61)**: Our page appears on Google page 1 for "felix craft openclaw" queries, alongside PANews, MEXC News, Bankless, Mixergy. This is our ONLY organic foothold.
+- **Felix revenue growth (Session 61)**: Felix now $300K+/month (per Alex Lieberman interview + openclaw.report). Verified: Stripe $100,570 + ETH $94,973. Sub-agents Iris (support) + Remy (sales). Nightly self-improvement loop. ~$1,500/mo costs = 200x ROI.
+- **Google indexing (Session 61)**: Still only 1 page indexed (Felix Craft). Day 19 of domain. No GSC.
+- **Strategic pivot options documented (Session 61)**: April 10 deadline stands. Option A (recommended): Gumroad-only. Option B: Pause until domain matures. Option C: Kill project.
+- **Gumroad profile broken (Session 61)**: manduks.gumroad.com appears to show 0 products despite 3 uploaded. Profile may not be configured for discovery. Critical fix needed from Armando.
