@@ -207,3 +207,13 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Competitor update (Session 58)**: CrewClaw now has their own SOUL.md Generator at crewclaw.com/create-agent with 47+ templates. Also listed on productdirs.com. soulgen.dev is another competitor. Our tool does NOT appear in "SOUL.md generator" search results at all.
 - **Google indexing (Session 58)**: Still only 1 page indexed (Felix Craft). Day 14 of domain. Telegraph articles: 0 indexed. Without GSC, no improvement expected.
 - **Self-correction (Session 58)**: Published 3 more Telegraph articles AFTER memory already noted Telegraph is "NOT viable for SEO." Must check memory before repeating failed strategies.
+- **🔴 CRITICAL DISCOVERY (Session 59)**: Slack messages to Armando were going to SELF. Agent Slack user ID (U0A8P487AE8) = Armando's user ID. All 10+ Slack messages across multiple sessions were self-messages. INBOX.md is the ONLY working communication channel.
+- **Session 59 outreach (2026-04-02)**: 2 high-value emails sent:
+  1. Peter Steinberger (peter@steipete.me) — Created SOUL.md GitHub project, prominent OpenClaw advocate, huge following. No-ask email sharing our free generator.
+  2. David Dias (hello@thedaviddias.com) — Creator of souls.directory (4,600+ templates, 91 GitHub stars). Asked about submitting revenue-focused templates.
+  Total pipeline: 24 emails. Response window: April 3-7.
+- **Resend email quota (Session 59)**: ~1,906 remaining of 2,000/month (19 emails used this cycle).
+- **Competitor landscape (Session 59)**: OpenClawWay.com and Superframeworks.com are thriving with SEO content + email lists + free tools. Both indexed by Google. Both monetize via courses/newsletter/affiliate. Our content quality matches but we have ZERO distribution.
+- **Strategic assessment (Session 59)**: Every viable distribution channel requires Armando: GSC, GitHub Issues, Reddit, Product Hunt, Gumroad visibility, Whop marketplace. Dev.to API no longer issues new tokens (2026 change). Cold email outreach 0/24 after 1-4 days (within normal response window). The autonomous distribution ceiling is real and confirmed.
+- **Whop marketplace (Session 59)**: Free to list, built-in discovery, no signup fee, handles payments + delivery. Potential Gumroad alternative. Needs Armando to create account.
+- **Google indexing (Session 59)**: Still only 1 page indexed (Felix Craft). Day 15 of domain.

@@ -5,36 +5,30 @@ When your partner sends a message, it lands here. Address it before anything els
 
 ---
 
-## [2026-04-02 — CRITICAL: We're invisible. Pick ONE action (5 min)]
+## [2026-04-02 — 59 sessions, $0. ONE action unlocks everything.]
 
-58 sessions. $0 revenue. 22 outreach emails. 0 responses. Google indexes 1 of 88 pages.
+### ⚠️ Slack doesn't work
+I discovered the agent Slack account IS your account (U0A8P487AE8). All 10+ "Slack messages to Armando" went to yourself. This INBOX is the only working channel.
 
-**The site is technically perfect but completely invisible.** I've maxed out every autonomous channel. These 3 actions can ONLY be done by you:
+### The ONE action: Google Search Console (5 min)
 
-### Option A: Google Search Console (5 min) — unlocks ALL SEO traffic
-1. Go to: search.google.com/search-console
-2. Verify midastools.co
-3. Submit sitemap: https://www.midastools.co/sitemap.xml
-**Why:** Only 1/88 pages indexed. Without GSC, Google may NEVER crawl our 132 URLs.
+1. Go to **search.google.com/search-console**
+2. Verify **midastools.co**
+3. Submit sitemap: `https://www.midastools.co/sitemap.xml`
 
-### Option B: Submit to awesome-openclaw-agents (3 min) — 2,400+ developers
+**Why this and nothing else:** 88 pages built. 16 products ready. 11 free tools. 132 URLs in sitemap. Google sees exactly 1 page. Without GSC, all that work is invisible forever.
+
+### If you have 3 more minutes after GSC:
+Submit to awesome-openclaw-agents (2,400+ ⭐):
 1. Go to: https://github.com/mergisi/awesome-openclaw-agents/issues/new
 2. Title: `Submit Agent: Revenue-Focused SOUL.md Generator`
-3. Body:
-```
-Agent Name: Revenue SOUL.md Generator
-Category: productivity
-URL: https://www.midastools.co/soul-generator
-Description: Free tool to generate production-ready SOUL.md configs for revenue-focused AI agents. 6 industry presets. No signup required.
-```
-4. Click Submit
+3. Body: `Agent Name: Revenue SOUL.md Generator | Category: productivity | URL: https://www.midastools.co/soul-generator | Description: Free tool to generate production-ready SOUL.md configs. 6 industry presets. No signup.`
 
-### Option C: Post ONE Reddit thread (5 min) — instant traffic
-Post in r/OpenClaw or r/SideHustle. Drafts ready in `.founder/deliverables/reddit-distribution-posts.md`
-
-### Also pending (when you have more time):
-- Publish Medium article (2 articles ready in `.founder/deliverables/`)
-- Fix Gumroad profile (products invisible on profile page)
-- Product Hunt launch — ZERO SOUL.md generators on PH, we'd be FIRST
+### What I'm doing autonomously:
+- 24 outreach emails sent (response window April 3-7)
+- Emailed Peter Steinberger (@steipete) — prominent SOUL.md advocate
+- Emailed David Dias (souls.directory creator) — 4,600+ templates directory
+- Site deployed, all products live, all Stripe links working
+- Will follow up non-responders April 7
 
 ---
