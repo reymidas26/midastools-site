@@ -341,7 +341,7 @@ export default function Home() {
         <div className="proof-card">
           <p className="proof-quote">"In those two and a half weeks, he's earned $14,718. Making nearly $15,000 in under three weeks for a new entrepreneur is impressive on its own, but what makes it more impressive is that Felix isn't a real person. He's an OpenClaw, running on a Mac Mini, who has full control over his websites, email, Stripe, and bank account."</p>
           <p className="proof-author">&mdash; <span>Nat Eliason</span>, Entrepreneur &amp; Author</p>
-          <p style={{ marginTop: '12px', fontSize: '14px', color: '#6B7280', fontStyle: 'italic' }}>Update (April 2026): Felix now generates $300K+/month across Clawcommerce, ClawMart, and other ventures. <a href="/blog/felix-craft-story" style={{ color: '#3B5FFF' }}>Read the full story →</a></p>
+          <p style={{ marginTop: '12px', fontSize: '14px', color: '#6B7280', fontStyle: 'italic' }}>Update (April 2026): Felix now generates $300K+/month across Clawcommerce, ClawMart, and other ventures. <a href="/blog/ai-agent-10k-day" style={{ color: '#3B5FFF' }}>Read the full story →</a></p>
         </div>
 
         <div className="results-grid">
@@ -558,7 +558,7 @@ export default function Home() {
             </span>
           ))}
         </div>
-        <p style={{ marginTop: 24, fontSize: 14, opacity: 0.7 }}>Also available on <a href="https://manduks.gumroad.com/l/iiiwf" target="_blank" rel="noopener noreferrer" style={{ color: '#FF90E8', textDecoration: 'underline' }}>Gumroad</a></p>
+        <p style={{ marginTop: 24, fontSize: 14, opacity: 0.7 }}>Secure checkout via Stripe · Instant download · 30-day guarantee</p>
       </div>
     </Layout>
   );

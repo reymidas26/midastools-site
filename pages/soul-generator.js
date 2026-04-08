@@ -562,7 +562,7 @@ export default function SoulGenerator() {
           </div>
         </div>
         <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
-          <Link href="/blog/felix-craft-story" className="link-arrow">Read the Felix Craft Case Study →</Link>
+          <Link href="/blog/ai-agent-10k-day" className="link-arrow">Read the Felix Craft Case Study →</Link>
         </div>
       </section>
 

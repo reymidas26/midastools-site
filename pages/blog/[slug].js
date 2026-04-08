@@ -910,7 +910,7 @@ export default function BlogPost({ post, slug }) {
           <p>Get every AI template, workflow, and prompt we make — in one bundle.</p>
           <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g">Get All 15 Kits — $97 (Save 81%) →</a>
           <p style={{marginTop:12,fontSize:13,color:'var(--text-tertiary)'}}>Or start with the <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{color:'var(--accent)'}}>Starter Kit — $29</a></p>
-          <p style={{marginTop:8,fontSize:12,color:'var(--text-tertiary)'}}>Also available on <a href="https://manduks.gumroad.com/l/iiiwf" style={{color:'var(--accent)'}}>Gumroad</a></p>
+          <p style={{marginTop:8,fontSize:12,color:'var(--text-tertiary)'}}>Secure Stripe checkout &middot; Instant download &middot; 30-day guarantee</p>
         </div>
       </div>
     </Layout>

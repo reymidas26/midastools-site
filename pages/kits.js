@@ -29,7 +29,7 @@ const kits = [
     desc: '200+ battle-tested AI prompts for copywriting, social media, content, operations, branding & productivity. Works with any LLM.',
     href: '/ai-prompt-mega-pack',
     stripe: 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d',
-    gumroad: 'https://manduks.gumroad.com/l/pdcjj',
+    gumroad: null,
     color: 'var(--card-amber)',
   },
   {
@@ -46,7 +46,7 @@ const kits = [
     desc: 'Lead follow-up, listing descriptions, CMA summaries, and open house workflows for realtors.',
     href: '/real-estate-kit',
     stripe: 'https://buy.stripe.com/fZueVcb8r6iR5GAfkmcMM08',
-    gumroad: 'https://manduks.gumroad.com/l/oxaka',
+    gumroad: null,
     color: 'var(--card-green)',
   },
   {

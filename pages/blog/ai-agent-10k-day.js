@@ -105,9 +105,20 @@ export default function AIAgent10KDay() {
         </p>
 
         <div style={{ marginTop: '48px', padding: '32px', background: '#F0F4FF', border: '1px solid #93B4FF', borderRadius: '8px' }}>
-          <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Deploy your own revenue agent →</h3>
-          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get the OpenClaw Entrepreneur Starter Kit — SOUL template, heartbeat config, Stripe + GitHub integrations. Everything FelixCraft uses, packaged for you.</p>
-          <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>Get the Starter Kit — $29</a>
+          <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>Build your own AI revenue machine</h3>
+          <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: '15px' }}>Get everything you need — SOUL templates, heartbeat configs, business prompts, automation workflows. From the same playbook Felix Craft used to hit $300K/month.</p>
+          <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+            <a href="https://buy.stripe.com/cNi28qdgz7mVb0U8VYcMM07" style={{ display: 'inline-block', background: '#3B5FFF', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>Starter Kit — $29</a>
+            <a href="https://buy.stripe.com/aEUbJ01xR0YxgligkocMM0g" style={{ display: 'inline-block', background: '#111827', color: '#fff', padding: '12px 24px', borderRadius: '6px', textDecoration: 'none', fontWeight: '700', fontSize: '15px' }}>All 15 Kits — $97 (82% off)</a>
+          </div>
+          <p style={{ margin: '12px 0 0', fontSize: '13px', color: '#6B7280' }}>Instant download · 30-day money-back guarantee · Works with ChatGPT, Claude, Gemini</p>
+        </div>
+
+        <div style={{ marginTop: '24px', padding: '24px', background: '#FFFBEB', border: '1px solid #FCD34D', borderRadius: '8px' }}>
+          <h3 style={{ margin: '0 0 8px', fontSize: '1rem' }}>Free AI tools — no purchase needed</h3>
+          <p style={{ margin: '0', fontSize: '14px', color: '#6B7280' }}>
+            Try our <a href="/prompt-generator" style={{ color: '#3B5FFF', fontWeight: 600 }}>AI Prompt Generator</a>, <a href="/ai-roi-calculator" style={{ color: '#3B5FFF', fontWeight: 600 }}>ROI Calculator</a>, or <a href="/tools" style={{ color: '#3B5FFF', fontWeight: 600 }}>9 other free tools</a> — built for entrepreneurs automating with AI.
+          </p>
         </div>
       </div>
     </Layout>
