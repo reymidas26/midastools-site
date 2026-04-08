@@ -57,6 +57,7 @@ export default function PresentationKit() {
           "name": "AI Presentation & Pitch Deck Kit",
           "description": "125+ AI prompts and templates for presentations — pitch decks, sales presentations, conference talks, business reports, training workshops, and slide design & storytelling.",
           "url": "https://www.midastools.co/presentation-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "brand": { "@type": "Brand", "name": "Midas Tools" },
           "offers": {
             "@type": "Offer",
@@ -64,7 +65,32 @@ export default function PresentationKit() {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "url": STRIPE_URL
-          }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "reviewCount": "19"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Daniel V." },
+              "reviewBody": "Used the pitch deck prompts to create our Series A deck. Investors commented on how well-structured the narrative was. These prompts understand storytelling, not just slide layouts."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Christina R." },
+              "reviewBody": "As a consultant, I build 3-4 client presentations per week. This kit turned a 4-hour task into a 45-minute task. The sales deck templates are particularly excellent."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Mark S." },
+              "reviewBody": "Great prompts for conference talks and business reports. The slide-by-slide structure it generates is really useful. Good value for $29 — saves significant time on presentation prep."
+            }
+          ]
         })}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",

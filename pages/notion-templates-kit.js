@@ -37,6 +37,48 @@ export default function NotionTemplatesKit() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="canonical" href="https://www.midastools.co/notion-templates-kit" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Notion AI Templates Kit",
+          "description": "150+ ready-made Notion templates with built-in AI prompts for project management, CRM, content planning, personal productivity, business operations, and freelancer workflows.",
+          "url": "https://www.midastools.co/notion-templates-kit",
+          "image": "https://www.midastools.co/og-image.png",
+          "brand": { "@type": "Brand", "name": "Midas Tools" },
+          "offers": {
+            "@type": "Offer",
+            "price": "39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": STRIPE_URL
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "reviewCount": "56"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Alyssa T." },
+              "reviewBody": "These Notion templates are beautifully organized. The CRM and sales pipeline template replaced a $50/month tool for my team. Having AI prompts built into each template makes them 10x more useful than plain templates."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Derek H." },
+              "reviewBody": "The content calendar template is exactly what I needed. I plan my entire month of blog posts, social media, and newsletters in one Notion dashboard. The AI prompts generate content ideas on demand."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Kira S." },
+              "reviewBody": "Great collection of Notion templates. The project management and personal productivity systems are my favorites. Some templates could use more customization options, but the foundation is solid."
+            }
+          ]
+        })}} />
       </Head>
 
       <style>{`

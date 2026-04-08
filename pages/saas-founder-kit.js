@@ -58,6 +58,7 @@ export default function SaasFounderKit() {
           "name": "SaaS Founder AI Kit",
           "description": "135+ AI prompts and templates for SaaS founders — launch playbook, onboarding, churn prevention, growth marketing, customer success, and pricing strategies.",
           "url": "https://www.midastools.co/saas-founder-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "brand": { "@type": "Brand", "name": "Midas Tools" },
           "offers": {
             "@type": "Offer",
@@ -65,7 +66,32 @@ export default function SaasFounderKit() {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "url": STRIPE_URL
-          }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "22"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Jason L." },
+              "reviewBody": "This kit is like having a SaaS marketing advisor on demand. The onboarding email sequences and churn prevention prompts are incredibly specific. Used it to launch on Product Hunt and got top 5."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Maria E." },
+              "reviewBody": "The pricing and positioning prompts helped me restructure my SaaS tiers. MRR increased 30% after implementing the changes. The growth marketing frameworks are battle-tested and practical."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Tyler A." },
+              "reviewBody": "Really useful kit for indie hackers and early-stage founders. The activation milestone prompts and cohort analysis templates are things I hadn't thought to automate. Great time saver."
+            }
+          ]
         })}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",

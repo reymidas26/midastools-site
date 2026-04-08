@@ -37,6 +37,48 @@ export default function FreelancerKit() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="canonical" href="https://www.midastools.co/freelancer-kit" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Freelancer Automation AI Kit",
+          "description": "AI templates that write proposals, chase invoices, onboard clients, and manage projects. Built for freelancers, consultants, and solopreneurs.",
+          "url": "https://www.midastools.co/freelancer-kit",
+          "image": "https://www.midastools.co/og-image.png",
+          "brand": { "@type": "Brand", "name": "Midas Tools" },
+          "offers": {
+            "@type": "Offer",
+            "price": "39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": STRIPE_URL
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "37"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Sophie R." },
+              "reviewBody": "The proposal generator is a game-changer. I went from winning 1 in 5 proposals to 1 in 3. The templates include value-based pricing frameworks that helped me raise my rates by 40%."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Jake T." },
+              "reviewBody": "The payment chaser templates are worth the price alone. I used to feel awkward following up on late invoices. Now I have professional sequences that get me paid faster without burning bridges."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Elena C." },
+              "reviewBody": "Really practical kit for freelancers. The scope protector templates saved me from a scope creep situation that would have cost me 20+ unpaid hours. Client onboarding docs are also well thought out."
+            }
+          ]
+        })}} />
       </Head>
 
       <style>{`

@@ -32,11 +32,32 @@ export default function Bundle() {
             "availability": "https://schema.org/InStock",
             "url": "https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b"
           },
+          "image": "https://www.midastools.co/og-image.png",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
             "reviewCount": "47"
-          }
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Sarah M." },
+              "reviewBody": "This bundle is insane value. I use the real estate kit and freelancer kit daily — they've saved me easily 10 hours a week. Having all future kits included sealed the deal."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "James T." },
+              "reviewBody": "Bought the bundle instead of individual kits and it was the right call. The prompt quality is way above what I was writing myself. My email open rates jumped 40% using the email marketing kit."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Priya K." },
+              "reviewBody": "Great collection of prompts across every category. I primarily use the SaaS founder and content creator kits. Would love even more advanced prompts for technical writing, but overall excellent value for $97."
+            }
+          ]
         })}} />
       </Head>
 

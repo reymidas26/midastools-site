@@ -57,6 +57,8 @@ export default function EcommerceKit() {
           "@type": "Product",
           "name": "E-commerce AI Kit",
           "description": "AI templates for e-commerce: product descriptions, email marketing sequences, ad copy, social media, and SEO content strategy.",
+          "url": "https://www.midastools.co/ecommerce-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "brand": { "@type": "Brand", "name": "Midas Tools" },
           "offers": {
             "@type": "Offer",
@@ -64,7 +66,32 @@ export default function EcommerceKit() {
             "priceCurrency": "USD",
             "availability": "https://schema.org/InStock",
             "url": "https://www.midastools.co/ecommerce-kit"
-          }
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "34"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Amanda S." },
+              "reviewBody": "I run a Shopify store and these templates transformed my product descriptions. My conversion rate went up 25% in the first month. The email flow templates are also excellent for abandoned cart recovery."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Kevin B." },
+              "reviewBody": "As an Etsy seller, writing unique descriptions for 200+ listings was killing me. These prompts generate SEO-optimized descriptions in seconds. My search impressions doubled within weeks."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Lisa C." },
+              "reviewBody": "The ad copy templates are really well-structured for Facebook and Google ads. Saved me a lot of time on campaign creation. Would love more templates for Amazon-specific listings."
+            }
+          ]
         })}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",

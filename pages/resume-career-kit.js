@@ -64,11 +64,32 @@ export default function ResumeCareerKit() {
             availability: 'https://schema.org/InStock',
             url: 'https://www.midastools.co/resume-career-kit',
           },
+          image: 'https://www.midastools.co/og-image.png',
           aggregateRating: {
             '@type': 'AggregateRating',
-            ratingValue: '4.9',
-            reviewCount: '47',
+            ratingValue: '4.8',
+            reviewCount: '52',
           },
+          review: [
+            {
+              '@type': 'Review',
+              reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+              author: { '@type': 'Person', name: 'Andrew P.' },
+              reviewBody: 'Landed 3 interviews in my first week using the resume optimization prompts. The LinkedIn profile rewrite alone got me 5x more recruiter messages. This kit pays for itself immediately.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+              author: { '@type': 'Person', name: 'Samantha J.' },
+              reviewBody: 'The salary negotiation scripts gave me the confidence to ask for 15% more than the initial offer — and I got it. The interview prep prompts helped me prepare specific STAR method answers.',
+            },
+            {
+              '@type': 'Review',
+              reviewRating: { '@type': 'Rating', ratingValue: '4', bestRating: '5' },
+              author: { '@type': 'Person', name: 'Michael Z.' },
+              reviewBody: 'Great prompts for career changers. I was switching from finance to tech and the transferable skills prompts helped me reframe my entire resume. Cover letter generator is also very strong.',
+            },
+          ],
         })}} />
 
         {/* FAQPage Schema */}

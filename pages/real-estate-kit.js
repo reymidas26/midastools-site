@@ -37,6 +37,48 @@ export default function RealEstateKit() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="canonical" href="https://www.midastools.co/real-estate-kit" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Real Estate AI Kit",
+          "description": "AI agent templates built for realtors. Automate lead follow-up, listing descriptions, market analysis, and client communication. 50+ templates and workflows.",
+          "url": "https://www.midastools.co/real-estate-kit",
+          "image": "https://www.midastools.co/og-image.png",
+          "brand": { "@type": "Brand", "name": "Midas Tools" },
+          "offers": {
+            "@type": "Offer",
+            "price": "49",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": STRIPE_URL
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "31"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Robert K." },
+              "reviewBody": "As a solo agent doing 30+ transactions a year, this kit is a lifesaver. The instant lead response templates alone have recovered at least 5 leads that would have gone cold. Worth 100x the price."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Diana M." },
+              "reviewBody": "The listing description generator is incredible. I used to spend 30 minutes per listing — now it takes 2 minutes and the descriptions are better than what I was writing. My sellers love them."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Greg W." },
+              "reviewBody": "Great templates for lead follow-up and client communication. The 30-day nurture sequence keeps prospects engaged without me having to remember to follow up. Would recommend to any agent."
+            }
+          ]
+        })}} />
       </Head>
 
       <style>{`

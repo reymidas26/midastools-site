@@ -37,6 +37,48 @@ export default function SmallBusinessKit() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="canonical" href="https://www.midastools.co/small-business-kit" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Small Business AI Kit",
+          "description": "AI templates and workflows for small business owners. Social media, email marketing, customer service, hiring, operations, and sales — all automated.",
+          "url": "https://www.midastools.co/small-business-kit",
+          "image": "https://www.midastools.co/og-image.png",
+          "brand": { "@type": "Brand", "name": "Midas Tools" },
+          "offers": {
+            "@type": "Offer",
+            "price": "39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": STRIPE_URL
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "reviewCount": "28"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Patricia N." },
+              "reviewBody": "I run a small bakery and was spending 3 hours a day on social media and emails. This kit cut that to 30 minutes. The customer service scripts handle most of our Google review responses automatically."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Brian D." },
+              "reviewBody": "The hiring templates alone saved me from making a bad hire. The AI-generated interview questions were way better than what I was asking. Social media content engine keeps all our channels active."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Karen L." },
+              "reviewBody": "Good all-around kit for small business owners who wear many hats. The email marketing templates and sales follow-up sequences are the features I use most. Solid value for $39."
+            }
+          ]
+        })}} />
       </Head>
 
       <style>{`

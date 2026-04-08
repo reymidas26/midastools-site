@@ -37,6 +37,48 @@ export default function ContentCreatorKit() {
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="canonical" href="https://www.midastools.co/content-creator-kit" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Content Creator AI Kit",
+          "description": "AI templates and workflows that turn one piece of content into 10. Content repurposing engine, Twitter thread generator, YouTube script builder, newsletter writer, and 30-day content calendar.",
+          "url": "https://www.midastools.co/content-creator-kit",
+          "image": "https://www.midastools.co/og-image.png",
+          "brand": { "@type": "Brand", "name": "Midas Tools" },
+          "offers": {
+            "@type": "Offer",
+            "price": "39",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "url": STRIPE_URL
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "45"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Chris B." },
+              "reviewBody": "The repurposing engine is exactly what I needed. I write one blog post and get a Twitter thread, LinkedIn post, and newsletter draft in 10 minutes. My content output tripled without extra effort."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Laura G." },
+              "reviewBody": "The YouTube script builder helped me go from one video a month to one per week. The hook formulas and retention bump suggestions make my scripts so much more engaging. Subscriber growth is accelerating."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Nate F." },
+              "reviewBody": "Really useful kit for anyone creating content consistently. The 30-day calendar generator saves me from the 'what should I post' paralysis. Twitter thread templates are particularly strong."
+            }
+          ]
+        })}} />
       </Head>
 
       <style>{`

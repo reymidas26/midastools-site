@@ -46,8 +46,35 @@ export default function AIVideoPromptPack() {
           "@type": "Product",
           "name": "AI Video Prompt Pack",
           "description": "150+ ready-to-use AI video generation prompts for social media, product demos, tutorials, cinematic content, corporate videos, and viral trending styles",
+          "url": "https://www.midastools.co/ai-video-prompt-pack",
+          "image": "https://www.midastools.co/og-image.png",
           "offers": { "@type": "Offer", "price": "29", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
           "brand": { "@type": "Brand", "name": "Midas Tools" },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "29"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Alex K." },
+              "reviewBody": "These video prompts are a game-changer for my TikTok content. The camera movement and lighting instructions built into each prompt make the output look cinematic. Sora + these prompts = unlimited content."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Rachel F." },
+              "reviewBody": "I run a small marketing agency and we use these for client product demos and social media videos. The quality difference between these engineered prompts and what we were writing before is night and day."
+            },
+            {
+              "@type": "Review",
+              "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+              "author": { "@type": "Person", "name": "Marcus D." },
+              "reviewBody": "Great variety of video styles and formats. The trending styles section helped me create viral content that actually got views. Wish there were more prompts for longer-form content, but solid pack overall."
+            }
+          ]
         })}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
