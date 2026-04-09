@@ -3,7 +3,7 @@
 // GET /api/indexnow - returns status of last submission
 
 const INDEXNOW_KEY = '2935cf832fa6443d608bd993ec83dad9';
-const HOST = 'midastools.co';
+const HOST = 'www.midastools.co';
 const KEY_LOCATION = `https://${HOST}/${INDEXNOW_KEY}.txt`;
 
 // All URLs to submit — synced with sitemap.xml (129 URLs)
@@ -33,7 +33,9 @@ const URLS = [
   '/social-media-kit',
   '/email-marketing-kit',
   '/presentation-kit',
-  // Free tools (9)
+  '/claude-cowork-kit',
+  // Free tools (13)
+  '/cowork-setup-wizard',
   '/prompt-generator',
   '/business-name-generator',
   '/email-subject-line-tester',
@@ -131,6 +133,7 @@ const URLS = [
   '/blog/ai-entrepreneur-stack',
   '/blog/deploy-openclaw-ai-entrepreneur',
   '/blog/claude-openclaw-pricing-change-2026',
+  '/blog/claude-cowork-prompts-setup-guide-2026',
   '/openclaw-cost-calculator',
 ];
 
