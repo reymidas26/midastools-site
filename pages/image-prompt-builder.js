@@ -26,6 +26,13 @@ const STYLES = [
   { id: 'fantasy', label: 'Epic Fantasy', icon: '🐉', color: '#fbbf24', desc: 'Dramatic fantasy scenes', keywords: 'epic fantasy art, dramatic lighting, magical atmosphere, detailed fantasy landscape, cinematic composition, ethereal glow' },
   { id: 'clay', label: '3D Clay', icon: '🫧', color: '#fb7185', desc: 'Soft claymation look', keywords: '3D clay render, Pixar-style, soft matte material, rounded shapes, subtle shadows, playful claymation aesthetic' },
   { id: 'vintage', label: 'Vintage Photo', icon: '📷', color: '#d4a574', desc: 'Retro film photography', keywords: 'vintage film photography, grain texture, faded warm tones, light leaks, retro 70s color grading, analog camera look' },
+  { id: 'pixar', label: 'Pixar / 3D Cartoon', icon: '🧒', color: '#38bdf8', desc: 'Pixar-quality 3D character', keywords: 'Pixar 3D animation style, Disney character design, smooth subsurface scattering, expressive eyes, vibrant colors, professional 3D render, family-friendly cartoon aesthetic' },
+  { id: 'petportrait', label: 'Pet Portrait', icon: '🐕', color: '#f59e0b', desc: 'Turn pets into art', keywords: 'pet portrait, anthropomorphic animal, dressed in human clothes, regal pose, Renaissance painting style, detailed fur texture, noble expression, custom pet artwork' },
+  { id: 'linkedin', label: 'LinkedIn Headshot', icon: '💼', color: '#0077b5', desc: 'Professional AI headshot', keywords: 'professional corporate headshot, clean background, studio lighting, confident expression, business attire, sharp focus on face, LinkedIn profile photo quality, neutral backdrop' },
+  { id: 'gaming90s', label: '90s Gaming Room', icon: '🕹️', color: '#8b5cf6', desc: 'Nostalgic retro setup', keywords: '90s gaming bedroom aesthetic, CRT television, retro game consoles, neon LED strips, posters on walls, nostalgic childhood room, warm tungsten lighting, messy cables, VHS tapes' },
+  { id: 'animefisheye', label: 'Fisheye Anime', icon: '🐟', color: '#ec4899', desc: 'Wide-angle anime selfie', keywords: 'fisheye lens anime selfie, extreme wide angle distortion, manga art style, exaggerated perspective, colorful background, dynamic composition, Japanese animation aesthetic' },
+  { id: 'neonoir', label: 'Neo-Noir', icon: '🌃', color: '#6366f1', desc: 'Moody cinematic noir', keywords: 'neo-noir cinematic style, rain-slicked streets, harsh shadows, venetian blind light patterns, cigarette smoke, 1940s detective atmosphere with modern neon accents, dramatic contrast' },
+  { id: 'sticker', label: 'Die-Cut Sticker', icon: '🏷️', color: '#10b981', desc: 'Sticker design on white', keywords: 'die-cut sticker design, white background, bold outline, kawaii style, flat colors, vinyl sticker aesthetic, cute illustration, clean vector-like edges' },
 ];
 
 const MOODS = [
@@ -234,7 +241,7 @@ export default function ImagePromptBuilder() {
     "@type": "FAQPage",
     "mainEntity": [
       { "@type": "Question", "name": "How do I write a good AI image prompt?", "acceptedAnswer": { "@type": "Answer", "text": "A good AI image prompt includes: the subject, art style, mood/atmosphere, lighting, and camera angle. Our free Image Prompt Builder combines all these elements automatically for ChatGPT, Midjourney, DALL-E, and Stable Diffusion." }},
-      { "@type": "Question", "name": "What's the best AI image style right now?", "acceptedAnswer": { "@type": "Answer", "text": "Studio Ghibli-style AI art is the #1 viral trend in 2026, followed by hyperrealistic portraits, cyberpunk scenes, and 3D clay renders. Our tool supports all 12 trending styles." }},
+      { "@type": "Question", "name": "What's the best AI image style right now?", "acceptedAnswer": { "@type": "Answer", "text": "Studio Ghibli-style AI art is the #1 viral trend in 2026, followed by hyperrealistic portraits, cyberpunk scenes, and 3D clay renders. Our tool supports all 25 trending styles including Pixar, pet portraits, and LinkedIn headshots." }},
       { "@type": "Question", "name": "Does this work with ChatGPT's image generation?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! The Image Prompt Builder generates optimized prompts for ChatGPT (DALL-E), Midjourney, Stable Diffusion, and Ideogram. Each platform gets a specifically formatted prompt for best results." }},
       { "@type": "Question", "name": "Is this AI image prompt tool free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, the AI Image Prompt Builder is 100% free with no login required. For 200+ pre-built expert prompts across every style and category, check out our AI Image Prompt Pack." }},
     ]
@@ -243,8 +250,8 @@ export default function ImagePromptBuilder() {
   return (
     <Layout>
       <Head>
-        <title>Free AI Image Prompt Generator — Ghibli, Trading Card, Action Figure & More | Midas Tools</title>
-        <meta name="description" content="Generate viral AI image prompts for ChatGPT, Midjourney & DALL-E. Ghibli, trading card, action figure, cinematic & 15+ styles. Free, no signup." />
+        <title>Free AI Image Prompt Generator — Ghibli, Pixar, Action Figure, Pet Portrait & 25 Styles | Midas Tools</title>
+        <meta name="description" content="Generate viral AI image prompts for ChatGPT, Midjourney & DALL-E. Ghibli, Pixar, action figure, pet portrait, LinkedIn headshot & 25 styles. Free, no signup." />
         <link rel="canonical" href="https://midastools.co/image-prompt-builder" />
         <meta property="og:title" content="AI Image Prompt Builder — Create Stunning AI Art Prompts Free" />
         <meta property="og:description" content="Pick a style. Describe your idea. Get the perfect prompt. Works with ChatGPT, Midjourney, DALL-E & Stable Diffusion." />

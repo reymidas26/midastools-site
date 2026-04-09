@@ -76,11 +76,19 @@ const TOOLS = [
     bg: 'var(--card-cyan)',
   },
   {
+    title: 'AI Content Detector',
+    desc: 'Paste any text and instantly check if it sounds AI-generated. Analyzes 8 linguistic signals — sentence uniformity, hedging phrases, vocabulary diversity & more. Get specific tips to humanize your writing.',
+    href: '/ai-content-detector',
+    tag: '🔥 NEW',
+    categories: '8 detection signals',
+    bg: 'var(--card-pink)',
+  },
+  {
     title: 'AI Image Prompt Builder',
-    desc: 'Build perfect AI image prompts visually. Pick from 12 trending styles (Ghibli, Cyberpunk, Hyperrealistic), set mood & lighting, get copy-paste prompts for ChatGPT, Midjourney, DALL·E & Stable Diffusion.',
+    desc: 'Build perfect AI image prompts visually. Pick from 25 trending styles (Ghibli, Pixar, Action Figure, Pet Portrait, LinkedIn Headshot), set mood & lighting, get copy-paste prompts for ChatGPT, Midjourney, DALL·E & Stable Diffusion.',
     href: '/image-prompt-builder',
     tag: '🔥 Trending',
-    categories: '12 art styles · 4 platforms',
+    categories: '25 art styles · 4 platforms',
     bg: 'var(--card-purple)',
   },
   {
