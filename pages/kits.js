@@ -144,6 +144,15 @@ const kits = [
     badge: 'TRENDING',
     color: 'var(--card-blue)',
   },
+  {
+    name: 'AI Team Adoption Kit',
+    price: '$49',
+    desc: '50+ team skills, 8 department playbooks, usage tracking templates & onboarding guides. Roll out AI across your org.',
+    href: '/team-adoption-kit',
+    stripe: 'https://buy.stripe.com/14A8wOdgz0Yx2uo5JMcMM0o',
+    badge: 'NEW',
+    color: 'var(--card-green)',
+  },
 ];
 
 export default function Kits() {
@@ -151,12 +160,12 @@ export default function Kits() {
     <Layout>
       <Head>
         <title>AI Automation Kits — Midas Tools</title>
-        <link rel="canonical" href="https://www.midastools.co/kits" />
+        <link rel="canonical" href="https://midastools.co/kits" />
         <meta name="description" content="Browse 15+ AI automation kits with ready-to-use prompts and templates. Real estate, e-commerce, freelancing, content creation & more. From $29." />
         <meta property="og:title" content="AI Automation Kits — Midas Tools" />
         <meta property="og:description" content="Every kit we make. Pick your niche or grab them all." />
-        <meta property="og:url" content="https://www.midastools.co/kits" />
-        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
+        <meta property="og:url" content="https://midastools.co/kits" />
+        <meta property="og:image" content="https://midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -170,7 +179,7 @@ export default function Kits() {
             "@type": "ListItem",
             "position": i + 1,
             "name": kit.name,
-            "url": `https://www.midastools.co${kit.href}`
+            "url": `https://midastools.co${kit.href}`
           }))
         }) }} />
       </Head>
@@ -273,7 +282,7 @@ export default function Kits() {
       <div className="bundle-upsell">
         <div className="bundle-box">
           <div className="badge" style={{ marginBottom: 20 }}>Best Value</div>
-          <h2>Get all 15 kits + future kits for $97</h2>
+          <h2>Get all 16 kits + future kits for $97</h2>
           <p>Video Pack + Image Pack + Notion Templates + Resume &amp; Career + Email Marketing + Presentation Kit + Prompt Mega Pack + Starter + Real Estate + Content Creator + Freelancer + Small Business + E-commerce + SaaS Founder + Social Media Kit — plus every kit we release in the future, free.</p>
           <a href={BUNDLE_STRIPE} className="btn-primary">Get the Bundle — $97 &rarr;</a>
         </div>
