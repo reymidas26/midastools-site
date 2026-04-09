@@ -134,6 +134,7 @@ const URLS = [
   '/blog/deploy-openclaw-ai-entrepreneur',
   '/blog/claude-openclaw-pricing-change-2026',
   '/blog/claude-cowork-prompts-setup-guide-2026',
+  '/blog/ramp-ai-adoption-team-2026',
   '/openclaw-cost-calculator',
 ];
 
