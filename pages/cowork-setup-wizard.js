@@ -285,8 +285,8 @@ export default function CoworkSetupWizard() {
         <meta name="description" content="Free Claude Cowork setup wizard. Generate role-specific CLAUDE.md files, global instructions, and starter prompts. Pick your role, copy, paste, deploy." />
         <meta property="og:title" content="Claude Cowork Setup Wizard — Free CLAUDE.md Generator" />
         <meta property="og:description" content="Set up Claude Cowork in 5 minutes. Free CLAUDE.md templates, global instructions, and starter prompts for 6 roles." />
-        <meta property="og:url" content="https://midastools.co/cowork-setup-wizard" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/cowork-setup-wizard" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -297,7 +297,7 @@ export default function CoworkSetupWizard() {
           "@type": "WebApplication",
           "name": "Claude Cowork Setup Wizard",
           "description": "Free Claude Cowork CLAUDE.md generator with role-specific templates and prompts",
-          "url": "https://midastools.co/cowork-setup-wizard",
+          "url": "https://www.midastools.co/cowork-setup-wizard",
           "applicationCategory": "Productivity",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
           "operatingSystem": "Web"

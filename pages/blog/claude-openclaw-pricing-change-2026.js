@@ -13,12 +13,12 @@ export default function ClaudeOpenClawPricing() {
         <meta name="description" content="Anthropic cut OpenClaw from Claude subscriptions on April 4, 2026. Costs could jump 50x. Here's what it means for AI agents like Felix Craft, and how to keep your agent profitable." />
         <meta property="og:title" content="Claude Just Made OpenClaw 50x More Expensive — What It Means for AI Agents" />
         <meta property="og:description" content="Anthropic cut OpenClaw from Claude subscriptions. Costs could jump 50x. Here's what it means for AI agents like Felix Craft." />
-        <meta property="og:url" content="https://midastools.co/blog/claude-openclaw-pricing-change-2026" />
+        <meta property="og:url" content="https://www.midastools.co/blog/claude-openclaw-pricing-change-2026" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Claude Just Made OpenClaw 50x More Expensive" />
         <meta name="twitter:description" content="Anthropic cut OpenClaw from Claude subscriptions. What it means for AI agents like Felix Craft." />
-        <link rel="canonical" href="https://midastools.co/blog/claude-openclaw-pricing-change-2026" />
+        <link rel="canonical" href="https://www.midastools.co/blog/claude-openclaw-pricing-change-2026" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",

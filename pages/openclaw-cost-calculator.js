@@ -81,15 +81,15 @@ export default function OpenClawCostCalculator() {
         <meta name="description" content="Free OpenClaw cost calculator. See how the April 2026 Claude pricing change affects your AI agent. Compare models, estimate monthly costs, and find savings." />
         <meta property="og:title" content="OpenClaw Cost Calculator — After the Claude Pricing Change" />
         <meta property="og:description" content="See how much your OpenClaw agent will cost after Anthropic cut subscriptions. Free calculator with cost-saving tips." />
-        <meta property="og:url" content="https://midastools.co/openclaw-cost-calculator" />
+        <meta property="og:url" content="https://www.midastools.co/openclaw-cost-calculator" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://midastools.co/openclaw-cost-calculator" />
+        <link rel="canonical" href="https://www.midastools.co/openclaw-cost-calculator" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           "name": "OpenClaw Cost Calculator",
           "description": "Calculate your OpenClaw AI agent costs after the April 2026 Claude pricing change",
-          "url": "https://midastools.co/openclaw-cost-calculator",
+          "url": "https://www.midastools.co/openclaw-cost-calculator",
           "applicationCategory": "BusinessApplication",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
         })}} />

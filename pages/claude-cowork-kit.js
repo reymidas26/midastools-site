@@ -32,8 +32,8 @@ export default function ClaudeCoworkKit() {
         <meta name="description" content="115+ copy-paste prompts, 10 role playbooks, context file templates & connector cheatsheets for Claude Cowork. Set up your AI coworker in minutes, not hours. $29." />
         <meta property="og:title" content="Claude Cowork Mastery Kit — 115+ Prompts & 10 Role Playbooks" />
         <meta property="og:description" content="The most comprehensive Claude Cowork template library. 115+ prompts, 10 role playbooks, CLAUDE.md templates, and connector cheatsheets. $29 one-time." />
-        <meta property="og:url" content="https://midastools.co/claude-cowork-kit" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/claude-cowork-kit" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -45,8 +45,8 @@ export default function ClaudeCoworkKit() {
           "@type": "Product",
           "name": "Claude Cowork Mastery Kit",
           "description": "115+ prompts, 10 role playbooks, context file templates, and connector cheatsheets for Claude Cowork",
-          "url": "https://midastools.co/claude-cowork-kit",
-          "image": "https://midastools.co/og-image.png",
+          "url": "https://www.midastools.co/claude-cowork-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "offers": {
             "@type": "Offer",
             "price": "29",

@@ -500,7 +500,7 @@ export default function AIContentDetector() {
 
   const title = 'Free AI Content Detector — Is Your Text AI Generated? | Midas Tools';
   const description = 'Detect AI-generated text instantly with our free AI content detector. Analyzes 8 linguistic signals to determine if text was written by ChatGPT, Claude, or Gemini. No signup required.';
-  const url = 'https://midastools.co/ai-content-detector';
+  const url = 'https://www.midastools.co/ai-content-detector';
 
   return (
     <Layout>
@@ -526,7 +526,7 @@ export default function AIContentDetector() {
           applicationCategory: 'Utility',
           operatingSystem: 'Web',
           offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-          publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+          publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
         })}} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org',

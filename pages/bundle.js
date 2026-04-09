@@ -12,18 +12,18 @@ export default function Bundle() {
         <meta name="description" content="Get all 15 AI kits for $97 — prompts, templates & workflows for ChatGPT, Claude, Gemini. Save 82% vs buying separately. 30-day money-back guarantee." />
         <meta property="og:title" content="AI Toolkit Bundle — All 15 Kits for $97 | Midas Tools" />
         <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 82% vs buying separately. Includes all future kits free." />
-        <meta property="og:url" content="https://midastools.co/bundle" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/bundle" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-        <link rel="canonical" href="https://midastools.co/bundle" />
+        <link rel="canonical" href="https://www.midastools.co/bundle" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Product",
           "name": "AI Toolkit Bundle — All 15 Kits",
           "description": "Every Midas Tools AI kit in one bundle. 2,000+ prompts for ChatGPT, Claude, and any LLM. Covers real estate, freelancing, e-commerce, SaaS, content creation, email marketing, social media, presentations, and more.",
-          "url": "https://midastools.co/bundle",
+          "url": "https://www.midastools.co/bundle",
           "brand": "Midas Tools",
           "offers": {
             "@type": "Offer",
@@ -50,7 +50,7 @@ export default function Bundle() {
               }
             }
           },
-          "image": "https://midastools.co/og-image.png",
+          "image": "https://www.midastools.co/og-image.png",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",

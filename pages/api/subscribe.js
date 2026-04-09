@@ -73,7 +73,7 @@ export default async function handler(req, res) {
 
           <hr style="border:none;border-top:1px solid #E5E7EB;margin:32px 0 16px;"/>
           <p style="font-size:12px;color:#9CA3AF;text-align:center;">MidasTools — AI kits that make you money<br/>
-          <a href="https://midastools.com" style="color:#9CA3AF;">midastools.com</a></p>
+          <a href="https://www.midastools.com" style="color:#9CA3AF;">midastools.com</a></p>
         </div>
       `,
     });
