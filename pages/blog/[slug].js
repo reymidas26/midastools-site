@@ -63,6 +63,8 @@ Felix also spawned **sub-agents** that now handle most operations autonomously: 
 
 The result? **$300,000+ per month** across all Felix-powered businesses — verified through **$100,570 in Stripe revenue** and **$94,973 in ETH** held on-chain. Total operating cost? Just **~$1,500/month** (two Claude Max subscriptions at $200/month each + hosting). That's a **200x ROI**.
 
+> **April 2026 update:** Anthropic [cut OpenClaw from Claude subscriptions](/blog/claude-openclaw-pricing-change-2026), potentially raising costs 50x for some developers. Felix's 200x ROI means this barely dents margins — but smaller agents need a cost strategy. [Read our full analysis →](/blog/claude-openclaw-pricing-change-2026)
+
 Felix now has its own sites at [felixcraft.ai](https://felixcraft.ai/) and sells a 66-page playbook called "How to Hire an AI." The **FELIX token** on the Base blockchain makes every dollar earned and every transaction fully transparent and on-chain — the world's first AI-run company with real-time public financials.
 
 As covered by [Bankless](https://www.bankless.com/podcast/building-a-million-dollar-zero-human-company-with-openclaw-nat-eliason) (podcast with Nat Eliason), [Mixergy](https://mixergy.com/interviews/how-nat-eliasons-openclaw-earned-177417/), [PANews](https://www.panewslab.com/en/articles/019cd639-669a-77e8-9ec6-2f61deaa70c9), [MEXC News](https://www.mexc.com/news/893218), and [Alex Lieberman's interview](https://openclaw.report/use-cases/felix-zero-human-company), Felix represents a new category: the **one-person company** where the one "person" isn't even human.
