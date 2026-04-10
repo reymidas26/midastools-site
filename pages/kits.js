@@ -153,6 +153,15 @@ const kits = [
     badge: 'NEW',
     color: 'var(--card-green)',
   },
+  {
+    name: 'Reddit Lead Generation Kit',
+    price: '$49',
+    desc: 'The $51K/month Reddit playbook. 50+ buyer-intent phrases, 25 outreach templates, 10 niche subreddit maps & daily workflow system.',
+    href: '/reddit-lead-kit',
+    stripe: 'https://buy.stripe.com/bJefZg1xRcHf6KE5JMcMM0p',
+    badge: 'HOT',
+    color: 'var(--card-amber)',
+  },
 ];
 
 export default function Kits() {
