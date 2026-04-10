@@ -478,8 +478,17 @@ Soft, gallery-style lighting. White background. The entire presentation screams 
 
         <hr style={{ margin: '40px 0', border: 'none', borderTop: '1px solid #eee' }} />
 
+        {/* ACTION FIGURE GENERATOR */}
+        <div style={{ marginTop: '32px', padding: '24px', background: 'linear-gradient(135deg, #1E1B4B, #312E81)', borderRadius: '8px', color: '#FFF' }}>
+          <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem', color: '#FFF' }}>🧸 Build Your Action Figure Prompt in 60 Seconds</h3>
+          <p style={{ margin: '0 0 12px', color: '#C7D2FE', fontSize: '15px' }}>Skip the prompt writing — our <strong style={{ color: '#FFF' }}>Action Figure Generator</strong> lets you pick your style (Barbie Box, Funko Pop, Star Wars, Anime + more), choose accessories, and get a perfect copy-paste prompt instantly.</p>
+          <a href="/action-figure-generator" style={{ display: 'inline-block', background: '#FFF', color: '#1E1B4B', padding: '10px 24px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>
+            Try the Action Figure Generator →
+          </a>
+        </div>
+
         {/* FREE TOOL */}
-        <div style={{ marginTop: '32px', padding: '24px', background: '#ECFDF5', border: '1px solid #6EE7B7', borderRadius: '8px' }}>
+        <div style={{ marginTop: '16px', padding: '24px', background: '#ECFDF5', border: '1px solid #6EE7B7', borderRadius: '8px' }}>
           <h3 style={{ margin: '0 0 8px', fontSize: '1.1rem' }}>🎨 Build Custom Image Prompts Free</h3>
           <p style={{ margin: '0 0 12px', color: '#6B7280', fontSize: '15px' }}>Use our free <strong>AI Image Prompt Builder</strong> to create prompts for any style — Ghibli, Cyberpunk, Hyperrealistic, 3D Clay + more. Pick mood, lighting, camera angle. Works with ChatGPT, Midjourney &amp; DALL·E.</p>
           <a href="/image-prompt-builder" style={{ display: 'inline-block', background: '#059669', color: '#fff', padding: '10px 24px', borderRadius: '100px', textDecoration: 'none', fontWeight: '700', fontSize: '14px' }}>

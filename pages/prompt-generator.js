@@ -253,6 +253,9 @@ export default function PromptGenerator() {
   const [generatedPrompt, setGeneratedPrompt] = useState('');
   const [copied, setCopied] = useState(false);
   const [promptCount, setPromptCount] = useState(0);
+  const [captureEmail, setCaptureEmail] = useState('');
+  const [captureSubmitted, setCaptureSubmitted] = useState(false);
+  const [captureLoading, setCaptureLoading] = useState(false);
 
   const handleCategorySelect = (cat) => {
     setSelectedCategory(cat);
@@ -279,6 +282,17 @@ export default function PromptGenerator() {
     navigator.clipboard.writeText(generatedPrompt);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
+  };
+
+  const handleCapture = async (e) => {
+    e.preventDefault();
+    if (!captureEmail || !captureEmail.includes('@')) return;
+    setCaptureLoading(true);
+    try {
+      await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: captureEmail, source: 'prompt-generator' }) });
+      setCaptureSubmitted(true);
+    } catch { /* silent */ }
+    setCaptureLoading(false);
   };
 
   const handleReset = () => {
@@ -864,6 +878,28 @@ export default function PromptGenerator() {
                 <div className="tip">
                   <strong>Pro tip:</strong> Paste this prompt into ChatGPT, Claude, or Gemini. For even better results, add specific examples from your business. Want 200+ pre-built expert prompts? Check out our <Link href="/ai-prompt-mega-pack" style={{ color: '#92400E', fontWeight: 700 }}>AI Prompt Mega Pack</Link>.
                 </div>
+
+                {/* Email capture — shows after 2nd prompt */}
+                {promptCount >= 2 && !captureSubmitted && (
+                  <div style={{ background: 'linear-gradient(135deg, #1E1B4B, #312E81)', borderRadius: 14, padding: 24, marginTop: 20, color: '#FFF' }}>
+                    <p style={{ fontWeight: 700, fontSize: 16, margin: '0 0 6px' }}>You&apos;re on fire — {promptCount} prompts generated!</p>
+                    <p style={{ fontSize: 14, color: '#C7D2FE', margin: '0 0 14px' }}>Get 5 advanced prompt frameworks + weekly tips delivered free.</p>
+                    <form onSubmit={handleCapture} style={{ display: 'flex', gap: 8 }}>
+                      <input type="email" value={captureEmail} onChange={e => setCaptureEmail(e.target.value)} placeholder="Your email" required
+                        style={{ flex: 1, padding: '12px 14px', fontSize: 15, border: 'none', borderRadius: 10, outline: 'none' }} />
+                      <button type="submit" disabled={captureLoading}
+                        style={{ padding: '12px 20px', fontSize: 14, fontWeight: 700, color: '#1E1B4B', background: '#FFF', border: 'none', borderRadius: 10, cursor: 'pointer', whiteSpace: 'nowrap' }}>
+                        {captureLoading ? '...' : 'Send Me Tips'}
+                      </button>
+                    </form>
+                    <p style={{ fontSize: 11, color: '#818CF8', margin: '8px 0 0' }}>No spam. Unsubscribe anytime.</p>
+                  </div>
+                )}
+                {captureSubmitted && (
+                  <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 14, padding: 20, marginTop: 20, textAlign: 'center' }}>
+                    <p style={{ fontWeight: 700, color: '#059669', margin: 0 }}>Check your inbox — 5 free prompts on the way!</p>
+                  </div>
+                )}
               </div>
             )}
           </div>

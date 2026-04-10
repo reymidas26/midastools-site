@@ -93,6 +93,20 @@ export default function AIJobRisk() {
   const [copied, setCopied] = useState(false);
   const [totalAnalyzed, setTotalAnalyzed] = useState(null);
   const resultRef = useRef(null);
+  const [captureEmail, setCaptureEmail] = useState('');
+  const [captureSubmitted, setCaptureSubmitted] = useState(false);
+  const [captureLoading, setCaptureLoading] = useState(false);
+
+  const handleCapture = async (e) => {
+    e.preventDefault();
+    if (!captureEmail || !captureEmail.includes('@')) return;
+    setCaptureLoading(true);
+    try {
+      await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: captureEmail, source: 'ai-job-risk' }) });
+      setCaptureSubmitted(true);
+    } catch { /* silent */ }
+    setCaptureLoading(false);
+  };
 
   useEffect(() => {
     setTotalAnalyzed(48247 + Math.floor(Math.random() * 3000));
@@ -371,6 +385,27 @@ export default function AIJobRisk() {
                 </button>
               </div>
             </div>
+
+            {/* Email Capture */}
+            {!captureSubmitted ? (
+              <div style={{ background: 'linear-gradient(135deg, #1E1B4B, #312E81)', borderRadius: 16, padding: 28, marginBottom: 24, color: '#FFF' }}>
+                <p style={{ fontWeight: 700, fontSize: 17, margin: '0 0 6px' }}>Get Your Full AI Career Survival Guide</p>
+                <p style={{ fontSize: 14, color: '#C7D2FE', margin: '0 0 16px' }}>Weekly AI job market updates + prompts to future-proof your career. Free.</p>
+                <form onSubmit={handleCapture} style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                  <input type="email" value={captureEmail} onChange={e => setCaptureEmail(e.target.value)} placeholder="Your email" required
+                    style={{ flex: '1 1 200px', padding: '14px', fontSize: 15, border: 'none', borderRadius: 10, outline: 'none' }} />
+                  <button type="submit" disabled={captureLoading}
+                    style={{ padding: '14px 24px', fontSize: 14, fontWeight: 700, color: '#1E1B4B', background: '#FFF', border: 'none', borderRadius: 10, cursor: 'pointer', whiteSpace: 'nowrap' }}>
+                    {captureLoading ? '...' : 'Send Me Updates'}
+                  </button>
+                </form>
+                <p style={{ fontSize: 11, color: '#818CF8', margin: '8px 0 0' }}>No spam. Unsubscribe anytime.</p>
+              </div>
+            ) : (
+              <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 16, padding: 20, marginBottom: 24, textAlign: 'center' }}>
+                <p style={{ fontWeight: 700, color: '#059669', margin: 0 }}>You&apos;re in! Check your inbox for your first AI career tips.</p>
+              </div>
+            )}
 
             {/* More Tools CTA */}
             <div style={{ background: '#F9FAFB', border: '1px solid #E5E7EB', borderRadius: 16, padding: 24, textAlign: 'center' }}>

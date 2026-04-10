@@ -137,6 +137,20 @@ export default function ImagePromptBuilder() {
   const [promptCount, setPromptCount] = useState(0);
   const [showStickyCta, setShowStickyCta] = useState(false);
   const resultRef = useRef(null);
+  const [captureEmail, setCaptureEmail] = useState('');
+  const [captureSubmitted, setCaptureSubmitted] = useState(false);
+  const [captureLoading, setCaptureLoading] = useState(false);
+
+  const handleCapture = async (e) => {
+    e.preventDefault();
+    if (!captureEmail || !captureEmail.includes('@')) return;
+    setCaptureLoading(true);
+    try {
+      await fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: captureEmail, source: 'image-prompt-builder' }) });
+      setCaptureSubmitted(true);
+    } catch { /* silent */ }
+    setCaptureLoading(false);
+  };
 
   // Load prompt count from localStorage
   useEffect(() => {
@@ -977,6 +991,27 @@ export default function ImagePromptBuilder() {
                 🔄 Regenerate
               </button>
             </div>
+
+            {/* Email capture */}
+            {!captureSubmitted ? (
+              <div style={{ background: 'linear-gradient(135deg, #1E1B4B, #312E81)', borderRadius: 14, padding: 24, marginTop: 20, color: '#FFF' }}>
+                <p style={{ fontWeight: 700, fontSize: 16, margin: '0 0 6px' }}>Love these prompts?</p>
+                <p style={{ fontSize: 14, color: '#C7D2FE', margin: '0 0 14px' }}>Get 10 trending AI image styles + weekly prompt inspiration. Free.</p>
+                <form onSubmit={handleCapture} style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                  <input type="email" value={captureEmail} onChange={e => setCaptureEmail(e.target.value)} placeholder="Your email" required
+                    style={{ flex: '1 1 200px', padding: '12px 14px', fontSize: 15, border: 'none', borderRadius: 10, outline: 'none' }} />
+                  <button type="submit" disabled={captureLoading}
+                    style={{ padding: '12px 20px', fontSize: 14, fontWeight: 700, color: '#1E1B4B', background: '#FFF', border: 'none', borderRadius: 10, cursor: 'pointer', whiteSpace: 'nowrap' }}>
+                    {captureLoading ? '...' : 'Send Me Prompts'}
+                  </button>
+                </form>
+                <p style={{ fontSize: 11, color: '#818CF8', margin: '8px 0 0' }}>No spam. Unsubscribe anytime.</p>
+              </div>
+            ) : (
+              <div style={{ background: '#ECFDF5', border: '1px solid #A7F3D0', borderRadius: 14, padding: 20, marginTop: 20, textAlign: 'center' }}>
+                <p style={{ fontWeight: 700, color: '#059669', margin: 0 }}>Check your inbox — free prompts on the way!</p>
+              </div>
+            )}
           </div>
         )}
       </section>

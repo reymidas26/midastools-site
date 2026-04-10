@@ -107,6 +107,14 @@ const TOOLS = [
     categories: '40+ jobs · risk scores',
     bg: 'var(--card-pink)',
   },
+  {
+    title: 'AI Action Figure Generator',
+    desc: 'Turn yourself into a collectible action figure! Pick your packaging style (Barbie Box, Funko Pop, Star Wars, Anime), choose accessories, pose — get a perfect ChatGPT prompt.',
+    href: '/action-figure-generator',
+    tag: '🔥 TRENDING',
+    categories: '8 styles · 50+ accessories',
+    bg: 'var(--card-yellow)',
+  },
 ];
 
 const COMING_SOON = [
