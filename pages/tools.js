@@ -139,6 +139,14 @@ const TOOLS = [
     categories: '8 styles · 8 settings',
     bg: 'var(--card-pink)',
   },
+  {
+    title: 'AI Lego Minifigure Generator',
+    desc: 'Turn anyone into a Lego minifigure, box art, or movie scene. 8 Lego styles, 8 scenes, 20 accessories. ABS plastic perfection.',
+    href: '/lego-prompt-generator',
+    tag: '🔥 VIRAL',
+    categories: '8 styles · 20 accessories',
+    bg: 'var(--card-amber)',
+  },
 ];
 
 const COMING_SOON = [
