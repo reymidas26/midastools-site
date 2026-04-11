@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useState, useRef } from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import RelatedKitBanner from '../components/RelatedKitBanner';
 
 const STRIPE_MEGA_PACK = 'https://buy.stripe.com/4gw6qrdtgaODdZS4gw';
 
@@ -931,6 +932,8 @@ export default function PromptEnhancer() {
           </div>
         ))}
       </section>
+
+      <RelatedKitBanner kit="ai-prompt-mega-pack" name="AI Prompt Mega Pack" price="$29" />
 
       {/* Related Tools */}
       <section className="related">

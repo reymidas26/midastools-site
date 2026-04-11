@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import RelatedKitBanner from '../components/RelatedKitBanner';
 
 const STRIPE_IMAGE_PACK = 'https://buy.stripe.com/8x24gyccv7mVglegoqcMM0i';
 const STRIPE_BUNDLE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
@@ -557,6 +558,10 @@ export default function GhibliPromptGenerator() {
             <h3 style={{ fontSize: 16, fontWeight: 700, color: '#111827', margin: '0 0 6px' }}>Is the Ghibli AI art trend still popular?</h3>
             <p style={{ fontSize: 14, color: '#6B7280', lineHeight: 1.7, margin: 0 }}>Absolutely. The trend that started in early 2025 continues to grow. CNN, NBC, and Newsweek all covered it. ChatGPT hit 150 million weekly users during the peak, and it remains one of the most popular AI image generation styles.</p>
           </div>
+        </div>
+
+        <div style={{ marginTop: 40 }}>
+          <RelatedKitBanner kit="ai-image-prompt-pack" name="AI Image Prompt Pack" price="$29" />
         </div>
 
         {/* Related content */}

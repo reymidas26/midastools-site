@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useState } from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import RelatedKitBanner from '../components/RelatedKitBanner';
 
 const STRIPE_IMAGE_PACK = 'https://buy.stripe.com/8x24gyccv7mVglegoqcMM0i';
 const STRIPE_BUNDLE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
@@ -590,6 +591,10 @@ export default function ActionFigureGenerator() {
             <div><div style={{ fontSize: 28, fontWeight: 800, color: '#3B5FFF' }}>50+</div><div style={{ fontSize: 13, color: '#6B7280' }}>Accessories</div></div>
             <div><div style={{ fontSize: 28, fontWeight: 800, color: '#3B5FFF' }}>8</div><div style={{ fontSize: 13, color: '#6B7280' }}>Poses</div></div>
           </div>
+        </div>
+
+        <div style={{ marginTop: 40 }}>
+          <RelatedKitBanner kit="ai-image-prompt-pack" name="AI Image Prompt Pack" price="$29" />
         </div>
 
         {/* Related content */}

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import RelatedKitBanner from '../components/RelatedKitBanner';
 
 const STRIPE_STARTER = 'https://buy.stripe.com/7sI9CDbla7Cx7Bu3ck';
 const STRIPE_BUNDLE = 'https://buy.stripe.com/8wM2abdtg5up7BueVa';
@@ -565,6 +566,8 @@ export default function SoulGenerator() {
           <Link href="/blog/ai-agent-10k-day" className="link-arrow">Read the Felix Craft Case Study →</Link>
         </div>
       </section>
+
+      <RelatedKitBanner kit="claude-code-kit" name="Claude Code Kit" price="$39" />
 
       {/* ── More Free Tools ── */}
       <section className="more-tools">
