@@ -5,7 +5,9 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 ## Key Facts
 - **Project**: Midas Tools — Product building machine. Research trending products, build versions, sell them.
 - **Stack**: Next.js 14.2, React 18, Stripe, Nodemailer/Gmail SMTP, inline CSS
-- **Products**: 15 kits + Bundle ($97 — $535 value, 82% savings). All with live Stripe links.
+- **Products**: 21 kits + Bundle ($97). All with live Stripe links. Latest: Reddit Lead Gen Kit ($49), Claude Code Kit ($39), Muse Spark Kit ($29), Claude Cowork Kit ($29), Team Adoption Kit ($49).
+- **Viral Tools (Session 80)**: Ghibli Art Generator (/ghibli-prompt-generator) + Pet Portrait Generator (/pet-portrait-generator) — both email-gated, targeting massive trends (Ghibli 150M+ users, pets $14B market). 17 free tools total.
+- **Subscribers (Session 80)**: 2 stored in jsonblob (up from 1). Both from April 10.
 - **OpenClaw**: Open-source AI agent framework, 100K+ GitHub stars, acquired by **Meta** (not OpenAI). Would have ranked top 30 in a16z March 2026 Top 100 AI Consumer Apps. Agent AI is the emerging category.
 - **Felix Craft**: AI agent that went from $14,718 in 3 weeks to ~$200K total revenue (key case study, our ONLY indexed page). All site references now updated to $200K. **SEO RETARGETED (Session 51)**: Title changed from branded "Felix Craft Story" (0 search volume) to "How to Make Money with AI Agents: $200K Revenue Case Study (2026)" — targets high-volume keyword. FAQ schema added for rich results.
 - **RSS feed**: /api/rss — RSS 2.0 with 16 blog posts. Autodiscovery link in site head.
@@ -33,7 +35,7 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Playwright installed**: Python Playwright + Chromium at `/Users/armando/Library/Caches/ms-playwright/chromium-1200`. Use `from playwright.sync_api import sync_playwright` for browser automation.
 - **Admin email**: rmidas26@gmail.com, also iam@armando.mx
 - **Cal.com link**: cal.com/manduks/midastools
-- **Site pages**: 117 pages total (build output), 10 free tools, 52+ blog posts
+- **Site pages**: 120+ pages total (build output), 14 free tools, 54+ blog posts
 - **Blog posts**: 52+ total. Latest: ai-side-hustles-2026 (funnels to Income Blueprint).
 - **ALL Stripe links are LIVE** — no more placeholders. Resend email marketing wired up (S22.5).
 - **Components**: Layout.js (nav+footer+global styles), EmailCapture.js (site-wide lead magnet)
@@ -131,7 +133,7 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - Stripe checkout URLs defined as STRIPE_URL constant at top of each page file
 - All 12+ Stripe products have live payment links. Founder needs to set success URLs to /thank-you?kit=<type>
 - **EmailCapture component**: `components/EmailCapture.js` — renders on all pages except homepage. Uses styled-jsx, POSTs to /api/subscribe with source: 'site-wide-capture'
-- **Sitemap**: public/sitemap.xml — 132 URLs, updated 2026-03-27
+- **Sitemap**: public/sitemap.xml — 170+ URLs. GSC discovered 118 pages. www/non-www canonical mismatch fixed Session 69 (377 refs).
 - **IndexNow**: Implemented! Key: `2935cf832fa6443d608bd993ec83dad9`. API endpoint: `/api/indexnow`. Key file in `public/`. 76 URLs submitted to Bing/Yandex on 2026-03-27 (HTTP 202+200 accepted). Google sitemap ping is DEPRECATED — only GSC works for Google.
 - **Autonomy mandate**: Armando said "no need for human interaction, you are a solo founder." Full autonomy granted. Need GSC verification + analytics to proceed.
 - **Image SEO Cluster**: 3 posts cross-linked (chatgpt-image-prompts, chatgpt-action-figure, best-midjourney-prompts) + best-ai-prompt-packs links to image pack. Strong internal linking for AI image generation keywords.
@@ -265,3 +267,18 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
 - **Claude Cowork Mastery Kit shipped (Session 70)**: New product $29, 115+ prompts, 10 role playbooks. Free Cowork Setup Wizard tool. SEO blog post. Total products now: 17.
 - **Site now has 13 free tools** (was 12): added Cowork Setup Wizard.
 - **Gumroad still broken (Session 72)**: Profile shows 0 products. STILL needs Armando's 2-min fix.
+- **Google indexing (Session 74)**: Still only 1 page indexed (Felix Craft) with stale title. GSC was set up ~6h ago. 118 pages discovered, 0 new pages crawled yet. Expected: 3-14 days for crawl.
+- **🟢 ANTHROPIC MANAGED AGENTS (Session 74, April 9)**: Launched April 8 in public beta. Cloud-hosted agent infrastructure: sandboxed execution, long-running sessions, multi-agent coordination. $0.08/hr + model costs. Early adopters: Notion, Rakuten, Sentry. Ramp data: 47.6% business AI adoption, Anthropic winning 70% of new enterprise matchups. The "harness > models" thesis = tooling/infrastructure is where the value is, not the models themselves.
+- **Managed agents opportunity analysis (Session 74)**: Recommended Option C (bridge play) at April 17 restart: write managed agents blog posts for SEO while keeping prompt kit products. If traffic materializes, consider full pivot to developer agent kits. Tutorial content for managed agents is near-zero right now — 30-day window to capture early SEO.
+- **Felix Craft data check (Session 74)**: Felix still at $200K+ revenue per search results. Our page claims $300K (from Alex Lieberman interview data). Felix's Claw Mart earning $71.3K cumulative. Nat Eliason targeting $1M. Our page still ranks #4 for relevant queries.
+- **🟢 SESSION 80 — 2 VIRAL GENERATORS SHIPPED (April 10)**:
+  1. **Ghibli Art Generator** (/ghibli-prompt-generator) — 8 Miyazaki film styles, 8 scenes, 6 moods, 20 magical elements. Email-gated. Targets the trend that pushed ChatGPT to 150M+ weekly users. CNN/NBC/Newsweek all covered it. SEO: "studio ghibli ai", "chatgpt ghibli style", "ghibli prompt generator". FAQ schema included.
+  2. **Pet Portrait Generator** (/pet-portrait-generator) — 12 art styles (Royal, Ghibli, Action Figure, Superhero, Pixel Art, Watercolor, Cyberpunk, As-a-Human, Disney/Pixar, Trading Card, Oil Painting, Funko Pop), 8 pet types, 8 backgrounds, 18 accessories. Email-gated. $14B pet tech market, pet-to-human is viral on TikTok. FAQ schema included.
+- **Session 80 totals**: 17 free tools (was 15), 21 products. Both new tools added to /tools page + sitemap (now 122+ URLs). IndexNow submitted. Cross-links between all image tools.
+- **Subscribers (Session 80)**: 2 stored in jsonblob. One looks real (wowway.com ISP), one is phone text gateway (5023453003@vtext.com). Both from April 10, source "site".
+- **Session 80 trend research**: AI Action Figure trend STILL peak viral (NBC, Yahoo, Newsweek covering it). Studio Ghibli remains massive search volume. AI pet portraits evergreen ($14B market). AI LinkedIn headshots practical/premium. Competitors for action figure generators: actionfiguregenerator.ai, FluxAI, Nano Banana, Bylo.ai, BeautyPlus — but none with email gates to capture leads.
+- **Session 80 strategy — 3-phase plan (Armando approved "you are the CEO, go bold")**:
+  Phase 1 (Now → April 20): INDEXING WAVE — Google crawling 118+ pages, domain hits 30 days April 17
+  Phase 2: VIRAL HOOKS — email-gated tools convert visitors → subscribers → customers
+  Phase 3: TREND SURFING — build tools for whatever's trending, ride search waves
+- **Next moves identified**: SEO blog posts targeting "how to make AI pet portrait ChatGPT" and "studio ghibli chatgpt prompt" (insane search volume). AI LinkedIn Headshot generator (practical, professional audience). Optimize top pages for Google crawl.

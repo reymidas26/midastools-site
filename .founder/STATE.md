@@ -1,20 +1,15 @@
 # State
 
-## Current Status
+## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 6/10) — GSC SET UP ✅, sitemap submitted (118 pages discovered), domain 27 days old. Awaiting Google crawl + Gumroad profile fix.
+**Bottleneck**: acquisition (severity 6/10) — GSC live, 118+ pages discovered, canonical fix deployed, enterprise blog published. Awaiting Google crawl (3-14 days). Gumroad profile still invisible.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
 - Users: 0 (target: 50, 7d: 0%)
 - Revenue: 0 (target: 97, 7d: 0%)
 
-**Status**: ACTIVE — GSC unlocked, indexing in progress
-
-## Products (17 total)
-
-| Product | Price | Stripe | Gumroad | Status |
-|---------|-------|--------|---------|--------|
+---------|-------|--------|---------|--------|
 | AI Video Prompt Pack | $29 | Live | — | Live |
 | AI Image Prompt Pack | $29 | Live | — | Live |
 | AI Prompt Mega Pack | $29 | Live | [pdcjj](https://manduks.gumroad.com/l/pdcjj) | Live (both) |
@@ -33,7 +28,7 @@
 | Claude Cowork Mastery Kit | $29 | Live | — | Live |
 | All Kits Bundle | $97 | Live | [iiiwf](https://manduks.gumroad.com/l/iiiwf) | Live (both) |
 
-## What Just Changed (Session 72, April 9)
+## What Just Changed (Session 74, April 9)
 
 ### ✅ GSC IS LIVE (blocker #1 removed!)
 - Armando set up Google Search Console for midastools.co
@@ -55,6 +50,7 @@
 1. **🟡 GUMROAD PROFILE VISIBILITY** — manduks.gumroad.com shows 0 products. 2-minute fix from Armando.
 2. **🟡 GOOGLE CRAWL PENDING** — 118 pages discovered via sitemap, awaiting actual crawl + indexing (typically 3-14 days)
 3. **🟢 Domain age** — 27 days, hitting 30-day threshold April 17
+4. **🟡 STRATEGIC DIRECTION** — Armando shared managed agents + "harness" intel. Option C (bridge play) recommended at restart. Awaiting Armando's direction call.
 
 ## Design System
 - Background: White (#FFFFFF), Text: Dark (#111827), Accent: Electric Blue (#3B5FFF)
