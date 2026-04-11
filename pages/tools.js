@@ -131,6 +131,14 @@ const TOOLS = [
     categories: '12 styles · 8 pets',
     bg: 'var(--card-purple)',
   },
+  {
+    title: '"Hug My Younger Self" AI Generator',
+    desc: 'Create the viral AI photo of you hugging your childhood self. 8 photo styles, 8 settings, 20 emotional details. The #1 AI trend of 2026.',
+    href: '/hug-younger-self-generator',
+    tag: '🔥 VIRAL',
+    categories: '8 styles · 8 settings',
+    bg: 'var(--card-pink)',
+  },
 ];
 
 const COMING_SOON = [
