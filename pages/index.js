@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import { useState } from 'react';
 import Layout from '../components/Layout';
 
@@ -538,6 +539,107 @@ export default function Home() {
           ].map((f) => (
             <FAQItem key={f.q} q={f.q} a={f.a} />
           ))}
+        </div>
+      </section>
+
+      {/* Popular Free Tools — SEO internal linking */}
+      <section style={{ paddingTop: 0 }}>
+        <div className="section-label">Popular Free Tools</div>
+        <h2 style={{ marginBottom: 8 }}>AI tools you can use right now</h2>
+        <p className="section-sub" style={{ marginBottom: 24 }}>No signup required. Generate prompts, enhance images, and more — all free.</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: 12 }}>
+          {[
+            { href: '/prompt-generator', title: 'AI Prompt Generator', desc: 'Generate expert-level prompts for any use case across 8 categories.' },
+            { href: '/ghibli-prompt-generator', title: 'Ghibli Art Prompt Generator', desc: 'Create Studio Ghibli-style art prompts with 8 iconic film aesthetics.' },
+            { href: '/pet-portrait-generator', title: 'Pet Portrait Generator', desc: 'Turn pet photos into art with 12 styles including pet-to-human.' },
+            { href: '/action-figure-generator', title: 'Action Figure Generator', desc: 'Generate custom action figure and toy box prompts from any photo.' },
+            { href: '/prompt-enhancer', title: 'AI Prompt Enhancer', desc: 'Paste any prompt, get 5 enhanced versions instantly.' },
+            { href: '/image-prompt-builder', title: 'Image Prompt Builder', desc: 'Build perfect prompts for Midjourney, DALL-E, and ChatGPT images.' },
+          ].map(tool => (
+            <Link key={tool.href} href={tool.href} style={{
+              display: 'block', background: 'var(--surface)', border: '1px solid var(--border)',
+              borderRadius: 14, padding: '20px 24px', textDecoration: 'none',
+              transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
+            }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(59,95,255,0.08)'; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.boxShadow = ''; }}
+            >
+              <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)', marginBottom: 4 }}>{tool.title}</div>
+              <div style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.5 }}>{tool.desc}</div>
+            </Link>
+          ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 20 }}>
+          <Link href="/tools" style={{ color: 'var(--accent)', fontWeight: 700, textDecoration: 'none', fontSize: 15 }}>
+            See all free tools &rarr;
+          </Link>
+        </div>
+      </section>
+
+      {/* Featured Kits — SEO internal linking */}
+      <section style={{ paddingTop: 0 }}>
+        <div className="section-label">Featured Kits</div>
+        <h2 style={{ marginBottom: 8 }}>Best-selling AI prompt kits</h2>
+        <p className="section-sub" style={{ marginBottom: 24 }}>Ready-to-use templates and workflows for your industry. Instant download.</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: 12 }}>
+          {[
+            { href: '/claude-code-kit', title: 'Claude Code Kit', price: '$39', desc: 'Master Claude Code with proven workflows, prompts, and automation recipes.', bg: 'var(--card-blue)' },
+            { href: '/muse-spark-kit', title: 'Muse Spark Kit', price: '$29', desc: 'Creative AI prompts for art, writing, and content generation.', bg: 'var(--card-purple)' },
+            { href: '/real-estate-kit', title: 'Real Estate AI Kit', price: '$49', desc: 'AI-powered leads, listings, follow-ups, and client communications.', bg: 'var(--card-green)' },
+            { href: '/small-business-kit', title: 'Small Business AI Kit', price: '$39', desc: 'Operations, hiring, and marketing automation for small teams.', bg: 'var(--card-amber)' },
+          ].map(kit => (
+            <Link key={kit.href} href={kit.href} style={{
+              display: 'block', background: kit.bg, border: '1px solid var(--border)',
+              borderRadius: 14, padding: '20px 24px', textDecoration: 'none',
+              transition: 'transform 0.15s ease, box-shadow 0.15s ease',
+            }}
+              onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(0,0,0,0.08)'; }}
+              onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+                <span style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)' }}>{kit.title}</span>
+                <span style={{ fontSize: 13, fontWeight: 800, color: 'var(--accent)' }}>{kit.price}</span>
+              </div>
+              <div style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.5 }}>{kit.desc}</div>
+            </Link>
+          ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 20 }}>
+          <Link href="/kits" style={{ color: 'var(--accent)', fontWeight: 700, textDecoration: 'none', fontSize: 15 }}>
+            See all kits &rarr;
+          </Link>
+        </div>
+      </section>
+
+      {/* Latest from the Blog — SEO internal linking */}
+      <section style={{ paddingTop: 0 }}>
+        <div className="section-label">Latest from the Blog</div>
+        <h2 style={{ marginBottom: 8 }}>AI guides and strategies</h2>
+        <p className="section-sub" style={{ marginBottom: 24 }}>Practical tutorials, prompt engineering tips, and AI business strategies.</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: 12 }}>
+          {[
+            { href: '/blog/claude-code-mastery-guide-2026', title: 'Claude Code Mastery Guide', desc: 'The complete guide to building with Claude Code — from setup to advanced workflows.' },
+            { href: '/blog/chatgpt-ghibli-style-prompts-2026', title: 'ChatGPT Ghibli Style Prompts', desc: 'How to generate stunning Studio Ghibli-style art with ChatGPT and AI image tools.' },
+            { href: '/blog/chatgpt-action-figure-prompt-2026', title: 'AI Action Figure Prompts', desc: 'Create viral action figure and toy box images with these proven prompt templates.' },
+            { href: '/blog/how-to-make-money-with-ai-2026', title: 'How to Make Money with AI in 2026', desc: 'Proven strategies for building income streams using AI tools and automation.' },
+          ].map(post => (
+            <Link key={post.href} href={post.href} style={{
+              display: 'block', background: 'var(--surface)', border: '1px solid var(--border)',
+              borderRadius: 14, padding: '20px 24px', textDecoration: 'none',
+              transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
+            }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--accent)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(59,95,255,0.08)'; }}
+              onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.boxShadow = ''; }}
+            >
+              <div style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)', marginBottom: 4 }}>{post.title}</div>
+              <div style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.5 }}>{post.desc}</div>
+            </Link>
+          ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 20 }}>
+          <Link href="/blog" style={{ color: 'var(--accent)', fontWeight: 700, textDecoration: 'none', fontSize: 15 }}>
+            See all blog posts &rarr;
+          </Link>
         </div>
       </section>
 
