@@ -3,6 +3,10 @@
     {
       "path": "/api/nurture?key=mt-outreach-2026&drip=true",
       "schedule": "17 9 * * *"
+    },
+    {
+      "path": "/api/status?key=mt-outreach-2026&notify=true",
+      "schedule": "0 15 * * 1"
     }
   ]
 }
