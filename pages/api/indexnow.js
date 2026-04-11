@@ -135,7 +135,21 @@ const URLS = [
   '/blog/claude-openclaw-pricing-change-2026',
   '/blog/claude-cowork-prompts-setup-guide-2026',
   '/blog/ramp-ai-adoption-team-2026',
+  '/blog/claude-managed-agents-tutorial-2026',
+  '/blog/17-free-ai-tools-2026',
+  '/blog/claude-code-mastery-guide-2026',
   '/openclaw-cost-calculator',
+  '/ghibli-prompt-generator',
+  '/pet-portrait-generator',
+  '/action-figure-generator',
+  '/lego-prompt-generator',
+  '/miniature-diorama-generator',
+  '/hug-younger-self-generator',
+  '/muse-spark-prompt-generator',
+  '/claude-code-kit',
+  '/muse-spark-kit',
+  '/reddit-lead-kit',
+  '/team-adoption-kit',
 ];
 
 export default async function handler(req, res) {
