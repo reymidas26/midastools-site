@@ -8,7 +8,8 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const SECRET_KEY = process.env.OUTREACH_SECRET || 'mt-outreach-2026';
-const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d81a7-accd-7f81-bf56-7c1f1619bbb9';
+const GIST_ID = '35dec905716d2b37c180f45d73c37b1c';
+const GIST_RAW = `https://gist.githubusercontent.com/manduks/${GIST_ID}/raw/subscribers.json`;
 
 const BUNDLE_LINK = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 const MEGA_PACK_LINK = 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d';
@@ -312,9 +313,9 @@ export default async function handler(req, res) {
     // Call daily: GET /api/nurture?key=SECRET&drip=true
     // ==========================================
     if (drip === 'true') {
-      const blobRes = await fetch(SUBSCRIBERS_BLOB);
-      const blobData = await blobRes.json();
-      const subscribers = (blobData.subscribers || []).filter(s => !s.unsubscribed);
+      const gistRes = await fetch(GIST_RAW + '?t=' + Date.now());
+      const gistData = await gistRes.json();
+      const subscribers = (gistData.subscribers || []).filter(s => !s.unsubscribed);
 
       if (subscribers.length === 0) {
         return res.status(200).json({ success: true, sent: 0, message: 'No active subscribers' });
@@ -356,13 +357,16 @@ export default async function handler(req, res) {
         }
       }
 
-      // Save updated sent markers back to blob
+      // Save updated sent markers back to gist
       if (results.length > 0) {
-        await fetch(SUBSCRIBERS_BLOB, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ subscribers }),
-        });
+        const token = process.env.GITHUB_TOKEN;
+        if (token) {
+          await fetch(`https://api.github.com/gists/${GIST_ID}`, {
+            method: 'PATCH',
+            headers: { 'Authorization': `token ${token}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ files: { 'subscribers.json': { content: JSON.stringify({ subscribers }) } } }),
+          });
+        }
 
         // Notify founder
         await resend.emails.send({
@@ -391,9 +395,9 @@ export default async function handler(req, res) {
       const templateName = template || 'tools';
       const broadcastTemplate = broadcasts[templateName] || broadcasts.tools;
 
-      const blobRes = await fetch(SUBSCRIBERS_BLOB);
-      const blobData = await blobRes.json();
-      const activeContacts = (blobData.subscribers || []).filter(s => !s.unsubscribed);
+      const gistRes = await fetch(GIST_RAW + '?t=' + Date.now());
+      const gistData = await gistRes.json();
+      const activeContacts = (gistData.subscribers || []).filter(s => !s.unsubscribed);
 
       if (activeContacts.length === 0) {
         return res.status(200).json({ success: true, sent: 0, message: 'No active subscribers' });

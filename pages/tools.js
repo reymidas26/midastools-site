@@ -188,6 +188,14 @@ const TOOLS = [
     bg: 'var(--card-amber)',
   },
   {
+    title: 'AI Caricature Generator',
+    desc: 'Create the viral ChatGPT caricature of you and your job! Pick your style (Pixar, Manga, Pop Art, Bobblehead), choose expression, background, and props. The trend that crashed ChatGPT — 13K outages.',
+    href: '/caricature-generator',
+    tag: '🔥 VIRAL',
+    categories: '8 styles · custom props',
+    bg: 'var(--card-yellow)',
+  },
+  {
     title: '🔥 AI Photo Roast Generator',
     desc: 'Get a hilarious AI-powered roast of any photo. Pick a style, describe your photo, and get a brutally funny prompt.',
     href: '/photo-roast-generator',

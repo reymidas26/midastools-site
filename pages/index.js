@@ -559,6 +559,7 @@ export default function Home() {
             { href: '/fantasy-map-generator', title: 'Fantasy Map Generator', desc: 'Create D&D, RPG & world-building maps — Tolkien, pixel art, dark fantasy.' },
             { href: '/childhood-reimagine-generator', title: 'Childhood Reimaginer', desc: 'Reimagine childhood photos as Ghibli kids, Pixar characters, fairy tales.' },
             { href: '/album-cover-generator', title: 'Album Cover Generator', desc: 'Create stunning album cover art with AI for any genre or mood.' },
+            { href: '/caricature-generator', title: '🔥 Caricature Generator', desc: 'Create the viral ChatGPT caricature of you and your job — 8 styles.' },
             { href: '/photo-roast-generator', title: '🔥 Photo Roast Generator', desc: 'Get a hilarious AI-powered roast of any photo. Pick a style and get roasted.' },
           ].map(tool => (
             <Link key={tool.href} href={tool.href} style={{

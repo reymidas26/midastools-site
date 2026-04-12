@@ -601,11 +601,14 @@ export default function ActionFigureGenerator() {
         <div style={{ marginTop: 40, padding: 28, border: '1px solid #E5E7EB', borderRadius: 16 }}>
           <h3 style={{ fontSize: 18, fontWeight: 700, margin: '0 0 16px' }}>More AI Image Tools</h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <Link href="/caricature-generator" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
+              🔥 AI Caricature Generator — The trend that crashed ChatGPT →
+            </Link>
             <Link href="/image-prompt-builder" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
               AI Image Prompt Builder — 25 styles including Ghibli, Pixel Art, Cyberpunk →
             </Link>
-            <Link href="/blog/chatgpt-action-figure-prompt-2026" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
-              Blog: How to Create Your Own ChatGPT Action Figure (Best Prompts) →
+            <Link href="/blog/chatgpt-caricature-trend-2026" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
+              Blog: ChatGPT Caricature Trend — Free Prompts & Guide →
             </Link>
             <Link href="/ai-image-prompt-pack" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
               AI Image Prompt Pack — 150+ prompts for $29 →

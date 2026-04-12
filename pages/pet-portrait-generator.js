@@ -569,6 +569,9 @@ export default function PetPortraitGenerator() {
         <div style={{ marginTop: 40, padding: 28, border: '1px solid #E5E7EB', borderRadius: 16 }}>
           <h3 style={{ fontSize: 18, fontWeight: 700, margin: '0 0 16px' }}>More AI Image Tools</h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <Link href="/caricature-generator" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
+              🔥 AI Caricature Generator — The trend that crashed ChatGPT →
+            </Link>
             <Link href="/action-figure-generator" style={{ color: '#3B5FFF', fontWeight: 600, fontSize: 15, textDecoration: 'none' }}>
               AI Action Figure Generator — Turn yourself into a toy →
             </Link>
