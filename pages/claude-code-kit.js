@@ -32,11 +32,11 @@ export default function ClaudeCodeKit() {
         <meta name="description" content="80+ CLAUDE.md templates, 10 hook recipes, 8 skill files, subagent patterns & token optimization workflows. Ship 10x faster with Claude Code. $39." />
         <meta property="og:title" content="Claude Code Mastery Kit — 80+ Templates & Hook Recipes" />
         <meta property="og:description" content="The most comprehensive Claude Code toolkit. CLAUDE.md templates for every stack, hook recipes, skill files, subagent patterns, and token-saving workflows. $39 one-time." />
-        <meta property="og:url" content="https://midastools.co/claude-code-kit" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/claude-code-kit" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://midastools.co/claude-code-kit" />
+        <link rel="canonical" href="https://www.midastools.co/claude-code-kit" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -46,8 +46,8 @@ export default function ClaudeCodeKit() {
           "@type": "Product",
           "name": "Claude Code Mastery Kit",
           "description": "80+ CLAUDE.md templates, hook recipes, skill files, subagent patterns, and token optimization workflows for Claude Code",
-          "url": "https://midastools.co/claude-code-kit",
-          "image": "https://midastools.co/og-image.png",
+          "url": "https://www.midastools.co/claude-code-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "offers": {
             "@type": "Offer",
             "price": "39",

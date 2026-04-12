@@ -151,7 +151,7 @@ export default function FantasyMapGenerator() {
 
   const title = 'AI Fantasy Map Generator — Create D&D, RPG & World-Building Maps (Free)';
   const description = 'Generate detailed AI prompts for stunning fantasy maps. World maps, dungeon maps, battle maps, treasure maps & more. Works with ChatGPT, Midjourney, DALL-E. Perfect for D&D, Pathfinder, and world-building.';
-  const url = 'https://midastools.co/fantasy-map-generator';
+  const url = 'https://www.midastools.co/fantasy-map-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -162,7 +162,7 @@ export default function FantasyMapGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

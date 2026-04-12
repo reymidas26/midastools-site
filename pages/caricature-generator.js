@@ -148,7 +148,7 @@ export default function CaricatureGenerator() {
 
   const title = 'Free AI Caricature Generator | Create Your Job Caricature Prompt';
   const description = 'Generate the perfect ChatGPT prompt to create a caricature of you and your job. 8 art styles, custom expressions, backgrounds, and props. The viral AI caricature trend made easy.';
-  const url = 'https://midastools.co/caricature-generator';
+  const url = 'https://www.midastools.co/caricature-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -159,7 +159,7 @@ export default function CaricatureGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqData = {

@@ -150,7 +150,7 @@ export default function MiniatureDioramaGenerator() {
 
   const title = 'AI Miniature Diorama Generator \u2014 Create Tiny Worlds with AI Prompts (Free)';
   const description = 'Build breathtaking miniature diorama AI art prompts. Choose from 8 diorama styles, 8 settings, custom lighting, and 20 tiny details. Works with ChatGPT, DALL-E, Midjourney. Tilt-shift, craft, and macro photography effects.';
-  const url = 'https://midastools.co/miniature-diorama-generator';
+  const url = 'https://www.midastools.co/miniature-diorama-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -161,7 +161,7 @@ export default function MiniatureDioramaGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

@@ -135,8 +135,8 @@ export default function BuyerIntentGenerator() {
         <meta name="description" content="Generate 15 ready-to-search Reddit phrases for your niche. Find high-intent buyers who just posted their exact needs. Free, no signup required." />
         <meta property="og:title" content="Buyer Intent Phrase Generator — Find Reddit Leads for Free" />
         <meta property="og:description" content="Enter your niche, get 15 buyer-intent search phrases for Reddit. Find people actively looking for your service. Free tool." />
-        <meta property="og:url" content="https://midastools.co/buyer-intent-generator" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/buyer-intent-generator" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -147,7 +147,7 @@ export default function BuyerIntentGenerator() {
           "@type": "WebApplication",
           "name": "Buyer Intent Phrase Generator",
           "description": "Generate ready-to-search Reddit phrases to find high-intent buyers in any niche",
-          "url": "https://midastools.co/buyer-intent-generator",
+          "url": "https://www.midastools.co/buyer-intent-generator",
           "applicationCategory": "BusinessApplication",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
           "operatingSystem": "Any"

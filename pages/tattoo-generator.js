@@ -125,7 +125,7 @@ export default function TattooGenerator() {
 
   const title = 'AI Tattoo Design Prompt Generator — Free Custom Tattoo Prompts';
   const description = 'Create custom AI tattoo design prompts for ChatGPT, Midjourney, and DALL-E. Choose style, placement, size, and elements. Free prompt generator — no login required.';
-  const url = 'https://midastools.co/tattoo-generator';
+  const url = 'https://www.midastools.co/tattoo-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -136,7 +136,7 @@ export default function TattooGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

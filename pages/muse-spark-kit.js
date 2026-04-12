@@ -32,8 +32,8 @@ export default function MuseSparkKit() {
         <meta name="description" content="100+ ready-to-use prompts for Meta Muse Spark — visual coding, multimodal reasoning, Contemplating mode, and multi-agent orchestration. The first prompt kit for Meta's 2026 AI model. $29." />
         <meta property="og:title" content="Meta Muse Spark Prompt Kit — 100+ Prompts for Meta's Newest AI" />
         <meta property="og:description" content="Be first to master Meta's brand new AI model. 100+ prompts across visual coding, multimodal reasoning, Contemplating mode & more. $29 one-time." />
-        <meta property="og:url" content="https://midastools.co/muse-spark-kit" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/muse-spark-kit" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -45,8 +45,8 @@ export default function MuseSparkKit() {
           "@type": "Product",
           "name": "Meta Muse Spark Prompt Kit",
           "description": "100+ ready-to-use prompts for Meta Muse Spark — visual coding, multimodal reasoning, Contemplating mode, and multi-agent orchestration",
-          "url": "https://midastools.co/muse-spark-kit",
-          "image": "https://midastools.co/og-image.png",
+          "url": "https://www.midastools.co/muse-spark-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "offers": {
             "@type": "Offer",
             "price": "29",

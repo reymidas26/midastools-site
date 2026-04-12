@@ -145,7 +145,7 @@ export default function GhibliPromptGenerator() {
 
   const title = 'AI Ghibli Art Generator — Free Studio Ghibli Style Prompt Builder (ChatGPT & Midjourney)';
   const description = 'Create stunning Studio Ghibli-style AI art with the perfect prompt. Choose from 8 Ghibli film styles, magical scenes, and moods. Works with ChatGPT, DALL-E, Midjourney. The viral trend that broke the internet.';
-  const url = 'https://midastools.co/ghibli-prompt-generator';
+  const url = 'https://www.midastools.co/ghibli-prompt-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -156,7 +156,7 @@ export default function GhibliPromptGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

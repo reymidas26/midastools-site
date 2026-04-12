@@ -187,12 +187,12 @@ export default function Kits() {
     <Layout>
       <Head>
         <title>AI Automation Kits — Midas Tools</title>
-        <link rel="canonical" href="https://midastools.co/kits" />
+        <link rel="canonical" href="https://www.midastools.co/kits" />
         <meta name="description" content="Browse 15+ AI automation kits with ready-to-use prompts and templates. Real estate, e-commerce, freelancing, content creation & more. From $29." />
         <meta property="og:title" content="AI Automation Kits — Midas Tools" />
         <meta property="og:description" content="Every kit we make. Pick your niche or grab them all." />
-        <meta property="og:url" content="https://midastools.co/kits" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/kits" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -206,7 +206,7 @@ export default function Kits() {
             "@type": "ListItem",
             "position": i + 1,
             "name": kit.name,
-            "url": `https://midastools.co${kit.href}`
+            "url": `https://www.midastools.co${kit.href}`
           }))
         }) }} />
       </Head>

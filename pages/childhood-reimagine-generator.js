@@ -193,7 +193,7 @@ export default function ChildhoodReimagineGenerator() {
 
   const title = 'AI Childhood Photo Reimaginer \u2014 Turn Old Photos Into Magic (Free)';
   const description = 'Reimagine your childhood photos with AI. Turn old photos into Studio Ghibli art, Pixar characters, Renaissance paintings, anime, and more. Free nostalgic AI portrait prompt generator for ChatGPT, DALL-E, and Midjourney.';
-  const url = 'https://midastools.co/childhood-reimagine-generator';
+  const url = 'https://www.midastools.co/childhood-reimagine-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -204,7 +204,7 @@ export default function ChildhoodReimagineGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

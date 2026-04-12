@@ -32,8 +32,8 @@ export default function RedditLeadKit() {
         <meta name="description" content="The exact playbook behind $51K/month in revenue from Reddit. 50+ buyer-intent search phrases, 25 outreach templates, 10 niche subreddit maps. Stop cold emailing strangers. $49." />
         <meta property="og:title" content="Reddit Lead Generation Kit — $51K/Month From Reading Reddit" />
         <meta property="og:description" content="50+ buyer-intent phrases, 25 outreach templates, 10 niche maps. The playbook that turns Reddit posts into signed deals. $49 one-time." />
-        <meta property="og:url" content="https://midastools.co/reddit-lead-kit" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/reddit-lead-kit" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -45,8 +45,8 @@ export default function RedditLeadKit() {
           "@type": "Product",
           "name": "Reddit Lead Generation Kit",
           "description": "Complete playbook for finding high-intent buyers on Reddit. 50+ search phrases, 25 outreach templates, 10 niche subreddit maps.",
-          "url": "https://midastools.co/reddit-lead-kit",
-          "image": "https://midastools.co/og-image.png",
+          "url": "https://www.midastools.co/reddit-lead-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "offers": {
             "@type": "Offer",
             "price": "49",

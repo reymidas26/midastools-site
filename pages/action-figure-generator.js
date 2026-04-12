@@ -152,7 +152,7 @@ export default function ActionFigureGenerator() {
 
   const title = 'AI Action Figure Generator — Turn Yourself Into a Toy (Free Prompt Builder)';
   const description = 'Create the perfect ChatGPT prompt to turn yourself into an action figure, Barbie doll, Funko Pop, or anime figure. Pick your style, accessories, and pose. The viral trend made easy.';
-  const url = 'https://midastools.co/action-figure-generator';
+  const url = 'https://www.midastools.co/action-figure-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -163,7 +163,7 @@ export default function ActionFigureGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   return (

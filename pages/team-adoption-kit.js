@@ -32,8 +32,8 @@ export default function TeamAdoptionKit() {
         <meta name="description" content="50+ ready-made AI skills, 8 department playbooks, 15 tracking templates, and 5 onboarding guides. Roll out AI across your team without the chaos. $49." />
         <meta property="og:title" content="AI Team Adoption Kit — Roll Out AI Across Your Team" />
         <meta property="og:description" content="50+ skills, 8 department playbooks, tracking templates, and onboarding guides. Everything Ramp spent months building — packaged for you. $49 one-time." />
-        <meta property="og:url" content="https://midastools.co/team-adoption-kit" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/team-adoption-kit" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="icon" type="image/png" href="/favicon.png" />
@@ -45,8 +45,8 @@ export default function TeamAdoptionKit() {
           "@type": "Product",
           "name": "AI Team Adoption Kit",
           "description": "50+ ready-made AI skills, 8 department playbooks, 15 tracking templates, and 5 onboarding guides for rolling out AI across your team",
-          "url": "https://midastools.co/team-adoption-kit",
-          "image": "https://midastools.co/og-image.png",
+          "url": "https://www.midastools.co/team-adoption-kit",
+          "image": "https://www.midastools.co/og-image.png",
           "offers": {
             "@type": "Offer",
             "price": "49",

@@ -9,7 +9,7 @@ const STRIPE_BUNDLE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 export default function ClaudeManagedAgents2026() {
   const title = 'Anthropic Just Launched Claude Managed Agents — What It Means for Your Business';
   const description = 'Anthropic launched Claude Managed Agents in public beta: cloud-hosted AI agents that run for hours, survive disconnections, and coordinate with each other. Here is what it means for your team and how to prepare.';
-  const url = 'https://midastools.co/blog/claude-managed-agents-2026';
+  const url = 'https://www.midastools.co/blog/claude-managed-agents-2026';
 
   const jsonLd = [
     {
@@ -20,8 +20,8 @@ export default function ClaudeManagedAgents2026() {
       url: url,
       datePublished: '2026-04-09',
       dateModified: '2026-04-09',
-      author: { '@type': 'Person', name: 'Rey Midas', url: 'https://midastools.co' },
-      publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+      author: { '@type': 'Person', name: 'Rey Midas', url: 'https://www.midastools.co' },
+      publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': url }
     },
     {
@@ -82,7 +82,7 @@ export default function ClaudeManagedAgents2026() {
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://midastools.co/og-default.png" />
+        <meta property="og:image" content="https://www.midastools.co/og-default.png" />
         <meta property="og:site_name" content="Midas Tools" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />

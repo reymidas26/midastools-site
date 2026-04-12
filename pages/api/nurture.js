@@ -23,7 +23,7 @@ function wrapEmail(content) {
       <hr style="border:none;border-top:1px solid #E5E7EB;margin:32px 0 16px;"/>
       <p style="font-size:12px;color:#9CA3AF;text-align:center;">
         MidasTools — AI kits that make you money<br/>
-        <a href="https://midastools.co" style="color:#9CA3AF;">midastools.co</a>
+        <a href="https://www.midastools.co" style="color:#9CA3AF;">midastools.co</a>
       </p>
     </div>
   `;
@@ -200,7 +200,7 @@ const emails = {
       <p style="font-size:16px;line-height:1.7;color:#374151;">Felix Craft built an AI-powered claw machine game. Not a SaaS. Not an app. <strong>A claw machine.</strong></p>
       <p style="font-size:28px;font-weight:700;color:#16A34A;margin:20px 0;">$300,000+</p>
       <p style="font-size:16px;line-height:1.7;color:#374151;">Every dollar started with a prompt — to write code, design assets, write copy, analyze data.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://midastools.co/blog/ai-agent-10k-day" style="color:#3B5FFF;font-weight:600;">Full story here</a> (5 min read, worth it).</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://www.midastools.co/blog/ai-agent-10k-day" style="color:#3B5FFF;font-weight:600;">Full story here</a> (5 min read, worth it).</p>
       <p style="font-size:16px;line-height:1.7;color:#374151;">The toolkit that powers businesses like this:</p>
       ${ctaButton("500+ Prompts — $29", MEGA_PACK_LINK, "Same techniques Felix used. Your turn.")}
       <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
@@ -215,15 +215,15 @@ const emails = {
       <p style="font-size:16px;line-height:1.7;color:#374151;">The ones people love most:</p>
       <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:20px;margin:20px 0;">
         <p style="font-size:15px;line-height:2;color:#374151;margin:0;">
-          <a href="https://midastools.co/ghibli-prompt-generator" style="color:#3B5FFF;">Ghibli Art Generator</a> — 8 Miyazaki film styles<br/>
-          <a href="https://midastools.co/pet-portrait-generator" style="color:#3B5FFF;">Pet Portrait Generator</a> — 12 art styles<br/>
-          <a href="https://midastools.co/action-figure-generator" style="color:#3B5FFF;">Action Figure Generator</a> — Barbie Box, Funko Pop<br/>
-          <a href="https://midastools.co/prompt-generator" style="color:#3B5FFF;">AI Prompt Generator</a> — any task, any AI<br/>
-          <a href="https://midastools.co/prompt-enhancer" style="color:#3B5FFF;">Prompt Enhancer</a> — make bad prompts great<br/>
-          <a href="https://midastools.co/buyer-intent-generator" style="color:#3B5FFF;">Buyer Intent Finder</a> — find people ready to buy on Reddit
+          <a href="https://www.midastools.co/ghibli-prompt-generator" style="color:#3B5FFF;">Ghibli Art Generator</a> — 8 Miyazaki film styles<br/>
+          <a href="https://www.midastools.co/pet-portrait-generator" style="color:#3B5FFF;">Pet Portrait Generator</a> — 12 art styles<br/>
+          <a href="https://www.midastools.co/action-figure-generator" style="color:#3B5FFF;">Action Figure Generator</a> — Barbie Box, Funko Pop<br/>
+          <a href="https://www.midastools.co/prompt-generator" style="color:#3B5FFF;">AI Prompt Generator</a> — any task, any AI<br/>
+          <a href="https://www.midastools.co/prompt-enhancer" style="color:#3B5FFF;">Prompt Enhancer</a> — make bad prompts great<br/>
+          <a href="https://www.midastools.co/buyer-intent-generator" style="color:#3B5FFF;">Buyer Intent Finder</a> — find people ready to buy on Reddit
         </p>
       </div>
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://midastools.co/tools" style="color:#3B5FFF;font-weight:600;">See all 20 →</a></p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://www.midastools.co/tools" style="color:#3B5FFF;font-weight:600;">See all 20 →</a></p>
       <p style="font-size:16px;line-height:1.7;color:#374151;">When you're ready for the full arsenal:</p>
       ${ctaButton("All 21 Kits — $97 (85% off)", BUNDLE_LINK, "Worth a quick look?")}
       <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
@@ -276,10 +276,10 @@ const broadcasts = {
 
       <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:24px 0;">
         <p style="font-size:15px;line-height:2.2;color:#374151;margin:0;">
-          <a href="https://midastools.co/ghibli-prompt-generator" style="color:#3B5FFF;font-weight:600;">Studio Ghibli Art Generator</a> — 8 Miyazaki film styles, magical elements<br/>
-          <a href="https://midastools.co/pet-portrait-generator" style="color:#3B5FFF;font-weight:600;">Pet Portrait Generator</a> — 12 art styles including Pet-as-Human<br/>
-          <a href="https://midastools.co/action-figure-generator" style="color:#3B5FFF;font-weight:600;">Action Figure Generator</a> — Barbie Box, Funko Pop, Anime & more<br/>
-          <a href="https://midastools.co/muse-spark-prompt-generator" style="color:#3B5FFF;font-weight:600;">Meta Muse Spark Generator</a> — Prompts for Meta's new AI
+          <a href="https://www.midastools.co/ghibli-prompt-generator" style="color:#3B5FFF;font-weight:600;">Studio Ghibli Art Generator</a> — 8 Miyazaki film styles, magical elements<br/>
+          <a href="https://www.midastools.co/pet-portrait-generator" style="color:#3B5FFF;font-weight:600;">Pet Portrait Generator</a> — 12 art styles including Pet-as-Human<br/>
+          <a href="https://www.midastools.co/action-figure-generator" style="color:#3B5FFF;font-weight:600;">Action Figure Generator</a> — Barbie Box, Funko Pop, Anime & more<br/>
+          <a href="https://www.midastools.co/muse-spark-prompt-generator" style="color:#3B5FFF;font-weight:600;">Meta Muse Spark Generator</a> — Prompts for Meta's new AI
         </p>
       </div>
 

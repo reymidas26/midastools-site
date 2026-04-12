@@ -153,7 +153,7 @@ export default function PhotoRoastGenerator() {
 
   const title = 'AI Photo Roast Generator — Get Brutally Funny AI Roasts (Free)';
   const desc = 'Get a hilarious AI-powered roast of any photo. Choose your roast style — Gordon Ramsay, Mean Girls, British Dry Wit & more. Generate the perfect prompt for ChatGPT or Claude. The viral TikTok trend, free.';
-  const url = 'https://midastools.co/photo-roast-generator';
+  const url = 'https://www.midastools.co/photo-roast-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -164,7 +164,7 @@ export default function PhotoRoastGenerator() {
     applicationCategory: 'EntertainmentApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

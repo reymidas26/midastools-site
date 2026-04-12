@@ -146,7 +146,7 @@ export default function AlbumCoverGenerator() {
 
   const title = 'AI Album Cover Prompt Generator — Free Custom Album Art Prompts';
   const description = 'Create custom AI album cover art prompts for ChatGPT, Midjourney, and DALL-E. Choose genre, style, mood, and elements. Free prompt generator for musicians.';
-  const url = 'https://midastools.co/album-cover-generator';
+  const url = 'https://www.midastools.co/album-cover-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -157,7 +157,7 @@ export default function AlbumCoverGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqJsonLd = {

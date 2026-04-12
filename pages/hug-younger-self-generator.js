@@ -153,7 +153,7 @@ export default function HugYoungerSelfGenerator() {
 
   const title = 'AI "Hug My Younger Self" Generator — Create the Viral AI Photo Trend (Free)';
   const description = 'Generate the perfect AI prompt for the viral "Hug My Younger Self" trend. Choose your style, setting, and mood. Works with ChatGPT, Gemini, DALL-E, and Midjourney. The most emotional AI trend of 2026.';
-  const url = 'https://midastools.co/hug-younger-self-generator';
+  const url = 'https://www.midastools.co/hug-younger-self-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -164,7 +164,7 @@ export default function HugYoungerSelfGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

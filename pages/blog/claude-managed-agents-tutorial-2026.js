@@ -5,7 +5,7 @@ import Layout from '../../components/Layout';
 export default function ClaudeManagedAgentsTutorial() {
   const title = 'Claude Managed Agents: The Complete Getting Started Guide (2026)';
   const description = 'Learn how to build autonomous AI agents with Claude Managed Agents. Step-by-step tutorial with code examples in Python, TypeScript, and bash.';
-  const url = 'https://midastools.co/blog/claude-managed-agents-tutorial-2026';
+  const url = 'https://www.midastools.co/blog/claude-managed-agents-tutorial-2026';
 
   const jsonLd = [
     {
@@ -16,8 +16,8 @@ export default function ClaudeManagedAgentsTutorial() {
       url: url,
       datePublished: '2026-04-10',
       dateModified: '2026-04-10',
-      author: { '@type': 'Person', name: 'Rey Midas', url: 'https://midastools.co' },
-      publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+      author: { '@type': 'Person', name: 'Rey Midas', url: 'https://www.midastools.co' },
+      publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': url }
     },
     {
@@ -70,7 +70,7 @@ export default function ClaudeManagedAgentsTutorial() {
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href={url} />
         <link rel="icon" type="image/png" href="/favicon.png" />

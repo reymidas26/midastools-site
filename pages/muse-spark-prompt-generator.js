@@ -103,11 +103,11 @@ export default function MuseSparkGenerator() {
         <meta name="description" content="Free prompt generator for Meta Muse Spark. 30+ templates across visual coding, multimodal reasoning, Contemplating mode & more. Copy, paste, use." />
         <meta property="og:title" content="Free Muse Spark Prompt Generator" />
         <meta property="og:description" content="30+ free prompt templates for Meta's brand new Muse Spark AI. Visual coding, multimodal, multi-agent & more." />
-        <meta property="og:url" content="https://midastools.co/muse-spark-prompt-generator" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:url" content="https://www.midastools.co/muse-spark-prompt-generator" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="canonical" href="https://midastools.co/muse-spark-prompt-generator" />
+        <link rel="canonical" href="https://www.midastools.co/muse-spark-prompt-generator" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />

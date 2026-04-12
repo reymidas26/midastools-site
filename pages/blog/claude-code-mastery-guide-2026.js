@@ -8,7 +8,7 @@ const STRIPE_BUNDLE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 export default function ClaudeCodeMasteryGuide() {
   const title = 'The Ultimate Claude Code CLAUDE.md Guide: Templates, Hooks & Workflows (2026)';
   const description = 'Copy-paste CLAUDE.md templates for React, Python, Go + 10 hook recipes + subagent patterns. The complete Claude Code mastery guide with ready-to-use configs.';
-  const url = 'https://midastools.co/blog/claude-code-mastery-guide-2026';
+  const url = 'https://www.midastools.co/blog/claude-code-mastery-guide-2026';
 
   const jsonLd = [
     {
@@ -19,8 +19,8 @@ export default function ClaudeCodeMasteryGuide() {
       url: url,
       datePublished: '2026-04-10',
       dateModified: '2026-04-10',
-      author: { '@type': 'Person', name: 'Rey Midas', url: 'https://midastools.co' },
-      publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+      author: { '@type': 'Person', name: 'Rey Midas', url: 'https://www.midastools.co' },
+      publisher: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': url }
     },
     {
@@ -80,7 +80,7 @@ export default function ClaudeCodeMasteryGuide() {
         <meta property="og:description" content={description} />
         <meta property="og:url" content={url} />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://midastools.co/og-image.png" />
+        <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <link rel="canonical" href={url} />
         <link rel="icon" type="image/png" href="/favicon.png" />

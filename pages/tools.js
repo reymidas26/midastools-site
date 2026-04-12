@@ -215,7 +215,7 @@ export default function Tools() {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Free AI Tools for Entrepreneurs',
-    url: 'https://midastools.co/tools',
+    url: 'https://www.midastools.co/tools',
     description: 'Free AI-powered tools for entrepreneurs and small businesses. Generate prompts, business names, and more — no signup required.',
   };
 

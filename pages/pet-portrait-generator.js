@@ -150,7 +150,7 @@ export default function PetPortraitGenerator() {
 
   const title = 'AI Pet Portrait Generator — Turn Your Pet Into Art (Free Prompt Builder)';
   const description = 'Create stunning AI pet portraits with the perfect prompt. Royal portraits, Ghibli style, action figures, trading cards, Funko Pops & more. Works with ChatGPT, DALL-E, Midjourney. The #1 pet AI trend of 2026.';
-  const url = 'https://midastools.co/pet-portrait-generator';
+  const url = 'https://www.midastools.co/pet-portrait-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -161,7 +161,7 @@ export default function PetPortraitGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

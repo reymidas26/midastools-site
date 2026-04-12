@@ -145,7 +145,7 @@ export default function LegoPromptGenerator() {
 
   const title = 'AI Lego Prompt Generator — Turn Anyone Into a Lego Minifigure (Free)';
   const description = 'Create stunning LEGO minifigure AI art with the perfect prompt. Choose from 8 Lego styles, scenes, and accessories. Works with ChatGPT, DALL-E, Midjourney. Turn yourself into a Lego minifig instantly.';
-  const url = 'https://midastools.co/lego-prompt-generator';
+  const url = 'https://www.midastools.co/lego-prompt-generator';
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -156,7 +156,7 @@ export default function LegoPromptGenerator() {
     applicationCategory: 'DesignApplication',
     operatingSystem: 'Web',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
-    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://midastools.co' },
+    author: { '@type': 'Organization', name: 'Midas Tools', url: 'https://www.midastools.co' },
   };
 
   const faqLd = {

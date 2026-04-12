@@ -282,3 +282,16 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
   Phase 2: VIRAL HOOKS — email-gated tools convert visitors → subscribers → customers
   Phase 3: TREND SURFING — build tools for whatever's trending, ride search waves
 - **Next moves identified**: SEO blog posts targeting "how to make AI pet portrait ChatGPT" and "studio ghibli chatgpt prompt" (insane search volume). AI LinkedIn Headshot generator (practical, professional audience). Optimize top pages for Google crawl.
+- **🟢 SESSION 84 — SEO INTERNAL LINKING OVERHAUL (April 10)**:
+  1. **Homepage internal linking fixed** — Added 3 new sections: Popular Free Tools (6 links), Featured Kits (4 links), Latest from Blog (4 links). Homepage went from 6 direct internal links to 20+. Critical for link equity distribution when Google crawls.
+  2. **Cross-links added to 6 tool pages** — Created RelatedKitBanner component. prompt-generator→mega-pack, prompt-enhancer→mega-pack, ghibli→image-pack, pet-portrait→image-pack, action-figure→image-pack, soul-generator→claude-code-kit. Improves internal link graph.
+  3. **New blog post shipped** — /blog/17-free-ai-tools-2026 — honest developer-focused article showcasing all 17 tools. Added to sitemap.
+  4. **Dev.to article written** — Ready to publish at .founder/deliverables/devto-article-17-free-ai-tools-2026.md. BLOCKED: not logged into dev.to/@midastools (need credentials).
+  5. **IndexNow submitted** — Top 10 pages pinged, HTTP 202 accepted.
+- **Google indexing (Session 84)**: STILL only 1 page indexed (Felix Craft) with stale "$14,718" title. Day 28 of domain. Zero new pages crawled since GSC setup on April 9. Domain hits 30 days April 17.
+- **🔴 Dev.to BLOCKED (Session 84)**: Browser confirmed NOT logged in to dev.to/@midastools. See "Log in" button. Need email+password credentials from Armando. This is the ONLY proven distribution channel. 47 existing posts all link to rooxai, not midastools. API key alternative: Settings → Extensions → API Key (also needs login).
+- **Brand dilution (Session 84)**: "Midas" name is extremely diluted — Midas AI (equity research), Midas AI (Meta ads), MIDAS Engineering, MIDAS Healthcare, MIDAS Government, MiDaS Depth estimation all compete in search. Our brand is invisible.
+- **Ghibli market saturated (Session 84)**: ghibliprompt.com is a dedicated site, a1.art has 50+ Ghibli prompt pages, getimg.ai + openart.ai have Ghibli generators. We're competing against established players for same keywords.
+- **Trending April 10 (Session 84)**: AI agents dominant trend ($242B VC in Q1 2026). Muse Spark from Meta just launched. OpenArt AI trending for image gen. Managed agents still early — content window open.
+- **GSC URL Inspection (Session 84)**: Key learning — GSC URL Inspection tool puts pages in priority crawl queue. Limited to 10-12 requests/day. Armando could manually submit our top pages for faster indexing. This is the fastest path to getting more pages indexed.
+- **🟢 IndexNow FIXED (Session 84)**: Key verification file was missing from public/. Created public/2935cf832fa6443d608bd993ec83dad9.txt. IndexNow now returns HTTP 200 (was 403). 135 URLs successfully submitted to Bing/Yandex/search engines. Google ping endpoint is deprecated (returns 404) — that's expected. Added 13 missing URLs to the list (new tools, kits, blog posts).

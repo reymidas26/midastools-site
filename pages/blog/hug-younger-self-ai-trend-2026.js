@@ -5,7 +5,7 @@ import Layout from '../../components/Layout';
 export default function HugYoungerSelfAITrend() {
   const title = "The 'Hug My Younger Self' AI Trend: How to Create Yours (Free Prompts)";
   const description = "The 'Hug My Younger Self' AI trend is the most emotional viral moment of 2026. Here's how to create yours with ChatGPT, Midjourney, or DALL-E — plus free prompts.";
-  const url = 'https://midastools.co/blog/hug-younger-self-ai-trend-2026';
+  const url = 'https://www.midastools.co/blog/hug-younger-self-ai-trend-2026';
   const publishDate = '2026-04-12';
 
   const jsonLd = {
