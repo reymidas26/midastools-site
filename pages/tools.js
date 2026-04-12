@@ -187,6 +187,14 @@ const TOOLS = [
     categories: '12 styles · 12 eras',
     bg: 'var(--card-amber)',
   },
+  {
+    title: '🔥 AI Photo Roast Generator',
+    desc: 'Get a hilarious AI-powered roast of any photo. Pick a style, describe your photo, and get a brutally funny prompt.',
+    href: '/photo-roast-generator',
+    tag: '🔥 VIRAL',
+    categories: 'Fun · multiple roast styles',
+    bg: 'var(--card-pink)',
+  },
 ];
 
 const COMING_SOON = [

@@ -8,7 +8,7 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const SECRET_KEY = process.env.OUTREACH_SECRET || 'mt-outreach-2026';
-const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d818d-6c2b-7842-9143-0da0f7805369';
+const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d81a7-accd-7f81-bf56-7c1f1619bbb9';
 
 const BUNDLE_LINK = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 const MEGA_PACK_LINK = 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d';

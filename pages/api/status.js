@@ -5,7 +5,7 @@
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d818d-6c2b-7842-9143-0da0f7805369';
+const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d81a7-accd-7f81-bf56-7c1f1619bbb9';
 const NOTIFY_EMAIL = 'iam+midas@armando.mx';
 
 function grade(value, bad, ok) {
