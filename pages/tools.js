@@ -155,6 +155,38 @@ const TOOLS = [
     categories: '8 styles · 6 lighting',
     bg: 'var(--card-cyan)',
   },
+  {
+    title: 'AI Tattoo Design Prompt Generator',
+    desc: 'Design your dream tattoo with AI. Choose styles like traditional, blackwork, watercolor, geometric, Japanese, and more. Set placement, size, and details — get a perfect prompt for ChatGPT, Midjourney, or DALL·E.',
+    href: '/tattoo-generator',
+    tag: '🔥 TRENDING',
+    categories: '12 styles · custom placement',
+    bg: 'var(--card-amber)',
+  },
+  {
+    title: 'AI Album Cover Prompt Generator',
+    desc: 'Create stunning album cover art with AI. Pick your genre, aesthetic, mood, and visual style — get a ready-to-use prompt for ChatGPT, Midjourney, or DALL·E. Perfect for musicians, producers, and playlist curators.',
+    href: '/album-cover-generator',
+    tag: '🔥 NEW',
+    categories: '10+ genres · custom aesthetics',
+    bg: 'var(--card-purple)',
+  },
+  {
+    title: 'AI Fantasy Map Generator',
+    desc: 'Create stunning D&D, RPG, and world-building maps with AI. Tolkien-style parchment, pixel art, dark fantasy, steampunk & more. Mountains, rivers, dragon lairs, magic portals — get the perfect prompt.',
+    href: '/fantasy-map-generator',
+    tag: '🔥 NEW',
+    categories: '8 styles · 16 terrains',
+    bg: 'var(--card-green)',
+  },
+  {
+    title: 'AI Childhood Photo Reimaginer',
+    desc: 'Reimagine childhood photos in magical art styles — Studio Ghibli kid, Pixar character, fairy tale illustration, superhero origin, vintage film. The most emotional AI trend of 2026.',
+    href: '/childhood-reimagine-generator',
+    tag: '🔥 VIRAL',
+    categories: '12 styles · 12 eras',
+    bg: 'var(--card-amber)',
+  },
 ];
 
 const COMING_SOON = [

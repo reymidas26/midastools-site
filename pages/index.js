@@ -555,6 +555,10 @@ export default function Home() {
             { href: '/action-figure-generator', title: 'Action Figure Generator', desc: 'Generate custom action figure and toy box prompts from any photo.' },
             { href: '/prompt-enhancer', title: 'AI Prompt Enhancer', desc: 'Paste any prompt, get 5 enhanced versions instantly.' },
             { href: '/image-prompt-builder', title: 'Image Prompt Builder', desc: 'Build perfect prompts for Midjourney, DALL-E, and ChatGPT images.' },
+            { href: '/tattoo-generator', title: 'Tattoo Design Generator', desc: 'Design your dream tattoo with AI — 12 styles, custom placement.' },
+            { href: '/fantasy-map-generator', title: 'Fantasy Map Generator', desc: 'Create D&D, RPG & world-building maps — Tolkien, pixel art, dark fantasy.' },
+            { href: '/childhood-reimagine-generator', title: 'Childhood Reimaginer', desc: 'Reimagine childhood photos as Ghibli kids, Pixar characters, fairy tales.' },
+            { href: '/album-cover-generator', title: 'Album Cover Generator', desc: 'Create stunning album cover art with AI for any genre or mood.' },
           ].map(tool => (
             <Link key={tool.href} href={tool.href} style={{
               display: 'block', background: 'var(--surface)', border: '1px solid var(--border)',
@@ -621,7 +625,7 @@ export default function Home() {
             { href: '/blog/claude-code-mastery-guide-2026', title: 'Claude Code Mastery Guide', desc: 'The complete guide to building with Claude Code — from setup to advanced workflows.' },
             { href: '/blog/chatgpt-ghibli-style-prompts-2026', title: 'ChatGPT Ghibli Style Prompts', desc: 'How to generate stunning Studio Ghibli-style art with ChatGPT and AI image tools.' },
             { href: '/blog/chatgpt-action-figure-prompt-2026', title: 'AI Action Figure Prompts', desc: 'Create viral action figure and toy box images with these proven prompt templates.' },
-            { href: '/blog/claude-managed-agents-tutorial-2026', title: 'Claude Managed Agents Tutorial', desc: 'Build autonomous AI agents with Anthropic\'s new managed infrastructure — step-by-step with code.' },
+            { href: '/blog/viral-ai-art-trends-april-2026', title: '10 Viral AI Art Trends of 2026', desc: 'The biggest AI art trends — Ghibli portraits, fantasy maps, tattoo design, childhood reimagining + free generators.' },
           ].map(post => (
             <Link key={post.href} href={post.href} style={{
               display: 'block', background: 'var(--surface)', border: '1px solid var(--border)',

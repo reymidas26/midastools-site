@@ -43,6 +43,18 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://midastools.co/tattoo-generator</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://midastools.co/album-cover-generator</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://midastools.co/ai-audit</loc>
     <lastmod>2026-04-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -681,6 +693,24 @@
   <url>
     <loc>https://midastools.co/blog/claude-managed-agents-tutorial-2026</loc>
     <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://midastools.co/fantasy-map-generator</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://midastools.co/childhood-reimagine-generator</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://midastools.co/blog/viral-ai-art-trends-april-2026</loc>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
