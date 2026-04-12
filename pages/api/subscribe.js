@@ -3,7 +3,7 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const FOUNDER_EMAIL = 'iam+midas@armando.mx';
-const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d7730-bd31-79cb-86f4-4b76dac3786b';
+const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d818d-6c2b-7842-9143-0da0f7805369';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -38,7 +38,7 @@ export default async function handler(req, res) {
     await resend.emails.send({
       from: FROM_EMAIL,
       to: email,
-      subject: 'Your 5 Free AI Prompts That Make Money',
+      subject: 'Here are your 5 AI prompts (try #1 first)',
       html: `
         <div style="font-family:'Inter',Helvetica,Arial,sans-serif;max-width:600px;margin:0 auto;padding:32px 24px;color:#111827;">
           <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">Your 5 Free AI Prompts</h1>

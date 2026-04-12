@@ -8,7 +8,7 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const SECRET_KEY = process.env.OUTREACH_SECRET || 'mt-outreach-2026';
-const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d7730-bd31-79cb-86f4-4b76dac3786b';
+const SUBSCRIBERS_BLOB = 'https://jsonblob.com/api/jsonBlob/019d818d-6c2b-7842-9143-0da0f7805369';
 
 const BUNDLE_LINK = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 const MEGA_PACK_LINK = 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d';
@@ -130,64 +130,36 @@ function getSourceBonus(source) {
 }
 
 const emails = {
-  // Day 1: Value email — teach the R-C-O framework, soft CTA
+  // Day 1: Quick, punchy, one technique that changes everything
   1: {
-    subject: "The #1 mistake people make with AI prompts (and the fix)",
+    subject: "90% of people use AI wrong (here's the 3-word fix)",
     html: (source) => wrapEmail(`
-      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">Most AI prompts are useless. Here's why.</h1>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Hey — quick follow-up on those 5 prompts I sent yesterday.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Here's what I see 90% of people do wrong with AI:</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>They write prompts like this:</strong><br/>
-      <em style="color:#6B7280;">"Write me a sales email"</em></p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>And get garbage back.</strong> Generic, robotic, sounds like every other AI-generated email.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">The fix? <strong>The R-C-O framework:</strong></p>
-
-      ${blueBox(null, `
-        <strong style="color:#3B5FFF;">R</strong>ole — Tell the AI WHO to be<br/>
-        <strong style="color:#3B5FFF;">C</strong>ontext — Give it YOUR specific situation<br/>
-        <strong style="color:#3B5FFF;">O</strong>utput — Define the EXACT format you want
-      `)}
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>Before (bad):</strong><br/>
-      <em style="color:#6B7280;">"Write me a sales email"</em></p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>After (R-C-O):</strong><br/>
-      <em style="color:#3B5FFF;">"You are a B2B SaaS copywriter who's generated $2M+ in pipeline. I sell project management software to marketing agencies with 10-50 employees. Write a 3-paragraph cold email that leads with their #1 pain (missed deadlines), includes a specific metric, and ends with a soft CTA. Under 150 words."</em></p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Night and day difference. Every prompt in our kits uses this framework — that's why they actually work.</p>
-
-      ${ctaButton("Get 500+ R-C-O Prompts — $29", MEGA_PACK_LINK, "Works with ChatGPT, Claude, Gemini, and any LLM")}
-
-      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Talk tomorrow,<br/>The MidasTools Team</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Hey — quick one.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Yesterday I sent you 5 prompts. Here's the technique behind all of them, in 3 words:</p>
+      <p style="font-size:24px;font-weight:700;color:#3B5FFF;margin:24px 0;text-align:center;">Role → Context → Output</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>Bad:</strong> <em style="color:#6B7280;">"Write me a sales email"</em><br/><strong>Good:</strong> <em style="color:#3B5FFF;">"You're a B2B copywriter. I sell PM software to 50-person agencies. Write a 3-paragraph cold email about missed deadlines. Under 150 words."</em></p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Night and day. Try it on your next prompt — you'll feel the difference instantly.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">500+ prompts using this exact framework 👇</p>
+      ${ctaButton("Grab the Mega Pack — $29", MEGA_PACK_LINK, "Worth a look, or totally off base?")}
+      <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
     `),
   },
 
-  // Day 2: Quick win — a free prompt they can use RIGHT NOW to get results
+  // Day 2: One prompt, try it NOW, make them feel the value
   2: {
-    subject: "Open ChatGPT and paste this (takes 30 seconds)",
+    subject: "Paste this into ChatGPT right now (30 sec)",
     html: (source) => wrapEmail(`
-      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">One prompt. Try it right now.</h1>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">I'm going to give you one prompt. Don't save it for later — open ChatGPT or Claude right now, fill in the brackets, and paste it. You'll have a usable result in 30 seconds.</p>
-
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Don't save this for later. Open ChatGPT or Claude right now and paste this:</p>
       <div style="background:#111827;border-radius:12px;padding:24px;margin:24px 0;">
         <p style="font-size:13px;line-height:1.9;color:#E5E7EB;margin:0;font-family:monospace;">
-          I run [YOUR BUSINESS/ROLE]. Today I need to make progress on [YOUR BIGGEST CURRENT CHALLENGE].<br/><br/>
-          Don't give me generic advice. Instead:<br/><br/>
-          1. Ask me 3 sharp diagnostic questions about my specific situation (things I probably haven't considered)<br/>
-          2. Based on my answers, give me ONE high-leverage action I can complete in under 2 hours today that moves the needle the most<br/>
-          3. Write the actual deliverable for me — the email, the plan, the script, the analysis, whatever it is. Not a template. The real thing, using my specific details.<br/>
-          4. Tell me the ONE thing most people in my position waste time on that I should stop doing immediately<br/><br/>
-          Start with the 3 questions. Wait for my answers before proceeding.
+          I run [YOUR BUSINESS]. My biggest challenge today is [CHALLENGE].<br/><br/>
+          Ask me 3 sharp diagnostic questions I probably haven't considered. Wait for my answers. Then give me ONE action I can finish in 2 hours that moves the needle the most — and write the actual deliverable (the email, the plan, the script). Not a template. The real thing.
         </p>
       </div>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>Why this works:</strong> Most prompts ask AI to monologue at you. This one forces a conversation — the AI diagnoses before prescribing, so the output is hyper-specific to YOUR situation. No generic advice possible.</p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Try it once and you'll never go back to basic prompting.</p>
-
-      ${ctaButton("Get 500+ Prompts This Good — $29", MEGA_PACK_LINK, "Each one designed for specific, actionable results")}
-
-      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Try it now. Seriously.<br/>The MidasTools Team</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">This works because it forces AI to diagnose before prescribing. No generic advice possible.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">If that felt useful — imagine 500 more like it.</p>
+      ${ctaButton("500+ Prompts Like This — $29", MEGA_PACK_LINK, "2 min to browse. You'll know if it's for you.")}
+      <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
     `),
   },
 
@@ -219,151 +191,74 @@ const emails = {
     },
   },
 
-  // Day 4: Social proof — real results, Felix Craft case study
+  // Day 4: Social proof — short, punchy, Felix Craft story
   4: {
-    subject: "This guy made $300K with AI prompts (here's how)",
+    subject: "He made $300K with AI. One person. No app.",
     html: (source) => wrapEmail(`
-      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">From side project to $300K</h1>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Quick story that'll change how you think about AI:</p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Felix Craft built an AI-powered claw machine game. <strong>Not a SaaS. Not an app. A claw machine.</strong></p>
-
-      <div style="background:#F0FDF4;border:1px solid #BBF7D0;border-radius:12px;padding:24px;margin:24px 0;">
-        <p style="font-size:20px;font-weight:700;color:#16A34A;margin:0 0 8px;">$300,000+ revenue</p>
-        <p style="font-size:14px;color:#374151;margin:0;">Built with AI tools. Mostly one person. Started from scratch.</p>
-      </div>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">The lesson? <strong>The money isn't in the AI — it's in what you BUILD with the AI.</strong></p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Every dollar Felix made started with a prompt. A prompt to write code. A prompt to design assets. A prompt to write marketing copy. A prompt to analyze his data.</p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">That's exactly what our kits give you — <strong>the prompts that power real businesses.</strong></p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://midastools.co/blog/ai-agent-10k-day" style="color:#3B5FFF;font-weight:600;">Read Felix's full story here</a></p>
-
-      ${ctaButton("Get the Same Toolkit — $29", MEGA_PACK_LINK, "500+ prompts for building, selling, and growing")}
-
-      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Your turn,<br/>The MidasTools Team</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Quick one.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Felix Craft built an AI-powered claw machine game. Not a SaaS. Not an app. <strong>A claw machine.</strong></p>
+      <p style="font-size:28px;font-weight:700;color:#16A34A;margin:20px 0;">$300,000+</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Every dollar started with a prompt — to write code, design assets, write copy, analyze data.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://midastools.co/blog/ai-agent-10k-day" style="color:#3B5FFF;font-weight:600;">Full story here</a> (5 min read, worth it).</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">The toolkit that powers businesses like this:</p>
+      ${ctaButton("500+ Prompts — $29", MEGA_PACK_LINK, "Same techniques Felix used. Your turn.")}
+      <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
     `),
   },
 
-  // Day 5: Free tools showcase — pure value, builds trust
+  // Day 5: Pure value — all free tools, no pressure
   5: {
-    subject: "17 free AI tools (my gift to you)",
+    subject: "20 free AI tools. No catch. Bookmark this.",
     html: (source) => wrapEmail(`
-      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">I built 17 free tools. Use them all.</h1>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">No catch. No paywall. No "free trial" BS. These are permanently free:</p>
-
-      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:24px 0;">
-        <p style="font-size:15px;line-height:2.2;color:#374151;margin:0;">
-          <strong>Create:</strong><br/>
-          <a href="https://midastools.co/prompt-generator" style="color:#3B5FFF;">AI Prompt Generator</a> — any prompt, any task<br/>
-          <a href="https://midastools.co/prompt-enhancer" style="color:#3B5FFF;">Prompt Enhancer</a> — make bad prompts great<br/>
-          <a href="https://midastools.co/image-prompt-builder" style="color:#3B5FFF;">Image Prompt Builder</a> — Midjourney/DALL-E ready<br/>
-          <a href="https://midastools.co/prompt-roaster" style="color:#3B5FFF;">Prompt Roaster</a> — brutal honest feedback<br/><br/>
-          <strong>Trending:</strong><br/>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">I built 20 free tools. No paywall. No "free trial." Permanently free.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">The ones people love most:</p>
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:20px;margin:20px 0;">
+        <p style="font-size:15px;line-height:2;color:#374151;margin:0;">
           <a href="https://midastools.co/ghibli-prompt-generator" style="color:#3B5FFF;">Ghibli Art Generator</a> — 8 Miyazaki film styles<br/>
           <a href="https://midastools.co/pet-portrait-generator" style="color:#3B5FFF;">Pet Portrait Generator</a> — 12 art styles<br/>
-          <a href="https://midastools.co/action-figure-generator" style="color:#3B5FFF;">Action Figure Generator</a> — Barbie Box, Funko Pop & more<br/><br/>
-          <strong>Business:</strong><br/>
-          <a href="https://midastools.co/business-name-generator" style="color:#3B5FFF;">Business Name Generator</a><br/>
-          <a href="https://midastools.co/ai-income-blueprint" style="color:#3B5FFF;">AI Income Blueprint</a><br/>
-          <a href="https://midastools.co/buyer-intent-generator" style="color:#3B5FFF;">Buyer Intent Generator</a> — find Reddit leads<br/>
-          <a href="https://midastools.co/ai-job-risk" style="color:#3B5FFF;">AI Job Risk Calculator</a><br/><br/>
-          <strong>Dev Tools:</strong><br/>
-          <a href="https://midastools.co/soul-generator" style="color:#3B5FFF;">SOUL.md Generator</a><br/>
-          <a href="https://midastools.co/cowork-setup-wizard" style="color:#3B5FFF;">Claude Cowork Wizard</a><br/>
-          <a href="https://midastools.co/openclaw-cost-calculator" style="color:#3B5FFF;">OpenClaw Cost Calculator</a><br/>
-          <a href="https://midastools.co/muse-spark-prompt-generator" style="color:#3B5FFF;">Muse Spark Generator</a><br/><br/>
-          <strong>Marketing:</strong><br/>
-          <a href="https://midastools.co/hashtag-generator" style="color:#3B5FFF;">Hashtag Generator</a><br/>
-          <a href="https://midastools.co/email-subject-tester" style="color:#3B5FFF;">Email Subject Tester</a>
+          <a href="https://midastools.co/action-figure-generator" style="color:#3B5FFF;">Action Figure Generator</a> — Barbie Box, Funko Pop<br/>
+          <a href="https://midastools.co/prompt-generator" style="color:#3B5FFF;">AI Prompt Generator</a> — any task, any AI<br/>
+          <a href="https://midastools.co/prompt-enhancer" style="color:#3B5FFF;">Prompt Enhancer</a> — make bad prompts great<br/>
+          <a href="https://midastools.co/buyer-intent-generator" style="color:#3B5FFF;">Buyer Intent Finder</a> — find people ready to buy on Reddit
         </p>
       </div>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Bookmark these. Share them. They're yours forever.</p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">And when you're ready for the full artillery — 500+ prompts, 21 kits, templates for every business function:</p>
-
-      ${ctaButton("Get Everything — $97 (85% off)", BUNDLE_LINK, "21 kits, normally $661. One purchase, lifetime access.")}
-
-      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Keep building,<br/>The MidasTools Team</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;"><a href="https://midastools.co/tools" style="color:#3B5FFF;font-weight:600;">See all 20 →</a></p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">When you're ready for the full arsenal:</p>
+      ${ctaButton("All 21 Kits — $97 (85% off)", BUNDLE_LINK, "Worth a quick look?")}
+      <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
     `),
   },
 
-  // Day 6: Bundle math — the value proposition, close the sale
+  // Day 6: Bundle math — short, numbers do the talking
   6: {
-    subject: "21 AI kits, one price (85% off ends soon)",
+    subject: "Quick math: $661 worth of AI kits for $97",
     html: (source) => wrapEmail(`
-      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">Quick math</h1>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">I'll keep this short because the numbers speak for themselves:</p>
-
-      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:24px 0;">
-        <table style="width:100%;border-collapse:collapse;font-size:14px;">
-          <tr>
-            <td style="padding:8px 0;color:#374151;">21 individual kits</td>
-            <td style="padding:8px 0;text-align:right;color:#374151;"><s>$661</s></td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0;color:#374151;font-weight:700;">All Kits Bundle</td>
-            <td style="padding:8px 0;text-align:right;color:#3B5FFF;font-weight:700;font-size:20px;">$97</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0;color:#16A34A;font-weight:600;" colspan="2">You save $564 (85% off)</td>
-          </tr>
-        </table>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">I'll keep this short. The numbers do the talking:</p>
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:20px 0;text-align:center;">
+        <p style="font-size:14px;color:#6B7280;margin:0;"><s>$661</s></p>
+        <p style="font-size:36px;font-weight:700;color:#3B5FFF;margin:4px 0;">$97</p>
+        <p style="font-size:14px;color:#16A34A;font-weight:600;margin:0;">21 kits. 500+ prompts. Lifetime access.</p>
       </div>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;"><strong>What's inside:</strong></p>
-      <ul style="font-size:15px;line-height:2;color:#374151;">
-        <li>500+ copy-paste AI prompts (sales, marketing, content, ops)</li>
-        <li>Industry kits: real estate, e-commerce, SaaS, freelancing</li>
-        <li>Image & video prompt packs (Midjourney, DALL-E, Sora, Runway)</li>
-        <li>Claude Code & Cowork mastery prompts</li>
-        <li>Reddit lead generation playbook</li>
-        <li>Resume, presentation, email marketing templates</li>
-        <li>Notion AI workspace templates</li>
-        <li>Team AI adoption framework</li>
-        <li>Meta Muse Spark prompt kit</li>
-      </ul>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">That's <strong>$97 for everything we've ever built.</strong> One purchase, lifetime access, instant download.</p>
-
-      ${ctaButton("Get All 21 Kits — $97", BUNDLE_LINK, "Instant download. Works with any AI tool. Lifetime access.")}
-
-      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Build something great,<br/>The MidasTools Team</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Sales, marketing, content, real estate, e-commerce, SaaS, freelancing, images, video, Reddit lead gen, Claude Code, Notion, resumes, presentations, email marketing — all of it.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">One purchase. Download. Done.</p>
+      ${ctaButton("Get the Bundle — $97", BUNDLE_LINK, "Instant download. No subscription. Yours forever.")}
+      <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
     `),
   },
 
-  // Day 7: Final email — honest, personal, last CTA + survey
+  // Day 7: The "close this out" — honest, easy exit, powerful close
   7: {
-    subject: "Last one from me (unless you want more)",
+    subject: "Should I close this out?",
     html: (source) => wrapEmail(`
-      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">Real talk for a second</h1>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">This is my last scheduled email. After this, I'll only email you when I ship something genuinely worth your time.</p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Over the past week I've shared:</p>
-      <ul style="font-size:15px;line-height:2;color:#374151;">
-        <li>The R-C-O framework (the only prompt structure that matters)</li>
-        <li>A daily productivity prompt that saves 2-3 hours</li>
-        <li>3 exclusive prompts just for subscribers</li>
-        <li>Felix Craft's $300K AI story</li>
-        <li>17 free tools you can use forever</li>
-        <li>The full kit bundle breakdown</li>
-      </ul>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">If any of that was useful, great — that's why I do this.</p>
-
-      <p style="font-size:16px;line-height:1.7;color:#374151;">If you want to go all in, the bundle is still live:</p>
-
-      ${ctaButton("Get All 21 Kits — $97", BUNDLE_LINK, "This link stays active. No fake urgency.")}
-
-      <div style="background:#FEF3C7;border:1px solid #FDE68A;border-radius:12px;padding:24px;margin:24px 0;">
-        <p style="font-size:16px;font-weight:700;color:#92400E;margin:0 0 8px;">One quick ask:</p>
-        <p style="font-size:14px;line-height:1.6;color:#92400E;margin:0;">What's the ONE thing you wish an AI tool could do for you that nothing does well right now? Just hit reply — I read every response and build tools based on what you tell me.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Last email from me.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">This week I shared the R-C-O framework, a prompt you could paste and use in 30 seconds, exclusive subscriber-only prompts, Felix Craft's $300K story, and 20 free tools.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">If any of that was useful — great. That's the whole point.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">The bundle's still live if you want the full thing:</p>
+      ${ctaButton("All 21 Kits — $97", BUNDLE_LINK, "No fake urgency. Link stays active.")}
+      <div style="background:#FEF3C7;border:1px solid #FDE68A;border-radius:12px;padding:20px;margin:24px 0;">
+        <p style="font-size:15px;color:#92400E;margin:0;"><strong>One ask:</strong> What's the ONE thing you wish AI could do better for you? Hit reply — I read every response and build tools based on what you tell me.</p>
       </div>
-
-      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Thanks for being here,<br/>The MidasTools Team</p>
+      <p style="font-size:14px;color:#6B7280;">Thanks for being here.<br/>— MidasTools</p>
     `),
   },
 };
