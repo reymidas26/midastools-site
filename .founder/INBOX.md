@@ -5,39 +5,48 @@ When your partner sends a message, it lands here. Address it before anything els
 
 ---
 
-## [2026-04-10 — Session 84. SEO Overhaul Shipped + Dev.to Blocker]
+## [2026-04-12 — Session 93. Critical SEO Fix + April 17 Plan]
 
-Armando, shipped 3 SEO improvements today (all deployed):
+Armando, BIG finding today:
 
-1. ✅ **Homepage internal linking** — went from 6 to 20+ direct links (critical for Google crawl equity)
-2. ✅ **Cross-links on 6 tool pages** — each tool now links to its related paid kit
-3. ✅ **New blog post** — /blog/17-free-ai-tools-2026 (honest dev-focused article)
+### 🔴 CRITICAL FIX SHIPPED (just deployed)
+Our Felix Craft blog post — the ONLY page Google has indexed — was linking to **14 dead telegra.ph articles** instead of our own pages. This means when Google crawled that page, it followed those dead links instead of discovering our site.
 
-### What I need from you (2 things, ~5 min total):
+**Fixed:** Now links to 18 internal tool pages + 8 internal blog posts. When Google re-crawls this page, it should discover 30+ pages on our site.
 
-**1. Dev.to login credentials** ⚡ HIGHEST PRIORITY
-- dev.to/@midastools has 47 posts but I can't log in to post new articles
-- I have a killer article ready: "I Built 17 Free AI Tools in 84 Sessions"
-- Dev.to is our ONLY proven distribution channel
-- Option A: Share email + password for the Dev.to account
-- Option B: Go to dev.to Settings → Extensions → Generate an API Key, share the key with me
-- The API key is better (I can post programmatically without browser login)
+### ✅ Drip Emails Sent
+8/8 subscribers received nurture emails (Day 3-4 content with exclusive prompts + Felix Craft story).
 
-**2. GSC URL Inspection** (optional but high-impact)
-- Go to Google Search Console for midastools.co
-- Use URL Inspection tool → paste these URLs one at a time → click "Request Indexing":
+### What I still need from you (SAME 2 items, ~5 min):
+
+**1. Dev.to API Key** ⚡ HIGHEST PRIORITY
+- Go to dev.to → Settings → Extensions → Generate API Key → share with me
+- We have 47 posts there that all link to the WRONG site (rooxai)
+- I have articles ready to publish for midastools.co
+- **This is our only proven traffic channel**
+
+**2. GSC URL Inspection** (HIGH IMPACT)
+- Open Google Search Console for midastools.co
+- URL Inspection → paste each URL → click "Request Indexing":
   - `https://www.midastools.co/tools`
   - `https://www.midastools.co/prompt-generator`
   - `https://www.midastools.co/ghibli-prompt-generator`
-  - `https://www.midastools.co/pet-portrait-generator`
-  - `https://www.midastools.co/action-figure-generator`
-- This puts them in Google's priority crawl queue (10-12 per day limit)
-- Could shave days off the indexing timeline
+  - `https://www.midastools.co/hug-younger-self-generator`
+  - `https://www.midastools.co/blog/hug-younger-self-ai-trend-2026`
+- 10-12 per day limit. Each one puts the URL in Google's priority crawl queue.
+
+### April 17 Plan (Domain 30 Days)
+In 5 days our domain hits the 30-day milestone. Here's the plan:
+1. ✅ Internal links fixed (done today)
+2. ⏳ Wait for Google re-crawl of Felix Craft page
+3. ⏳ Dev.to articles (waiting on API key)
+4. ⏳ GSC URL Inspection (waiting on you)
+5. Re-send top 5 outreach emails from mature domain
 
 ### Status
-- Day 28 of domain. Still only 1 page indexed (Felix Craft).
-- Google expected to start serious crawling around April 17 (domain 30 days).
-- All SEO foundations are solid — internal linking, sitemap, canonicals all correct.
-- The Dev.to article is the fastest path to actual traffic right now.
+- Day 30 of domain: April 17
+- Still only 1 page indexed (but now that page links to 30+ internal pages)
+- 8 subscribers, drip sequence active, $0 revenue
+- 93 sessions total
 
 ---
