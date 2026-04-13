@@ -5,8 +5,8 @@
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const GIST_ID = '35dec905716d2b37c180f45d73c37b1c';
-const GIST_RAW = `https://gist.githubusercontent.com/manduks/${GIST_ID}/raw/subscribers.json`;
+const BLOB_ID = '019d846e-c2f0-765c-b522-88ea3f44ab9c';
+const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
 const NOTIFY_EMAIL = 'iam+midas@armando.mx';
 
 function grade(value, bad, ok) {
@@ -23,7 +23,7 @@ export default async function handler(req, res) {
   // 1. Subscriber count
   let subscribers = [];
   try {
-    const gistRes = await fetch(GIST_RAW + '?t=' + Date.now());
+    const gistRes = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
     const data = await gistRes.json();
     subscribers = data.subscribers || [];
   } catch {}

@@ -8,8 +8,8 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const SECRET_KEY = process.env.OUTREACH_SECRET || 'mt-outreach-2026';
-const GIST_ID = '35dec905716d2b37c180f45d73c37b1c';
-const GIST_RAW = `https://gist.githubusercontent.com/manduks/${GIST_ID}/raw/subscribers.json`;
+const BLOB_ID = '019d846e-c2f0-765c-b522-88ea3f44ab9c';
+const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
 
 const BUNDLE_LINK = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 const MEGA_PACK_LINK = 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d';
@@ -313,7 +313,7 @@ export default async function handler(req, res) {
     // Call daily: GET /api/nurture?key=SECRET&drip=true
     // ==========================================
     if (drip === 'true') {
-      const gistRes = await fetch(GIST_RAW + '?t=' + Date.now());
+      const gistRes = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
       const gistData = await gistRes.json();
       const subscribers = (gistData.subscribers || []).filter(s => !s.unsubscribed);
 
@@ -357,16 +357,13 @@ export default async function handler(req, res) {
         }
       }
 
-      // Save updated sent markers back to gist
+      // Save updated sent markers back to jsonblob
       if (results.length > 0) {
-        const token = process.env.GITHUB_TOKEN;
-        if (token) {
-          await fetch(`https://api.github.com/gists/${GIST_ID}`, {
-            method: 'PATCH',
-            headers: { 'Authorization': `token ${token}`, 'Content-Type': 'application/json' },
-            body: JSON.stringify({ files: { 'subscribers.json': { content: JSON.stringify({ subscribers }) } } }),
-          });
-        }
+        await fetch(BLOB_URL, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ subscribers }),
+        });
 
         // Notify founder
         await resend.emails.send({
@@ -395,7 +392,7 @@ export default async function handler(req, res) {
       const templateName = template || 'tools';
       const broadcastTemplate = broadcasts[templateName] || broadcasts.tools;
 
-      const gistRes = await fetch(GIST_RAW + '?t=' + Date.now());
+      const gistRes = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
       const gistData = await gistRes.json();
       const activeContacts = (gistData.subscribers || []).filter(s => !s.unsubscribed);
 

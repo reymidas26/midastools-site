@@ -3,23 +3,21 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const FOUNDER_EMAIL = 'iam+midas@armando.mx';
-const GIST_ID = '35dec905716d2b37c180f45d73c37b1c';
-const GIST_RAW = `https://gist.githubusercontent.com/manduks/${GIST_ID}/raw/subscribers.json`;
+const BLOB_ID = '019d846e-c2f0-765c-b522-88ea3f44ab9c';
+const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
 
 async function readSubscribers() {
-  const res = await fetch(GIST_RAW + '?t=' + Date.now()); // cache bust
+  const res = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
   if (!res.ok) return [];
   const data = await res.json();
   return data.subscribers || [];
 }
 
 async function writeSubscribers(subscribers) {
-  const token = process.env.GITHUB_TOKEN;
-  if (!token) { console.error('No GITHUB_TOKEN'); return; }
-  await fetch(`https://api.github.com/gists/${GIST_ID}`, {
-    method: 'PATCH',
-    headers: { 'Authorization': `token ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ files: { 'subscribers.json': { content: JSON.stringify({ subscribers }) } } }),
+  await fetch(BLOB_URL, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ subscribers }),
   });
 }
 
