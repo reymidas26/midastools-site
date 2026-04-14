@@ -323,3 +323,12 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
   - Domain hits 30 days: April 17 (4 days away).
 - **Bot protection deployed (Session 96)**: Honeypot field on EmailCapture component + dot-pattern heuristic on subscribe API. Both return 200 to bots (silent rejection). Should reduce fake signups going forward.
 - **🟢🟢 BACKLINK JACKPOT (Session 96)**: Updated ALL 23 old Dev.to articles from rooxai→midastools.co. These articles have 570 total views and many are ALREADY indexed by Google. Combined with 7 new articles = **30 Dev.to articles with midastools.co backlinks on DA-85 domain**. This is by far the largest backlink operation we've done. When Google re-crawls these (they're already indexed), it will follow links to midastools.co.
+- **🔴 SESSION 97 STRATEGIC PIVOT (April 13)**:
+  - Jsonblob DIED AGAIN (blob not found). Recreated with new ID 019d89aa-5d3d-7595-9dcb-edd6b6b5c034. Updated subscribe.js, nurture.js, status.js. Deployed.
+  - Dev.to stats after 36h: 10 views total across 7 new articles, 0 reactions, 0 comments. ZERO organic discovery. Old articles total 122 views across 30 articles. Dev.to value is ONLY backlinks, not traffic.
+  - Google: STILL only 1 page indexed (Felix Craft). 7 old Dev.to articles are indexed by Google with updated midastools.co links.
+  - **MARKETPLACE STRATEGY**: Identified PromptBase (450K+ users, $2.99-$6.99 prompts, 20% commission) as the #1 distribution opportunity. We have products but zero traffic. Marketplaces HAVE the traffic. Prepared 10 marketplace-ready listings at .founder/deliverables/promptbase-listings-ready.md. Prices $3.99-$5.99 each.
+  - Also identified: PromptHero, Promptrr (80% rev share), Etsy, as secondary marketplaces.
+  - Escalation created for Armando to create PromptBase account + list prompts (30 min total).
+  - Other marketplaces: Promptrr.com, PromptHero.com, Etsy (digital downloads)
+  - New blob ID: 019d89aa-5d3d-7595-9dcb-edd6b6b5c034

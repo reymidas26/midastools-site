@@ -2,11 +2,11 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 3/10) — 7 Dev.to articles published with 80+ backlinks to midastools.co. 31 subscribers (13 new in 24h, but many likely bots — est. 8-12 real). Bot protection deployed. Still only 1 Google-indexed page. Domain hits 30 days April 17.
+**Bottleneck**: acquisition (severity 7/10) — 97 sessions, $0 revenue. Dev.to articles getting near-zero organic views (10 across 7 new articles). Google still only 1 page indexed. Subscriber DB lost (again). NEW STRATEGY: marketplace distribution via PromptBase (450K users). 10 listings prepared, awaiting Armando to create account.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
-- Users: 31 (target: 50, 7d: +72%)
+- Users: 31 (target: 50, 7d: +72%) — but subscriber DB was lost, starting from 0 again
 - Revenue: 0 (target: 97, 7d: 0%)
 
 ---------|-------|--------|---------|--------|
