@@ -2,11 +2,11 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 7/10) — 97 sessions, $0 revenue. Dev.to articles getting near-zero organic views (10 across 7 new articles). Google still only 1 page indexed. Subscriber DB lost (again). NEW STRATEGY: marketplace distribution via PromptBase (450K users). 10 listings prepared, awaiting Armando to create account.
+**Bottleneck**: acquisition (severity 7/10) — 97 sessions, $0 revenue. Dev.to articles near-zero organic (10 views across 7 new articles). Google indexing stalled at 1 page. NEW STRATEGY: marketplace distribution via PromptBase (450K+ users). 10 listings prepared, need Armando to create account.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
-- Users: 31 (target: 50, 7d: +72%) — but subscriber DB was lost, starting from 0 again
+- Users: 0 (target: 50, 7d: -100%)
 - Revenue: 0 (target: 97, 7d: 0%)
 
 ---------|-------|--------|---------|--------|
