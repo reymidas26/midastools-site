@@ -8,10 +8,10 @@ export default function Bundle() {
   return (
     <Layout>
       <Head>
-        <title>AI Toolkit Bundle — All 16 Kits for $97 | Midas Tools</title>
-        <meta name="description" content="Get all 16 AI kits for $97 — prompts, templates & workflows for ChatGPT, Claude, Gemini. Save 83% vs buying separately. 30-day money-back guarantee." />
-        <meta property="og:title" content="AI Toolkit Bundle — All 16 Kits for $97 | Midas Tools" />
-        <meta property="og:description" content="Every AI kit we make. One price. $97 one-time — save 83% vs buying separately. Includes all future kits free." />
+        <title>Done-For-You AI Business Kit — Your Marketing, Sales & Content, Written | Midas Tools</title>
+        <meta name="description" content="Stop writing prompts. Get the actual work done. 2,000+ ready-to-use templates for marketing, sales, emails, social media, pitch decks — copy, paste, publish. $97 one-time." />
+        <meta property="og:title" content="Done-For-You AI Business Kit — Your Work, Actually Done | Midas Tools" />
+        <meta property="og:description" content="Not prompts. Not tools. The actual deliverables — emails written, social posts ready, pitch decks built, listings done. $97 one-time." />
         <meta property="og:url" content="https://www.midastools.co/bundle" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -21,8 +21,8 @@ export default function Bundle() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Product",
-          "name": "AI Toolkit Bundle — All 16 Kits",
-          "description": "Every Midas Tools AI kit in one bundle. 2,000+ prompts for ChatGPT, Claude, and any LLM. Covers real estate, freelancing, e-commerce, SaaS, content creation, email marketing, social media, presentations, and more.",
+          "name": "Done-For-You AI Business Kit — All 16 Areas Covered",
+          "description": "Your marketing, sales, email, social media, and business operations — done. 2,000+ ready-to-use deliverables covering 16 business areas. Not prompts. Output.",
           "url": "https://www.midastools.co/bundle",
           "brand": "Midas Tools",
           "offers": {
@@ -100,11 +100,11 @@ export default function Bundle() {
 
       {/* Hero */}
       <section style={{textAlign:'center',paddingBottom:40}}>
-        <div className="badge" style={{marginBottom:32}}>Complete AI Toolkit</div>
-        <h1>Every AI Kit.<br /><span>One Price. $97.</span></h1>
+        <div className="badge" style={{marginBottom:32}}>Done-For-You AI Business Kit</div>
+        <h1>Your Work, Done.<br /><span>Not Prompts. Output.</span></h1>
 
         <p style={{fontSize:18,color:'var(--text-secondary)',maxWidth:560,margin:'0 auto 16px',lineHeight:1.7}}>
-          Get every Midas Tools AI kit — plus all future kits we release — for one flat price. No subscriptions. No upsells.
+          Listings written. Emails drafted. Social posts ready. Pitch decks built. Sales copy done. You don't learn how to prompt — you copy, paste, and publish.
         </p>
 
         <div style={{display:'inline-flex',alignItems:'baseline',gap:16,marginBottom:40}}>
@@ -123,9 +123,9 @@ export default function Bundle() {
       <section style={{paddingTop:0,paddingBottom:40}}>
         <div className="stats-row" style={{display:'grid',gridTemplateColumns:'repeat(3,1fr)',gap:20,maxWidth:700,margin:'0 auto'}}>
           {[
-            { stat: '2,000+', label: 'Prompts & templates included' },
-            { stat: '16', label: 'Complete niche kits' },
-            { stat: '83%', label: 'Savings vs. buying separately' },
+            { stat: '2,000+', label: 'Ready-to-use deliverables' },
+            { stat: '16', label: 'Business areas covered' },
+            { stat: '40hrs', label: 'Of work done for you' },
           ].map(s => (
             <div key={s.label} style={{textAlign:'center',padding:24,background:'var(--surface)',borderRadius:16,border:'1px solid var(--border)'}}>
               <div style={{fontSize:32,fontWeight:900,color:'var(--accent)',letterSpacing:-1}}>{s.stat}</div>
@@ -138,13 +138,13 @@ export default function Bundle() {
       {/* Results / Outcomes */}
       <section style={{paddingTop:0,paddingBottom:40}}>
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.12)',borderRadius:20,padding:'40px 32px'}}>
-          <div style={{fontSize:12,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:16,textAlign:'center'}}>What People Are Doing With These Kits</div>
+          <div style={{fontSize:12,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:16,textAlign:'center'}}>The Work That's Already Done For You</div>
           <div className="outcomes-grid" style={{display:'grid',gridTemplateColumns:'repeat(2,1fr)',gap:20}}>
             {[
-              { result: 'Generated 3 months of social media content in one afternoon', who: 'Small business owners' },
-              { result: 'Wrote 50 property listings in the time it used to take for 5', who: 'Real estate agents' },
-              { result: 'Built entire email welcome sequence + 30-day nurture in 2 hours', who: 'Email marketers' },
-              { result: 'Created pitch deck, investor memo, and one-pager in a single session', who: 'Startup founders' },
+              { result: '90 days of social media posts — written, formatted, ready to paste into any scheduler', who: 'Opened the kit, copied 30 posts, scheduled them in Buffer. Done by lunch.' },
+              { result: '50 property listings with descriptions, follow-up emails, and market analysis', who: 'One agent closed 3 deals using the pre-written follow-up sequences.' },
+              { result: 'Complete email welcome sequence + 30-day nurture — just paste into Mailchimp', who: 'Set up the entire funnel in 2 hours. No copywriter needed.' },
+              { result: 'Investor pitch deck, one-pager, and cold outreach emails — all written', who: 'Sent the pitch deck that afternoon. Got a meeting the next day.' },
             ].map(r => (
               <div key={r.result} style={{padding:20,background:'var(--bg)',borderRadius:12,border:'1px solid var(--border)'}}>
                 <div style={{fontSize:15,fontWeight:700,color:'var(--text)',lineHeight:1.5,marginBottom:8}}>"{r.result}"</div>
@@ -158,16 +158,16 @@ export default function Bundle() {
       {/* Who This Is For */}
       <section style={{paddingTop:0,paddingBottom:40}}>
         <div className="section-label">Who This Is For</div>
-        <h2>Stop spending hours on tasks AI can do in <span>minutes</span></h2>
-        <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:32,lineHeight:1.7}}>If any of these sound like you, the bundle pays for itself in the first week:</p>
+        <h2>You don't need more tools.<br />You need the <span>work done</span>.</h2>
+        <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:32,lineHeight:1.7}}>For every $1 companies spend on software, they spend $6 on services. You're buying the service — at software prices:</p>
         <div className="persona-grid" style={{display:'grid',gridTemplateColumns:'repeat(2,1fr)',gap:16}}>
           {[
-            { emoji: '🏠', title: 'Real estate agents', pain: 'Writing listings and follow-ups eats your evenings' },
-            { emoji: '📱', title: 'Content creators', pain: 'You know you should post daily but can\'t keep up' },
-            { emoji: '💼', title: 'Freelancers & consultants', pain: 'Proposals, invoices, and client emails steal billable hours' },
-            { emoji: '🛒', title: 'E-commerce sellers', pain: 'Product descriptions and ad copy take forever' },
-            { emoji: '🚀', title: 'Startup founders', pain: 'Pitch decks, investor emails, and onboarding all need to be perfect' },
-            { emoji: '📊', title: 'Small business owners', pain: 'You\'re doing marketing, sales, and ops all by yourself' },
+            { emoji: '🏠', title: 'Real estate agents', pain: 'Your listings, follow-ups, and market reports — written and ready to send tonight' },
+            { emoji: '📱', title: 'Content creators', pain: 'Your next 90 days of posts — written, formatted, ready to schedule right now' },
+            { emoji: '💼', title: 'Freelancers & consultants', pain: 'Your proposals, onboarding emails, and invoicing scripts — done, not DIY' },
+            { emoji: '🛒', title: 'E-commerce sellers', pain: 'Your product descriptions, email sequences, and ad copy — finished, not half-started' },
+            { emoji: '🚀', title: 'Startup founders', pain: 'Your pitch deck, investor emails, and launch plan — built, not blank-paged' },
+            { emoji: '📊', title: 'Small business owners', pain: 'Your marketing, hiring posts, and customer emails — handled like you have a team' },
           ].map(p => (
             <div key={p.title} style={{padding:20,borderRadius:12,border:'1px solid var(--border)',background:'var(--bg)'}}>
               <div style={{fontSize:24,marginBottom:8}}>{p.emoji}</div>
@@ -180,29 +180,29 @@ export default function Bundle() {
 
       {/* What's Included */}
       <section style={{paddingTop:0}}>
-        <div className="section-label">What's Included</div>
-        <h2>16 complete kits + lifetime updates</h2>
-        <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Everything you need to automate your business, your content, and your client pipeline.</p>
+        <div className="section-label">What You Get (Done For You)</div>
+        <h2>16 business areas. All the work <span>finished</span>.</h2>
+        <p style={{color:'var(--text-secondary)',fontSize:16,marginBottom:48,lineHeight:1.7}}>Each kit delivers ready-to-use output — not tutorials, not tools. Open it, copy it, use it. The work is done.</p>
 
         <div className="kits-grid">
           {[
             {
-              abbr: 'VP', name: 'AI Video Prompt Pack', price: '$29', bg: 'var(--card-cyan)',
-              desc: '150+ AI video generation prompts for social media, product demos, tutorials, cinematic content, corporate videos, and viral trending styles. Works with Sora, Runway, Pika, Kling AI.',
+              abbr: 'VP', name: 'AI Video Content Pack', price: '$29', bg: 'var(--card-cyan)',
+              desc: '150+ ready-to-use video scripts and production briefs. Paste into Sora, Runway, or Kling AI — get professional videos without hiring a videographer.',
               link: '/ai-video-prompt-pack',
-              items: ['25+ social media video prompts', '25+ product & marketing video prompts', '25+ educational & tutorial prompts', '25+ cinematic & storytelling prompts', '25+ business & corporate prompts', '25+ viral & trending style prompts'],
+              items: ['25 social media video scripts ready to produce', '25 product demo & marketing videos', '25 tutorial & educational videos', '25 cinematic & storytelling videos', '25 corporate & business videos', '25 viral trending-style videos'],
             },
             {
-              abbr: 'IP', name: 'AI Image Prompt Pack', price: '$29', bg: 'var(--card-pink)',
-              desc: '150+ AI image generation prompts for social media, brands, products, headshots, and viral aesthetic styles. Works with ChatGPT, Midjourney, DALL-E.',
+              abbr: 'IP', name: 'AI Image Content Pack', price: '$29', bg: 'var(--card-pink)',
+              desc: '150+ ready-to-generate image briefs for social media, branding, product shots, and viral styles. Paste into ChatGPT or Midjourney — no designer needed.',
               link: '/ai-image-prompt-pack',
-              items: ['25+ social media image prompts', '25+ brand & marketing prompts', '25+ e-commerce product prompts', '25+ content & blog graphics', '25+ headshot & portrait prompts', '25+ viral aesthetic styles'],
+              items: ['25 social media graphics ready to generate', '25 brand & marketing images', '25 e-commerce product shots', '25 blog & content graphics', '25 professional headshots & portraits', '25 viral aesthetic images'],
             },
             {
-              abbr: 'MP', name: 'AI Prompt Mega Pack', price: '$29', bg: 'var(--card-amber)',
-              desc: '200+ battle-tested AI prompts for copywriting, social media, content creation, business operations, personal branding, and productivity.',
+              abbr: 'MP', name: 'AI Business Writing Pack', price: '$29', bg: 'var(--card-amber)',
+              desc: '200+ ready-to-use business documents — sales copy, social posts, blog drafts, SOPs, and career materials. Open, customize 2-3 words, publish.',
               link: '/ai-prompt-mega-pack',
-              items: ['35+ copywriting & sales prompts', '35+ social media prompts', '35+ content creation prompts', '35+ business & ops prompts', '35+ branding & career prompts', '35+ productivity prompts'],
+              items: ['35 sales & copywriting pieces done', '35 social media posts written', '35 content pieces drafted', '35 business SOPs & ops docs', '35 personal brand assets', '35 productivity workflows built'],
             },
             {
               abbr: 'SK', name: 'OpenClaw Starter Kit', price: '$29', bg: 'var(--card-blue)',
@@ -212,76 +212,76 @@ export default function Bundle() {
             },
             {
               abbr: 'RE', name: 'Real Estate AI Kit', price: '$49', bg: 'var(--card-green)',
-              desc: 'Automate leads, listings, and follow-ups. Built specifically for agents and brokers.',
+              desc: 'Your listings written, follow-ups drafted, market reports done. Built for agents who want the work handled, not another tool to learn.',
               link: '/real-estate-kit',
-              items: ['Instant lead response templates', 'Listing description generator', '30-day follow-up sequences', 'Market analysis prompts', 'Open house workflows'],
+              items: ['50 listing descriptions ready to post', '30-day follow-up email sequences written', 'Market analysis reports pre-built', 'Open house email & social campaigns done', 'Lead response scripts ready to send'],
             },
             {
               abbr: 'CC', name: 'Content Creator Kit', price: '$39', bg: 'var(--card-purple)',
-              desc: 'Turn one piece of content into 10. Repurposing engine for every platform.',
+              desc: 'Your next 90 days of content — written, formatted, and ready to post. Twitter threads, YouTube scripts, newsletters, all done.',
               link: '/content-creator-kit',
-              items: ['Content repurposing engine', 'Twitter thread generator', 'YouTube script builder', 'Newsletter writer', '30-day content calendar'],
+              items: ['30 Twitter threads written', '10 YouTube scripts drafted', '12 newsletter editions ready', '90-day content calendar filled out', 'Cross-platform repurposing done'],
             },
             {
               abbr: 'FL', name: 'Freelancer Automation Kit', price: '$39', bg: 'var(--card-pink)',
-              desc: 'Win more clients, automate invoices, and protect your margins. Built for service-based freelancers.',
+              desc: 'Your proposals written, onboarding emails drafted, invoice reminders ready. Close more clients without the admin grind.',
               link: '/freelancer-kit',
-              items: ['Client proposal generator', 'Invoice & payment chaser', 'Client onboarding system', 'Scope creep protector', 'Rate calculator & scripts'],
+              items: ['10 client proposals pre-written', 'Invoice & payment reminder emails done', 'Client onboarding email sequence ready', 'Scope creep response scripts written', 'Rate negotiation scripts prepared'],
             },
             {
               abbr: 'SB', name: 'Small Business AI Kit', price: '$39', bg: 'var(--card-cyan)',
-              desc: 'Automate social media, email marketing, customer service, hiring, and daily operations for any small business.',
+              desc: 'Your social media, emails, hiring posts, and customer replies — all written and ready to use. Like having a marketing team for $39.',
               link: '/small-business-kit',
-              items: ['Social media content engine', 'Email marketing templates', 'Customer service scripts', 'Hiring & HR templates', 'Sales follow-up sequences'],
+              items: ['60 social media posts pre-written', 'Email marketing campaigns drafted', 'Customer service reply scripts done', 'Job postings & HR emails written', 'Sales follow-up sequences ready'],
             },
             {
               abbr: 'EC', name: 'E-commerce AI Kit', price: '$39', bg: 'var(--card-green)',
-              desc: 'Product descriptions, email flows, ad copy, and SEO templates for online stores and DTC brands.',
+              desc: 'Your product descriptions written, email sequences built, ad copy ready to run. Launch products faster without hiring a copywriter.',
               link: '/ecommerce-kit',
-              items: ['Product description generator', 'Email marketing sequences', 'Ad copy templates', 'Social media for e-commerce', 'SEO content strategy'],
+              items: ['50 product descriptions written', 'Email marketing sequences done', 'Ad copy for Facebook/Google ready', 'Social media product posts drafted', 'SEO product pages pre-written'],
             },
             {
               abbr: 'SF', name: 'SaaS Founder AI Kit', price: '$39', bg: 'var(--card-blue)',
-              desc: 'Launch playbooks, onboarding sequences, churn prevention, and growth marketing for SaaS builders.',
+              desc: 'Your Product Hunt launch copy, onboarding emails, churn-prevention sequences — all written. Ship your SaaS faster.',
               link: '/saas-founder-kit',
-              items: ['Launch playbook & Product Hunt copy', 'Onboarding & activation emails', 'Churn prevention sequences', 'Growth marketing frameworks', 'Pricing & positioning copy'],
+              items: ['Product Hunt launch copy written', 'Onboarding & activation emails done', 'Churn prevention email sequences ready', 'Growth marketing campaigns drafted', 'Pricing page & positioning copy finished'],
             },
             {
               abbr: 'NT', name: 'Notion AI Templates Kit', price: '$39', bg: 'var(--card-purple)',
-              desc: '150+ ready-made Notion templates with built-in AI prompts for project management, CRM, content planning, and productivity.',
+              desc: '150+ Notion templates pre-built with AI workflows. Your project management, CRM, and content systems — set up and ready to use.',
               link: '/notion-templates-kit',
-              items: ['Project management templates', 'CRM & sales pipeline', 'Content calendar & planning', 'Personal productivity system', 'Business operations SOPs', 'Freelancer & agency templates'],
+              items: ['Project management system built', 'CRM & sales pipeline configured', 'Content calendar filled out', 'Productivity dashboard ready', 'Business SOPs documented', 'Freelancer workflow set up'],
             },
             {
               abbr: 'RC', name: 'AI Resume & Career Kit', price: '$29', bg: 'var(--card-green)',
-              desc: '125+ prompts for resumes, cover letters, LinkedIn optimization, interviews, job search strategies, and salary negotiation.',
+              desc: 'Your resume rewritten, cover letters drafted, LinkedIn optimized, interview answers prepared. Land the job, not learn a tool.',
               link: '/resume-career-kit',
-              items: ['Resume & CV optimization prompts', 'Cover letter generators', 'LinkedIn profile optimization', 'Interview preparation scripts', 'Job search strategy prompts', 'Salary negotiation templates'],
+              items: ['Resume & CV rewrite done', 'Cover letters for 10+ industries written', 'LinkedIn profile sections optimized', 'Interview answers for 50+ questions prepared', 'Job search strategy mapped out', 'Salary negotiation scripts ready'],
             },
             {
               abbr: 'SM', name: 'AI Social Media Manager Kit', price: '$39', bg: 'var(--card-cyan)',
-              desc: 'Content calendars, caption templates, viral formulas, analytics prompts, community management, and paid ad copy for every major platform.',
+              desc: 'Your entire social media operation — 90 days of captions, ad copy, engagement replies, and analytics reports. Done, not DIY.',
               link: '/social-media-kit',
-              items: ['30-day content calendar system', 'Caption hooks & templates', 'Viral content formulas', 'Analytics & growth prompts', 'Community management scripts', 'Paid social ad templates'],
+              items: ['90-day content calendar filled out', 'Caption hooks for every post written', 'Viral content scripts ready to shoot', 'Community management replies drafted', 'Paid ad copy for all platforms done', 'Analytics report templates filled'],
             },
             {
               abbr: 'EM', name: 'AI Email Marketing Kit', price: '$29', bg: 'var(--card-amber)',
-              desc: '125+ prompts for welcome sequences, sales emails, newsletters, cold outreach, retention campaigns, and subject line copywriting.',
+              desc: 'Your entire email funnel — welcome sequence, sales emails, newsletters, cold outreach — written and ready to paste into any email tool.',
               link: '/email-marketing-kit',
-              items: ['Welcome & onboarding sequences', 'Sales & promotional emails', 'Newsletter content templates', 'Cold outreach & follow-ups', 'Retention & re-engagement', 'Subject lines & copywriting'],
+              items: ['7-email welcome sequence written', 'Sales & promotional emails drafted', '12 newsletter editions ready to send', 'Cold outreach sequences with follow-ups', 'Retention & win-back campaigns done', '50+ subject lines pre-written'],
             },
             {
               abbr: 'PK', name: 'AI Presentation & Pitch Deck Kit', price: '$29', bg: 'var(--card-purple)',
-              desc: '125+ prompts for pitch decks, sales presentations, conference talks, business reports, training workshops, and slide storytelling.',
+              desc: 'Your pitch deck content, sales presentations, and conference talk outlines — structured, written, ready to drop into slides.',
               link: '/presentation-kit',
-              items: ['Pitch deck prompts', 'Sales presentation templates', 'Conference talk outlines', 'Business report frameworks', 'Training & workshop decks', 'Slide design & storytelling'],
+              items: ['Pitch deck — all 10 slides written', 'Sales presentation scripts ready', 'Conference talk outlines done', 'Business reports pre-structured', 'Training workshop decks built', 'Slide storytelling frameworks filled'],
             },
             {
               abbr: 'CW', name: 'Claude Cowork Mastery Kit', price: '$29', bg: 'var(--card-blue)',
-              desc: '115+ prompts, 10 role playbooks, CLAUDE.md templates, and connector cheatsheets to turn Claude Cowork into your AI coworker.',
+              desc: 'Your Claude Cowork setup — done. CLAUDE.md files configured, playbooks installed, prompts loaded. Start delegating to Claude immediately.',
               link: '/claude-cowork-kit',
               badge: 'NEW',
-              items: ['115+ copy-paste prompts', '10 role playbooks (Marketing, Sales, HR, etc.)', '5 CLAUDE.md context file templates', '5 Global Instructions templates', '5 connector cheatsheets', 'Quick-start setup guide'],
+              items: ['115 tasks you can delegate to Claude right now', '10 role playbooks installed (Marketing, Sales, HR...)', '5 CLAUDE.md files ready to drop in', '5 Global Instructions pre-configured', '5 connector setups done', 'Quick-start — working in 5 minutes'],
             },
           ].map(kit => (
             <div key={kit.name} className="kit-card">
@@ -304,9 +304,39 @@ export default function Bundle() {
         {/* Bonus */}
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.12)',borderRadius:16,padding:32,textAlign:'center'}}>
           <div style={{fontSize:12,fontWeight:700,color:'var(--accent)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:8}}>Bundle Bonus</div>
-          <div style={{fontSize:20,fontWeight:800,marginBottom:8,color:'var(--text)'}}>All future kits — included free</div>
+          <div style={{fontSize:20,fontWeight:800,marginBottom:8,color:'var(--text)'}}>Every future kit — included free, forever</div>
           <p style={{color:'var(--text-secondary)',fontSize:15,maxWidth:480,margin:'0 auto',lineHeight:1.7}}>
-            We ship new niche AI kits regularly. Bundle buyers get every new kit automatically — at no extra cost.
+            We ship new done-for-you kits for emerging business needs. Bundle buyers get every new kit automatically — more work done for you, at no extra cost.
+          </p>
+        </div>
+      </section>
+
+      {/* The Shift */}
+      <section style={{paddingBottom:40}}>
+        <div style={{background:'var(--text)',borderRadius:20,padding:'48px 32px',color:'#FFFFFF',textAlign:'center'}}>
+          <div style={{fontSize:12,fontWeight:700,textTransform:'uppercase',letterSpacing:1.5,marginBottom:16,color:'rgba(255,255,255,0.5)'}}>The Shift</div>
+          <h2 style={{color:'#FFFFFF',marginBottom:24}}>Tools vs. Work</h2>
+          <div style={{display:'grid',gridTemplateColumns:'1fr auto 1fr',gap:24,maxWidth:600,margin:'0 auto',alignItems:'center'}}>
+            <div style={{padding:24,background:'rgba(255,255,255,0.05)',borderRadius:16,border:'1px solid rgba(255,255,255,0.1)'}}>
+              <div style={{fontSize:14,fontWeight:700,marginBottom:12,color:'rgba(255,255,255,0.5)'}}>What Others Sell</div>
+              <div style={{fontSize:15,lineHeight:1.8,color:'rgba(255,255,255,0.7)'}}>
+                "Here are prompts to<br/>write your emails"<br/>
+                "Templates to build<br/>your pitch deck"<br/>
+                "A tool to help you<br/>create content"
+              </div>
+            </div>
+            <div style={{fontSize:32,color:'var(--accent)'}}>&#8594;</div>
+            <div style={{padding:24,background:'rgba(59,95,255,0.15)',borderRadius:16,border:'1px solid rgba(59,95,255,0.3)'}}>
+              <div style={{fontSize:14,fontWeight:700,marginBottom:12,color:'var(--accent)'}}>What You Get Here</div>
+              <div style={{fontSize:15,lineHeight:1.8,color:'#FFFFFF'}}>
+                "Your emails,<br/>already written"<br/>
+                "Your pitch deck,<br/>already built"<br/>
+                "Your content,<br/>ready to post"
+              </div>
+            </div>
+          </div>
+          <p style={{marginTop:24,fontSize:15,color:'rgba(255,255,255,0.6)',maxWidth:480,margin:'24px auto 0'}}>
+            For every $1 spent on software tools, businesses spend $6 on getting the work done. We sell the work.
           </p>
         </div>
       </section>
@@ -349,7 +379,7 @@ export default function Bundle() {
       <section id="buy">
         <div style={{background:'var(--text)',border:'none',borderRadius:20,padding:48,textAlign:'center',maxWidth:520,margin:'0 auto',color:'#FFFFFF'}}>
           <div className="badge" style={{marginBottom:20,background:'rgba(255,255,255,0.1)',borderColor:'rgba(255,255,255,0.2)',color:'#FFFFFF'}}>Best Value</div>
-          <h2 style={{marginBottom:8,color:'#FFFFFF'}}>The Complete AI Toolkit</h2>
+          <h2 style={{marginBottom:8,color:'#FFFFFF'}}>Your Entire Business Output, Done</h2>
           <div style={{display:'flex',alignItems:'baseline',justifyContent:'center',gap:16,margin:'16px 0 4px'}}>
             <span style={{fontSize:24,color:'rgba(255,255,255,0.5)',textDecoration:'line-through',fontWeight:700}}>$564</span>
             <span style={{fontSize:48,fontWeight:900,color:'#FFFFFF'}}>$97</span>
@@ -392,10 +422,11 @@ export default function Bundle() {
         <h2>Questions</h2>
         <div style={{display:'flex',flexDirection:'column',gap:24}}>
           {[
-            { q: 'What exactly do I get?', a: 'Fifteen complete AI kits — Video Prompt Pack, Image Prompt Pack, Notion Templates, Resume & Career Kit, Email Marketing Kit, Presentation Kit, Social Media Kit, Prompt Mega Pack, Starter, Real Estate, Content Creator, Freelancer, Small Business, E-commerce, and SaaS Founder — delivered as ZIP files. Each kit contains text-based templates, prompts, and workflows you use with ChatGPT, Claude, Sora, Midjourney, or any AI tool. No software to install.' },
-            { q: 'What are "future kits"?', a: 'We release new niche AI kits regularly. Bundle buyers get every new kit automatically at no extra cost, delivered to the same email.' },
-            { q: 'Do I need all fifteen kits?', a: 'If you only need one specific kit, buy it individually. The bundle makes sense if you want two or more kits — or if you want access to every future kit we release.' },
-            { q: 'Can I share this with my team?', a: 'The license is for one person. For team licenses, email iam@armando.mx and we will set up a custom plan.' },
+            { q: 'What exactly do I get?', a: 'Sixteen business kits covering every area — marketing, sales, content, email, social media, presentations, hiring, real estate, e-commerce, SaaS, freelancing, and more. Each kit contains ready-to-use output: pre-written emails, social posts, sales copy, scripts, and templates. Open, customize a few details to your business, and use immediately. No AI expertise required.' },
+            { q: 'How is this different from ChatGPT?', a: 'ChatGPT is a blank canvas. This is the painting. We\'ve already done the work of crafting, testing, and optimizing every piece of content. You get the finished output — not a tool to figure it out yourself. Think of it as hiring a marketing team that already did 40 hours of work for you.' },
+            { q: 'What are "future kits"?', a: 'We release new kits for emerging business needs regularly. Bundle buyers get every new kit automatically at no extra cost, delivered to the same email.' },
+            { q: 'Do I need all sixteen kits?', a: 'If you only need one area covered, buy it individually. The bundle makes sense if you want your marketing, sales, email, and content all handled — or if you want every future kit we release.' },
+            { q: 'Can I share this with my team?', a: 'The license is for one person. For team licenses, email iam@armando.mx and we\'ll set up a custom plan.' },
             { q: 'What if it doesn\'t work for me?', a: '30-day full refund, no questions asked. Email iam@armando.mx.' },
           ].map(f => (
             <div key={f.q} style={{borderBottom:'1px solid var(--border)',paddingBottom:24}}>

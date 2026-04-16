@@ -229,34 +229,47 @@ const emails = {
     `),
   },
 
-  // Day 6: Bundle math — short, numbers do the talking
+  // Day 6: Bundle — sell the OUTPUT, not the tools
   6: {
-    subject: "Quick math: $661 worth of AI kits for $97",
+    subject: "What if 40 hours of work was already done for you?",
     html: (source) => wrapEmail(`
-      <p style="font-size:16px;line-height:1.7;color:#374151;">I'll keep this short. The numbers do the talking:</p>
-      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:20px 0;text-align:center;">
-        <p style="font-size:14px;color:#6B7280;margin:0;"><s>$661</s></p>
-        <p style="font-size:36px;font-weight:700;color:#3B5FFF;margin:4px 0;">$97</p>
-        <p style="font-size:14px;color:#16A34A;font-weight:600;margin:0;">21 kits. 500+ prompts. Lifetime access.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Real talk.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">You don't need another tool. You don't need to "learn prompting." You need the work done.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">That's what this is:</p>
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:20px 0;">
+        <p style="font-size:15px;line-height:2;color:#374151;margin:0;">
+          Your social media posts — <strong>written</strong><br/>
+          Your email sequences — <strong>drafted</strong><br/>
+          Your pitch deck — <strong>built</strong><br/>
+          Your sales copy — <strong>finished</strong><br/>
+          Your product descriptions — <strong>done</strong><br/>
+          Your customer service scripts — <strong>ready</strong>
+        </p>
       </div>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Sales, marketing, content, real estate, e-commerce, SaaS, freelancing, images, video, Reddit lead gen, Claude Code, Notion, resumes, presentations, email marketing — all of it.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">One purchase. Download. Done.</p>
-      ${ctaButton("Get the Bundle — $97", BUNDLE_LINK, "Instant download. No subscription. Yours forever.")}
+      <p style="font-size:16px;line-height:1.7;color:#374151;">16 business areas. 2,000+ deliverables. Open, customize 2-3 details, use.</p>
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:12px;padding:24px;margin:20px 0;text-align:center;">
+        <p style="font-size:14px;color:#6B7280;margin:0;">Hiring someone to do this work?</p>
+        <p style="font-size:36px;font-weight:700;color:#EF4444;margin:4px 0;text-decoration:line-through;">$3,000+</p>
+        <p style="font-size:36px;font-weight:700;color:#3B5FFF;margin:4px 0;">$97</p>
+        <p style="font-size:14px;color:#16A34A;font-weight:600;margin:0;">One-time. Not a subscription.</p>
+      </div>
+      ${ctaButton("Get It All Done — $97", BUNDLE_LINK, "Instant download. 30-day money-back guarantee.")}
       <p style="font-size:14px;color:#6B7280;">— MidasTools</p>
     `),
   },
 
   // Day 7: The "close this out" — honest, easy exit, powerful close
   7: {
-    subject: "Should I close this out?",
+    subject: "Last one. Then I'll shut up.",
     html: (source) => wrapEmail(`
-      <p style="font-size:16px;line-height:1.7;color:#374151;">Last email from me.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">This week I shared the R-C-O framework, a prompt you could paste and use in 30 seconds, exclusive subscriber-only prompts, Felix Craft's $300K story, and 20 free tools.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">If any of that was useful — great. That's the whole point.</p>
-      <p style="font-size:16px;line-height:1.7;color:#374151;">The bundle's still live if you want the full thing:</p>
-      ${ctaButton("All 21 Kits — $97", BUNDLE_LINK, "No fake urgency. Link stays active.")}
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Last email from me. Promise.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">This week you got free tools, exclusive content, and a peek at what we've built. If any of it made your work easier — that was the whole point.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Here's the honest pitch:</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">For $97, you get 40+ hours of business work already done — marketing, sales, content, email, presentations, hiring, everything. Not tools to figure it out. The actual output.</p>
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Most people spend that on a single freelancer hour.</p>
+      ${ctaButton("Get Your Work Done — $97", BUNDLE_LINK, "No fake urgency. No countdown timer. Link stays active.")}
       <div style="background:#FEF3C7;border:1px solid #FDE68A;border-radius:12px;padding:20px;margin:24px 0;">
-        <p style="font-size:15px;color:#92400E;margin:0;"><strong>One ask:</strong> What's the ONE thing you wish AI could do better for you? Hit reply — I read every response and build tools based on what you tell me.</p>
+        <p style="font-size:15px;color:#92400E;margin:0;"><strong>One ask:</strong> What's the ONE piece of work you wish was just... done? Hit reply — I read every response and build exactly that.</p>
       </div>
       <p style="font-size:14px;color:#6B7280;">Thanks for being here.<br/>— MidasTools</p>
     `),
