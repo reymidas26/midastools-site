@@ -280,6 +280,39 @@ const emails = {
 const broadcasts = {
   tools: emails[5], // free tools showcase
   bundle: emails[6], // bundle math
+  flash_lastcall: {
+    subject: "⏰ 24h left — then the $29 Image Pack goes back to $49",
+    html: (source) => wrapEmail(`
+      <div style="background:#FEE2E2;border:2px solid #DC2626;border-radius:12px;padding:16px 20px;margin:0 0 24px;text-align:center;">
+        <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;color:#991B1B;margin-bottom:4px;">⏰ FINAL 24 HOURS</div>
+        <div style="font-size:18px;font-weight:800;color:#7F1D1D;">$29 Image Pack — expires soon</div>
+      </div>
+
+      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">Quick note — the flash sale ends tomorrow.</h1>
+
+      <p style="font-size:16px;line-height:1.7;color:#374151;">I sent you the Image Pack offer yesterday. Didn't want you to miss it.</p>
+
+      <p style="font-size:16px;line-height:1.7;color:#374151;">Here's what you get for <strong>$29</strong> (vs. the normal $49):</p>
+
+      <div style="background:#F9FAFB;border-radius:8px;padding:18px 22px;margin:20px 0;">
+        <p style="font-size:15px;line-height:1.9;color:#374151;margin:0;">
+          • 150+ ready-to-paste image prompts<br/>
+          • 20+ viral styles (pet portraits, Ghibli, action figures, trading cards, Funko)<br/>
+          • Works with ChatGPT, Midjourney, DALL-E, Flux<br/>
+          • Instant download — no subscription<br/>
+          • 30-day money-back guarantee
+        </p>
+      </div>
+
+      <p style="font-size:16px;line-height:1.7;color:#374151;">That's less than what a single custom commissioned pet portrait costs on Etsy. And you can make 150 different styles, as many times as you want.</p>
+
+      ${ctaButton("Grab the Pack — $29 →", IMAGE_PACK_LINK, "Price goes back to $49 tomorrow · 30-day refund if you don't love it")}
+
+      <p style="font-size:14px;color:#6B7280;line-height:1.6;">— The MidasTools Team</p>
+
+      <p style="font-size:13px;color:#9CA3AF;line-height:1.6;font-style:italic;">P.S. If $29 still isn't for you, no stress — the free generators stay free. But this is the last time you'll see this price.</p>
+    `),
+  },
   flash: {
     subject: "48h only: $29 Image Pack (pet, Ghibli, action figures)",
     html: (source) => wrapEmail(`
