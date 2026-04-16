@@ -3,9 +3,9 @@
 ## Mission: Product Building Machine
 Build trending products that help people make money. Research daily. Ship fast. Sell everywhere.
 
-## Current Reality (Session 101 — April 15, 2026)
-**101 sessions. $0 revenue. ~31 subscribers (est. 8-12 real). 2 Google-indexed pages (was 1!).**
-**Domain is 33 days old. 6 directory outreach emails sent. IndexNow 122 URLs submitted.**
+## Current Reality (Session 103 — April 15, 2026)
+**103 sessions. $0 revenue. 27 subscribers (est. ~20 real). 2 Google-indexed pages.**
+**Domain is 33 days old. 8 directory outreach emails sent. 44 conversion emails fired this session.**
 
 ## Priorities (Session 101+)
 
@@ -17,9 +17,18 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [x] Send outreach to AI Tool Guru (contact@aitoolguru.com)
 - [x] Send outreach to AI Tools Hunt (hello@aitoolshunt.com)
 - [ ] Follow up on directory emails in 5-7 days (April 20-22)
-- [ ] Submit to 5 more directories (find contact emails, send outreach)
+- [x] Send outreach to AI Agent Tools Directory (info@aiagenttoolsdirectory.com)
+- [x] Send outreach to AIToolboard (muyiwa@aitoolboard.com)
+- [x] Try browser-based submission to FutureTools form (CAPTCHA blocked — confirmed again)
+- [ ] Submit to 3 more directories (AITopTools form, find more email contacts)
 - [ ] Add ToolPilot badge to site if they respond (required for free listing)
-- [ ] Try browser-based submission to Futurepedia form
+- [ ] Consider TAAFT paid listing ($49) if directory strategy shows ROI
+- [x] Send roundup inclusion pitch to PromptSA (hello@promptsa.com)
+- [x] Send roundup inclusion pitch to Reprompt (hello@reprompt.org)
+- [x] Send roundup inclusion pitch to PromptBuilder (support@promptbuilder.cc)
+- [x] Send roundup inclusion pitch to Juma (humans@juma.ai)
+- [ ] Follow up on roundup pitches in 5-7 days (April 20-22)
+- [ ] Find and pitch 3 more roundup bloggers (Reliqus contact form, Feedough contact form)
 
 ### P1: Accelerate Google Indexing
 - [x] Submit IndexNow for all 122 pages (HTTP 200)
@@ -30,9 +39,11 @@ Build trending products that help people make money. Research daily. Ship fast. 
 - [ ] Publish 1-2 more Dev.to articles targeting trending topics
 
 ### P2: Convert Subscribers to Revenue
-- [ ] Monitor drip sequence performance
-- [ ] Create limited-time offer for existing subscribers
-- [ ] Send broadcast to all subscribers about new tools
+- [x] Send bundle broadcast to all 27 subscribers ($661→$97 offer) — 27/27 delivered
+- [x] Fire auto-drip catchup — 17/27 received missed nurture emails
+- [ ] Monitor for first sale (check Stripe dashboard)
+- [ ] If no conversion in 48h, send "trending tools" broadcast as second touch
+- [ ] Create flash sale / time-limited discount offer
 
 ### P3: Infrastructure
 - [ ] Migrate off jsonblob (5th death) — consider Vercel KV, repo file, or env variable
