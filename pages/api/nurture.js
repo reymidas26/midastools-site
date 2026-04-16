@@ -4,12 +4,11 @@
 // Auto-drip: GET /api/nurture?key=SECRET&drip=true (sends correct day email to each subscriber based on signup date)
 
 import { Resend } from 'resend';
+import { readSubscribers, writeSubscribers } from '../../lib/subscribers';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const SECRET_KEY = process.env.OUTREACH_SECRET || 'mt-outreach-2026';
-const BLOB_ID = '019d93e2-a3da-7072-9093-95aec12e4265';
-const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
 
 const BUNDLE_LINK = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 const MEGA_PACK_LINK = 'https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d';
@@ -313,9 +312,8 @@ export default async function handler(req, res) {
     // Call daily: GET /api/nurture?key=SECRET&drip=true
     // ==========================================
     if (drip === 'true') {
-      const gistRes = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
-      const gistData = await gistRes.json();
-      const subscribers = (gistData.subscribers || []).filter(s => !s.unsubscribed);
+      const allSubs = await readSubscribers();
+      const subscribers = allSubs.filter(s => !s.unsubscribed);
 
       if (subscribers.length === 0) {
         return res.status(200).json({ success: true, sent: 0, message: 'No active subscribers' });
@@ -357,13 +355,9 @@ export default async function handler(req, res) {
         }
       }
 
-      // Save updated sent markers back to jsonblob
+      // Save updated sent markers
       if (results.length > 0) {
-        await fetch(BLOB_URL, {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ subscribers }),
-        });
+        await writeSubscribers(subscribers);
 
         // Notify founder
         await resend.emails.send({
@@ -392,9 +386,8 @@ export default async function handler(req, res) {
       const templateName = template || 'tools';
       const broadcastTemplate = broadcasts[templateName] || broadcasts.tools;
 
-      const gistRes = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
-      const gistData = await gistRes.json();
-      const activeContacts = (gistData.subscribers || []).filter(s => !s.unsubscribed);
+      const allSubs = await readSubscribers();
+      const activeContacts = allSubs.filter(s => !s.unsubscribed);
 
       if (activeContacts.length === 0) {
         return res.status(200).json({ success: true, sent: 0, message: 'No active subscribers' });

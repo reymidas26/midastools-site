@@ -3,10 +3,9 @@
 // GET /api/status?key=mt-outreach-2026&notify=true → returns JSON + emails report
 
 import { Resend } from 'resend';
+import { readSubscribers } from '../../lib/subscribers';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const BLOB_ID = '019d93e2-a3da-7072-9093-95aec12e4265';
-const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
 const NOTIFY_EMAIL = 'iam+midas@armando.mx';
 
 function grade(value, bad, ok) {
@@ -20,12 +19,10 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: 'unauthorized' });
   }
 
-  // 1. Subscriber count
+  // 1. Subscriber count (with fallback if jsonblob is down)
   let subscribers = [];
   try {
-    const gistRes = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
-    const data = await gistRes.json();
-    subscribers = data.subscribers || [];
+    subscribers = await readSubscribers();
   } catch {}
 
   // 2. Dates

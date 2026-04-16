@@ -1,25 +1,9 @@
 import { Resend } from 'resend';
+import { readSubscribers, writeSubscribers } from '../../lib/subscribers';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = 'MidasTools <hello@midastools.co>';
 const FOUNDER_EMAIL = 'iam+midas@armando.mx';
-const BLOB_ID = '019d93e2-a3da-7072-9093-95aec12e4265';
-const BLOB_URL = `https://jsonblob.com/api/jsonBlob/${BLOB_ID}`;
-
-async function readSubscribers() {
-  const res = await fetch(BLOB_URL, { headers: { 'Content-Type': 'application/json' } });
-  if (!res.ok) return [];
-  const data = await res.json();
-  return data.subscribers || [];
-}
-
-async function writeSubscribers(subscribers) {
-  await fetch(BLOB_URL, {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ subscribers }),
-  });
-}
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
@@ -47,15 +31,26 @@ export default async function handler(req, res) {
   }
 
   try {
-    // 1. Add contact to subscriber storage (GitHub Gist — reliable, free)
+    // 1. Add contact to subscriber storage (jsonblob + fallback)
     try {
       const existing = await readSubscribers();
       if (!existing.find(s => s.email === email)) {
         existing.push({ email, source: source || 'site', referrer: referrer || '', date: new Date().toISOString() });
-        await writeSubscribers(existing);
+        const writeResult = await writeSubscribers(existing);
+        if (!writeResult.success) {
+          // Backup: email the subscriber data so we never lose it
+          await resend.emails.send({
+            from: FROM_EMAIL,
+            to: FOUNDER_EMAIL,
+            subject: `⚠️ STORAGE FAILED — New subscriber: ${email}`,
+            html: `<p><strong>Jsonblob write failed!</strong> Error: ${writeResult.error}</p>
+              <p>New subscriber: <strong>${email}</strong> (source: ${source || 'site'})</p>
+              <p>Add manually to storage when jsonblob is fixed.</p>`,
+          });
+        }
       }
     } catch (blobErr) {
-      console.error('Gist storage error (non-fatal):', blobErr.message);
+      console.error('Storage error (non-fatal):', blobErr.message);
     }
 
     // 2. Send welcome email with 5 free prompts
