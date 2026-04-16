@@ -298,6 +298,39 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Homepage Conversion Bridge — between Free Tools and Free Prompts */}
+      <section style={{ paddingTop: 32, paddingBottom: 0 }}>
+        <div style={{
+          background: 'linear-gradient(135deg, #3B5FFF 0%, #1E3AE0 100%)',
+          borderRadius: 20,
+          padding: '32px 40px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 24,
+          flexWrap: 'wrap',
+          boxShadow: '0 12px 32px rgba(59,95,255,0.22)',
+        }}>
+          <div style={{ flex: '1 1 340px', color: '#FFF' }}>
+            <div style={{ fontSize: 11, fontWeight: 800, letterSpacing: 1.5, color: '#FCD34D', marginBottom: 8 }}>⚡ TIRED OF USING FREE TOOLS ONE AT A TIME?</div>
+            <div style={{ fontSize: 24, fontWeight: 800, lineHeight: 1.25, marginBottom: 8 }}>Get 250+ expert prompts + 150+ image prompts in one pack.</div>
+            <div style={{ fontSize: 14, color: '#DBEAFE', lineHeight: 1.5 }}>Copy-paste ready. Works with ChatGPT, Claude, Midjourney, DALL-E. 30-day refund.</div>
+          </div>
+          <a href="https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d" style={{
+            display: 'inline-block',
+            background: '#FCD34D',
+            color: '#1E3AE0',
+            fontWeight: 800,
+            fontSize: 16,
+            padding: '16px 32px',
+            borderRadius: 99,
+            textDecoration: 'none',
+            whiteSpace: 'nowrap',
+            boxShadow: '0 6px 16px rgba(252,211,77,0.4)',
+          }}>Get Mega Pack — $29 →</a>
+        </div>
+      </section>
+
       {/* Prompt Templates Section */}
       <section style={{ paddingBottom: 0 }}>
         <div className="section-label">Free Prompt Templates</div>
