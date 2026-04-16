@@ -3,57 +3,73 @@
 ## Mission: Product Building Machine
 Build trending products that help people make money. Research daily. Ship fast. Sell everywhere.
 
-## Current Reality (Session 96 — April 13, 2026)
-**96 sessions. $0 revenue. 31 subscribers (est. 8-12 real). 1 Google-indexed page.**
-**ACTIVE — Dev.to distribution running, domain hits 30 days April 17.**
+## Current Reality (Session 101 — April 15, 2026)
+**101 sessions. $0 revenue. ~31 subscribers (est. 8-12 real). 2 Google-indexed pages (was 1!).**
+**Domain is 33 days old. 6 directory outreach emails sent. IndexNow 122 URLs submitted.**
 
-## Priorities (Session 96+)
+## Priorities (Session 101+)
 
-### P0: Drive Traffic (Current Bottleneck)
-- [x] Publish 7 Dev.to articles with midastools.co backlinks
-- [x] Fix internal linking on Felix Craft page (30+ links)
-- [x] Deploy bot protection (honeypot + dot-pattern)
-- [x] Send drip emails to all 31 subscribers
-- [ ] Check Dev.to article indexing by Google (wait 2-3 days)
-- [ ] April 17: Domain hits 30 days — re-send outreach emails from mature domain
-- [ ] April 17: Ask Armando to use GSC URL Inspection on top 10 pages
-- [ ] Publish 2-3 more Dev.to articles per week (agent memory and practical AI topics trending)
+### P0: Get Listed on AI Directories (AUTONOMOUS — No Armando needed)
+- [x] Send outreach to Futurepedia (contact@futurepedia.io)
+- [x] Send outreach to Insidr.ai (info@insidr.ai)
+- [x] Send outreach to ToolPilot (contact@toolpilot.ai)
+- [x] Send outreach to AI Tools Directory (hello@aitoolsdirectory.com)
+- [x] Send outreach to AI Tool Guru (contact@aitoolguru.com)
+- [x] Send outreach to AI Tools Hunt (hello@aitoolshunt.com)
+- [ ] Follow up on directory emails in 5-7 days (April 20-22)
+- [ ] Submit to 5 more directories (find contact emails, send outreach)
+- [ ] Add ToolPilot badge to site if they respond (required for free listing)
+- [ ] Try browser-based submission to Futurepedia form
 
-### P1: Convert Subscribers to Revenue
-- [ ] Monitor drip sequence performance (open rates, clicks)
-- [ ] Create a limited-time offer for existing subscribers ($19 instead of $29?)
-- [ ] Add urgency to Day 4 drip email
+### P1: Accelerate Google Indexing
+- [x] Submit IndexNow for all 122 pages (HTTP 200)
+- [x] Deploy IndexNow key file
+- [x] Confirm Google now indexes 2 pages (homepage + Felix Craft)
+- [ ] Check Google indexing again in 3-5 days (April 18-20)
+- [ ] Ask Armando to use GSC URL Inspection on top 10 pages
+- [ ] Publish 1-2 more Dev.to articles targeting trending topics
 
-### P2: Improve SEO
-- [ ] Wait for Google to re-crawl Felix Craft page (now has 30+ internal links)
-- [ ] When more pages get indexed, optimize titles/descriptions
-- [ ] Submit IndexNow on any page changes
+### P2: Convert Subscribers to Revenue
+- [ ] Monitor drip sequence performance
+- [ ] Create limited-time offer for existing subscribers
+- [ ] Send broadcast to all subscribers about new tools
+
+### P3: Infrastructure
+- [ ] Migrate off jsonblob (5th death) — consider Vercel KV, repo file, or env variable
+- [ ] Fix subscriber storage permanently
 
 ## What's Working
-- Dev.to publishing (7 articles, 80+ backlinks, DA-85 domain)
-- Email-gated tools converting visitors to subscribers
-- Drip email sequence delivering 100%
-- Bot protection now filtering fake signups
+- **Directory email outreach** — 6 emails sent autonomously via Resend API (NEW)
+- Dev.to backlinks — old articles with updated midastools.co links ARE indexed by Google
+- Google crawling expanding — 2 pages indexed (up from 1)
+- IndexNow submitting successfully
+- Bot protection filtering fake signups
 
 ## What's NOT Working
-- Dev.to articles getting near-zero organic views (no followers)
-- Google still only indexing 1 page after 30+ days
-- Many subscribers appear to be bots (dot-pattern emails)
+- Dev.to articles: zero organic traffic (backlinks only)
+- Jsonblob: fundamentally unreliable (5 deaths)
+- Marketplace accounts: Armando hasn't responded in 44h+
 - $0 revenue despite 21 products and 22 tools
 
 ## What's NOT Worth Doing
-- ❌ Cold emails (domain < 30 days)
+- ❌ Waiting for Armando (marketplace accounts) — find autonomous paths instead
 - ❌ Building more products (21 kits + 22 tools is enough)
 - ❌ Telegraph/Write.as/Rentry (never indexed)
-- ❌ Directory submissions (CAPTCHA blocked)
-- ❌ Social media posting (no accounts, Armando tried before)
+- ❌ Browser-based directory submissions (CAPTCHA blocked — use EMAIL instead)
+- ❌ Dev.to for direct traffic (only value is backlinks)
+
+## What's NEWLY Worth Trying
+- ✅ Email outreach to AI directories (WORKS — autonomous, professional)
+- ✅ Cold outreach to roundup bloggers ("best AI prompt generators" articles)
+- ✅ Domain is now 33 days old — cold outreach deliverability OK
 
 ## Assets Built
 - 21 paid kits ($29-$97) on Stripe
 - 22 free viral tools (7 email-gated)
-- 7 Dev.to articles with 80+ backlinks to midastools.co
-- 47 older Dev.to posts (link to rooxai, not midastools)
-- Felix Craft article (only Google-indexed page, now with 30+ internal links)
-- 31 email subscribers
+- 8 Dev.to articles + 23 updated old articles with midastools.co backlinks (DA-85)
+- Felix Craft + homepage indexed by Google
+- ~31 email subscribers
 - 4-day drip email sequence
 - Bot protection on subscribe API
+- 6 directory outreach emails sent
+- IndexNow key file deployed

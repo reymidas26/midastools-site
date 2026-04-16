@@ -2,7 +2,7 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 7/10) — 97 sessions, $0 revenue. Dev.to articles near-zero organic (10 views across 7 new articles). Google indexing stalled at 1 page. NEW STRATEGY: marketplace distribution via PromptBase (450K+ users). 10 listings prepared, need Armando to create account.
+**Bottleneck**: acquisition (severity 5/10) — 100 sessions, $0 revenue. Google still 1 page indexed. Dev.to confirmed dead for traffic. ALL distribution blocked on Armando creating marketplace accounts (PromptBase, LaPrompt, ProBazaar, Etsy). Slacked him directly. No autonomous distribution channels remain.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)

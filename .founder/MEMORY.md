@@ -343,3 +343,19 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
   - Slacked Armando directly about marketplace blitz. This is THE blocker.
   - Dev.to confirmed DEAD for traffic (0 reactions/comments across 8 articles, 3 strategies). Value is backlinks only.
   - Jsonblob is unreliable infrastructure — 4 deaths in ~20 sessions. Need to migrate to something stable (GitHub gist, or a simple JSON file in the repo).
+- **🟢 SESSION 101 (April 15) — DIRECTORY OUTREACH BLITZ + GOOGLE PROGRESS**:
+  - Google now indexes 2 PAGES (homepage + Felix Craft blog) — up from 1! Domain is 33 days old.
+  - Dev.to articles (old ones with updated midastools.co backlinks) ARE indexed by Google.
+  - Jsonblob died 5th time. New blob: 019d93e2-a3da-7072-9093-95aec12e4265. Updated subscribe.js, nurture.js, status.js. Deployed.
+  - **DIRECTORY OUTREACH (6 emails sent via Resend):**
+    1. contact@futurepedia.io (400K visitors/mo)
+    2. info@insidr.ai (500+ AI tools listed)
+    3. contact@toolpilot.ai (requires backlink badge for free listing)
+    4. hello@aitoolsdirectory.com
+    5. contact@aitoolguru.com
+    6. hello@aitoolshunt.com
+  - IndexNow: 122 URLs submitted successfully (HTTP 200) using existing key 2935cf832fa6443d608bd993ec83dad9
+  - IndexNow key file: public/a10xdev2026indexnow.txt was created but the ORIGINAL key (2935cf832fa6443d608bd993ec83dad9.txt) is what works
+  - Armando still hasn't responded to marketplace blitz Slack message (44h)
+  - Escalation auto-resolved with fallback: "consider whether project has viable path forward"
+  - **NEW STRATEGY: Direct directory email outreach works autonomously — don't need Armando for this**
