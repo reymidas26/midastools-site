@@ -417,6 +417,18 @@ export default function Bundle() {
         </div>
       </section>
 
+      {/* DFY Services Upsell */}
+      <section style={{paddingBottom:40}}>
+        <div style={{background:'#ECFDF5',border:'2px solid #A7F3D0',borderRadius:20,padding:40,textAlign:'center'}}>
+          <div style={{fontSize:12,fontWeight:800,color:'#065F46',textTransform:'uppercase',letterSpacing:1.5,marginBottom:12}}>Don&rsquo;t want to DIY at all?</div>
+          <p style={{fontSize:22,fontWeight:900,marginBottom:8,color:'#111827'}}>We&rsquo;ll do the entire thing for you.</p>
+          <p style={{color:'#4B5563',fontSize:15,marginBottom:24,lineHeight:1.7,maxWidth:520,margin:'0 auto 24px'}}>Send us a 5-minute brief. We deliver professional content, branding, or optimized listings &mdash; using the same AI that powers these kits. From $149.</p>
+          <a href="/services" style={{display:'inline-block',background:'#065F46',color:'#fff',padding:'14px 32px',borderRadius:100,textDecoration:'none',fontWeight:800,fontSize:15}}>
+            See Done-For-You Services &rarr;
+          </a>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section>
         <h2>Questions</h2>

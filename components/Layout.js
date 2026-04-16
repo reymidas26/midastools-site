@@ -206,6 +206,7 @@ export default function Layout({ children }) {
           <Link href="/prompts" className={`nav-link${path === '/chatgpt-prompts' || path.startsWith('/prompts') ? ' active' : ''}`}>Prompts</Link>
           <Link href="/kits" className={`nav-link${path === '/kits' ? ' active' : ''}`}>Kits</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
+          <Link href="/services" className={`nav-link${path === '/services' ? ' active' : ''}`} style={{color: path === '/services' ? 'var(--accent)' : undefined, fontWeight: path === '/services' ? 700 : undefined}}>Services</Link>
           <Link href="/bundle" className="nav-cta">All Kits — $97</Link>
         </div>
         <button
@@ -250,6 +251,7 @@ export default function Layout({ children }) {
         <Link href="/social-media-kit">Social Media Kit</Link>
         <Link href="/email-marketing-kit">Email Marketing Kit</Link>
         <Link href="/presentation-kit">Presentation Kit</Link>
+        <Link href="/services">Services (Done For You)</Link>
         <Link href="/bundle" className="mobile-cta">Get All Kits — $97</Link>
       </div>
 

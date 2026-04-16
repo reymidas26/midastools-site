@@ -265,6 +265,19 @@ export default function RealEstateKit() {
         </div>
       </section>
 
+      {/* DFY Upsell */}
+      <section style={{paddingTop:0}}>
+        <div style={{background:'#ECFDF5',border:'2px solid #A7F3D0',borderRadius:20,padding:40,textAlign:'center'}}>
+          <div style={{fontSize:12,fontWeight:800,color:'#065F46',textTransform:'uppercase',letterSpacing:1.5,marginBottom:12}}>New: Done For You</div>
+          <p style={{fontSize:22,fontWeight:900,marginBottom:8,color:'#111827'}}>Want us to optimize your listings instead?</p>
+          <p style={{color:'#4B5563',fontSize:15,marginBottom:24,lineHeight:1.7,maxWidth:500,margin:'0 auto 24px'}}>Skip the DIY. We&rsquo;ll rewrite up to 10 of your property listings with AI-optimized copy that sells. Delivered in 24 hours.</p>
+          <a href="/services" style={{display:'inline-block',background:'#065F46',color:'#fff',padding:'14px 32px',borderRadius:100,textDecoration:'none',fontWeight:800,fontSize:15}}>
+            AI Listing Optimizer — $149 &rarr;
+          </a>
+          <p style={{marginTop:12,fontSize:13,color:'#6B7280'}}>Same quality. Zero effort. 30-day guarantee.</p>
+        </div>
+      </section>
+
       {/* Bundle Upsell */}
       <section style={{paddingTop:0}}>
         <div style={{background:'rgba(59,95,255,0.04)',border:'1px solid rgba(59,95,255,0.15)',borderRadius:16,padding:32,textAlign:'center'}}>
