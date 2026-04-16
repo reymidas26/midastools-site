@@ -124,7 +124,7 @@ export default function CaricatureGenerator() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'caricature-generator' }),
+        body: JSON.stringify({ email, source: 'caricature-generator', referrer: document.referrer || '' }),
       });
       if (res.ok) {
         setUnlocked(true);

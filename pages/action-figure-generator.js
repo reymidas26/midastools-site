@@ -128,7 +128,7 @@ export default function ActionFigureGenerator() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'action-figure-generator' }),
+        body: JSON.stringify({ email, source: 'action-figure-generator', referrer: document.referrer || '' }),
       });
       if (res.ok) {
         setUnlocked(true);

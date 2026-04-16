@@ -1,6 +1,37 @@
 import { useState } from 'react';
+import { useRouter } from 'next/router';
+
+const PAGE_CONTEXT = {
+  '/action-figure-generator': { heading: 'Get 3 Bonus Action Figure Prompts', sub: 'Exclusive styles not available in the free generator. Instant delivery.', btn: 'Send My Bonus Prompts', source: 'action-figure-capture' },
+  '/ghibli-prompt-generator': { heading: 'Get 3 Exclusive Ghibli Art Prompts', sub: 'Secret film styles + advanced techniques. Straight to your inbox.', btn: 'Send Ghibli Prompts', source: 'ghibli-capture' },
+  '/pet-portrait-generator': { heading: 'Get 3 Bonus Pet Portrait Prompts', sub: 'Exclusive art styles for your pet. Works with ChatGPT, Midjourney, DALL-E.', btn: 'Send Pet Prompts', source: 'pet-portrait-capture' },
+  '/caricature-generator': { heading: 'Get 3 Bonus Caricature Prompts', sub: 'Pro-level styles that crashed ChatGPT. Yours free.', btn: 'Send Caricature Prompts', source: 'caricature-capture' },
+  '/lego-prompt-generator': { heading: 'Get 3 Bonus LEGO Prompts', sub: 'Exclusive minifigure + diorama styles. Instant delivery.', btn: 'Send LEGO Prompts', source: 'lego-capture' },
+  '/fantasy-map-generator': { heading: 'Get 3 Bonus Fantasy Map Prompts', sub: 'Pro cartography styles for D&D, worldbuilding, and RPGs.', btn: 'Send Map Prompts', source: 'fantasy-map-capture' },
+  '/hug-younger-self-generator': { heading: 'Get 3 More Emotional AI Art Prompts', sub: 'Powerful self-portrait concepts that go viral. Free.', btn: 'Send My Prompts', source: 'hug-capture' },
+  '/childhood-reimagine-generator': { heading: 'Get 3 Bonus Childhood Reimagine Prompts', sub: 'Exclusive era + style combos for unforgettable portraits.', btn: 'Send My Prompts', source: 'childhood-capture' },
+  '/miniature-diorama-generator': { heading: 'Get 3 Bonus Diorama Prompts', sub: 'Pro-level miniature scenes that look impossibly real.', btn: 'Send Diorama Prompts', source: 'diorama-capture' },
+  '/image-prompt-builder': { heading: 'Get 5 Pro Image Prompts Free', sub: 'Advanced techniques for photorealistic AI art. Copy-paste ready.', btn: 'Send Image Prompts', source: 'image-builder-capture' },
+  '/prompt-generator': { heading: 'Get 5 Expert-Level Prompts Free', sub: 'Battle-tested prompts that produce 10x better AI output.', btn: 'Send My Prompts', source: 'prompt-gen-capture' },
+  '/prompt-roaster': { heading: 'Want Prompts That Never Get Roasted?', sub: '5 bulletproof prompts scored 9+/10 by our own roaster. Free.', btn: 'Send Bulletproof Prompts', source: 'roaster-capture' },
+};
+
+const CATEGORY_CONTEXT = {
+  kit: { heading: 'Get 5 Free AI Prompts — See the Quality First', sub: 'Try before you buy. Same quality as our kits, zero risk.', btn: 'Send Free Samples', source: 'kit-page-capture' },
+  blog: { heading: 'Get 5 Free AI Prompts', sub: 'The best prompts from this article + 4 more. Instant delivery.', btn: 'Send My Prompts', source: 'blog-capture' },
+  tool: { heading: 'Get 5 Free AI Prompts', sub: 'Pro-level prompts that produce dramatically better results.', btn: 'Send My Prompts', source: 'tool-capture' },
+};
+
+function getContext(pathname) {
+  if (PAGE_CONTEXT[pathname]) return PAGE_CONTEXT[pathname];
+  if (pathname.includes('kit') || pathname === '/bundle' || pathname === '/kits') return CATEGORY_CONTEXT.kit;
+  if (pathname.startsWith('/blog')) return CATEGORY_CONTEXT.blog;
+  return CATEGORY_CONTEXT.tool;
+}
 
 export default function EmailCapture() {
+  const router = useRouter();
+  const ctx = getContext(router.pathname);
   const [email, setEmail] = useState('');
   const [website, setWebsite] = useState(''); // honeypot
   const [status, setStatus] = useState('idle'); // idle | loading | success | error
@@ -15,7 +46,7 @@ export default function EmailCapture() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'site-wide-capture', website }),
+        body: JSON.stringify({ email, source: ctx.source, website, referrer: document.referrer || '' }),
       });
       if (!res.ok) throw new Error('Something went wrong. Please try again.');
       setStatus('success');
@@ -29,7 +60,7 @@ export default function EmailCapture() {
     return (
       <section className="email-capture">
         <div className="email-capture-inner">
-          <p className="email-capture-success">Check your inbox — your 5 free AI prompts are on the way.</p>
+          <p className="email-capture-success">Check your inbox — your free prompts are on the way.</p>
         </div>
         <style jsx>{styles}</style>
       </section>
@@ -40,13 +71,13 @@ export default function EmailCapture() {
     <section className="email-capture">
       <div className="email-capture-inner">
         <div className="email-capture-text">
-          <h3 className="email-capture-heading">Get 5 Free AI Prompts That Make Money</h3>
-          <p className="email-capture-sub">Join 1,000+ founders using AI to build faster. No spam, unsubscribe anytime.</p>
+          <h3 className="email-capture-heading">{ctx.heading}</h3>
+          <p className="email-capture-sub">{ctx.sub}</p>
         </div>
         <form className="email-capture-form" onSubmit={handleSubmit}>
           <input
             type="email"
-            placeholder="you@company.com"
+            placeholder="you@email.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -64,7 +95,7 @@ export default function EmailCapture() {
             autoComplete="off"
           />
           <button type="submit" className="email-capture-btn" disabled={status === 'loading'}>
-            {status === 'loading' ? 'Sending...' : 'Send My Prompts'}
+            {status === 'loading' ? 'Sending...' : ctx.btn}
           </button>
           {status === 'error' && <p className="email-capture-error">{errorMsg}</p>}
         </form>

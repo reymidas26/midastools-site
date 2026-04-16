@@ -157,7 +157,7 @@ export default function Quiz() {
       await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'quiz', answers: JSON.stringify(answers) }),
+        body: JSON.stringify({ email, source: 'quiz', referrer: document.referrer || '', answers: JSON.stringify(answers) }),
       });
       setEmailSent(true);
     } catch (err) { setEmailSent(true); }

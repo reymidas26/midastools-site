@@ -129,7 +129,7 @@ export default function PetPortraitGenerator() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'pet-portrait-generator' }),
+        body: JSON.stringify({ email, source: 'pet-portrait-generator', referrer: document.referrer || '' }),
       });
       if (res.ok) setUnlocked(true);
       else setError('Something went wrong. Try again.');

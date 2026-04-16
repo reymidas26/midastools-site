@@ -132,7 +132,7 @@ export default function HugYoungerSelfGenerator() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'hug-younger-self-generator' }),
+        body: JSON.stringify({ email, source: 'hug-younger-self-generator', referrer: document.referrer || '' }),
       });
       if (res.ok) setUnlocked(true);
       else setError('Something went wrong. Try again.');

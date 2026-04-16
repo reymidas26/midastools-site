@@ -122,7 +122,7 @@ export default function AlbumCoverGenerator() {
       const res = await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'album-cover-generator' }),
+        body: JSON.stringify({ email, source: 'album-cover-generator', referrer: document.referrer || '' }),
       });
       if (res.ok) {
         setUnlocked(true);

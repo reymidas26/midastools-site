@@ -26,7 +26,7 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const { email, source, website } = req.body;
+  const { email, source, website, referrer } = req.body;
 
   // Honeypot: bots fill the hidden "website" field, real humans don't
   if (website) {
@@ -51,7 +51,7 @@ export default async function handler(req, res) {
     try {
       const existing = await readSubscribers();
       if (!existing.find(s => s.email === email)) {
-        existing.push({ email, source: source || 'site', date: new Date().toISOString() });
+        existing.push({ email, source: source || 'site', referrer: referrer || '', date: new Date().toISOString() });
         await writeSubscribers(existing);
       }
     } catch (blobErr) {
@@ -121,9 +121,10 @@ export default async function handler(req, res) {
       to: FOUNDER_EMAIL,
       subject: `New subscriber: ${email}`,
       html: `
-        <h2>New lead from midastools.com</h2>
+        <h2>New lead from midastools.co</h2>
         <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Source:</strong> ${source || 'site-wide-capture'}</p>
+        <p><strong>Source page:</strong> ${source || 'site-wide-capture'}</p>
+        <p><strong>Came from:</strong> ${referrer || 'direct / no referrer'}</p>
         <p><strong>Time:</strong> ${new Date().toLocaleString('en-US', { timeZone: 'America/Mexico_City' })} Mexico City</p>
         <p>They received the 5 free prompts welcome email automatically.</p>
       `,

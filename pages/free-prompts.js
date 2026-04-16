@@ -131,7 +131,7 @@ export default function FreePrompts() {
       await fetch('/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, source: 'free-prompts-page' }),
+        body: JSON.stringify({ email, source: 'free-prompts-page', referrer: document.referrer || '' }),
       });
       setStatus('success');
       setUnlocked(true);
