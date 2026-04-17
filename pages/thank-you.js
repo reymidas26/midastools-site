@@ -99,6 +99,37 @@ const KITS = {
 
 export default function ThankYou() {
   const router = useRouter();
+  const tier = router.query.tier;
+
+  // Tripwire ($9 Starter Pack) — route straight to in-page delivery
+  if (tier === 'tripwire') {
+    return (
+      <Layout>
+        <Head>
+          <title>Thank You — Your 20 Prompts are Ready | Midas Tools</title>
+          <link rel="icon" type="image/png" href="/favicon.png" />
+          <meta name="robots" content="noindex" />
+        </Head>
+        <div style={{ fontFamily: "'Inter', sans-serif", maxWidth: 600, margin: '0 auto', padding: '80px 24px', textAlign: 'center' }}>
+          <div style={{ fontSize: 64, marginBottom: 20 }}>🎉</div>
+          <h1 style={{ fontSize: 36, fontWeight: 900, margin: '0 0 16px' }}>Payment confirmed!</h1>
+          <p style={{ fontSize: 17, color: '#6B7280', margin: '0 0 32px', lineHeight: 1.5 }}>
+            Your 20 AI prompts are ready to copy. Bookmark the link below — we'll also email it to you so you always have it.
+          </p>
+          <a href="/starter-pack-delivery" style={{
+            display: 'inline-block', background: '#3B5FFF', color: '#FFF', fontWeight: 700, fontSize: 17,
+            padding: '16px 32px', borderRadius: 99, textDecoration: 'none', marginBottom: 16,
+          }}>
+            Open My 20 Prompts →
+          </a>
+          <p style={{ fontSize: 13, color: '#9CA3AF', marginTop: 24 }}>
+            Questions? <a href="mailto:iam@armando.mx" style={{ color: '#6B7280' }}>iam@armando.mx</a>
+          </p>
+        </div>
+      </Layout>
+    );
+  }
+
   const kitKey = router.query.kit || 'starter';
   const kit = KITS[kitKey] || KITS['starter'];
   const isBundle = kit.file === null;
