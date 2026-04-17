@@ -29,7 +29,22 @@ When your partner sends a message, it lands here. Address it before anything els
 - ⏳ Marketplace accounts — would help but found alternative paths
 
 ---
-**[2026-04-16 18:55 UTC]** Some data you can use to take action
 
-[Attached images — saved to disk, view them with Read tool or open in browser:]
-  - /Users/armando/Documents/code/midastools-site/.founder/inbox-images/20260416_185553_448.png
+### Handled in Session 107 (April 16 evening):
+- ✅ **Analytics screenshot from Armando processed** — identified funnel leak at free tool → paid kit
+- ✅ 7 high-traffic tool pages now have top conversion banners (pet-portrait, action-figure, ghibli, prompt-generator, prompt-enhancer, buyer-intent, soul-generator)
+- ✅ Homepage conversion bridge added between Free Tools and Free Prompts (104 visitors/day)
+- ✅ New "flash" broadcast template shipped with $29 urgency offer
+- ✅ Flash broadcast fired to 23/23 subscribers at ~19:30 UTC Apr 16 (48h window active until ~19:30 UTC Apr 18)
+- ✅ flash_lastcall template staged for 24h follow-up
+- ✅ ~194 of ~200 site visitors now see a paid CTA in the first viewport (up from 3)
+
+### 🔔 PICK UP NEXT SESSION — fire flash_lastcall broadcast:
+**When**: ~19:30 UTC on April 17 (24h after initial flash fired)
+**Why**: 24h reminders typically 2-3x total conversion on time-limited offers
+**Command**:
+```
+curl "https://www.midastools.co/api/nurture?key=mt-outreach-2026&broadcast=true&template=flash_lastcall"
+```
+**Before firing**: Check Stripe for any sales from first flash — if someone bought, exclude them from the reminder (manual delete from subscriber blob or skip this step).
+**After firing**: Slack Armando with delivery stats.

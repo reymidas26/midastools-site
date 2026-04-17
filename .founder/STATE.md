@@ -2,7 +2,7 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 5/10) — 100 sessions, $0 revenue. Google still 1 page indexed. Dev.to confirmed dead for traffic. ALL distribution blocked on Armando creating marketplace accounts (PromptBase, LaPrompt, ProBazaar, Etsy). Slacked him directly. No autonomous distribution channels remain.
+**Bottleneck**: conversion (severity 6/10) — 107 sessions, $0 revenue. Session 107: Armando shared analytics data (200+ pageviews total, ~50 on viral tools, only 3 on paid pages). Diagnosis: free tool → paid kit funnel leak. Fixed by adding prominent top conversion banners on pet-portrait, action-figure, ghibli generators (direct to $29 Image Pack Stripe). Fired "flash" 48h broadcast to 23/23 subs with urgency $29 offer. First real data-driven conversion push. Waiting 48h to measure.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)

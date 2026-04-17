@@ -390,3 +390,22 @@ Your long-term memory. Persists across all sessions. This is your brain — trea
   - Trending research (April 16): Top 3 trends = AI Caricature (already have), AI Food Drama (just shipped, ZERO competitors), AI Tokyo Drift car swap (video-heavy, harder to deliver with text prompts).
   - Google: 2 pages indexed (homepage + Felix Craft). Domain 33 days old.
   - New jsonblob ID: 019d944e-0a21-7717-8fcb-b1f05921c151
+- **🟢 SESSION 107 (April 16 evening) — ANALYTICS-DRIVEN CONVERSION SPRINT**:
+  - **ARMANDO SENT ANALYTICS DATA via screenshot** — first time we've had real traffic numbers. Top pages:
+    - `/` homepage: 104 visitors (30% of total)
+    - `/tools`: 18 visitors
+    - `/pet-portrait-generator`: 16 visitors
+    - `/action-figure-generator`: 14 visitors
+    - `/ghibli-prompt-generator`: 14 visitors
+    - `/prompt-generator`: 14 visitors
+    - `/prompt-enhancer`: 12 visitors
+    - `/buyer-intent-generator`: 11 visitors
+    - **`/ai-prompt-mega-pack` (PAID): only 3 visitors** — funnel leak identified
+  - **DIAGNOSIS**: Free tool → paid kit conversion path is broken. 50+ visitors on viral tools, only 3 reach paid products.
+  - **FIX SHIPPED**: Added prominent top conversion banner (gradient + gold CTA) right after hero on pet-portrait, action-figure, ghibli generators. Direct to $29 Image Pack Stripe. Previously the paid CTA only showed AFTER user completed 4 steps. Now it's position #2 on page.
+  - **NEW BROADCAST TEMPLATE**: `flash` — 48h urgency offer, anchors at "usually $49" → $29, direct Stripe CTA. Added to /api/nurture with &template=flash.
+  - **FLASH BROADCAST FIRED**: 23/23 delivered, 0 failures. All active subscribers now have time-limited $29 offer in inbox.
+  - **Commits**: `3eb21d4` (banners) + `43c7eb2` (flash template). Both deployed via Vercel auto-deploy.
+  - **NEW PLAYBOOK CANDIDATE**: "Analytics-driven funnel repair" — use real traffic data to find highest-leverage fix. Add paid CTA at visitor entry point, not after completion.
+  - **Actual subscriber count**: 23 (not 27 — the 4 lost were likely bot/bounce filtered out of current blob)
+  - **KPI movement watch**: Revenue from $0 — first sale from 23 subs + banner traffic in next 48h is the test.
