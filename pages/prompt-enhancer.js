@@ -833,6 +833,11 @@ export default function PromptEnhancer() {
             boxShadow: '0 4px 12px rgba(252,211,77,0.35)',
           }}>Get Mega Pack — $29 →</a>
         </div>
+        <div style={{ textAlign: 'center', marginTop: 12 }}>
+          <a href="/starter-pack" style={{ color: '#92400E', fontSize: 13, fontWeight: 600, textDecoration: 'none', borderBottom: '1px dashed #D97706', paddingBottom: 2 }}>
+            Budget? Start with our 20 best prompts for $9 →
+          </a>
+        </div>
       </section>
 
       {/* How It Works */}

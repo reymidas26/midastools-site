@@ -235,6 +235,11 @@ export default function BuyerIntentGenerator() {
             boxShadow: '0 4px 12px rgba(254,240,138,0.35)',
           }}>Get Kit — $49 →</a>
         </div>
+        <div style={{ textAlign: 'center', marginTop: -20, marginBottom: 28 }}>
+          <a href="/starter-pack" style={{ color: '#92400E', fontSize: 13, fontWeight: 600, textDecoration: 'none', borderBottom: '1px dashed #D97706', paddingBottom: 2 }}>
+            Not ready for $49? Start with our 20 best prompts for $9 →
+          </a>
+        </div>
 
         {/* Generator Form */}
         <div className="bi-form">

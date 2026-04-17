@@ -239,6 +239,13 @@ export default function PetPortraitGenerator() {
           }}>Get Pack — $29 →</a>
         </div>
 
+        {/* $9 Tripwire Alternative */}
+        <div style={{ textAlign: 'center', marginBottom: 28, marginTop: -16 }}>
+          <a href="/starter-pack" style={{ color: '#92400E', fontSize: 13, fontWeight: 600, textDecoration: 'none', borderBottom: '1px dashed #D97706', paddingBottom: 2 }}>
+            Budget? Start with our 20 best prompts for $9 →
+          </a>
+        </div>
+
         {/* Progress Bar */}
         <div style={{ marginBottom: 32 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
