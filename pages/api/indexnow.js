@@ -72,6 +72,7 @@ const URLS = [
   '/prompts/chatgpt-ai-image-prompts',
   '/prompts/chatgpt-daily-planning-productivity',
   // Blog posts (all 50+)
+  '/blog/sora-shutdown-alternatives-2026',
   '/blog/openclaw-setup-guide-2026',
   '/blog/ai-prompt-mistakes-2026',
   '/blog/chatgpt-ghibli-style-prompts-2026',
