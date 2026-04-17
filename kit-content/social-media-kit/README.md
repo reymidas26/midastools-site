@@ -67,8 +67,8 @@ Each prompt in this kit is formatted in a code block. Copy the entire block, rep
 
 These prompts work with:
 
-- **ChatGPT** (GPT-4 or GPT-4o recommended)
-- **Claude** (Claude 3.5 Sonnet or Claude 4 recommended)
+- **ChatGPT** (the most capable model you have access to)
+- **Claude** (Sonnet, Opus, or newer)
 - **Google Gemini** (Gemini Advanced recommended)
 
 ### Example
@@ -141,13 +141,13 @@ Each file follows this structure:
 
 ---
 
-## Also Available on Gumroad
+## More Kits at Midas Tools
 
 Like this kit? Check out our other prompt collections:
 
-- [AI Prompt Mega Pack (200+ prompts) — $29](https://manduks.gumroad.com/l/pdcjj)
-- [Real Estate AI Kit (40+ prompts) — $49](https://manduks.gumroad.com/l/oxaka)
-- [All Kits Bundle (every kit we make) — $97](https://manduks.gumroad.com/l/iiiwf)
+- AI Prompt Mega Pack (200+ prompts) — $29 — midastools.co/ai-prompt-mega-pack
+- Real Estate AI Kit (40+ prompts) — $49 — midastools.co/real-estate-kit
+- All Kits Bundle (every kit we make) — $97 — midastools.co/bundle
 
 ---
 

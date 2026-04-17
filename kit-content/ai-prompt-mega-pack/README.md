@@ -59,8 +59,8 @@ Replace these with your real information before pasting into your AI tool.
 
 ## Works With
 
-- ChatGPT (GPT-4, GPT-4o)
-- Claude (Sonnet, Opus)
+- ChatGPT (any model — GPT-5, GPT-4o, or newer)
+- Claude (Sonnet, Opus, or Haiku)
 - Google Gemini
 - Microsoft Copilot
 - Any LLM that accepts text prompts
@@ -77,11 +77,11 @@ Check out our niche-specific AI Kits for deep-dive templates:
 
 Or get everything with the **All Kits Bundle ($97)** — saves you 50%+.
 
-### Get the Premium Kits on Gumroad
+### Get the Premium Kits
 
-- [AI Prompt Mega Pack (200+ prompts) — $29](https://manduks.gumroad.com/l/pdcjj)
-- [Real Estate AI Kit (40+ prompts) — $49](https://manduks.gumroad.com/l/oxaka)
-- [All Kits Bundle (every kit we make) — $97](https://manduks.gumroad.com/l/iiiwf)
+- AI Prompt Mega Pack (200+ prompts) — $29 — midastools.co/ai-prompt-mega-pack
+- Real Estate AI Kit (40+ prompts) — $49 — midastools.co/real-estate-kit
+- All Kits Bundle (every kit we make) — $97 — midastools.co/bundle
 
 ---
 

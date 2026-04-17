@@ -41,8 +41,8 @@ Every prompt uses `[PLACEHOLDER]` variables in brackets. Replace these with your
 ### Step 3: Paste Into Any AI Tool
 These prompts work with any large language model:
 
-- **ChatGPT** (GPT-4, GPT-4o)
-- **Claude** (Anthropic)
+- **ChatGPT** (any current model)
+- **Claude** (Anthropic — Sonnet, Opus, or Haiku)
 - **Gemini** (Google)
 - **Llama, Mistral, or any open-source LLM**
 
@@ -133,13 +133,13 @@ Want more AI prompt kits? Visit [midastools.com](https://midastools.com) for our
 
 ---
 
-## Also Available on Gumroad
+## More Kits at Midas Tools
 
 Like this kit? Check out our other prompt collections:
 
-- [AI Prompt Mega Pack (200+ prompts) — $29](https://manduks.gumroad.com/l/pdcjj)
-- [Real Estate AI Kit (40+ prompts) — $49](https://manduks.gumroad.com/l/oxaka)
-- [All Kits Bundle (every kit we make) — $97](https://manduks.gumroad.com/l/iiiwf)
+- AI Prompt Mega Pack (200+ prompts) — $29 — midastools.co/ai-prompt-mega-pack
+- Real Estate AI Kit (40+ prompts) — $49 — midastools.co/real-estate-kit
+- All Kits Bundle (every kit we make) — $97 — midastools.co/bundle
 
 ---
 

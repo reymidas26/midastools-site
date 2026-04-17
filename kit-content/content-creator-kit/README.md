@@ -29,8 +29,8 @@ This kit contains 6 ready-to-use AI prompt files that cover your entire content 
 
 These prompts work with any AI assistant. Recommended options:
 
-- **ChatGPT** (GPT-4 or GPT-4o) — Best for conversational back-and-forth editing
-- **Claude** (claude-3 or later) — Best for long-form writing and nuance
+- **ChatGPT** (any current model) — Best for conversational back-and-forth editing
+- **Claude** (Sonnet or Opus) — Best for long-form writing and nuance
 - **Gemini** — Good alternative with Google ecosystem integration
 - **Any other LLM** — All prompts use standard natural language; no tool-specific syntax
 
@@ -141,7 +141,7 @@ Stop staring at a blank calendar. These prompts generate 30-day content plans ac
 
 ### Using with ChatGPT
 
-- Use GPT-4 or GPT-4o for best results
+- Use the most capable model you have access to for best results
 - You can paste an entire prompt file into a single message
 - Use "Custom Instructions" to store your brand context permanently
 - Create a dedicated "Content Creator" GPT with your brand voice baked in
@@ -178,13 +178,13 @@ Questions about using this kit? Reach out at [support@midastools.com](mailto:sup
 
 ---
 
-## Also Available on Gumroad
+## More Kits at Midas Tools
 
 Like this kit? Check out our other prompt collections:
 
-- [AI Prompt Mega Pack (200+ prompts) — $29](https://manduks.gumroad.com/l/pdcjj)
-- [Real Estate AI Kit (40+ prompts) — $49](https://manduks.gumroad.com/l/oxaka)
-- [All Kits Bundle (every kit we make) — $97](https://manduks.gumroad.com/l/iiiwf)
+- AI Prompt Mega Pack (200+ prompts) — $29 — midastools.co/ai-prompt-mega-pack
+- Real Estate AI Kit (40+ prompts) — $49 — midastools.co/real-estate-kit
+- All Kits Bundle (every kit we make) — $97 — midastools.co/bundle
 
 ---
 

@@ -71,14 +71,14 @@ These are the common placeholders you'll see throughout the prompts:
 
 ### Platform-Specific Tips
 
-**ChatGPT (DALL-E 3):**
+**ChatGPT (native image generation):**
 - Naturally understands long, descriptive prompts
 - Great with text rendering in images
 - Specify "photorealistic" or "illustration" to set the style
 - Supports 1024x1024, 1024x1792 (portrait), 1792x1024 (landscape)
 
 **Midjourney:**
-- Add `--ar 16:9` for aspect ratio, `--v 6` for latest version
+- Add `--ar 16:9` for aspect ratio; add `--v 7` (or the newest version flag shown in-app) to get the latest quality
 - Use `--style raw` for less Midjourney "house style"
 - Add `--q 2` for higher quality (uses more compute)
 - Shorter, punchier prompts often work better than long descriptions
@@ -108,7 +108,7 @@ A: Each AI model interprets prompts differently. That's normal. Use the "Best fo
 A: Absolutely. These are starting points. Mix, match, combine, and tweak to your heart's content. The best results come from iterating.
 
 **Q: The image has weird text/artifacts. What do I do?**
-A: Add "no text, no watermarks, no artifacts, clean image" to the end of your prompt. For text-heavy designs, ChatGPT (DALL-E 3) handles text rendering best.
+A: Add "no text, no watermarks, no artifacts, clean image" to the end of your prompt. For text-heavy designs, ChatGPT's native image generation (or Gemini's) tends to handle text rendering best.
 
 **Q: What aspect ratio should I use?**
 A: Each prompt includes recommended sizing. As a quick reference:
@@ -136,13 +136,13 @@ We'd love to see what you build with these prompts.
 
 ---
 
-## Also Available on Gumroad
+## More Kits at Midas Tools
 
 Like this pack? Check out our other prompt collections:
 
-- [AI Prompt Mega Pack (200+ prompts) — $29](https://manduks.gumroad.com/l/pdcjj)
-- [Real Estate AI Kit (40+ prompts) — $49](https://manduks.gumroad.com/l/oxaka)
-- [All Kits Bundle (every kit we make) — $97](https://manduks.gumroad.com/l/iiiwf)
+- AI Prompt Mega Pack (200+ prompts) — $29 — midastools.co/ai-prompt-mega-pack
+- Real Estate AI Kit (40+ prompts) — $49 — midastools.co/real-estate-kit
+- All Kits Bundle (every kit we make) — $97 — midastools.co/bundle
 
 ---
 

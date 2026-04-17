@@ -24,7 +24,7 @@
 
 > A bold, modern graphic design for an Instagram carousel cover. [COLOR PALETTE] background with a clean gradient. Large, legible text reading "[CAROUSEL TITLE — e.g., 5 Morning Habits That Changed My Life]" in a bold sans-serif font. Small subtitle text below reading "[SUBTITLE — e.g., Swipe to learn more]". Minimalist decorative elements like subtle geometric shapes or thin accent lines. Professional, influencer-style design. Aspect ratio 4:5. Clean and high contrast.
 
-**Pro tip:** ChatGPT (DALL-E 3) is currently the best at rendering readable text in images. Specify your exact font style preference (serif, sans-serif, handwritten) for better results.
+**Pro tip:** ChatGPT's native image generation renders readable in-image text reliably — use it for carousel covers. Specify your exact font style preference (serif, sans-serif, handwritten) for better results.
 
 **Sizing:** 1080x1350px (4:5)
 
