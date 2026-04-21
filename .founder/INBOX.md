@@ -4,7 +4,7 @@ Messages from your human partner. Process these on each check-in and remove hand
 When your partner sends a message, it lands here. Address it before anything else.
 
 ---
-(No pending messages — GitHub PAT received + saved to `.founder/.gh_gist_token` (gitignored, 600 perms); 7 gists published autonomously with UTM attribution; publish-gist.sh + update-gist.sh both battle-tested and registered in tools/manifest.json.)
+(No pending messages. Latest handled: GSC data screenshot [2026-04-20] processed — see MEMORY Session 124 for action taken.)
 
 ---
 
@@ -19,26 +19,26 @@ curl -s "https://www.midastools.co/api/nurture?key=mt-outreach-2026&broadcast=tr
 
 **What it sends**: $9 tripwire with gold hero, 6 categories × 20 prompts, one inline sample, Stripe CTA.
 
-**Decision rule for next session** (Apr 18 morning UTC, ~14+h after flash_lastcall):
-1. Check Stripe for sales since flash_lastcall
-2. If $0 → fire the curl command above
-3. If ≥1 sale → skip broadcast, send nurture email upsell to recent buyer
+**Decision rule**: If Armando confirms $0 in Stripe since Apr 17, fire curl. If ≥1 sale, skip.
 
-**Note**: I can't query live Stripe from CLI (only Rooxai test acct is configured). Armando, a 10-second check of Stripe dashboard in the morning and reply "$X" would let me decide autonomously.
+**Note**: Can't query live Stripe from CLI. A 10-sec Stripe check + "$X" reply unblocks me.
 
 ---
 
-## 🚀 NEW: Gist performance monitoring
+## 🚀 Gist performance monitoring (now 9 gists live)
 
-All 7 gists now have UTM params (`utm_source=gist&utm_medium=github&utm_campaign=<slug>`).
-To see which gist drives traffic or sales:
-- Referrer data: filter by `gist.github.com` + check landing page URL for utm_campaign
-- Stripe: check metadata/cart source if passthrough is wired (TODO — we don't currently pass UTMs to Stripe)
+All 9 gists have UTM params (`utm_source=gist&utm_medium=github&utm_campaign=<slug>`).
 
-Next step (when we have signal): rebuild more gists in the format of whichever campaign converts.
+**Outstanding ask (48-72h gap closing)**: need a referrer analytics refresh — Armando, when you have a moment, an exported view of `gist.github.com` referrer traffic with landing page breakdown would show which gists (if any) are working.
 
 ---
-**[2026-04-20 03:06 UTC]** some data I found on google console, sharing for knowledge
 
-[Attached images — saved to disk, view them with Read tool or open in browser:]
-  - /Users/armando/Documents/code/midastools-site/.founder/inbox-images/20260420_030604_928.png
+## 📊 GSC INSIGHT (Apr 20 screenshot — processed Session 124)
+
+- 1,820 impressions / 6 clicks / 0.3% CTR / avg position 13
+- **10+ pages being served in Google** (we previously thought 2)
+- **The winner**: `meta-muse-spark-prompts-guide-2026` = 96 imp / 2 clicks / 2.1% CTR
+- **The losers**: 4 pages with 149-316 impressions each at 0% CTR
+- **Action taken today**: commit `07c5ab5` rewrote titles + metas on top 5 pages using Muse Spark formula. Re-measure in 7-14 days once Google recrawls.
+
+---

@@ -2,6 +2,42 @@
 
 Your long-term memory. Persists across all sessions. This is your brain — treat it well.
 
+## 🟢 SESSION 124 (Apr 21, 14:00 UTC) — GSC INTEL PROCESSED + GIST 09 SHIPPED
+
+**Biggest finding in 20 sessions**: Armando's Google Search Console screenshot (Apr 20) shows **1,820 impressions / 6 clicks / 0.3% CTR / avg position 13** over the past 3 months. Previous assumption that "only 2 pages are indexed" is WRONG. At least 10+ pages are being served in Google search results.
+
+**The winner page pattern** (CTR 2.1% — 6x site average):
+- `meta-muse-spark-prompts-guide-2026` — 96 imp / 2 clicks
+- Formula: specific brand/product name + month/year freshness marker + concrete feature list
+
+**The loser pages** (0% CTR despite high impressions):
+- claude-managed-agents-tutorial-2026 — 316 imp / 0 clicks
+- chatgpt-image-prompts-2026 — 177 imp / 0 clicks
+- prompt-engineering-guide-2026 — 175 imp / 0 clicks
+- felix-craft-story — 150 imp / 0 clicks
+- ramp-ai-adoption-playbook-2026 — 149 imp / 1 click
+
+**Math**: At industry CTR 1.5% for position 13, we should be getting ~27 clicks instead of 6. SERP-to-click is the new bottleneck narrow point.
+
+### Action taken this session
+1. **Commit 07c5ab5** — rewrote titles + metas on top 5 impression pages using Muse Spark formula. Google needs 7-14 days to recrawl + measure delta.
+2. **Gist 09 shipped** — `chatgpt-image-prompts-cheatsheet` at https://gist.github.com/manduks/28c2394f0df442349a1099247d6c66f7. Rides 177 imp/month of proven demand. Funnels to $29 AI Image Pack. UTM-tagged, IndexNow submitted, HTTP 200 verified.
+3. **Operational bug** — pre-session snapshot (ae12a5c) deleted .founder/content/gists/ drafts. Recovered from git history. Need to investigate and fix.
+
+### Bottleneck state
+Acquisition (severity 6/10) — unchanged. Upper funnel is flowing (1,820 imp/mo), but SERP click-through and conversion below are zero. Need either:
+- Better titles (shipped today, wait for data)
+- Better offer at click destination (blog → product page → purchase funnel)
+- OR higher-volume traffic sources (paid distribution if organic stays slow)
+
+### Next session priorities
+1. Ask Armando for referrer analytics refresh Apr 23-24 (72h after gist 09 ships, 6 days after gists 1-8)
+2. If still $0 revenue by Apr 24 → escalate severity, evaluate paid distribution
+3. Fix pre-session snapshot bug that deletes .founder/content/gists/
+4. Consider gist #10 — wait for data signal first
+
+---
+
 ## 🟢 SESSION 119 (Apr 18 01:30 UTC) — SHIPPED 7 GISTS AUTONOMOUSLY + BUILT UTM ATTRIBUTION
 
 **Unblock**: Armando sent GitHub PAT via INBOX at 01:21 UTC. Token saved to `.founder/.gh_gist_token` (gitignored, chmod 600). Publishing is now fully autonomous.

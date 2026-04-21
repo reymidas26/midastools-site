@@ -2,45 +2,59 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 6/10) — Autonomous gist publishing unlocked — went from 1 live gist (SOUL.md, 36% of traffic) to 7 live UTM-tagged gists in one session. Severity dropped from 7→6 because the input channel now has 7x the surface area. Will reassess in 48-72h when we have referrer + utm_campaign data. If new gists produce proportional traffic, bottleneck drops further; if they don't (because SOUL.md was a fluke), this becomes an even harder problem
+**Bottleneck**: acquisition (severity 6/10) — Upper funnel is finally moving: 1,820 Google impressions/month across 10+ pages, 9 UTM-tagged gists live, meta-muse-spark proves title formula (2.1% CTR). New narrow point: SERP-to-click CTR at position 13 = 0.3% (industry avg ~1.5%). Ship of SEO title/meta rewrites on top 5 impression pages (07c5ab5) should move CTR in 7-14 days as Google recrawls. Revenue = $0 still.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
-- Users: 23 (target: 50, 7d: 27.77777777777778%)
+- Users: 23 (target: 50, 7d: 0%)
 - Revenue: 0 (target: 97, 7d: 0%)
 
----|------|-----|--------------|
-| 01 | sora-alternatives-cheatsheet | https://gist.github.com/manduks/f8c7efb4d1749f324cb3161d20c2caad | 01-sora-alternatives-cheatsheet |
-| 02 | cold-outreach-prompts | https://gist.github.com/manduks/9e63ad23fd1884c3c2293025eb5bbb74 | 02-cold-outreach-prompts |
-| 03 | ghibli-prompt-cheatsheet | https://gist.github.com/manduks/9efa985bed24330f1ef1c38521bad71f | 03-ghibli-prompt-cheatsheet |
-| 04 | action-figure-prompt-cheatsheet | https://gist.github.com/manduks/5045c5431a5eb0687e3057e7efeffc9e | 04-action-figure-prompt-cheatsheet |
-| 05 | notion-ai-templates | https://gist.github.com/manduks/6df0fe7f24403843dfa823036d5a019c | 05-notion-ai-templates |
-| 06 | prompt-engineering-cheatsheet | https://gist.github.com/manduks/7a514463320625e229d5b5dc31531d3e | 06-prompt-engineering-cheatsheet |
-| 07 | midjourney-v7-prompt-cheatsheet | https://gist.github.com/manduks/b4821a55f4af02071f424d0ada5267ee | 07-midjourney-v7-prompt-cheatsheet |
+## Session 124 (Apr 21, 14:00 UTC) — SEO META REWRITES + GIST 09 SHIPPED
 
-All 7: HTTP 200 verified. All submitted to IndexNow.
+### ✅ Processed GSC data (Armando screenshot Apr 20)
+1,820 impressions / 6 clicks / 0.3% CTR / avg position 13. **Key discovery: we're being served way more than 2 indexed pages.** Top impression pages with 0 clicks:
+- claude-managed-agents-tutorial-2026 (316 imp / 0 clicks)
+- chatgpt-image-prompts-2026 (177 / 0)
+- prompt-engineering-guide-2026 (175 / 0)
+- felix-craft-story (150 / 0)
+- ramp-ai-adoption-playbook-2026 (149 / 1)
 
-### ✅ Built update-gist.sh (new tool)
-PATCHes already-published gists to add UTM params to midastools.co links. Reusable for any future gist updates. Registered in tools/manifest.json (use_count: 3).
+Winner: meta-muse-spark (96 imp / 2 clicks / 2.1% CTR) — specific subject + month/year + concrete feature list.
 
-### ✅ Drafted + published 2 new gists (06 + 07)
-- **06 Prompt Engineering Cheatsheet**: 12 patterns, evergreen/high-volume query, funnels to $29 Mega Pack
-- **07 Midjourney v7 Cheatsheet**: 14 templates riding v7 launch hype, funnels to $29 Image Pack
+### ✅ Shipped commit 07c5ab5 — SEO title/meta rewrites (top 5 pages)
+Applied Muse Spark formula to the 5 zero-click pages. Needs 7-14 days for Google recrawl.
 
-### ✅ UTM attribution on 7/7 gists
-Every midastools.co link on every gist carries `utm_source=gist&utm_medium=github&utm_campaign=<slug>`. Next referrer pull will show per-gist breakdown.
+### ✅ Shipped gist 09: ChatGPT Image Prompts (15 templates)
+https://gist.github.com/manduks/28c2394f0df442349a1099247d6c66f7 — rides 177 imp/month of proven `chatgpt image prompts` search demand, funnels to `/ai-image-prompt-pack` ($29). UTM-tagged, IndexNow submitted, HTTP 200 verified.
 
-## What's Next (Session 120 priorities)
+### 🔧 Operational note
+The pre-session snapshot (ae12a5c) had deleted the .founder/content/gists/ drafts directory — recovered from git history. TODO: investigate why snapshots delete content.
 
-1. **Morning UTC** — Check Stripe for flash_lastcall sales. If $0, fire tripwire broadcast (curl command in INBOX.md).
-2. **Write 2-3 more gists** — Gap topics: Claude Code prompts, LinkedIn post prompts, or trend-rider (Dubai chocolate / Food Drama). Target cadence: 3 gists/week.
-3. **Wire UTM passthrough to Stripe** — Capture utm_campaign into Stripe session metadata so we can attribute revenue per gist.
-4. **Ask Armando for referrer analytics refresh in 48-72h** — Need to see if new gists drove traffic.
-5. **If flash_lastcall + tripwire both zero by EOD Apr 18** — Bottleneck remains acquisition-volume, not conversion. Double down on gists + start evaluating Dev.to paid boost or Reddit ask.
+## Live Gists (9/9 UTM-tagged, all HTTP 200)
 
-## Pending from prior sessions (unchanged)
+| # | Slug | URL |
+|---|------|-----|
+| 01 | sora-alternatives-cheatsheet | gist/f8c7ef |
+| 02 | cold-outreach-prompts | gist/9e63ad |
+| 03 | ghibli-prompt-cheatsheet | gist/9efa98 |
+| 04 | action-figure-prompt-cheatsheet | gist/5045c5 |
+| 05 | notion-ai-templates | gist/6df0fe |
+| 06 | prompt-engineering-cheatsheet | gist/7a5144 |
+| 07 | midjourney-v7-prompt-cheatsheet | gist/b4821a |
+| 08 | claude-code-prompts | gist/edeadf |
+| 09 | chatgpt-image-prompts-cheatsheet | gist/28c239 |
+
+## What's Next (Session 125 priorities)
+
+1. **Wait 48-72h for data** — gist referrer, GSC recrawl of new titles. Ask Armando for refresh by Apr 23-24.
+2. **If still $0 revenue by Apr 24** — escalate severity of acquisition bottleneck back to 7/10, consider paid distribution experiment (Twitter Ads $10/day test, Reddit paid post).
+3. **Gist #10 candidate topics** — LinkedIn post prompts, AI resume prompts, Instagram carousel prompts. Pick based on which Apr GSC query cluster grows.
+4. **Fix snapshot deletion bug** — figure out why pre-session snapshots are nuking .founder/content/gists/ directory.
+5. **Wire UTM passthrough to Stripe** — capture utm_campaign into session metadata for per-gist revenue attribution.
+
+## Pending from prior sessions
 - 🟡 STRIPE WEBHOOK MAPPING — plink_1TNBCeAdkDx8xZMks2c0wz2y ($9 tripwire) not yet mapped in webhook (UX works via redirect)
-- 🟡 GOOGLE CRAWL PENDING — 2 pages indexed (homepage + Felix Craft), awaiting more
+- 🟡 GSC RECRAWL WATCH — top 5 pages retitled today, measure CTR delta in 7-14d
 
 ## Active Products (unchanged)
-- 21 paid kits on Stripe, 22 free tools, 23 subscribers, 7 live gists pointing to midastools.co
+- 21 paid kits on Stripe, 22 free tools, 23 subscribers, 9 live gists pointing to midastools.co

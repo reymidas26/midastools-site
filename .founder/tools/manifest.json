@@ -4,7 +4,7 @@
     "description": "Publish a markdown file from .founder/content/gists/ as a public gist on gist.github.com/manduks/, submit to IndexNow, and log the URL. Supports --all to batch-publish every unshipped file. Requires GITHUB_GIST_TOKEN env var or token at .founder/.gh_gist_token (gitignored).",
     "language": "bash",
     "path": "publish-gist.sh",
-    "use_count": 2,
+    "use_count": 3,
     "created_at": "2026-04-18T00:55:00Z",
     "approved": true
   },
