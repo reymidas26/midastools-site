@@ -5,8 +5,8 @@ import Layout from '../../components/Layout';
 const STRIPE_BUNDLE = 'https://buy.stripe.com/bJe7sK0tNdLjgle0pscMM0b';
 
 export default function PromptEngineeringGuide2026() {
-  const title = 'The Complete AI Prompt Engineering Guide for 2026 (With Examples)';
-  const description = 'Learn prompt engineering from scratch. A practical guide with frameworks, examples, and copy-paste templates for ChatGPT, Claude, Midjourney, Sora, and every AI tool. From beginner to advanced in one post.';
+  const title = 'Prompt Engineering Guide: 12 Frameworks + Templates (2026)';
+  const description = 'The 12 prompt engineering frameworks top AI users rely on. Copy-paste templates for ChatGPT, Claude, Gemini, and Midjourney. Beginner to advanced in one page.';
   const url = 'https://www.midastools.co/blog/prompt-engineering-guide-2026';
 
   const jsonLd = {

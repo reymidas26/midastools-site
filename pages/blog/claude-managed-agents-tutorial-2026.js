@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Layout from '../../components/Layout';
 
 export default function ClaudeManagedAgentsTutorial() {
-  const title = 'Claude Managed Agents: The Complete Getting Started Guide (2026)';
-  const description = 'Learn how to build autonomous AI agents with Claude Managed Agents. Step-by-step tutorial with code examples in Python, TypeScript, and bash.';
+  const title = 'Claude Managed Agents: Tutorial with Working Code (April 2026)';
+  const description = "Anthropic's Claude Managed Agents are here (April 2026 beta). Working Python, TypeScript, and bash code. Deploy your first autonomous agent in 15 minutes.";
   const url = 'https://www.midastools.co/blog/claude-managed-agents-tutorial-2026';
 
   const jsonLd = [

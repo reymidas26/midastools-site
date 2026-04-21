@@ -4,10 +4,10 @@ import Layout from '../../components/Layout';
 
 const posts = {
   'felix-craft-story': {
-    title: 'How to Make Money with AI Agents: $300K/Month Case Study (2026)',
+    title: 'Felix Craft: The AI Agent Making $300K/Month (2026 Breakdown)',
     date: 'Feb 20, 2026',
-    updated: 'Apr 5, 2026',
-    meta: 'Real case study: Felix Craft, an OpenClaw AI agent, now makes $300K/month — building products, launching marketplaces, running businesses. Verified Stripe + on-chain data. Step-by-step breakdown with SOUL.md templates to replicate it.',
+    updated: 'Apr 20, 2026',
+    meta: 'Felix Craft is an OpenClaw AI agent making $300K/month — verified Stripe + on-chain. Full breakdown: what he built, how he scaled, SOUL.md templates to copy.',
     content: `
 **Can you really make money with AI agents?** This isn't a theory. This is a real case study. An AI agent called Felix Craft now generates **$300,000+ per month** — autonomously building products, launching marketplaces, and running businesses with minimal human oversight. Below is the complete breakdown: how it started, how it scaled, and exactly how you can replicate it.
 

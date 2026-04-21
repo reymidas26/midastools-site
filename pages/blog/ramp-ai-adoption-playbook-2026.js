@@ -10,21 +10,21 @@ export default function RampAIAdoptionPlaybook() {
   return (
     <Layout>
       <Head>
-        <title>Ramp Made 99.5% of Employees AI Power Users — Here's the Playbook You Can Steal | Midas Tools</title>
-        <meta name="description" content="Ramp achieved 99.5% AI adoption across the company. 84% use coding agents weekly. Non-engineers ship production code. Here are the 8 lessons from their AI adoption playbook that any team can copy." />
+        <title>Ramp's 99.5% AI Adoption: The 8-Step Playbook (April 2026) | Midas Tools</title>
+        <meta name="description" content="How Ramp got 99.5% of employees using AI weekly — and 84% running coding agents. The 8 concrete steps from their adoption playbook, ready to steal." />
         <meta name="keywords" content="AI adoption playbook, enterprise AI adoption, Claude Cowork for teams, AI skills marketplace, Ramp Glass AI" />
-        <meta property="og:title" content="Ramp Made 99.5% of Employees AI Power Users — Here's the Playbook You Can Steal" />
-        <meta property="og:description" content="Ramp achieved 99.5% AI adoption. 84% use coding agents weekly. Here are 8 lessons any team can steal from their playbook." />
+        <meta property="og:title" content="Ramp's 99.5% AI Adoption: The 8-Step Playbook (April 2026)" />
+        <meta property="og:description" content="How Ramp got 99.5% of employees using AI weekly — and 84% running coding agents. The 8 concrete steps from their playbook, ready to steal." />
         <meta property="og:url" content="https://www.midastools.co/blog/ramp-ai-adoption-playbook-2026" />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Ramp Made 99.5% of Employees AI Power Users — Here's the Playbook" />
-        <meta name="twitter:description" content="Ramp hit 99.5% AI adoption. 84% use coding agents weekly. Non-engineers ship production code. Here's exactly how they did it." />
+        <meta name="twitter:title" content="Ramp's 99.5% AI Adoption: The 8-Step Playbook" />
+        <meta name="twitter:description" content="Ramp got 99.5% of employees using AI weekly and 84% running coding agents. The 8 concrete steps from their playbook, ready to steal." />
         <link rel="canonical" href="https://www.midastools.co/blog/ramp-ai-adoption-playbook-2026" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          "headline": "Ramp Made 99.5% of Employees AI Power Users — Here's the Playbook You Can Steal",
+          "headline": "Ramp's 99.5% AI Adoption: The 8-Step Playbook (April 2026)",
           "datePublished": "2026-04-09",
           "dateModified": "2026-04-09",
           "author": { "@type": "Person", "name": "Rey Midas" },

@@ -7,8 +7,8 @@ const STRIPE_BUNDLE = 'https://buy.stripe.com/00g5xY2WM04Ncyw9AH';
 const IMAGE_PACK_LINK = '/ai-image-prompt-pack';
 
 export default function ChatGPTImagePrompts2026() {
-  const title = '50 Viral ChatGPT Image Prompts That Broke the Internet in 2026';
-  const description = 'The best ChatGPT image prompts for 2026. 50 copy-paste prompts for portraits, product shots, social media graphics, cinematic art, brand visuals, and viral memes. Tested with DALL-E and ChatGPT image generation.';
+  const title = '50 ChatGPT Image Prompts: Portraits, Products, Memes (2026)';
+  const description = '50 tested ChatGPT image prompts to copy-paste today. Portraits, product shots, social graphics, cinematic art, and viral memes. DALL-E 3 ready (April 2026).';
   const url = 'https://www.midastools.co/blog/chatgpt-image-prompts-2026';
 
   const jsonLd = {
