@@ -2,10 +2,13 @@ import Head from 'next/head';
 import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { useStripeAttribution } from '../lib/stripe-attribution';
 
 const GTM_ID = 'GTM-TN8BDBCP';
 
 export default function App({ Component, pageProps }) {
+  useStripeAttribution();
+
   return (
     <>
       <Head>
