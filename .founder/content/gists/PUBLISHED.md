@@ -9,3 +9,4 @@
 - 2026-04-18T01:27:11Z | [Midjourney v7 Prompt Cheatsheet — 14 Copy-Paste Templates That Ride the New Engine (April 2026)](https://gist.github.com/manduks/b4821a55f4af02071f424d0ada5267ee) | source: `07-midjourney-v7-prompt-cheatsheet.md`
 - 2026-04-18T01:33:38Z | [Claude Code Prompts I Actually Use Every Day — 18 Battle-Tested Templates (April 2026)](https://gist.github.com/manduks/edeadfd933d284d6f0903459891b2e61) | source: `08-claude-code-prompts.md`
 - 2026-04-21T20:39:00Z | [ChatGPT Image Prompts — 15 Copy-Paste Templates for DALL-E 3, GPT-4 Image & Gemini (April 2026)](https://gist.github.com/manduks/28c2394f0df442349a1099247d6c66f7) | source: `09-chatgpt-image-prompts-cheatsheet.md`
+- 2026-04-22T03:13:22Z | [AI Resume Prompts — 14 Copy-Paste Templates for ChatGPT, Claude & Gemini (April 2026)](https://gist.github.com/manduks/8c60db822b19bec2e11666c7d221d3b1) | source: `10-ai-resume-prompts-cheatsheet.md`
