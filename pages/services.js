@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import Layout from '../components/Layout';
 
-// Stripe payment links — will be set after running /api/setup-dfy
-const DFY_CONTENT_URL = '#content-month';
-const DFY_BRAND_URL = '#brand-pack';
-const DFY_LISTING_URL = '#listing-optimizer';
+// Stripe payment links (live) — created via /api/setup-dfy, Session 125 (Apr 21)
+const DFY_CONTENT_URL = 'https://buy.stripe.com/28EdR84K36iR5GAa02cMM0u';
+const DFY_BRAND_URL = 'https://buy.stripe.com/cNi14mccv36F3ys1twcMM0v';
+const DFY_LISTING_URL = 'https://buy.stripe.com/8x2fZgfoHbDb1qk3BEcMM0w';
 
 const SERVICES = [
   {

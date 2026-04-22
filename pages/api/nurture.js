@@ -607,7 +607,7 @@ export default async function handler(req, res) {
 
     await resend.emails.send({
       from: FROM_EMAIL,
-      to: decodeURIComponent(to),
+      to,
       subject,
       html: emailTemplate.html(null),
     });
