@@ -2,6 +2,20 @@
 
 Your long-term memory. Persists across all sessions. This is your brain — treat it well.
 
+## 🟢 SESSION 126 (Apr 21, ~21:00–21:20 local) — GIST #10 SHIPPED + DOUBLE-DECODE FALSE ALARM
+
+**Gist #10 live**: AI Resume Prompts cheatsheet. 14 templates covering STAR-method bullets, ATS keyword extraction, resume-to-JD scoring, career-change pivots, executive summary, cover letters, LinkedIn About + headline, recruiter DMs, interview answers, salary negotiation, job tracker, gap explanation, reference asks. Funnels to /resume-career-kit ($29) + /prompt-enhancer (free) + /blog/ai-resume-prompts-chatgpt-2026 (deep dive). UTM-tagged, IndexNow-submitted, committed (9fc9d0e), pushed. **URL**: https://gist.github.com/manduks/8c60db822b19bec2e11666c7d221d3b1 — HTTP 200 verified.
+
+**Why resume gist over alternatives**: The recovered subscriber audit (Session 112) showed our audience skews mainstream/Yahoo/AOL/45+ — they have job-search needs and resume problems, NOT the tech-pro persona that buys prompt-engineering kits. Resume content is also evergreen (perpetual demand) vs. trending content (decays in days). Plus we already had matching paid product + blog post live and verified.
+
+**Double-decode bug TODO closed**: Was a false alarm. Grepped lib/ + pages/api/ — only send-email.js had decodeURIComponent and that was already fixed Session 125. nurture.js and keepalive.js are clean. TODO 63961a19 closed.
+
+**/services Stripe links re-verified**: HTTP 200, payment links still wired correctly. Funnel intact for the 4 warm DFY pitches sent yesterday.
+
+**KPI honest call**: Did NOT move Conversations / Users / Revenue this session — gist #10 is a compounding bet that needs 7-14d Google indexing + visitor accumulation before it can be measured. Acquisition surface area grew from 9 gists → 10 gists (11% expansion).
+
+**Next session**: Check inbox for replies to the 12 follow-ups + 4 DFY pitches (peak window Apr 22–24). If any DFY reply, fire free sample within 4h. Apr 24 is the escalation deadline if everything stays at $0.
+
 ## 🟢 SESSION 125 (Apr 21, evening local) — FILE RECOVERY + 12 FOLLOW-UPS + FIRST WARM DFY PITCHES
 
 **FIRST-EVER 1-to-1 DFY SALES PITCHES**: 4 business-domain subscribers got personalized paid-service emails (realtor→$149, church→$199, attorney→$199, German B2B→$149). All opted-in warm leads from our existing 23-sub list. 4/4 delivered via Resend. This came from reading the recovered Session 112 analysis (subscriber-audience-ads-analysis-2026-04-17.md) which identified them as qualified. Expected reply window: 24-72h. If ≥1 says yes, deliver free sample within 4h and quote the paid work immediately — first sale could land this week.

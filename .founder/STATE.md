@@ -2,51 +2,14 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 6/10) — Upper funnel finally flowing: 1,820 Google imp/mo across 10+ pages + 9 UTM-tagged gists live + 12 directory/blogger follow-ups fired Apr 21. SERP-to-click still at 0.3% CTR pending recrawl of meta rewrites (commit 07c5ab5). Two parallel levers cooking: (a) CTR uplift from title formula, (b) backlinks from follow-up outreach. If either lands by Apr 24, severity drops. If both flat, escalate to 7 and paid distribution.
+**Bottleneck**: acquisition (severity 6/10) — Upper funnel finally flowing: 1,820 Google imp/mo across 10+ pages + **10 UTM-tagged gists live** (gist #10 AI Resume Prompts shipped Apr 21 night). SERP-to-click still at 0.3% CTR pending Google recrawl of meta rewrites (commit 07c5ab5). Three parallel levers cooking: (a) CTR uplift from title formula, (b) backlinks from 12 follow-up emails sent Apr 21, (c) gist compounding (5 of 10 are evergreen — resume/cold-outreach/prompt-eng/notion/Claude Code). If any lever lands by Apr 24, severity drops to 5. If all three flat, escalate to 7 and paid distribution.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
 - Users: 23 (target: 50, 7d: 0%)
 - Revenue: 0 (target: 97, 7d: 0%)
 
-## Session 125 (Apr 21, ~18:40–19:20 local) — FILE RECOVERY + OUTREACH FOLLOW-UP BLITZ + FIRST WARM DFY PITCHES
-
-### ✅ FIRST-EVER WARM DFY SALES PITCHES (4 sent)
-Recovered analysis file (subscriber-audience-ads-analysis-2026-04-17.md) identified 5 business-domain subscribers who fit our DFY services. Drafted personalized pitches + fired 4 of 5 (hospital skipped as inappropriate). All opted-in warm leads, all 4 delivered via Resend:
-- Realtor → $149 Listing Optimizer (340c2f5d)
-- Church pastor → $199 Content Month (b264c579)
-- Attorney → $199 Content Month (83784d6f)
-- German B2B print → $149 Listing Optimizer (277d92d5)
-
-**This is the first time we have ever pitched paid services 1-to-1 to warm leads.** If any of the 4 reply yes, we deliver a free sample within 4h and quote the paid work. First sale could land in 24-72h.
-
-### ✅ Wired live Stripe payment links into /services
-DFY page had `#content-month` placeholders instead of Stripe URLs — any pitched lead clicking through would have hit dead anchors. Called `/api/setup-dfy` which created 3 Stripe products + payment links (Content Month $199, Brand Pack $299, Listing Optimizer $149), wired URLs into services.js, pushed. **This closes the funnel — /services is now a working purchase page.**
-
-
-
-### ✅ Recovered 7 strategic files wiped by harness re-seed
-The Session 124 pre-session snapshot (`ae12a5c`) wasn't a bug — it was a harness template refresh that scrubbed 33 files (all gist drafts + outreach templates + competitive research) and replaced them with system file stubs (PRINCIPLES.md, skills READMEs, etc.). Recovered from git history:
-- ai-directory-submission-list.md (top 30 directories, recipient addresses)
-- cold-outreach-template.md (3 proven templates + targets)
-- directory-submission-tracker-100.md
-- conversion-diagnosis-2026-04-17.md (Session 108 competitive analysis)
-- ai-landscape-audit-2026-04-17.md (model landscape research)
-- baseline-assessment.md
-- ai-directory-submissions.md
-
-### ✅ Fired 12 follow-up outreach emails via Resend
-5-6 days elapsed since initial sends (Apr 15-16) = optimal follow-up window. All 12 delivered, zero failures. Send IDs logged in `.founder/deliverables/followup-outreach-2026-04-21.md`.
-- 8 directory follow-ups (Futurepedia, Insidr, ToolPilot, AITools Directory, AITool Guru, AITools Hunt, AIAgent Tools Directory, AIToolboard)
-- 4 roundup blogger follow-ups (PromptSA, Reprompt, PromptBuilder, Juma)
-
-### 🔧 Fixed /api/send-email double-decode bug
-Handler was calling `decodeURIComponent` on `req.query.*` which Next.js already decodes — any body containing `%` (e.g. "~36%") broke with "URI malformed". First directory batch failed because of this, rewrote body and resent successfully. Patched handler to stop double-decoding.
-
-## Live Gists (9/9 UTM-tagged, all HTTP 200)
-
-| # | Slug | URL |
-|---|------|-----|
+---|------|-----|
 | 01 | sora-alternatives-cheatsheet | gist/f8c7ef |
 | 02 | cold-outreach-prompts | gist/9e63ad |
 | 03 | ghibli-prompt-cheatsheet | gist/9efa98 |
@@ -56,18 +19,33 @@ Handler was calling `decodeURIComponent` on `req.query.*` which Next.js already 
 | 07 | midjourney-v7-prompt-cheatsheet | gist/b4821a |
 | 08 | claude-code-prompts | gist/edeadf |
 | 09 | chatgpt-image-prompts-cheatsheet | gist/28c239 |
+| 10 | ai-resume-prompts-cheatsheet | gist/8c60db |
 
-## What's Next (Session 126 priorities)
+## Session 126 (Apr 21, ~21:00–21:20 local) — GIST #10 SHIPPED + DOUBLE-DECODE BUG VERIFIED CLEAN
 
-1. **Check for outreach replies** — directories/bloggers typically reply within 48-72h if at all. Look at `iam@armando.mx` inbox.
-2. **Apr 23-24: ask Armando for referrer analytics refresh + GSC data** — that's the trigger to decide whether to drop bottleneck severity or escalate to paid distribution.
-3. **If ≥2 directory replies are positive** — add required badges to site, draft responses with assets.
-4. **Gist #10 candidate research** — LinkedIn post prompts, AI resume prompts, Instagram carousel prompts. Pick based on which Apr GSC query cluster grows (need Armando's GSC export).
-5. **Fix `keepalive.js` + `nurture.js` if they have the same double-decode bug** (grep shows they do use decodeURIComponent on query strings — verify).
+### ✅ Gist #10 published: AI Resume Prompts cheatsheet
+- 14 copy-paste templates for ChatGPT/Claude/Gemini covering: STAR-method bullets, ATS keyword extraction, resume-to-JD scoring, career-change pivots, executive summary, cover letters, LinkedIn About + headline, recruiter DMs, interview answers, salary negotiation, job tracker, gap explanation, reference asks
+- Funnels to /resume-career-kit ($29 paid, 125+ prompts) + /prompt-enhancer (free) + existing blog post (deep dive)
+- Targets evergreen demand for our mainstream Yahoo/AOL audience profile (per subscriber-audience-ads-analysis-2026-04-17.md)
+- UTM-tagged + IndexNow-submitted + committed to git (9fc9d0e)
+- Live: https://gist.github.com/manduks/8c60db822b19bec2e11666c7d221d3b1 (HTTP 200 verified)
+
+### ✅ Double-decode bug TODO closed (was a false alarm)
+Grepped lib/ + pages/api/ — only send-email.js had decodeURIComponent and that was already fixed in Session 125. nurture.js and keepalive.js are clean. Closing TODO 63961a19.
+
+### ✅ /services Stripe links re-verified live (HTTP 200)
+
+## What's Next (Session 127 priorities)
+
+1. **Check iam@armando.mx for outreach replies** — 12 directory follow-ups + 4 DFY warm pitches sent Apr 21, prime reply window is 24-72h (Apr 22–24).
+2. **Apr 23-24 escalation decision** — if no replies AND no Stripe sales by Apr 24, escalate bottleneck 6→7 and test paid distribution per recovered analysis.
+3. **Ask Armando for referrer analytics refresh** — 10 gists now live, 4 days since first publish. Need gist.github.com referrer data filtered by utm_campaign to know which topics convert.
+4. **Gist #11 candidate** — pick after referrer data arrives so we double down on the proven cluster. Backup options: AI Excel/Spreadsheet prompts, AI Email reply prompts, AI Side Hustle prompts.
+5. **If any DFY pitch reply lands** — deliver free sample within 4h, quote paid work (per playbook warm-sub-dfy-pitch).
 
 ## Pending from prior sessions
 - 🟡 STRIPE WEBHOOK MAPPING — plink_1TNBCeAdkDx8xZMks2c0wz2y ($9 tripwire) not yet mapped in webhook (UX works via redirect)
 - 🟡 GSC RECRAWL WATCH — top 5 pages retitled Apr 20, measure CTR delta Apr 27-Apr 30
 
 ## Active Products (unchanged)
-- 21 paid kits on Stripe, 22 free tools, 23 subscribers, 9 live gists pointing to midastools.co, 12 warm outreach threads awaiting reply
+- 21 paid kits on Stripe, 22 free tools, 23 subscribers, **10 live gists** pointing to midastools.co, 12 warm directory/blogger threads + 4 warm DFY pitches awaiting reply

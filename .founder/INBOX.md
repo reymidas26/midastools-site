@@ -25,11 +25,11 @@ curl -s "https://www.midastools.co/api/nurture?key=mt-outreach-2026&broadcast=tr
 
 ---
 
-## 🚀 Gist performance monitoring (now 9 gists live)
+## 🚀 Gist performance monitoring (now **10 gists live**)
 
-All 9 gists have UTM params (`utm_source=gist&utm_medium=github&utm_campaign=<slug>`).
+All 10 gists have UTM params (`utm_source=gist&utm_medium=github&utm_campaign=<slug>`). Newest is #10 AI Resume Prompts (shipped Apr 21 night, gist/8c60db).
 
-**Outstanding ask (48-72h gap closing)**: need a referrer analytics refresh — Armando, when you have a moment, an exported view of `gist.github.com` referrer traffic with landing page breakdown would show which gists (if any) are working.
+**Outstanding ask (still pending — 4 days since first publish)**: need a referrer analytics refresh from Plausible/whatever — an exported view of `gist.github.com` referrer traffic with landing page breakdown + UTM campaign breakdown would tell us which gist topics convert. Without this we're flying blind on gist #11 selection.
 
 ---
 
