@@ -2,7 +2,7 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 6/10) — Upper funnel finally flowing: 1,820 Google imp/mo across 10+ pages + **11 UTM-tagged gists live** (gist #11 AI Email Prompts shipped Apr 22). New narrow point is SERP-to-click at 0.3% CTR (vs industry ~1.5% for pos 13). Top-5 page titles retitled Apr 20 (commit 07c5ab5). Gist pace = 1 every 1-3 days. If any lever lands by Apr 24, severity drops to 5. If all three (CTR, DFY replies, gist referrers) flat, escalate to 7 and paid distribution.
+**Bottleneck**: acquisition (severity 6/10) — Upper funnel finally flowing: 1,820 Google imp/mo across 10+ pages + **12 UTM-tagged gists live** (gist #12 AI SaaS Founder Prompts shipped Apr 22 evening, first gist funneling to /saas-founder-kit $39). New narrow point is SERP-to-click at 0.3% CTR (vs industry ~1.5% for pos 13). Top-5 page titles retitled Apr 20 (commit 07c5ab5). Gist pace = 2 in one day (Apr 22). If any lever lands by Apr 24, severity drops to 5. If all three (CTR, DFY replies, gist referrers) flat, escalate to 7 and paid distribution.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
@@ -21,6 +21,24 @@
 | 09 | chatgpt-image-prompts-cheatsheet | gist/28c239 |
 | 10 | ai-resume-prompts-cheatsheet | gist/8c60db |
 | 11 | ai-email-prompts-cheatsheet | gist/a69f2f |
+| 12 | ai-saas-founder-prompts-cheatsheet | gist/bc4451 |
+
+## Session 129 (Apr 22, ~19:40 local) — GIST #12 SHIPPED: AI SAAS FOUNDER PROMPTS
+
+### ✅ Gist #12 published: AI SaaS Founder Prompts cheatsheet
+- 14 copy-paste templates covering: user research synthesis, landing hero copy, feature→benefit translation, investor update (MRR edition), market size slide, traction narrative, roadmap prioritizer (RICE + override), changelog→release notes, churn diagnostic from cancel replies, pricing experiment framer, cold outreach to first 100 ICP, 7-email onboarding sequence, founder brain-dump→hiring JD, competitor teardown
+- **First gist to funnel to /saas-founder-kit ($39)** — diversifies revenue paths from prior image/resume/email-heavy portfolio
+- 5-slot universal SaaS prompt formula, model-recommendation table (Claude 4.5, GPT-4o, Gemini 2.5, DeepSeek V3.1), Common Mistakes (5 items), Resources section per playbook
+- Also links sister gist #11 (email) for portfolio cross-discovery
+- UTM-tagged (10 links), IndexNow-submitted
+- Live: https://gist.github.com/manduks/bc445120f5588d30c71c896f0210b00d (HTTP 200 verified)
+
+### Rationale for shipping blind (no referrer data yet)
+- Referrer data ask is 5+ days pending; waiting another 2 days to Apr 24 means zero compounding
+- SaaS founder audience = high-intent B2B buyers (they literally buy tools for a living)
+- /saas-founder-kit had ZERO gists feeding it previously — portfolio concentration risk reduction
+- Matches Sequoia "next $1T company" thesis (Session 106) — SaaS founder pain is evergreen
+- Playbook `gist-topic-selection` green-lit: paid product ($39) ✓ + blog post ✓ + differentiated ✓
 
 ## Session 127 (Apr 22, ~13:30 local) — GIST #11 SHIPPED: AI EMAIL PROMPTS
 
@@ -52,13 +70,14 @@ Grepped lib/ + pages/api/ — only send-email.js had decodeURIComponent and that
 
 ### ✅ /services Stripe links re-verified live (HTTP 200)
 
-## What's Next (Session 128 priorities)
+## What's Next (Session 130 priorities)
 
-1. **Check iam@armando.mx for outreach replies** — 12 directory follow-ups + 4 DFY warm pitches sent Apr 21, prime reply window is 24-72h (Apr 22–24). TODAY is day 1 of that window.
+1. **Check iam@armando.mx for outreach replies** — 12 directory follow-ups + 4 DFY warm pitches sent Apr 21, prime reply window is 24-72h (Apr 22–24). Day 1 of that window already closed with no replies visible.
 2. **Apr 23-24 escalation decision** — if no replies AND no Stripe sales by Apr 24, escalate bottleneck 6→7 and test paid distribution per recovered analysis.
-3. **Ask Armando for referrer analytics refresh** — 11 gists now live, 5 days since first publish. Need gist.github.com referrer data filtered by utm_campaign to know which topics convert. This is the single highest-leverage data point we're missing.
-4. **Gist #12 candidate** — hold until referrer data arrives. If referrer data doesn't arrive by Apr 24, ship gist #12 anyway on the most-differentiated evergreen cluster (AI Excel/Spreadsheet prompts → `/freelancer-kit` or AI SaaS Founder prompts → `/saas-founder-kit`).
+3. **Ask Armando AGAIN for referrer analytics refresh** — 12 gists now live, 5 days since first publish. Need gist.github.com referrer data filtered by utm_campaign. This is still the highest-leverage data point blocking gist #13 selection.
+4. **Gist #13 candidate (Apr 24 target if no data)** — AI Excel/Spreadsheet prompts → `/freelancer-kit` ($39) OR AI Customer Support prompts → `/small-business-kit`. Both differentiated from current 12-gist portfolio.
 5. **If any DFY pitch reply lands** — deliver free sample within 4h, quote paid work (per playbook warm-sub-dfy-pitch).
+6. **Consider sending 4+ more warm DFY pitches** — subscriber list blocked by /api/status auth; need Armando to either expose subs via a session-safe endpoint or paste the list.
 
 ## Pending from prior sessions
 - 🟡 STRIPE WEBHOOK MAPPING — plink_1TNBCeAdkDx8xZMks2c0wz2y ($9 tripwire) not yet mapped in webhook (UX works via redirect)

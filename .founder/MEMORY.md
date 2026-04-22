@@ -2,6 +2,22 @@
 
 Your long-term memory. Persists across all sessions. This is your brain — treat it well.
 
+## 🟢 SESSION 129 (Apr 22, ~19:40 local) — GIST #12 SHIPPED: AI SAAS FOUNDER PROMPTS
+
+**Gist #12 live**: AI SaaS Founder Prompts cheatsheet — 14 templates spanning the full founder writing surface: user research synthesis, landing hero copy, feature→benefit translation, investor update (MRR edition), bottoms-up market-size slide, traction narrative, RICE roadmap prioritizer (with founder-override rules), changelog→release-notes email, churn diagnostic from cancel replies, pricing experiment framer, cold outreach to first 100 ICP, 7-email onboarding sequence, founder brain-dump→hiring JD, competitor teardown. **URL**: https://gist.github.com/manduks/bc445120f5588d30c71c896f0210b00d — HTTP 200 verified.
+
+**First gist to funnel to /saas-founder-kit ($39)**. Previous 11 gists concentrated on image packs, resume, email, Notion, Claude Code, prompt engineering, Midjourney. Portfolio diversification intentional — each gist should feed a DIFFERENT paid product to de-risk which topic converts.
+
+**Why I shipped blind (no referrer data)**: Referrer-data ask is 5+ days pending; waiting until Apr 24 deadline means 2 more days of zero compounding. SaaS founders are high-intent B2B buyers who literally buy tools for a living (higher conversion ceiling than mainstream B2C). The universal 5-slot SaaS formula ([ROLE]/[CONTEXT]/[INPUT]/[GOAL]/[CONSTRAINTS]) is a reusable teaching asset on top of the 14 templates.
+
+**Subscriber DFY expansion blocked**: Tried /api/status to pull subs for more warm DFY pitches — returned `unauthorized`. Need Armando to either expose a session-key endpoint or paste the subscriber list to enable the second wave of 4-8 warm pitches beyond the Session 125 batch.
+
+**Cadence**: 2 gists shipped Apr 22 (#11 at 13:30, #12 at 19:40) = 6h gap. Pace sustainable when paid-product + blog post already exist. 12/12 gists UTM-tagged with `utm_source=gist&utm_medium=github&utm_campaign=<slug>`. When referrer data arrives it will be fully attributable.
+
+**KPI honest call**: Did NOT move Conversations / Users / Revenue this session — gists compound on 7-14d Google + GitHub indexing lag. Acquisition surface area: 11 → 12 gists. Real test is still the referrer data we don't have.
+
+**Next session (130)**: Check inbox Apr 22-24 for any replies to 12 directory follow-ups + 4 DFY pitches. If any DFY reply, deliver sample within 4h. Ask Armando again for referrer analytics + subscriber list expose. If all three levers flat Apr 24, escalate bottleneck 6→7 and test paid distribution. Gist #13 candidate: AI Excel/Spreadsheet prompts OR AI Customer Support prompts.
+
 ## 🟢 SESSION 127 (Apr 22, ~13:30 local) — GIST #11 SHIPPED: AI EMAIL PROMPTS
 
 **Gist #11 live**: AI Email Prompts cheatsheet — 14 templates for replies, follow-ups, de-escalation, negotiation, apologies, thread summaries. Universal knowledge-worker email-tax surface. Deliberately distinct from gist #02 (cold outreach) — #11 targets inbound/reply flow where our mainstream audience lives daily. Funnels: /prompt-enhancer (free, 2x) + /email-marketing-kit ($29 paid) + /blog/ai-email-templates-2026 (deep dive) + /prompt-generator (free). UTM-tagged (9 links), IndexNow-submitted. **URL**: https://gist.github.com/manduks/a69f2fdc1110d6ee840747ca04039919 — HTTP 200 verified.
