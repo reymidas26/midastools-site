@@ -134,6 +134,12 @@ export default function ResumeCareerKit() {
         .pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;text-align:center}
         .prompt-preview{background:var(--gray-900);border:1px solid var(--gray-800);border-radius:14px;padding:24px;margin-bottom:16px}
         .prompt-preview:hover{border-color:var(--gray-700)}
+        .sample-card{background:var(--gray-900);border:1px solid var(--gray-800);border-radius:14px;padding:28px;margin-bottom:20px}
+        .sample-label{display:inline-block;background:rgba(59,95,255,0.12);color:var(--gold);padding:4px 12px;border-radius:100px;font-size:12px;font-weight:700;margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px}
+        .sample-title{font-size:18px;font-weight:800;margin-bottom:14px}
+        .sample-code{background:#0a0a0a;border:1px solid var(--gray-800);border-radius:10px;padding:20px;font-family:'SF Mono',Monaco,'Cascadia Code',monospace;font-size:13px;line-height:1.65;color:#d4d4d4;white-space:pre-wrap;overflow-x:auto}
+        .sample-code .var{color:var(--gold);font-weight:600}
+        .sample-how{font-size:13px;color:var(--gray-400);margin-top:12px;line-height:1.6}
         @media(max-width:700px){
           section{padding:60px 20px}
           .pain-grid,.kit-grid{grid-template-columns:1fr !important}
@@ -211,37 +217,86 @@ export default function ResumeCareerKit() {
         <p style={{textAlign:'center',marginTop:24,fontSize:15,color:'var(--gold)',fontWeight:700}}>3x more applications. Better quality. Higher salaries.</p>
       </section>
 
-      {/* Prompt Preview */}
+      {/* Sample Prompts — See Before You Buy */}
       <section>
-        <div className="section-label">Prompt Preview</div>
-        <h2>See the <span>actual prompts</span> you get</h2>
-        <p style={{color:'var(--gray-400)',fontSize:16,marginBottom:32,lineHeight:1.7}}>These aren't vague tips. They're copy-paste prompts with proven frameworks built in.</p>
+        <div className="section-label">See It In Action</div>
+        <h2>Look inside. <span>Real prompts.</span> No screenshots.</h2>
+        <p style={{color:'var(--gray-400)',fontSize:16,marginBottom:32,lineHeight:1.7}}>
+          Every prompt is engineered like this — specific structures, output rules, variables you fill in. Copy, customize, paste into ChatGPT, Claude, or Gemini. Here are 2 of the 125+.
+        </p>
 
-        {[
-          {
-            category: 'Resume Building',
-            prompt: '"I\'m applying for [Job Title] at [Company]. Here\'s the job description: [paste JD]. Here\'s my current experience: [paste resume]. Rewrite my bullet points to: (1) mirror keywords from the job description for ATS optimization, (2) lead with quantified achievements using the XYZ formula (Accomplished X, as measured by Y, by doing Z), (3) remove filler words, and (4) keep each bullet under 2 lines."'
-          },
-          {
-            category: 'Interview Prep',
-            prompt: '"I have an interview for [Job Title] at [Company]. The role requires [key requirements]. Generate 10 likely behavioral interview questions and draft STAR-method answers (Situation, Task, Action, Result) using my background: [paste experience]. Make the answers conversational, not robotic. Include a 30-second and 2-minute version of each."'
-          },
-          {
-            category: 'Salary Negotiation',
-            prompt: '"I received an offer for [Job Title] at [Company] for [salary]. Based on my [X years] of experience in [field], research the market rate for this role in [location/remote]. Then draft a counter-offer email that: (1) expresses enthusiasm for the role, (2) presents data-backed reasoning for [target salary], (3) mentions alternative compensation levers (signing bonus, equity, PTO, remote flexibility), and (4) maintains a collaborative tone."'
-          },
-          {
-            category: 'LinkedIn Optimization',
-            prompt: '"Rewrite my LinkedIn headline and About section. I\'m a [current role] with [X years] experience in [field]. I want to attract [target role] opportunities. My key achievements: [list 3-5]. Write a headline using the format: [Title] | [Value Prop] | [Keyword]. Write an About section that opens with a hook, tells my career story, lists measurable results, and ends with a clear CTA for recruiters."'
-          },
-        ].map(p => (
-          <div key={p.category} className="prompt-preview">
-            <div style={{fontSize:11,fontWeight:700,color:'var(--gold)',textTransform:'uppercase',letterSpacing:1.5,marginBottom:12}}>{p.category}</div>
-            <div style={{fontSize:14,color:'var(--gray-300)',lineHeight:1.7,fontStyle:'italic'}}>{p.prompt}</div>
+        <div className="sample-card">
+          <div className="sample-label">Sample · Resume Building · Prompt 1 of 26+</div>
+          <div className="sample-title">Full Resume Rewrite — ATS-Optimized, Achievement-Focused</div>
+          <div className="sample-code">{`Act as a professional resume writer with 15 years of experience placing
+candidates at top companies. Rewrite my resume to be modern, ATS-optimized,
+and compelling.
+
+Here is my current resume:
+`}<span className="var">[PASTE YOUR ENTIRE CURRENT RESUME]</span>{`
+
+Target role: `}<span className="var">[JOB TITLE]</span>{`
+Target industry: `}<span className="var">[INDUSTRY]</span>{`
+Years of experience: `}<span className="var">[NUMBER]</span>{`
+
+Rewrite this resume following these rules:
+1. Use reverse chronological format
+2. Start each bullet with a strong action verb (never "Responsible for")
+3. Include metrics and numbers wherever possible
+4. Keep it to `}<span className="var">[1 or 2]</span>{` page(s)
+5. Use keywords from this target JD: `}<span className="var">[PASTE JD]</span>{`
+6. Write a compelling professional summary (3-4 lines)
+7. Organize skills into relevant categories
+8. Remove outdated or irrelevant information
+
+Format the output as a clean, structured resume I can copy into a document.`}</div>
+          <div className="sample-how">
+            <strong style={{color:'var(--gray-200)'}}>Pro tip:</strong> Always paste the target job description. A resume tailored to a specific role outperforms a generic resume by 3-5x in callback rates.
           </div>
-        ))}
+        </div>
 
-        <p style={{textAlign:'center',marginTop:32,color:'var(--gray-400)',fontSize:15}}>These are just 4 of the 125+ prompts in the kit.</p>
+        <div className="sample-card">
+          <div className="sample-label">Sample · Salary Negotiation · Prompt 1 of 17+</div>
+          <div className="sample-title">Initial Offer Response — Buy Time Without Saying No</div>
+          <div className="sample-code">{`I just received a job offer and need a script for my initial response.
+I do NOT want to accept immediately — I want to buy time to evaluate
+and prepare a counter-offer.
+
+The offer:
+- Company: `}<span className="var">[COMPANY NAME]</span>{`
+- Role: `}<span className="var">[JOB TITLE]</span>{`
+- Base salary: `}<span className="var">[$AMOUNT]</span>{`
+- Bonus: `}<span className="var">[$AMOUNT OR PERCENTAGE]</span>{`
+- Equity: `}<span className="var">[DETAILS IF APPLICABLE]</span>{`
+- Deadline to respond: `}<span className="var">[DATE]</span>{`
+
+How the offer was delivered: `}<span className="var">[PHONE / EMAIL / IN PERSON]</span>{`
+My initial reaction: `}<span className="var">[EXCITED / NEUTRAL / DISAPPOINTED]</span>{`
+
+Write scripts for:
+1. Phone/verbal response (express enthusiasm, buy 2-3 days, ask for offer
+   in writing, confirm deadline)
+2. If they pressure for an immediate answer (alternative phrases that buy
+   time without raising red flags)
+3. Email response under 100 words (thank, excitement, review by [DATE])
+
+CRITICAL RULES:
+- Never say yes or no in the first conversation
+- Never reveal your reaction to the number
+- Never say "That's lower than I expected"
+- Never lie about having other offers
+- Express enthusiasm for the ROLE, not the OFFER`}</div>
+          <div className="sample-how">
+            <strong style={{color:'var(--gray-200)'}}>Why this works:</strong> The average professional accepts the first offer. Following this script alone gets candidates an extra $5,000-$20,000/year — which makes the entire $29 kit pay for itself 100x over the first time you use it.
+          </div>
+        </div>
+
+        <p style={{textAlign:'center',marginTop:32,fontSize:15}}>
+          <strong style={{color:'var(--gold)'}}>123 more prompts</strong> like these — across resumes, cover letters, LinkedIn, interview prep, job search strategy, and salary negotiation.
+        </p>
+        <p style={{textAlign:'center',marginTop:16}}>
+          <a href={STRIPE_URL} className="btn-primary">Get the Full Kit — $29 →</a>
+        </p>
       </section>
 
       {/* Bundle Upsell */}
