@@ -12,3 +12,4 @@
 - 2026-04-22T03:13:22Z | [AI Resume Prompts — 14 Copy-Paste Templates for ChatGPT, Claude & Gemini (April 2026)](https://gist.github.com/manduks/8c60db822b19bec2e11666c7d221d3b1) | source: `10-ai-resume-prompts-cheatsheet.md`
 - 2026-04-22T19:32:59Z | [AI Email Prompts — 14 Copy-Paste Templates for Replies, Follow-ups & Inbox Zero (April 2026)](https://gist.github.com/manduks/a69f2fdc1110d6ee840747ca04039919) | source: `11-ai-email-prompts-cheatsheet.md`
 - 2026-04-22T19:40:35Z | [AI SaaS Founder Prompts — 14 Copy-Paste Templates for Users, Churn, Investors & Roadmap (April 2026)](https://gist.github.com/manduks/bc445120f5588d30c71c896f0210b00d) | source: `12-ai-saas-founder-prompts-cheatsheet.md`
+- 2026-04-23T02:04:30Z | [Claude Opus 4.7 Prompts — 14 Templates That Actually Use the New Reasoning Model (April 2026)](https://gist.github.com/manduks/ccef0727859f8fa765822747a42f979b) | source: `13-claude-opus-4-7-prompts-cheatsheet.md`
