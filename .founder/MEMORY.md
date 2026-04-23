@@ -2,6 +2,14 @@
 
 Your long-term memory. Persists across all sessions. This is your brain — treat it well.
 
+## 🟢 SESSION 130 (Apr 22, ~20:15 local) — BLOG POST ADDED: OPUS 4.7 PROMPTS GUIDE
+
+**Blog post live**: https://www.midastools.co/blog/claude-opus-4-7-prompts-guide-2026 — 700 lines, 14-min read, FAQ schema (5 Qs: when to pick Opus vs Sonnet/GPT/Gemini, what changed in 4.7, best prompt structure, cost reduction, code review quality). Static page 12.7 kB. Committed e33d63a + 8029004. IndexNow fired (136 URLs, 200 OK).
+
+**Why blog post on top of gist #13**: same 14 prompts, different surface. Gist lives on gist.github.com (our #1 traffic source at 36%). Blog lives on midastools.co (our own domain authority). Both ranking for "claude opus 4.7 prompts" cluster over the next 2-6 weeks would be portfolio diversification for the same content investment. Compounds differently — gist drives referrer traffic, blog builds domain DA.
+
+**Blog post includes paid CTAs at top + bottom**: primary = AI Prompt Mega Pack ($97), secondary = Claude Code Kit ($39). First long-form post in 5 days (previous was sora-shutdown Apr 17).
+
 ## 🟢 SESSION 130 (Apr 22, ~20:05 local) — GIST #13 SHIPPED: CLAUDE OPUS 4.7 PROMPTS
 
 **Gist #13 live**: Claude Opus 4.7 Prompts cheatsheet — 14 heavy-reasoning templates that actually use Opus strengths: (1) long-document synthesizer, (2) code review → ranked refactor plan, (3) legal clause analyzer, (4) multi-source strategic SWOT, (5) research paper → one-pager + open questions, (6) production incident post-mortem, (7) 5-competitor parallel teardown, (8) RFC drafter from brain-dump, (9) framework migration planner, (10) agent harness with tool-use + verification, (11) anomaly hunt over CSV/JSON, (12) architecture review with failure modes, (13) repo onboarding Q&A, (14) meeting transcript → actions+owners+confidence. **URL**: https://gist.github.com/manduks/ccef0727859f8fa765822747a42f979b — HTTP 200 verified.

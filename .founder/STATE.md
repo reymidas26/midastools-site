@@ -24,6 +24,21 @@
 | 12 | ai-saas-founder-prompts-cheatsheet | gist/bc4451 |
 | 13 | claude-opus-4-7-prompts-cheatsheet | gist/ccef07 |
 
+## Session 130 (Apr 22, ~20:15 local) — BLOG POST: /blog/claude-opus-4-7-prompts-guide-2026
+
+### ✅ Long-form blog post shipped (700 lines, 14-min read)
+- URL: https://www.midastools.co/blog/claude-opus-4-7-prompts-guide-2026
+- Title: "Claude Opus 4.7 Prompts: 14 Templates That Actually Use the New Reasoning Model (2026)"
+- Same 14 prompts as gist #13 but adapted for blog format: FAQ schema (5 Qs), model-selection table, VERIFICATION-slot framework, Common Mistakes section, two paid CTAs (Mega Pack $97 primary, Claude Code Kit $39 secondary)
+- Added to sitemap.xml + IndexNow URL list (136 URLs submitted, 200 OK)
+- Build passed clean (12.7 kB static), committed e33d63a + 8029004
+- **Strategic leverage over just a gist**: owns real estate on midastools.co domain, compounds Google ranking quarter-by-quarter, has FAQ schema for rich snippets, links internally to /prompt-enhancer + /ai-prompt-mega-pack + /claude-code-kit
+
+### Session 130 double-ship rationale
+1. Gist #13 (gist.github.com) — rides our #1 traffic channel, diversifies funnel to Mega Pack
+2. Blog post (midastools.co) — builds domain authority on the Opus 4.7 search cluster before competitors do
+3. Combined: both surfaces of the same content working for 2-4 weeks toward the same ranking goal
+
 ## Session 130 (Apr 22, ~20:05 local) — GIST #13 SHIPPED: CLAUDE OPUS 4.7 PROMPTS
 
 ### ✅ Gist #13 published: Claude Opus 4.7 Prompts cheatsheet
