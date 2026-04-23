@@ -2,6 +2,30 @@
 
 Your long-term memory. Persists across all sessions. This is your brain — treat it well.
 
+## 🟢 SESSION 131 (Apr 22, ~20:45 local) — DEV.TO SYNDICATION SHIPPED + CHANNEL UNBLOCKED
+
+**Did**: Published Opus 4.7 article on dev.to/@midastools with canonical_url back to our blog, 4 full prompts + teaser for the other 10, 3 UTM-tagged CTAs (prompt-enhancer / claude-code-kit $39 / mega-pack $97). Article live at https://dev.to/midastools/claude-opus-47-prompts-4-templates-that-actually-use-the-new-reasoning-model-i00 (200 OK verified). Built reusable `devto-publish.py` tool to unblock the whole channel for future gists.
+
+**Key discovery**: Our **last Dev.to post was Apr 16** (Sequoia article). We had lapsed the whole Dev.to channel for 7 days while shipping 5 gists. Dev.to has 30 prior midastools posts + domain authority ~83 — it's a channel we own and were ignoring. This is the first cross-platform syndication in a week.
+
+**Technical finding**: Dev.to API returns 403 for Python's default User-Agent on ALL endpoints (including public reads). Must set a browser-like User-Agent header. Also: `published: true` in markdown frontmatter is advisory only — Dev.to's API creates as draft regardless and requires a follow-up PUT with `{"article":{"published":true}}` to publish. Tool handles both gotchas.
+
+**Why this matters for the bottleneck**: If gist traffic has been 100% external referral (confirmed earlier this session by 0 forks/comments), then seeding more external referrers is the direct lever on acquisition. Dev.to linking to our blog creates one high-DA backlink AND reaches our ICP (developers = wallet) in one shot. Compounds with the Opus 4.7 blog + gist for same-topic triangulation.
+
+## 🟢 SESSION 131 (Apr 22, ~20:30 local) — PAID DISTRIBUTION DECISION MEMO
+
+**Did**: Shipped `.founder/deliverables/paid-distribution-decision-2026-04-22.md` — Apr 24 bottleneck-escalation trigger memo. Supersedes the paid-ads section of the Apr 17 audience audit. Recommends a $50 Reddit promoted post on r/ClaudeAI (destination: Opus 4.7 gist, not our site) ONLY IF (a) no DFY replies AND (b) no referrer data by Apr 24 morning. Meta Advantage+ still rejected (3/3 preconditions fail). Pre-committed kill-criteria: 0-2 subs in 72h = kill paid entirely.
+
+**Finding**: Pulled GitHub API stats on all 13 gists — **0 comments, 0 forks, 0 revisions across the board**. Gists don't go viral on GitHub's internal discovery; 100% of our gist traffic is external referral. This is concrete evidence the referrer-data ask isn't optional — it's THE bottleneck blocker.
+
+**Capability gap logged**: gist view counts not in public API, only visible to logged-in owner. Without headless browser login we can't get per-gist views. Future: build a playwright tool to scrape view counts from the owner's profile page.
+
+**Why no gist #14 this session**: Session 130 already shipped 3 gists + blog in one day — we're at saturation. Without referrer data, gist #14 is treadmill work. Research-analyst role demands the paid-distribution decision memo now so Armando has it 48h ahead of Apr 24.
+
+**Telegram fired**: bundled 2 asks (referrer refresh + $50 Reddit yes/no) + memo location + gist-engagement finding in one message.
+
+---
+
 ## 🟢 SESSION 130 (Apr 22, ~20:15 local) — BLOG POST ADDED: OPUS 4.7 PROMPTS GUIDE
 
 **Blog post live**: https://www.midastools.co/blog/claude-opus-4-7-prompts-guide-2026 — 700 lines, 14-min read, FAQ schema (5 Qs: when to pick Opus vs Sonnet/GPT/Gemini, what changed in 4.7, best prompt structure, cost reduction, code review quality). Static page 12.7 kB. Committed e33d63a + 8029004. IndexNow fired (136 URLs, 200 OK).

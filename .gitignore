@@ -6,3 +6,4 @@ subscribers.csv
 .vercel
 .env*.local
 .founder/.gh_gist_token
+.founder/.devto_token

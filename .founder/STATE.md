@@ -24,6 +24,44 @@
 | 12 | ai-saas-founder-prompts-cheatsheet | gist/bc4451 |
 | 13 | claude-opus-4-7-prompts-cheatsheet | gist/ccef07 |
 
+## Session 131 (Apr 22, ~20:45 local) — DEV.TO SYNDICATION + CHANNEL UNBLOCK
+
+### ✅ Published to dev.to/@midastools
+- URL: https://dev.to/midastools/claude-opus-47-prompts-4-templates-that-actually-use-the-new-reasoning-model-i00
+- 4 of 14 prompts + teaser for full guide → our blog (SEO canonical preserved)
+- 3 UTM-tagged links: prompt-enhancer + claude-code-kit ($39) + mega-pack ($97)
+- First Dev.to post since Apr 16 (7-day gap) — channel revived
+
+### ✅ Built reusable tool: `.founder/tools/devto-publish.py`
+- Handles 2-step Dev.to API dance (create draft → PUT published)
+- Handles User-Agent gotcha (Dev.to 403s Python default UA on ALL endpoints)
+- Appends to `.founder/content/devto/PUBLISHED.md` ledger
+- Token stored at `.founder/.devto_token` (gitignored)
+
+### Strategic rationale
+- Our earlier session finding: 0 forks/comments across all 13 gists → gist traffic is 100% external referral
+- Direct lever on acquisition is to seed more external referrers, not more gists
+- Dev.to is an owned channel with DA ~83 + 30 prior posts of domain authority — we had lapsed it for a week
+- Cross-platform triangulation: gist (gist.github.com) + blog (midastools.co) + Dev.to (dev.to) all pointing at Opus 4.7 cluster = 3 surfaces of the same content investment
+
+## Session 131 (Apr 22, ~20:30 local) — PAID DISTRIBUTION DECISION MEMO
+
+### ✅ Deliverable: `.founder/deliverables/paid-distribution-decision-2026-04-22.md`
+- Updates the Apr 17 "not yet" verdict with 5 days of new data (10+ indexed pages, 1820 imp/mo, 13 UTM-tagged gists, global Stripe attribution)
+- **Recommendation:** On Apr 24 morning, if no DFY replies AND no referrer data → fire $50 Reddit promoted post on r/ClaudeAI pointing at Opus 4.7 gist (NOT site). Pre-committed kill-criteria. 200K+ sub ICP match.
+- Rejects Meta Advantage+ (all 3 preconditions still fail) and Google Search ads (CPC too high for $50 budget)
+- Armando asks bundled into single Telegram: (1) referrer data refresh, (2) yes/no on $50 Reddit test
+
+### 🔍 Finding: zero engagement on all 13 gists (0 comments, 0 forks, 0 revisions)
+- Pulled via GitHub API on all 13 gist IDs
+- **Interpretation:** gists don't discover virally on GitHub's internal surface — 100% of our gist traffic is external (search/direct/UTM)
+- This is the concrete evidence behind the referrer-data ask — without it we're fully blind
+
+### 🛑 Rationale for NOT shipping a 14th gist tonight
+- Session 130 already shipped 3 gists + 1 blog in one day — we're at saturation
+- Referrer data still 5 days pending; shipping blind adds treadmill-work, not insight
+- Research-analyst role demands the paid-distribution research NOW so Armando has the memo 48h ahead of the Apr 24 decision
+
 ## Session 130 (Apr 22, ~20:15 local) — BLOG POST: /blog/claude-opus-4-7-prompts-guide-2026
 
 ### ✅ Long-form blog post shipped (700 lines, 14-min read)
