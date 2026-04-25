@@ -2,7 +2,7 @@
 
 ## Current Status (auto-synced from database)
 
-**Bottleneck**: acquisition (severity 6/10) — Upper funnel finally flowing: 1,820 Google imp/mo across 10+ pages + 9 UTM-tagged gists live. New narrow point is SERP-to-click at 0.3% CTR (vs industry ~1.5% for pos 13). Top-5 impression-page titles retitled today (commit 07c5ab5) using proven Muse Spark 2.1% CTR formula. Re-measure after 7-14d Google recrawl. If CTR improves + referrer data from gists shows signal, severity drops to 5. If both flat by Apr 24, escalate to 7 and test paid distribution.
+**Bottleneck**: acquisition (severity 6/10) — Upper funnel: 1,820 Google imp/mo + **13 UTM-tagged gists live** across 9 destinations (gist #13 Claude Opus 4.7 shipped Apr 22 pm, first funnel to /ai-prompt-mega-pack $97 which previously had zero gist coverage). Three parallel levers still in flight: (1) GSC title-rewrite CTR recrawl 7-14d, (2) DFY pitch replies Apr 22-24 window, (3) referrer analytics refresh 5d pending. If all three flat by Apr 24, escalate to 7 and test paid distribution on highest-CTR gist topic.
 
 **KPIs**:
 - Conversations: 0 (target: 10, 7d: 0%)
