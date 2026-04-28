@@ -72,16 +72,16 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Midas Tools — AI for Coaches, Consultants & Experts</title>
-        <meta name="description" content="The AI productivity stack for solo coaches and consultants. Done-for-you content, branding, and prompt kits that turn your expertise into recurring revenue. Lifetime ownership — no subscriptions." />
-        <meta property="og:title" content="Midas Tools — AI for Coaches & Consultants" />
-        <meta property="og:description" content="Turn your expertise into recurring revenue. Done-for-you AI content + lifetime prompt kits built for coaches and consultants. Starting at $9." />
+        <title>Midas Tools — Free AI Tools, Prompts & Lifetime Kits</title>
+        <meta name="description" content="22+ free AI tools, 250+ expert prompts, and 21 lifetime kits for ChatGPT, Claude, Midjourney & more. No subscription, no fluff — used by creators, coaches, and founders." />
+        <meta property="og:title" content="Midas Tools — Free AI Tools, Prompts & Lifetime Kits" />
+        <meta property="og:description" content="22+ free AI tools, 250+ expert prompts, 21 lifetime kits. ChatGPT, Claude, Midjourney. Lifetime ownership, no subscription. Starting at $9." />
         <meta property="og:url" content="https://www.midastools.co" />
         <meta property="og:image" content="https://www.midastools.co/og-image.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Midas Tools — AI for Coaches & Consultants" />
-        <meta name="twitter:description" content="Turn your expertise into recurring revenue. Done-for-you AI content + lifetime prompt kits for coaches and consultants." />
+        <meta name="twitter:title" content="Midas Tools — Free AI Tools, Prompts & Lifetime Kits" />
+        <meta name="twitter:description" content="22+ free AI tools, 250+ expert prompts, 21 lifetime kits. Lifetime ownership, no subscription." />
         <meta name="twitter:image" content="https://www.midastools.co/og-image.png" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -90,8 +90,8 @@ export default function Home() {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "Midas Tools — AI for Coaches, Consultants & Experts",
-          "description": "AI productivity stack for solo coaches and consultants. Done-for-you content, branding, and prompt kits that turn expertise into recurring revenue.",
+          "name": "Midas Tools — Free AI Tools, Prompts & Lifetime Kits",
+          "description": "22+ free AI tools, 250+ expert prompts, and 21 lifetime kits for ChatGPT, Claude, Midjourney & more. No subscription, no fluff.",
           "url": "https://www.midastools.co",
           "publisher": { "@id": "https://www.midastools.co/#organization" },
           "mainEntity": {
@@ -226,30 +226,30 @@ export default function Home() {
 
       {/* Hero */}
       <div className="home-hero">
-        <div className="badge" style={{ marginBottom: 32 }}>For Coaches, Consultants & Experts</div>
-        <h1>Turn your expertise<br />into <span>recurring revenue.</span></h1>
+        <div className="badge" style={{ marginBottom: 32 }}>Free AI Tools &middot; Lifetime Kits</div>
+        <h1>AI tools &amp; prompts<br />that <span>actually work.</span></h1>
         <p className="hero-sub">
-          The AI productivity stack for solo coaches and consultants. Done-for-you content, branding, and lead-gen kits — so you stop trading hours for dollars and start scaling.
+          22+ free AI tools, 250+ expert prompts, and lifetime kits for ChatGPT, Claude, Midjourney &amp; more. Used by creators, marketers, founders. No subscription, ever.
         </p>
         <div className="hero-ctas">
-          <a href="/ai-audit" className="btn-primary">Get the AI Audit &mdash; $997 &rarr;</a>
-          <a href="/audit-template" className="btn-outline">Free 5-Question Template</a>
+          <a href="/tools" className="btn-primary">Try Free AI Tools &rarr;</a>
+          <a href="https://buy.stripe.com/4gMbJ0dgz4aJ1qkb46cMM0d" className="btn-outline">Get Mega Pack &mdash; $97</a>
         </div>
         <p className="price-tag">
-          <strong>5+ hrs/week recovered</strong> &middot; 48-hour turnaround &middot; Full refund if we don&rsquo;t deliver
+          <strong>Just want 20 starter prompts?</strong> <a href="/starter-pack" style={{ color: '#D97706', fontWeight: 700, textDecoration: 'none' }}>Try for $9 &rarr;</a> &middot; 30-day refund
         </p>
         <p style={{ marginTop: '12px', fontSize: '14px', color: '#6B7280', fontFamily: "'Inter', sans-serif" }}>
-          Want kits instead? <a href="/for-coaches" style={{ color: '#3B5FFF', fontWeight: 700, textDecoration: 'none' }}>Coach kits from $9 &rarr;</a> &middot; <a href="/services" style={{ color: '#6B7280', fontWeight: 600, textDecoration: 'none' }}>Done-for-you services</a>
+          Browse: <a href="/bundle" style={{ color: '#3B5FFF', fontWeight: 700, textDecoration: 'none' }}>21 lifetime kits</a> &middot; <a href="/prompts" style={{ color: '#3B5FFF', fontWeight: 600, textDecoration: 'none' }}>Free prompt library</a> &middot; <a href="/quiz" style={{ color: '#3B5FFF', fontWeight: 600, textDecoration: 'none' }}>Take the quiz</a>
         </p>
         <p style={{ marginTop: '6px', fontSize: '13px', color: '#9CA3AF', fontFamily: "'Inter', sans-serif" }}>
-          Or: <a href="/tools" style={{ color: '#3B5FFF', fontWeight: 600, textDecoration: 'none' }}>Free AI tools</a> &middot; <a href="/quiz" style={{ color: '#3B5FFF', fontWeight: 600, textDecoration: 'none' }}>Take the quiz</a> &middot; <a href="/free-prompts" style={{ color: '#3B5FFF', fontWeight: 600, textDecoration: 'none' }}>5 free prompts</a>
+          Coaches &amp; consultants? <a href="/for-coaches" style={{ color: '#9CA3AF', fontWeight: 600, textDecoration: 'underline' }}>Curated kit collection</a> &middot; <a href="/ai-audit" style={{ color: '#9CA3AF', fontWeight: 600, textDecoration: 'underline' }}>$997 AI audit</a>
         </p>
 
         <div className="stats-bar">
           {[
-            { num: '$200/hr', label: 'Coach billing rate it pays back in 1 session' },
+            { num: '22+', label: 'Free AI tools' },
+            { num: '250+', label: 'Expert prompts' },
             { num: '21', label: 'Lifetime kits — no subscription' },
-            { num: '48 hrs', label: 'Done-for-you delivery' },
           ].map(s => (
             <div key={s.label} className="stat-item">
               <div className="stat-num">{s.num}</div>

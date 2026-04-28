@@ -202,11 +202,11 @@ export default function Layout({ children }) {
           <span className="logo-tools">TOOLS</span>
         </Link>
         <div className="nav-links">
-          <Link href="/for-coaches" className={`nav-link${path === '/for-coaches' ? ' active' : ''}`}>For Coaches</Link>
-          <Link href="/services" className={`nav-link${path === '/services' ? ' active' : ''}`}>Done For You</Link>
-          <Link href="/kits" className={`nav-link${path === '/kits' || path === '/tools' || path.startsWith('/prompts') || path === '/chatgpt-prompts' ? ' active' : ''}`}>Kits & Tools</Link>
+          <Link href="/tools" className={`nav-link${path === '/tools' ? ' active' : ''}`}>Free Tools</Link>
+          <Link href="/kits" className={`nav-link${path === '/kits' || path.startsWith('/prompts') || path === '/chatgpt-prompts' ? ' active' : ''}`}>Kits</Link>
+          <Link href="/for-coaches" className={`nav-link${path === '/for-coaches' || path === '/services' || path === '/ai-audit' ? ' active' : ''}`}>For Coaches</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
-          <Link href="/ai-audit" className="nav-cta">AI Audit — $997</Link>
+          <Link href="/bundle" className="nav-cta">Get Mega Pack — $97</Link>
         </div>
         <button
           className={`hamburger${menuOpen ? ' open' : ''}`}
@@ -219,10 +219,12 @@ export default function Layout({ children }) {
 
       <div className={`mobile-menu${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <Link href="/">Home</Link>
-        <Link href="/ai-audit">AI Audit — $997</Link>
-        <Link href="/for-coaches">For Coaches</Link>
-        <Link href="/services">Done For You</Link>
         <Link href="/tools">Free Tools</Link>
+        <Link href="/bundle">All Kits Bundle — $97</Link>
+        <Link href="/starter-pack">Starter Pack — $9</Link>
+        <Link href="/for-coaches">For Coaches</Link>
+        <Link href="/ai-audit">AI Audit — $997</Link>
+        <Link href="/services">Done For You</Link>
         <Link href="/prompt-generator">Prompt Generator</Link>
         <Link href="/business-name-generator">Business Name Generator</Link>
         <Link href="/email-subject-line-tester">Subject Line Tester</Link>
@@ -253,8 +255,7 @@ export default function Layout({ children }) {
         <Link href="/social-media-kit">Social Media Kit</Link>
         <Link href="/email-marketing-kit">Email Marketing Kit</Link>
         <Link href="/presentation-kit">Presentation Kit</Link>
-        <Link href="/bundle">All Kits Bundle — $97</Link>
-        <Link href="/ai-audit" className="mobile-cta">Book AI Audit — $997</Link>
+        <Link href="/bundle" className="mobile-cta">Get Mega Pack — $97</Link>
       </div>
 
       <main>{children}</main>
@@ -271,13 +272,13 @@ export default function Layout({ children }) {
               <span className="logo-dot">&middot;</span>
               <span className="logo-tools">TOOLS</span>
             </Link>
-            <p>The AI productivity stack for coaches, consultants, and experts. Custom AI assessments, done-for-you content, and lifetime prompt kits — turn your expertise into recurring revenue.</p>
+            <p>Free AI tools, expert prompts, and lifetime kits for ChatGPT, Claude, Midjourney &amp; more. No subscriptions, ever.</p>
           </div>
           <div className="footer-col">
-            <h4>Services</h4>
-            <Link href="/ai-audit"><strong style={{color:'var(--accent)'}}>AI Audit — $997</strong></Link>
-            <Link href="/services">Done For You</Link>
+            <h4>For Pros</h4>
             <Link href="/for-coaches">For Coaches</Link>
+            <Link href="/services">Done For You</Link>
+            <Link href="/ai-audit">AI Audit ($997)</Link>
             <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener">Book a Call</a>
             <a href="mailto:iam@armando.mx">Contact</a>
           </div>
