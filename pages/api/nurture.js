@@ -419,6 +419,49 @@ const broadcasts = {
       <p style="font-size:13px;color:#9CA3AF;line-height:1.6;font-style:italic;">P.S. If $9 still isn't for you, no problem — the free generators stay free forever. You'll never get another email about this particular offer.</p>
     `),
   },
+  coach_pivot: {
+    subject: "We're going all-in on coaches & consultants (founder note)",
+    html: (source) => wrapEmail(`
+      <div style="background:linear-gradient(135deg,#FCD34D,#F59E0B);border-radius:16px;padding:22px 24px;margin:0 0 24px;color:#0F172A;text-align:center;">
+        <div style="font-size:11px;font-weight:800;letter-spacing:1.5px;color:#7C2D12;margin-bottom:6px;">📣 PIVOT NOTE FROM THE FOUNDER</div>
+        <div style="font-size:24px;font-weight:900;line-height:1.15;">We're going all-in on coaches &amp; consultants.</div>
+      </div>
+
+      <h1 style="font-size:24px;font-weight:700;margin:0 0 16px;">Quick honest note.</h1>
+
+      <p style="font-size:16px;line-height:1.7;color:#374151;">When you signed up to Midas Tools, we were "AI prompts for everyone." That was too broad. The people who get the most value out of our kits all have one thing in common: <strong>they sell their expertise</strong> — coaches, consultants, course creators, solo experts.</p>
+
+      <p style="font-size:16px;line-height:1.7;color:#374151;">So we're focusing. New positioning: <strong>the AI productivity stack for coaches and consultants.</strong> Same kits, sharper purpose. Done-for-you content, branding, and lead-gen so you can stop trading hours for dollars.</p>
+
+      <p style="font-size:16px;line-height:1.7;color:#374151;">If any of these fit — life coach, business coach, fitness coach, executive coach, consultant, course creator, solo expert, agency-of-one — this is built for you.</p>
+
+      <div style="background:#FFFBEB;border:1px solid #FCD34D;border-radius:10px;padding:18px 22px;margin:24px 0;">
+        <p style="font-size:15px;line-height:1.7;color:#78350F;margin:0 0 10px;font-weight:700;">🎁 Founder-cohort gift: $9 starter pack</p>
+        <p style="font-size:14px;line-height:1.7;color:#78350F;margin:0;">
+          You're on the list before we niched down. The cleanest thank-you: our <strong>$9 Starter Pack</strong> — the 20 prompts we'd reach for first as a coach. Niche definition, content calendars, sales call scripts, lead-magnet ideas, landing-page rewriters. Less than a coffee, lifetime ownership, instant download.
+        </p>
+      </div>
+
+      <p style="font-size:14px;line-height:1.6;color:#6B7280;margin:24px 0 8px;"><strong style="color:#111827;">Or skip ahead — full pricing for coaches:</strong></p>
+
+      <div style="background:#F9FAFB;border:1px solid #E5E7EB;border-radius:10px;padding:18px 22px;margin:8px 0 24px;">
+        <p style="font-size:14px;line-height:1.85;color:#374151;margin:0;">
+          🟢 <a href="https://www.midastools.co/for-coaches?utm_source=email&amp;utm_campaign=coach_pivot" style="color:#3B5FFF;font-weight:700;">See coach pricing &amp; sample prompts</a><br/>
+          📦 <strong>Coach Mega Pack</strong> $97 lifetime — 200+ prompts<br/>
+          📅 <strong>AI Content Month DFY</strong> $199 — 30 days of content shipped in 48h<br/>
+          🎨 <strong>Coach Brand Starter Pack DFY</strong> $299 — full brand voice + sales page in 72h
+        </p>
+      </div>
+
+      ${ctaButton("Get the $9 Starter Pack →", TRIPWIRE_LINK, "20 prompts · Lifetime · Less than a coffee · 30-day refund")}
+
+      <p style="font-size:15px;line-height:1.7;color:#374151;">If you're <em>not</em> a coach or consultant — totally fine. The free tools stay free, the kits still work for any AI use case, and you'll keep getting value. Just know what we're building toward.</p>
+
+      <p style="font-size:14px;color:#6B7280;line-height:1.6;">Building this for you,<br/>Armando &amp; the MidasTools Team</p>
+
+      <p style="font-size:13px;color:#9CA3AF;line-height:1.6;font-style:italic;">P.S. Replying to this email goes straight to me. If you have a specific niche pain (content engine, sales pages, lead magnets, niching down) hit reply and tell me — I read every one.</p>
+    `),
+  },
   trending: {
     subject: "New AI tools just dropped",
     html: (source) => wrapEmail(`
