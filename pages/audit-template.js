@@ -145,18 +145,18 @@ export default function AuditTemplate() {
         h3{font-size:20px;font-weight:800;margin-bottom:10px;letter-spacing:-0.3px}
         .gate-box{max-width:480px;margin:0 auto}
         .gate-form{display:flex;gap:8px}
-        .gate-input{flex:1;font-size:15px;padding:14px 20px;border:2px solid var(--gray-800);background:var(--gray-900);border-radius:99px;outline:none;color:#FFF;font-family:inherit}
+        .gate-input{flex:1;font-size:15px;padding:14px 20px;border:2px solid var(--gray-800);background:var(--gray-900);border-radius:99px;outline:none;color:var(--text);font-family:inherit}
         .gate-input:focus{border-color:var(--gold)}
         .gate-btn{font-size:15px;font-weight:700;padding:14px 28px;background:var(--gold);color:#0F172A;border:none;border-radius:99px;cursor:pointer;white-space:nowrap;transition:opacity 0.15s;font-family:inherit}
         .gate-btn:hover{opacity:0.9}
         .gate-btn:disabled{opacity:0.6;cursor:not-allowed}
         .trust{font-size:13px;color:var(--gray-400);margin-top:14px}
-        .trust strong{color:#FFF}
+        .trust strong{color:var(--text)}
         .success-msg{font-size:16px;font-weight:600;color:var(--gold);text-align:center;margin-top:8px}
         .question-block{background:var(--gray-900);border:1px solid var(--gray-800);border-radius:14px;padding:28px;margin-bottom:18px;position:relative}
         .question-block.locked{filter:blur(5px);user-select:none;pointer-events:none}
         .q-num{display:inline-block;padding:4px 10px;background:rgba(255,200,0,0.1);color:var(--gold);font-size:11px;font-weight:800;border-radius:99px;margin-bottom:14px;letter-spacing:1px}
-        .q-title{font-size:18px;font-weight:800;margin-bottom:14px;color:#FFF;line-height:1.4}
+        .q-title{font-size:18px;font-weight:800;margin-bottom:14px;color:var(--text);line-height:1.4}
         .q-section{margin-top:14px}
         .q-section-label{font-size:11px;font-weight:800;color:var(--gold);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
         .q-section-text{font-size:14px;color:var(--gray-300);line-height:1.6}
@@ -165,7 +165,7 @@ export default function AuditTemplate() {
         .rubric-table{width:100%;border-collapse:collapse;margin-top:16px}
         .rubric-table th,.rubric-table td{padding:14px 12px;text-align:left;border-bottom:1px solid var(--gray-800);font-size:14px}
         .rubric-table th{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--gold);font-weight:800}
-        .rubric-table td:first-child{font-weight:700;color:#FFF;white-space:nowrap}
+        .rubric-table td:first-child{font-weight:700;color:var(--text);white-space:nowrap}
         .rubric-table td:nth-child(2){color:var(--gold);font-weight:600}
         .rubric-table td:last-child{color:var(--gray-300);line-height:1.5}
         .upsell{background:linear-gradient(135deg,rgba(252,211,77,0.06),rgba(245,158,11,0.04));border:1px solid rgba(252,211,77,0.18);border-radius:18px;padding:48px 36px;text-align:center;margin-top:48px}

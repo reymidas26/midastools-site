@@ -85,7 +85,7 @@ export default function AIAssessment() {
         .math-table tr{border-bottom:1px solid var(--gray-800)}
         .math-table td{padding:14px 0;font-size:15px;color:var(--gray-300)}
         .math-table td:last-child{text-align:right;font-weight:700;color:var(--gold);font-variant-numeric:tabular-nums}
-        .math-table tr.total td{font-size:17px;color:#FFF;font-weight:900;padding-top:18px}
+        .math-table tr.total td{font-size:17px;color:var(--text);font-weight:900;padding-top:18px}
         .math-table tr.total td:last-child{color:var(--gold);font-size:22px}
         .ladder-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:24px}
         .ladder-card{background:var(--gray-900);border:1px solid var(--gray-800);border-radius:14px;padding:24px;position:relative}
@@ -105,7 +105,7 @@ export default function AIAssessment() {
         .cta-box .price-cap{font-size:13px;color:var(--gray-400);text-transform:uppercase;letter-spacing:2px;margin-bottom:32px}
         .cta-box p{color:var(--gray-300);font-size:16px;margin-bottom:32px;line-height:1.6}
         .faq-item{border-bottom:1px solid var(--gray-800);padding-bottom:20px;margin-bottom:20px}
-        .faq-item summary{font-size:16px;font-weight:700;cursor:pointer;color:#FFF;list-style:none;padding:8px 0}
+        .faq-item summary{font-size:16px;font-weight:700;cursor:pointer;color:var(--text);list-style:none;padding:8px 0}
         .faq-item summary::-webkit-details-marker{display:none}
         .faq-item summary::before{content:"+ ";color:var(--gold);font-weight:900;margin-right:8px}
         .faq-item[open] summary::before{content:"− "}
@@ -305,7 +305,7 @@ export default function AIAssessment() {
           <div className="section-label" style={{marginBottom:14}}>Not Ready Yet?</div>
           <h3 style={{fontSize:24,fontWeight:900,margin:'0 0 12px',letterSpacing:'-0.5px'}}>Run the audit framework on yourself first.</h3>
           <p style={{fontSize:15,color:'var(--gray-400)',margin:'0 auto 24px',lineHeight:1.65,maxWidth:560}}>
-            Download the free <strong style={{color:'#FFF'}}>AI Audit Template</strong> &mdash; the same 5 questions, scoring rubric, and tool-recommendation framework we use on every $997 audit. Run it on yourself in 30 minutes. If you want a pro report after, you know where to find us.
+            Download the free <strong style={{color:'var(--text)'}}>AI Audit Template</strong> &mdash; the same 5 questions, scoring rubric, and tool-recommendation framework we use on every $997 audit. Run it on yourself in 30 minutes. If you want a pro report after, you know where to find us.
           </p>
           <Link href="/audit-template"><a className="btn-primary" style={{display:'inline-block'}}>Get the free template →</a></Link>
         </div>
@@ -319,7 +319,7 @@ export default function AIAssessment() {
         <p>
           Book today, kick off your discovery call within 48 hours,<br />
           have a custom report and clear next moves by next week.<br /><br />
-          <strong style={{color:'#FFF'}}>Full refund</strong> if we can&apos;t identify 5+ hours/week of recoverable time. We&apos;ve never had to issue one.
+          <strong style={{color:'var(--text)'}}>Full refund</strong> if we can&apos;t identify 5+ hours/week of recoverable time. We&apos;ve never had to issue one.
         </p>
         <a href={ASSESSMENT_URL} className="btn-primary">Book Your AI Assessment →</a>
         <p style={{marginTop:18,fontSize:12,color:'var(--gray-400)'}}>
