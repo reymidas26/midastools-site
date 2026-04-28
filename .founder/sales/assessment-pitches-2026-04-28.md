@@ -17,7 +17,7 @@ Hi Hiedeh / Negar,
 
 You signed up for our AI prompts a few weeks back — I wanted to send you something more useful than another email.
 
-I run Midas Tools. We just launched a productized service called the **AI Operations Assessment** ($997, 7 days, fully refundable until our call starts). It's built specifically for solo experts juggling many workflows — and from what I can see across REW.ca, your Sutton bio, and your property-management Facebook page, you're running at least four:
+I run Midas Tools. We just launched a productized service called the **AI Clarity Assessment** ($997, 7 days, fully refundable until our call starts). It's built specifically for solo experts juggling many workflows — and from what I can see across REW.ca, your Sutton bio, and your property-management Facebook page, you're running at least four:
 
 1. Writing MLS listing descriptions (probably the highest-volume task)
 2. Bilingual Persian/English buyer comms (a niche almost no other Vancouver realtor has)
@@ -54,7 +54,7 @@ That tells me you don't need someone explaining what AI is. You need someone hel
 4. IT class lecture prep (semester cadence)
 5. Database admin tasks for Three-Strands
 
-We just launched something called the **AI Operations Assessment** ($997, 7 days, fully refundable until our discovery call). It's built for someone exactly like you — sophisticated enough to skip the basics, strapped enough that "build everything" isn't realistic. The deliverable is a presentation-grade report with a priority matrix (high impact + low effort = start here), a 4-day quick-start plan, and the financial math.
+We just launched something called the **AI Clarity Assessment** ($997, 7 days, fully refundable until our discovery call). It's built for someone exactly like you — sophisticated enough to skip the basics, strapped enough that "build everything" isn't realistic. The deliverable is a presentation-grade report with a priority matrix (high impact + low effort = start here), a 4-day quick-start plan, and the financial math.
 
 For ministry context: most pastors I've talked to recover 5-8 hours per week — typically out of bulletin/newsletter/Three-Strands type comms. That's a Friday afternoon back, every week.
 
