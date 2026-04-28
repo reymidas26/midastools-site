@@ -1,11 +1,14 @@
 .env.local
 .env
+.env.production
+.env.development
+.env*.local
 node_modules/
 .next/
 subscribers.csv
 .vercel
-.env*.local
 .founder/.gh_gist_token
 .founder/.devto_token
 .founder/.resend_key
 .founder/.stripe_key
+.founder/state/
