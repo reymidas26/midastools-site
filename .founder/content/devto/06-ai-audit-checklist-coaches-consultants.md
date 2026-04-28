@@ -3,6 +3,7 @@ title: "The 14 Questions I Run on Every $997 AI Audit for Solo Operators"
 published: true
 description: "I productized an AI audit for solo coaches and consultants at $997, 7 days, fully refundable. Here are 4 of the 14 questions, plus the disqualifier that kills half the audience."
 tags: ai, productivity, consulting, business
+canonical_url: https://www.midastools.co/blog/ai-audit-checklist-coaches-consultants-2026
 cover_image:
 series:
 ---
