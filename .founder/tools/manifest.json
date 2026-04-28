@@ -34,5 +34,14 @@
     "use_count": 1,
     "created_at": "2026-04-25T13:10:00Z",
     "approved": true
+  },
+  {
+    "name": "favicon-generator.py",
+    "description": "Generate the full Midas Tools favicon set (favicon.ico multi-res, 16/32/48 PNGs, 180x180 apple-touch-icon, 192/512 PWA icons, site.webmanifest) from a brand-aligned bold M on accent #3B5FFF rounded square with white-dot accent echoing the MIDAS·TOOLS wordmark separator. Idempotent — re-run after any brand change.",
+    "language": "python",
+    "path": "favicon-generator.py",
+    "use_count": 1,
+    "created_at": "2026-04-28T13:20:00Z",
+    "approved": true
   }
 ]

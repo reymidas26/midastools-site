@@ -202,12 +202,11 @@ export default function Layout({ children }) {
           <span className="logo-tools">TOOLS</span>
         </Link>
         <div className="nav-links">
-          <Link href="/tools" className={`nav-link${path === '/tools' || path === '/prompt-generator' || path === '/prompt-scorer' || path === '/prompt-enhancer' || path === '/image-prompt-builder' || path === '/business-name-generator' || path === '/hashtag-generator' || path === '/prompt-roaster' || path === '/soul-generator' || path === '/ai-income-blueprint' || path === '/ai-job-risk' ? ' active' : ''}`}>Free Tools</Link>
-          <Link href="/prompts" className={`nav-link${path === '/chatgpt-prompts' || path.startsWith('/prompts') ? ' active' : ''}`}>Prompts</Link>
-          <Link href="/kits" className={`nav-link${path === '/kits' ? ' active' : ''}`}>Kits</Link>
+          <Link href="/for-coaches" className={`nav-link${path === '/for-coaches' ? ' active' : ''}`}>For Coaches</Link>
+          <Link href="/services" className={`nav-link${path === '/services' ? ' active' : ''}`}>Done For You</Link>
+          <Link href="/kits" className={`nav-link${path === '/kits' || path === '/tools' || path.startsWith('/prompts') || path === '/chatgpt-prompts' ? ' active' : ''}`}>Kits & Tools</Link>
           <Link href="/blog" className={`nav-link${path.startsWith('/blog') ? ' active' : ''}`}>Blog</Link>
-          <Link href="/services" className={`nav-link${path === '/services' ? ' active' : ''}`} style={{color: path === '/services' ? 'var(--accent)' : undefined, fontWeight: path === '/services' ? 700 : undefined}}>Services</Link>
-          <Link href="/bundle" className="nav-cta">All Kits — $97</Link>
+          <Link href="/ai-audit" className="nav-cta">AI Audit — $997</Link>
         </div>
         <button
           className={`hamburger${menuOpen ? ' open' : ''}`}
@@ -220,6 +219,9 @@ export default function Layout({ children }) {
 
       <div className={`mobile-menu${menuOpen ? ' open' : ''}`} onClick={() => setMenuOpen(false)}>
         <Link href="/">Home</Link>
+        <Link href="/ai-audit">AI Audit — $997</Link>
+        <Link href="/for-coaches">For Coaches</Link>
+        <Link href="/services">Done For You</Link>
         <Link href="/tools">Free Tools</Link>
         <Link href="/prompt-generator">Prompt Generator</Link>
         <Link href="/business-name-generator">Business Name Generator</Link>
@@ -251,8 +253,8 @@ export default function Layout({ children }) {
         <Link href="/social-media-kit">Social Media Kit</Link>
         <Link href="/email-marketing-kit">Email Marketing Kit</Link>
         <Link href="/presentation-kit">Presentation Kit</Link>
-        <Link href="/services">Services (Done For You)</Link>
-        <Link href="/bundle" className="mobile-cta">Get All Kits — $97</Link>
+        <Link href="/bundle">All Kits Bundle — $97</Link>
+        <Link href="/ai-audit" className="mobile-cta">Book AI Audit — $997</Link>
       </div>
 
       <main>{children}</main>
@@ -269,7 +271,15 @@ export default function Layout({ children }) {
               <span className="logo-dot">&middot;</span>
               <span className="logo-tools">TOOLS</span>
             </Link>
-            <p>AI automation kits for entrepreneurs and small businesses. Deploy AI that works 24/7 — so you can focus on what matters.</p>
+            <p>The AI productivity stack for coaches, consultants, and experts. Custom AI assessments, done-for-you content, and lifetime prompt kits — turn your expertise into recurring revenue.</p>
+          </div>
+          <div className="footer-col">
+            <h4>Services</h4>
+            <Link href="/ai-audit"><strong style={{color:'var(--accent)'}}>AI Audit — $997</strong></Link>
+            <Link href="/services">Done For You</Link>
+            <Link href="/for-coaches">For Coaches</Link>
+            <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener">Book a Call</a>
+            <a href="mailto:iam@armando.mx">Contact</a>
           </div>
           <div className="footer-col">
             <h4>Products</h4>
@@ -307,10 +317,6 @@ export default function Layout({ children }) {
             <Link href="/free-prompts">Free AI Prompts</Link>
             <Link href="/blog">Blog</Link>
             <a href="https://cal.com/manduks/midastools" target="_blank" rel="noopener">Book a Call</a>
-          </div>
-          <div className="footer-col">
-            <h4>Company</h4>
-            <a href="mailto:iam@armando.mx">Contact</a>
           </div>
         </div>
         <div className="footer-bottom">
