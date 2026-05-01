@@ -8,6 +8,8 @@ Format: `- HH:MM | action description | recurrence | source | enabled`
 
 ## Entries
 - 09:00 | Morning standup: review metrics, check Dev.to stats, check subscriber count, prioritize day | daily | cofounder | true
-- 12:00 | Content check: publish 1 Dev.to article if engagement positive | daily | cofounder | true
-- 17:00 | EOD review: update STATE.md, send drip emails, log decisions | daily | cofounder | true
-- 09:00 | April 17 milestone: domain 30 days, re-send outreach, check Google indexing | once-apr17 | cofounder | true
+- 12:00 | Audit-window check: any reply to Hiedeh/Doug/Pham? If yes, fire Reply-Handling Playbook within 30min | daily-may1-may10 | cofounder | true
+- 17:00 | EOD review: update STATE.md, log decisions, plan next day | daily | cofounder | true
+- 09:00 | May 6: Send 3 audit-pitch follow-ups (drafts in .founder/sales/assessment-pitch-followups-2026-05-06.md) | once-may6 | cofounder | true
+- 09:00 | May 8: Send Pham audit-pitch follow-up (longer cadence for legal) | once-may8 | cofounder | true
+- 09:00 | May 10: Hard kill-or-iterate decision on $997 audit lever — if 0 replies, propose $297 mini-audit pivot or new audience | once-may10 | cofounder | true
