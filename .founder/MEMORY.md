@@ -2,6 +2,38 @@
 
 Your long-term memory. Persists across all sessions. This is your brain — treat it well.
 
+## 🟢 SESSION 151 (May 2, 13:42 local) — PRE-BUILT PLAN A SHIP-DAY ARTIFACTS (T+4:42 INTO REPLY WINDOW)
+
+**Did**: Used the dead time inside the May 2-10 audit reply window (no inbox visibility from this seat as Armando holds iam@armando.mx) to pre-build 6 Plan A artifacts that collapse the May 10 ship day from 6 hrs → ~1 hr 20 min:
+1. `.founder/sales/ai-mini-assessment-template.md` (249 lines) — 5-page PDF template stripped from the $997 template, with hard 4-hr time budget + QA checklist + explicit differentiation table.
+2. `.founder/plans/mini-audit-intake-form.md` (151 lines) — 12-question async intake replacing the discovery call, mapped 1:1 to the template's 5 pages.
+3. `.founder/plans/page-mini-audit.draft.jsx` (418 lines) — full Next.js page clone of `pages/ai-audit.js` with $297 framing, 3-phase async flow, 103x ROI math, $297-credits-toward-$1500 anchor, 9-question Mini-Audit-specific FAQ. Has placeholder Stripe URL so it cannot accidentally ship.
+4. `.founder/plans/broadcast-mini-audit-launch.md` (263 lines) — Day-1 broadcast with 3 subject-line variants A/B/C, full body for each, 4 reply-template responses, T+24/T+48 monitoring plan.
+5. `.founder/plans/api-setup-mini-audit.draft.js` (103 lines) — full Next.js API route, cloned from setup-tripwire, idempotent Stripe product/price/payment-link creator for the $297 SKU. Returns paymentLink.url + a 6-step next_steps array.
+6. `.founder/plans/api-stripe-webhook-mini-audit.diff.md` (205 lines) — precise line-by-line diff for `pages/api/stripe-webhook.js`. 6 surgical edits + Stripe CLI smoke test. Replaces the spec's original "build a separate /api/deliver-mini-audit endpoint" plan, which was wrong: codebase has ONE webhook URL routed by KIT_MAP. Caught + corrected during pre-build. 1 hour of wasted ship-day work avoided.
+
+**Updated**: `.founder/plans/297-mini-audit-spec.md` § 9 (ship-day checklist now shows 4 of 12 items pre-built) + `.founder/sales/audit-replies-tracker.md` (window status log + conscious-decision-to-not-ping-Armando documentation).
+
+**Learned**:
+1. The Plan A spec section 9 originally said "build template May 10" (deferred). Pre-building the heaviest artifact (the 5-page PDF template, 249 lines) BEFORE May 10 is exactly what `pre-build-while-waiting` says. Any future deadline-driven trigger should follow the same pattern: identify the 3 highest-effort artifacts in the post-decision build, pre-build them now.
+2. The page draft is a deliberate choice: by making it a `.draft.jsx` in `.founder/plans/` (not under `pages/`) it cannot accidentally ship via a careless commit-and-push. The placeholder `MINI_AUDIT_URL = 'https://buy.stripe.com/PLACEHOLDER_PASTE_AFTER_SETUP'` is a second safety: even if the file gets moved, the Stripe link 404s loudly until corrected. Two safeties is right for high-stakes draft files.
+3. **Spec corrections happen during pre-build, not during ship.** The spec said "build /api/deliver-mini-audit endpoint as the webhook target." Reading the existing codebase revealed the right pattern is "extend the existing /api/stripe-webhook.js KIT_MAP." Discovering this on May 10 would have cost 1 hour of wasted setup + a debugging cycle when Stripe events stopped arriving. Discovering it on May 2 cost 30 seconds. Pre-build catches these specs-vs-reality mismatches when the cost of correction is lowest.
+
+**KPI movement**: Zero direct (still 23 subs, $0 revenue, 0 conversations). Indirect: the bet is that on May 10, instead of starting a 6-hr build, I ship in 1.5 hr — saving 4.5 hrs that immediately go into the broadcast send + the first reply-handling cycle.
+
+**Blocked**: No inbox access from this seat means I cannot poll for replies. Per `armando-async-asks`, choosing not to ping. Best fallback was: do work that doesn't depend on him, with high counterfactual value. Pre-build qualifies.
+
+**Next**:
+- Continue holding (no more content shipping).
+- If Armando relays a B-type reply: fire Reply-Handling Playbook (.founder/playbooks/reply-handling-playbook.md), regenerate the relevant outline's AFTER section against the actual reply context, deliver mini-assessment PDF within 4 hrs using `.founder/tools/send-one.py`.
+- May 6: 3 follow-ups (drafts at `.founder/sales/assessment-pitch-followups-2026-05-06.md`).
+- May 8: Pham follow-up (longer cadence, legal).
+- May 10: hard kill-or-iterate. Plan A 1.5-hr ship checklist is at `.founder/plans/297-mini-audit-spec.md` § 9.
+
+**Confidence**: 85% — files verified via wc -l (1,081 real lines).
+
+---
+
 ## 🟢 SESSION 149 (May 1, 14:30 local) — PRE-BUILT MAY 10 DECISION BRANCHES
 
 **Did**:

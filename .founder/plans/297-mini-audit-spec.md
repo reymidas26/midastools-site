@@ -175,20 +175,30 @@ If conversion ≥ 5% on 20-sub list, this beats every other revenue path we've t
 
 ## 9. May 10 ship-day checklist (if greenlit)
 
-- [ ] Build Stripe product via `/api/setup-mini-audit?key=mt-dfy-setup-2026`
-- [ ] Get back the buy.stripe.com link
-- [ ] Build `pages/ai-mini-audit.js` (clone `pages/ai-audit.js`, swap copy)
-- [ ] Build `pages/api/setup-mini-audit.js` (idempotent Stripe creator)
-- [ ] Build `pages/api/deliver-mini-audit.js` (intake form handler + Resend confirm email)
-- [ ] Build `lib/mini-audit-intake.js` (12-question form spec)
-- [ ] Build `.founder/sales/ai-mini-assessment-template.md` (PDF template, 5 pages, stripped from $997 template)
-- [ ] Wire Stripe webhook → trigger intake-form email
-- [ ] Add `/ai-mini-audit` to sitemap.xml
-- [ ] Submit URL to IndexNow
-- [ ] Add nav link "Mini-Audit · $297" in Layout.js (small text, not hero)
-- [ ] Draft + fire broadcast to 20-sub list (subject line above)
+**Pre-built May 2 (Session 151) — saves ~5 hrs from this checklist:**
+- [x] `.founder/sales/ai-mini-assessment-template.md` — 5-page PDF template (249 lines)
+- [x] `.founder/plans/mini-audit-intake-form.md` — 12-question async intake replacing the discovery call (151 lines)
+- [x] `.founder/plans/page-mini-audit.draft.jsx` — full page clone of `pages/ai-audit.js` with $297 framing, 3-phase flow, FAQ schema (418 lines)
+- [x] `.founder/plans/broadcast-mini-audit-launch.md` — Day-1 broadcast with 3 subject-line variants A/B/C, 4 reply templates (263 lines)
+- [x] `.founder/plans/api-setup-mini-audit.draft.js` — full Stripe product/price/payment-link creator endpoint, cloned from setup-tripwire.js, $297 + mini-audit metadata (103 lines)
+- [x] `.founder/plans/api-stripe-webhook-mini-audit.diff.md` — exact line-by-line diff to apply to `pages/api/stripe-webhook.js`: KIT_MAP entry + PAYMENT_LINK_MAP entry + product-name fallback + amount fallback + intake-form email template branch + subject/header tweaks + Stripe CLI smoke-test command (205 lines)
 
-**Total ship effort: ~6 hrs from greenlight to first broadcast.**
+**Spec correction:** Original spec called for a separate `pages/api/deliver-mini-audit.js` endpoint as the webhook target. After reading the actual codebase, the right pattern is a single Stripe webhook URL (already wired to `pages/api/stripe-webhook.js`) routing by `kit_type` metadata. Diff approach is correct + lower-risk than duplicating signature-verification logic.
+
+**Still required on May 10 (~1 hr 20 min total):**
+- [ ] Move `.founder/plans/api-setup-mini-audit.draft.js` → `pages/api/setup-mini-audit.js` (1 min)
+- [ ] Run GET `/api/setup-mini-audit?key=mt-dfy-setup-2026` → capture paymentLink.url (3 min)
+- [ ] Apply `api-stripe-webhook-mini-audit.diff.md` to `pages/api/stripe-webhook.js` (paste payment-link ID into PAYMENT_LINK_MAP) (~20 min)
+- [ ] Move `.founder/plans/page-mini-audit.draft.jsx` → `pages/ai-mini-audit.js` AND replace `MINI_AUDIT_URL` constant with the captured payment link (5 min)
+- [ ] Add `/ai-mini-audit` to `public/sitemap.xml` (priority 0.9) (3 min)
+- [ ] Submit `/ai-mini-audit` URL to IndexNow (2 min)
+- [ ] Add nav link "Mini-Audit · $297" in `components/Layout.js` (small text, not hero) (5 min)
+- [ ] `npx next build` to verify clean compile (5 min)
+- [ ] git commit + push, watch Vercel deploy (5 min)
+- [ ] Stripe CLI smoke test (`stripe trigger checkout.session.completed --override metadata.kit_type=mini-audit ...`) — verify intake email lands in iam@armando.mx (10 min)
+- [ ] Replace `PLACEHOLDER_PASTE_ON_SHIP_DAY` in broadcast template with real Stripe link, pick winning variant, fire to 20-23 subs staged 9-10:30am ET (30 min)
+
+**Total ship effort: ~1 hr 20 min from greenlight to first broadcast (was 6 hrs before pre-build, was 1.5 hrs after first pre-build wave).**
 
 ---
 

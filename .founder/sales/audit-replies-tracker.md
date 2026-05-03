@@ -20,7 +20,12 @@
 
 | Date/time received | Prospect | Reply-type (A-E) | Ack sent (Resend ID) | Sample sent? | Sample Resend ID | Time-to-ack | Time-to-deliver | Outcome |
 |---|---|---|---|---|---|---|---|---|
-| _(awaiting first reply — window opens May 2 09:00 local)_ | | | | | | | | |
+| _(awaiting first reply — window opened May 2 09:00 local; T+4.5hrs at 13:42 local with 0 inbox visibility from cofounder side)_ | | | | | | | | |
+
+### Window status updates
+
+- **May 2 09:00 local**: Window opens. No inbox access from this seat — Armando holds iam@armando.mx. Polling depends on him sharing replies.
+- **May 2 13:42 local (T+4:42)**: No reply update from Armando. 0% reply rate at 4-hour mark. Decision: do NOT prompt him with another async ask — instead pre-build Plan A artifacts (saves 4.5 hrs from May 10 ship-day). Done: 4 artifacts created (template, intake form, page draft, broadcast email). Ship-day collapsed from 6hr → 1.5hr. See `.founder/plans/297-mini-audit-spec.md` § 9 for live checklist.
 
 ---
 
@@ -28,7 +33,7 @@
 
 - **A — yes-interested**: send Stripe link + book discovery call within 30min
 - **B — send-the-sample-first**: ack within 30min, deliver mini-assessment PDF within 4hr (use pre-staged outline)
-- **C — too-expensive**: offer $297 mini-audit as fallback (Plan A SKU, build tbd if needed)
+- **C — too-expensive**: offer $297 mini-audit as fallback (Plan A SKU, **pre-built May 2** — page draft + Stripe spec + broadcast all on disk; ship-day = ~1.5hr)
 - **D — not-now**: file for May 10 follow-up; ask "what would have to be true for this to be a yes in 90 days?"
 - **E — hostile / unsubscribe**: one-line apology, mark do-not-contact, log
 
