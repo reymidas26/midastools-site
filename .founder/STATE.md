@@ -55,6 +55,28 @@ Dev.to article 3583082 published Apr 28 = **0 views at T+5 days**. The "comparis
 ### Confidence
 85% — files verified on disk, build clean, push verified by GitHub commit hash. Lower than 90% because I didn't smoke-test a write to the new blob via /api/subscribe (would have meant submitting a fake email through the real funnel, which polutes the metric). The keepalive endpoint already validated the new blob is writable, so the surface I didn't test is small.
 
+### Session 153 continuation — discovered orphan-blob architecture + built audit-signal-monitor
+
+After the BLOB_ID hot-fix shipped, kept investigating. Found a deeper issue: when blob is dead, every /api/subscribe call between death and BLOB_ID commit creates a NEW orphan blob (read returns FALLBACK → write 404s → self-heals → POST creates new blob → newBlobId returned but discarded). Over 10 deaths, the accumulated orphans contain every in-flight signup since the last manual BLOB_ID commit. Recovery requires every newBlobId from past keepalive notification emails — Armando's inbox may have them. **Logged as CAPABILITY_GAP. Permanent fix is migration to Vercel KV or Upstash Redis (~90 min ship). Deferred until post-May-10 because audience-product-fit is the bottleneck, not infra.**
+
+Verified all forms across the site already source-tag correctly (audit-template → 'audit-template', /quiz → 'quiz', kits → '<kit>-lead', generators → '<generator>'). The 20 baseline subs are 'site' because they're FALLBACK_SUBSCRIBERS hardcoded with that source. Future signups WILL be source-differentiated.
+
+**✅ Shipped (continuation): `.founder/tools/audit-signal-monitor.py`** (commit d6a5bdd, pushed). Watches the live blob for any subscriber tagged audit-template / ai-audit / clarity-assessment / audit-* / etc. Prints snapshot + diff vs prior run. Exit code 10 = SIGNAL: NEW audit-tagged sub appeared → fire 1-to-1 outreach via send-one.py within 4h. Hourly cron candidate. Snapshot state at `.founder/state/audit-monitor-last.json` (gitignored). Smoke-tested: 20 subs / 0 audit-tagged (expected — all 20 are seed fallback). Added to morning-standup schedule entry so each daily check includes the monitor run. **This instruments the audit-curious funnel that was previously invisible — until today, an audit-curious sub from /audit-template would have been indistinguishable from any other capture.**
+
+**Discovered (logged for future)**: /ai-audit page has NO email capture form — it's buy-direct-to-Stripe. So a $997-curious-but-not-ready visitor leaves zero trace. If May 10 decision is Plan A ($297), the natural place to add an email capture is /ai-audit with framing like "Notify me when we open more audit slots." Not shipping today (motion-vs-progress + would prejudge May 10), but flagging for the Plan A spec checklist.
+
+### Total session 153 deliverables (across both blocks)
+- 4 commits pushed to main: 613fd50 (BLOB_ID hot-fix), 888b957 (state log), c7dfd65 (memory continuation), d6a5bdd (audit-signal-monitor)
+- 1 new tool registered (audit-signal-monitor.py) + manifest updated
+- 1 schedule entry updated (morning standup includes monitor)
+- 1 STATE.md session entry + 1 MEMORY.md session entry + 1 audit-replies-tracker entry
+- 1 CAPABILITY_GAP logged (jsonblob → KV migration)
+- 1 KPI correction (Users 23 → 20)
+- 1 wiki update (Dev.to channel profile — power-law data)
+
+### Final confidence
+85% — same as before; nothing rolled back; all writes went through clean. Lower than 90% because the audit-signal monitor's value depends on a future event (an audit-tagged sub actually appearing) that hasn't happened yet.
+
 ## Session 152 (May 3, 08:50 local) — RE-STRATIFIED LIST AT $297 + PRE-STAGED MAY 6/8 FIRE SCRIPTS (T+~24H INTO REPLY WINDOW)
 
 ### Strategic posture
