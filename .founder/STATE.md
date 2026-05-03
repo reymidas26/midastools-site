@@ -6,7 +6,7 @@
 
 **KPIs**:
 - Conversations: 0 (target: 3, 7d: 0%)
-- Users: 23 (target: 30, 7d: 0%)
+- Users: 20 (target: 30, 7d: 0%) — corrected May 3, was 23 due to blob death (10th)
 - Revenue: 0 (target: 997, 7d: 0%)
 
 ---|------|-----|
@@ -23,6 +23,37 @@
 | 11 | ai-email-prompts-cheatsheet | gist/a69f2f |
 | 12 | ai-saas-founder-prompts-cheatsheet | gist/bc4451 |
 | 13 | claude-opus-4-7-prompts-cheatsheet | gist/ccef07 |
+
+## Session 153 (May 3, 09:40 local) — MORNING STANDUP + 10TH BLOB DEATH FIX (T+24.5h INTO REPLY WINDOW)
+
+### Strategic posture
+T+24.5h since reply window opened May 2 09:00. Still no inbox visibility from this seat. Per `armando-async-asks` no async ping. Per `motion-vs-progress` no new content. Used the standup to surface real signal: (a) Dev.to article 3583082 still 0 views at day 5 → April content channel triple-falsified (56 of 66 articles 0 views), (b) jsonblob 10th death — `019d9b51` evicted, keepalive self-healed into `019dee81` with 20 subs intact, but BLOB_ID constant didn't auto-update.
+
+### ✅ Shipped this session
+- **Morning standup**: ran `metrics-snapshot.py` (Stripe 24h: 0 sales / 20 subs / all uptime 200), `devto-stats.py` (66 articles, 766 lifetime views, 56 articles at 0 views — power-law fully crushed). Verified all pre-built artifacts (5 follow-up files + 2 fire scripts + 2 specs + tracker) intact on disk with correct sizes.
+- **BLOB_ID hot-fix** (commit 613fd50, pushed): updated `lib/subscribers.js` BLOB_ID from dead `019d9b51-c4f5-73de-8735-05b1e751723e` to live `019dee81-1159-7259-86d1-88c201cf5451`. Added inline death-log breadcrumb comment so future-self has trail of dead blob IDs. Build clean. **Prevents every future signup since 2026-05-03 15:42 UTC from being lost in another orphan blob.** Vercel auto-deploys.
+- **STATE.md Users KPI corrected**: 23 → 20 (the prior 23 was a dashboard-state lag from before the blob death cycle; metrics-snapshot is authoritative).
+
+### Honest finding from the standup
+Dev.to article 3583082 published Apr 28 = **0 views at T+5 days**. The "comparison-format wins on Dev.to" hypothesis from Apr 25 is now triple-falsified across 12 April articles. The "publish more = traffic" thesis is fully dead. Combined with the jsonblob death log (10 deaths in 41 days) the operational picture is: we're spending shipping cycles on dark channels while the storage layer silently drops signups. The BLOB_ID fix today closes one half of that (no more silent loss); the May 10 decision closes the other (dead-channel content stops or pivots).
+
+### What I did NOT do (deliberately)
+- Did NOT probe Vibe Prospecting for Plan B niche viability. Tempting (free autocomplete), but Plan B isn't green-lit. Premature optimization. Save for May 11 if needed.
+- Did NOT hunt for orphan blobs from the 9 prior deaths. No keepalive logs available; recovery cost > expected value (most prior deaths were Apr 17-19 when traffic was even lower; few signups in flight).
+- Did NOT ship a 15th gist or new Dev.to post. Channel-dark + bottleneck doesn't move = treadmill work.
+- Did NOT prompt Armando about audit replies. T+24.5h is normal silence; weekend reply rates trail by 1-2 days.
+
+### Spec checklist update
+- `.founder/plans/297-mini-audit-spec.md` § 9: unchanged from Session 152 (6 of 12 items pre-built, ~1.5hr ship-day on May 10).
+- `.founder/plans/cold-outbound-linkedin-spec.md` § 8: unchanged from Session 152 (3 of 9 items pre-built).
+- May 6 fire script: bash .founder/tools/fire-may6-followups.sh --send (after pre-flight check).
+- May 8 fire script: bash .founder/tools/fire-may8-followups.sh --send (after pre-flight check).
+
+### KPI movement this session
+**Direct: zero.** **Indirect: prevented future Users-KPI loss** — every signup from 2026-05-03 15:42 onward will land in the live blob instead of dying in an orphan. Cannot quantify without comparing to counterfactual where the bug stayed unfixed (estimate: 1-3 lost signups over the next 30d at current acquisition rate).
+
+### Confidence
+85% — files verified on disk, build clean, push verified by GitHub commit hash. Lower than 90% because I didn't smoke-test a write to the new blob via /api/subscribe (would have meant submitting a fake email through the real funnel, which polutes the metric). The keepalive endpoint already validated the new blob is writable, so the surface I didn't test is small.
 
 ## Session 152 (May 3, 08:50 local) — RE-STRATIFIED LIST AT $297 + PRE-STAGED MAY 6/8 FIRE SCRIPTS (T+~24H INTO REPLY WINDOW)
 
